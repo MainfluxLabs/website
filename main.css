@@ -56,7 +56,7 @@ a#active {
 /* -----Headline--Features--Button----- */
 
 .bgimage {
-    background-image: url('http://5.101.101.214/wp-content/uploads/2017/01/background-main1200.jpg');
+    background-image: url('images/iot-background-main-1200.jpg');
     background-position: center center;
     background-size: cover;
     height: 772px;
@@ -557,7 +557,7 @@ div.footer-col {
 
 @media screen and (min-width:992px) and (max-width:1199px) {
     .bgimage {
-        background-image: url('http://5.101.101.214/wp-content/uploads/2017/03/iot-background-main-992-1200.jpg');
+        background-image: url('images/iot-about-us-background-main-992-1200.jpg');
         background-position: center center;
         background-size: cover;
         height: 725px;
@@ -637,7 +637,7 @@ div.footer-col {
 
 @media screen and (min-width:768px) and (max-width:991px) {
     .bgimage {
-        background-image: url('http://5.101.101.214/wp-content/uploads/2017/03/iot-background-main-768-992.jpg');
+        background-image: url('images/iot-background-main-768-992.jpg');
         background-position: center center;
         background-size: cover;
         height: 445px;
@@ -776,7 +776,7 @@ div.footer-col {
 
 @media screen and (min-width:480px) and (max-width:767px) {
     .bgimage {
-        background-image: url('http://5.101.101.214/wp-content/uploads/2017/03/iot-mainflux-background-main-480-767.png');
+        background-image: url(images/iot-about-us-main-background-480-768.jpg');
         background-position: center center;
         background-size: cover;
         height: 345px;
@@ -982,7 +982,7 @@ div.footer-col {
 
 @media only screen and (min-width:320px) and (max-width:479px) {
     .bgimage {
-        background-image: url('http://5.101.101.214/wp-content/uploads/2017/03/mainflux-internet-of-things-background-main320-480.png');
+        background-image: url('images/iot-about-us-main-background-320-480.png');
         background-position: center center;
         background-size: cover;
         height: 310px;
@@ -1084,8 +1084,8 @@ div.footer-col {
         display: none;
     }
     .right-col-what {
-        margin-top: -29px;
-        display: none;
+        margin-top: -16px;
+        margin-bottom: 18px;
     }
     .right-col-what li {
         font-size: 0.83rem;
@@ -1099,7 +1099,6 @@ div.footer-col {
     }
     .grey-why-section {
         width: 93.96vw;
-        ;
     }
     .why h4 {
         font-size: 2.2rem;
