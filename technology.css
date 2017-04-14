@@ -358,6 +358,17 @@ div.footer-col {
     background: transparent;
     padding: 11px 25px;
 }
+.input-group-btn-newsletter button {
+    border-radius: 1px !important;
+    border-color: rgba(255, 255, 255, .39) !important;
+    font-family: Questrial !important;
+    font-weight: 600 !important;
+    color: white !important;
+    background: transparent !important;
+    padding: 10px 8px !important;
+    margin-top: 0px;
+    width: 100%;
+}
 .footer p {
     color: white;
 }
