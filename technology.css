@@ -99,7 +99,7 @@ p.description {
     text-align: center;
     letter-spacing: 0.45px;
     color: white;
-    margin-top: 35px;
+    margin-top: 15px;
 }
 .features {
     text-align: center;
@@ -434,7 +434,7 @@ div.footer-col {
         background-size: cover;
         height: 725px;
     }
-    .headline h2 {
+     .headline h2 {
         font-size: 5.61rem;
     }
     .headline h1 {
@@ -498,18 +498,21 @@ div.footer-col {
     }
     .headline h2 {
         font-size: 4.51rem;
-        margin-top: 6.2rem;
+        margin-top: 5.3rem;
         letter-spacing: 0;
     }
     .headline h1 {
         font-size: 1.415rem;
+    }
+    h1#deploy {
+        margin-top: -3px;
     }
     .headline h3 {
         font-size: 1.17rem;
     }
     p.description {
         font-size: 0.8rem;
-        margin-top: 1.5rem;
+        margin-top: 1.1rem;
     }
     .features {
         margin-top: 24px;
@@ -629,8 +632,8 @@ div.footer-col {
         height: 345px;
     }
     .headline h2 {
-        font-size: 4.11rem;
-        margin-top: 5.2rem;
+        font-size: 3.51rem;
+        margin-top: 4.8rem;
         letter-spacing: 0;
     }
     .headline h1 {
@@ -786,15 +789,18 @@ div.footer-col {
         height: 312px;
     }
     .headline h2 {
-        font-size: 2.7rem;
-        margin-top: 5rem;
+        font-size: 2.3rem;
+        margin-top: 4.3rem;
         letter-spacing: 0;
     }
     .headline h1 {
-        font-size: 1.206rem;
+        font-size: 1.085rem;
+    }
+    h1#deploy {
+        font-size: 0.886rem;
     }
     .headline h3 {
-        font-size: 1rem;
+        font-size: 0.8124rem;
     }
     p.description {
         font-size: 0.6rem;
