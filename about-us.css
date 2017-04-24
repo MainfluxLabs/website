@@ -412,6 +412,11 @@ div.footer-col {
         background-size: cover;
         height: 430px;
     }
+    
+    .headline h2 {
+        margin-top: 5.8rem;
+    }
+    
     #introduction {
         margin-left: 2vw;
     }
@@ -486,10 +491,14 @@ div.footer-col {
     }
     .headline h2 {
         font-size: 2.84rem;
-        margin-top: 6rem;
+        margin-top: 5rem;
     }
+    h1#deploy {
+         font-size: 1.13rem;
+    }
+    
     p.description {
-        font-size: 0.7187rem;
+        font-size: 0.64rem;
         padding: 0;
         margin: 0;
     }
@@ -580,17 +589,22 @@ div.footer-col {
     }
     .headline h2 {
         font-size: 2.7rem;
-        margin-top: 5rem;
+        margin-top: 4.6rem;
         letter-spacing: 0;
     }
     .headline h1 {
-        font-size: 1.206rem;
+        font-size: 1.0874rem;
     }
+    
+    h1#deploy {
+        font-size: 0.88687rem;
+    }
+    
     .headline h3 {
-        font-size: 1rem;
+        font-size: 0.8124rem;
     }
     p.description {
-        font-size: 0.6rem;
+        font-size: 0.66rem;
         margin-top: 5px;
     }
     .head-desc {
