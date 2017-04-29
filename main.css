@@ -53,6 +53,15 @@ a#active {
     border: none;
 }
 
+/* ----- EDGEX LOGO ----- */
+
+.logo-edgex {
+    margin-top: 50px;
+}
+#edgex {
+    margin-left: 14px;
+}
+
 /* -----Headline--Features--Button----- */
 
 .bgimage {
@@ -70,7 +79,7 @@ a#active {
     letter-spacing: -2.9px;
     text-shadow: 0px 1px, 1px 0px, 1px 1px;
     color: white;
-    margin-top: 9.1rem;
+    margin-top: 5rem;
 }
 .headline h1 {
     text-align: center;
@@ -587,7 +596,7 @@ div.footer-col {
     }
     
     .features {
-        margin-top: 65px;
+        margin-top: 54px;
     }
     .features p {
         margin-top: 8px;
@@ -656,7 +665,7 @@ div.footer-col {
     }
      .headline h2 {
         font-size: 4.51rem;
-        margin-top: 5.3rem;
+        margin-top: 6px;
         letter-spacing: 0;
     }
     .headline h1 {
@@ -800,7 +809,7 @@ div.footer-col {
     }
      .headline h2 {
         font-size: 3.51rem;
-        margin-top: 4.8rem;
+        margin-top:2px;
         letter-spacing: 0;
     }
     .headline h1 {
@@ -1006,7 +1015,7 @@ div.footer-col {
     }
      .headline h2 {
         font-size: 2.3rem;
-        margin-top: 4.3rem;
+        margin-top: 0.5rem;
         letter-spacing: 0;
     }
     .headline h1 {
