@@ -66,7 +66,7 @@ a#active {
     transform: scaleY(0.91);
     font-size: 3.26rem;
     color: white;
-    margin-top: 9rem;
+    margin-top: 5rem;
 }
 .headline h1 {
     text-align: center;
@@ -268,10 +268,15 @@ div.footer-col {
         height: 268px;
         margin-top: 2.7rem;
     }
+    
+      .logo-edgex {
+        margin-top: 8px;
+    }
+
     .headline h2 {
         font-size: 3.16rem;
         color: white;
-        margin-top: 4.1rem;
+       margin-top: 1.8rem;
     }
     .left-col {
         margin-left: auto;
@@ -307,9 +312,12 @@ div.footer-col {
         height: 230px;
         margin-top: 2.55rem;
     }
+    .logo-edgex {
+        margin-top: 8px;
+    }
     .headline h2 {
         font-size: 2.75rem;
-        margin-top: 4rem;
+        margin-top: 2rem;
     }
     .left-col {
         margin-bottom: 20px
@@ -359,13 +367,20 @@ div.footer-col {
         height: 180px;
         margin-top: 3.15rem;
     }
+    
+    .logo-edgex {
+        margin-top: -1px;
+    }
+
     .headline h2 {
         font-size: 2.23rem;
-        margin-top: 2.6rem;
+        margin-top: 0.8rem;
     }
+
     .headline h1 {
-        font-size: 1.29rem;
+        font-size: 1.27rem;
     }
+
     .headline h3 {
         font-size: 1.1rem;
     }
@@ -418,17 +433,26 @@ div.footer-col {
         height: 165px;
         margin-top: 3.15rem;
     }
-    .headline h2 {
-        font-size: 2rem;
-        margin-top: 2.5rem;
+    
+     .logo-edgex {
+        margin-top: -1px;
     }
-    .headline h1 {
-        font-size: 1.09rem;
+
+    
+     .headline h2 {
+        font-size: 1.7rem;
+        margin-top: 1.55rem;
+    }
+
+       .headline h1 {
+        font-size: 0.99rem;
         margin-top: 0.5rem;
     }
+
     .headline h3 {
-        font-size: 0.93rem;
+        font-size: 0.83rem;
     }
+
     div.country-section {
         padding: 0;
         margin-top: 25px
