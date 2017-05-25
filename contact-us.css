@@ -19,6 +19,9 @@ html {
     font-weight: 500;
     transform: scaleY(0.96);
 }
+.navbar-default .navbar-nav>li>a:visited {
+    color: white;
+}
 .navbar-default .navbar-nav>li>a:hover {
     color: #357dfc;
 }
