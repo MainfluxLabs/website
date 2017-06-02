@@ -259,6 +259,10 @@ div.right-icons {
 .table {
     margin: 0 auto;
     margin-bottom: 70px;
+    border-left: 35px solid #003c61;
+    border-right:40px solid #003c61;
+    border-top: 10px solid #003c61;
+    border-bottom: 10px  solid #003c61;
 }
 th {
     font-family: Raleway;
