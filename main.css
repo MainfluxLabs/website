@@ -13,7 +13,7 @@ html {
     color: #0c3769;
     font-family: Montserrat;
     font-weight: 800;
-    transform: scaleY(0.94);
+    transform: scaleY(0.95);
 }
 .navbar-default .navbar-nav>li>a {
     color: white;
@@ -63,6 +63,7 @@ a#active {
 }
 #edgex {
     margin-left: 14px;
+    height: 35px;
 }
 
 /* -----Headline--Features--Button----- */
@@ -71,25 +72,24 @@ a#active {
     background-image: url('images/iot-background-main-1200.jpg');
     background-position: center center;
     background-size: cover;
-    height: 772px;
+    height: 795px;
 }
 .headline h2 {
     text-align: center;
-    font-family: Raleway;
-    font-weight: 700;
-    transform: scaleY(0.90);
-    font-size: 6.26rem;
-    letter-spacing: -2.9px;
-    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    transform: scaleY(0.99);
+    font-size: 4.31rem;
+    letter-spacing: -1.6px;
     color: white;
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
 .headline h1 {
     text-align: center;
     font-family: Raleway;
     font-weight: 800;
     transform: scaleY(0.94);
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     letter-spacing: -0.2px;
     color: white;
 }
@@ -98,7 +98,7 @@ a#active {
     font-family: Raleway;
     font-weight: 200;
     transform: scaleY(0.95);
-    font-size: 1.61rem;
+    font-size: 1.43rem;
     letter-spacing: 2.15px;
     color: white;
     margin-top: -11px;
@@ -138,6 +138,7 @@ p.description {
     background-color: white;
     color: #003c61;
     margin-left: 10px;
+    transition: all 0.3s;
 }
 .btn:hover {
     background-color: #357dfc;
@@ -148,6 +149,20 @@ p.description {
     font-size: 1.2rem;
     color: #0c3769;
     padding-right: 10px;
+}
+.github>.btn {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    transition: all 0.3s;
+}
+.github>.btn:hover {
+    background-color: #357dfc;
+    color: white;
+    border-color: #7d91e5;
+}
+.github .fa-github {
+    color: white;
 }
 
 /*------------------------------------------*/
@@ -576,17 +591,74 @@ div.footer-col {
 /* ----- MEDIA QUERIES ----- */
 
 
+/* ---- Extra Large Desktops ---- */
+
+@media screen and (min-width:1920px) and (max-width:2560px) {
+    .footer-line {
+        width: 85vw;
+        margin-left: 5.9vw;
+    }
+    #social {
+        padding-left: 24.7vw;
+    }
+}
+@media screen and (min-width:1600px) and (max-width:1919px) {
+    .footer-line {
+        width: 84vw;
+        margin-left: 6.9vw;
+    }
+    #social {
+        padding-left: 21.7vw;
+    }
+}
+@media screen and (min-width:1366px) and (max-width:1399px) {
+    .footer-line {
+        width: 82vw;
+        margin-left: 8.1vw;
+    }
+    #social {
+        padding-left: 17.7vw;
+    }
+}
+
 /* ---- medium desktops ---- */
 
-@media screen and (min-width:992px) and (max-width:1199px) {
+@media screen and (min-width:1280px) and (max-width:1365px) {
+    .headline h2 {
+        margin-top: 7.1rem;
+    }
+    .footer-line {
+        width: 82vw;
+        margin-left: 8.5vw;
+    }
+    #social {
+        padding-left: 16.4vw;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    .general-stack p {
+        padding: 0 92px 0 92px;
+    }
+    #licence p {
+        margin-left: 9vw;
+    }
+    .footer-line {
+        width: 82vw;
+        margin-left: 8.5vw;
+    }
+    #social {
+        padding-left: 10vw;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1023px) {
     .bgimage {
         background-image: url('images/iot-about-us-background-main-992-1200.jpg');
         background-position: center center;
         background-size: cover;
         height: 725px;
     }
-   .headline h2 {
-        font-size: 5.61rem;
+    .headline h2 {
+        font-size: 4.31rem;
     }
     .headline h1 {
         font-size: 1.72rem;
@@ -597,7 +669,6 @@ div.footer-col {
     p.description {
         font-size: 0.877rem;
     }
-    
     .features {
         margin-top: 54px;
     }
@@ -656,45 +727,9 @@ div.footer-col {
         padding: 1px;
     }
 }
-
-/* ---- small devices ---- */
-
-@media screen and (min-width:768px) and (max-width:991px) {
-    .bgimage {
-        background-image: url('images/iot-background-main-768-992.jpg');
-        background-position: center center;
-        background-size: cover;
-        height: 445px;
-    }
-     .headline h2 {
-        font-size: 4.51rem;
-        margin-top: 6px;
-        letter-spacing: 0;
-    }
-    .headline h1 {
-        font-size: 1.415rem;
-    }
-    
-     h1#deploy {
-        margin-top: -3px;
-    }
-    
-    .headline h3 {
-        font-size: 1.17rem;
-    }
-    p.description {
-        font-size: 0.8rem;
-        margin-top: 1.1rem;
-    }
-    .features {
-        margin-top: 24px;
-    }
-    .features img {
-        height: 35px;
-    }
-    .features p {
-        font-size: 0.72rem;
-        letter-spacing: 0.5px;
+@media screen and (min-width:800px) and (max-width:991px) {
+    .headline h2 {
+        font-size: 4.31rem;
     }
     .btn {
         margin-top: 20px;
@@ -719,10 +754,11 @@ div.footer-col {
         font-size: 0.9rem;
     }
     .event-connect img {
-        height: 80px;
+        height: 77px;
     }
     .tool-server p {
         font-size: 0.85rem;
+        padding: 0 17px 0 17px;
     }
     .event-connect h6 {
         font-size: 0.9rem;
@@ -801,18 +837,595 @@ div.footer-col {
     }
 }
 
-/* ---- EXTRA small devices ---- */
+/* ---- small devices ---- */
 
-@media screen and (min-width:480px) and (max-width:767px) {
+@media screen and (min-width:768px) and (max-width:799px) {
+    #edgex {
+        height: 28px;
+    }
+    .bgimage {
+        background-image: url('images/iot-background-main-768-992.jpg');
+        background-position: center center;
+        background-size: cover;
+        height: 445px;
+    }
+    .headline h2 {
+        font-size: 3.21rem;
+        margin-top: 10px;
+        letter-spacing: 0;
+    }
+    .headline h1 {
+        font-size: 1.415rem;
+    }
+    h1#deploy {
+        margin-top: -3px;
+    }
+    .headline h3 {
+        font-size: 1.17rem;
+    }
+    p.description {
+        font-size: 0.8rem;
+        margin-top: 1.1rem;
+    }
+    .features {
+        margin-top: 24px;
+    }
+    .features img {
+        height: 35px;
+    }
+    .features p {
+        font-size: 0.72rem;
+        letter-spacing: 0.5px;
+    }
+    .btn {
+        margin-top: 20px;
+        background-color: #003c61;
+        color: white;
+    }
+    .btn:hover {
+        background-color: #357dfc;
+        color: white;
+        border-color: #357dfc;
+    }
+    .fa-github {
+        font-size: 1.2rem;
+        color: white;
+        padding-right: 10px;
+    }
+    /* ---- what is mainflux ---- */
+    .tool-server img {
+        height: 70px;
+    }
+    .tool-server h6 {
+        font-size: 0.9rem;
+    }
+    .event-connect img {
+        height: 76px;
+    }
+    .tool-server p {
+        font-size: 0.85rem;
+        padding: 0 18px 0 18px;
+    }
+    .event-connect h6 {
+        font-size: 0.9rem;
+    }
+    .event-connect p {
+        font-size: 0.85rem;
+    }
+    /* ---- mainfux features ---- */
+    .tech-left {
+        padding: 0;
+    }
+    .left-col-what li {
+        font-size: 0.965rem;
+    }
+    #sdk {
+        display: none;
+    }
+    .right-col-what li {
+        font-size: 0.965rem;
+    }
+    /* ---- Why Mainflux ---- */
+    div.grey-why-section {
+        background-color:
+    }
+    .left-col-why {
+        border-right: none;
+        margin-bottom: 45px;
+    }
+    .right-col-why {
+        margin-left: 8vw;
+        background-color:
+    }
+    /* ---- What Can You Do Mainflux ---- */
+    div#app {
+        padding-bottom: 25px;
+    }
+    div#light {
+        padding-bottom: 25px;
+    }
+    .action {
+        padding: 0;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+    }
+    div.input-group {
+        width: 55%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 0.4rem;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 1.3vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 1.3vw;
+    }
+    #mainflux-footer {
+        text-align: left;
+    }
+}
+@media screen and (min-width:720px) and (max-width:767px) {
+    #edgex {
+        height: 28px;
+    }
     .bgimage {
         background-image: url(images/iot-about-us-main-background-480-768.jpg');
         background-position: center center;
         background-size: cover;
-        height: 345px;
+        height: 330px;
     }
-     .headline h2 {
-        font-size: 3.51rem;
-        margin-top:2px;
+    .headline h2 {
+        font-size: 2.61rem;
+        margin-top: 1px;
+        letter-spacing: 0;
+    }
+    .headline h1 {
+        font-size: 1.265rem;
+    }
+    .headline h3 {
+        font-size: 1.01rem;
+    }
+    p.description {
+        font-size: 0.7rem;
+        margin-top: 1.3rem;
+        padding: 0 67px 0 67px;
+    }
+    .head-desc {
+        display: none;
+    }
+    .features {
+        margin-top: 24px;
+    }
+    .features img {
+        display: none;
+    }
+    .features p {
+        display: none;
+    }
+    .github {
+        display: none;
+    }
+    .btn {
+        margin-top: -26px;
+        background-color: white;
+        font-size: 0.65rem;
+        color: #003c61;
+        width: 142px;
+    }
+    .btn:hover {
+        background-color: #357dfc;
+        color: white;
+        border-color: #357dfc;
+    }
+    .fa-github {
+        font-size: 1.2rem;
+        color: #003c61;
+        padding-right: 10px;
+    }
+    /* ---- what is mainflux ---- */
+    .what h4 {
+        font-size: 2.5rem;
+    }
+    .what p {
+        font-size: 0.858rem;
+    }
+    br.brwhat {
+        display: none;
+    }
+    .tool-server div {
+        margin-bottom: 30px;
+    }
+    .tool-server img {
+        height: 70px;
+    }
+    .tool-server h6 {
+        font-size: 0.9rem;
+    }
+    .event-connect div {
+        margin-top: -15px;
+        margin-bottom: 45px;
+    }
+    .event-connect img {
+        height: 80px;
+    }
+    .tool-server p {
+        font-size: 0.82rem;
+    }
+    .event-connect h6 {
+        font-size: 0.9rem;
+    }
+    .event-connect p {
+        font-size: 0.82rem;
+    }
+    /* ---- Mainfux Features ---- */
+    .general-stack h5 {
+        font-size: 2rem;
+        margin-top: -45px;
+    }
+    .general-stack p {
+        margin-bottom: 75px;
+    }
+    .tech-left {
+        padding-left: 30px;
+        margin-top: -24px;
+    }
+    .left-col-what li {
+        font-size: 0.93rem;
+    }
+    #sdk {
+        display: none;
+    }
+    .right-col-what {
+        margin-top: -29px;
+    }
+    .right-col-what li {
+        font-size: 0.965rem;
+    }
+    .action-call h6 {
+        font-size: 1.2rem;
+    }
+    /* ---- Why Mainflux ---- */
+    .why h4 {
+        font-size: 2.5rem;
+        margin-bottom: 25px;
+    }
+    .why h5 {
+        font-size: 1.24rem;
+    }
+    .why h6 {
+        font-size: 0.96rem;
+    }
+    .why p {
+        font-size: 0.858rem;
+    }
+    .left-col-why {
+        border-right: none;
+        margin-bottom: 45px;
+        margin-left: 3.8vw;
+    }
+    .why img {
+        height: 45px;
+    }
+    /* ---- What can You do with  Mainflux ---- */
+    .do h4 {
+        font-size: 2.5rem;
+    }
+    .do h5 {
+        font-size: 1.24rem;
+    }
+    .do p {
+        font-size: 0.858rem;
+    }
+    .icon-do img {
+        height: 40px;
+    }
+    .right-icon {
+        height: 110px;
+    }
+    .right-col-do h6 {
+        font-size: 0.858rem;
+    }
+    div#app {
+        padding-bottom: 25px;
+    }
+    div#light {
+        padding-bottom: 25px;
+    }
+    h6#scal {
+        margin-top: 19px;
+    }
+    h6#create {
+        margin-top: 19px;
+    }
+    .action {
+        padding: 0;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 0.4rem;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 1.3vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 1.3vw;
+    }
+    #mainflux-footer {
+        text-align: left;
+    }
+}
+
+
+@media screen and (min-width:600px) and (max-width:719px) {
+    #edgex {
+        height: 27px;
+    }
+    .bgimage {
+        background-image: url(images/iot-about-us-main-background-480-768.jpg');
+        background-position: center center;
+        background-size: cover;
+        height: 324px;
+    }
+    .headline h2 {
+        font-size: 2.61rem;
+        margin-top: 1px;
+        letter-spacing: 0;
+    }
+    .headline h1 {
+        font-size: 1.265rem;
+    }
+    .headline h3 {
+        font-size: 1.01rem;
+    }
+    p.description {
+        font-size: 0.7rem;
+        margin-top: 1.3rem;
+        padding: 0 37px 0 37px;
+    }
+    .head-desc {
+        display: none;
+    }
+    .features {
+        margin-top: 24px;
+    }
+    .features img {
+        display: none;
+    }
+    .features p {
+        display: none;
+    }
+    .github {
+        display: none;
+    }
+    .btn {
+        margin-top: -26px;
+        background-color: white;
+        font-size: 0.65rem;
+        color: #003c61;
+        width: 142px;
+    }
+    .btn:hover {
+        background-color: #357dfc;
+        color: white;
+        border-color: #357dfc;
+    }
+    .fa-github {
+        font-size: 1.2rem;
+        color: #003c61;
+        padding-right: 10px;
+    }
+    /* ---- what is mainflux ---- */
+    .what h4 {
+        font-size: 2.5rem;
+    }
+    .what p {
+        font-size: 0.858rem;
+    }
+    br.brwhat {
+        display: none;
+    }
+    .tool-server div {
+        margin-bottom: 30px;
+    }
+    .tool-server img {
+        height: 70px;
+    }
+    .tool-server h6 {
+        font-size: 0.9rem;
+    }
+    .event-connect div {
+        margin-top: -15px;
+        margin-bottom: 45px;
+    }
+    .event-connect img {
+        height: 80px;
+    }
+    .tool-server p {
+        font-size: 0.82rem;
+    }
+    .event-connect h6 {
+        font-size: 0.9rem;
+    }
+    .event-connect p {
+        font-size: 0.82rem;
+    }
+    /* ---- Mainfux Features ---- */
+    .general-stack h5 {
+        font-size: 2rem;
+        margin-top: -45px;
+    }
+    .general-stack p {
+        margin-bottom: 75px;
+    }
+    .tech-left {
+        padding-left: 30px;
+        margin-top: -24px;
+    }
+    .left-col-what li {
+        font-size: 0.93rem;
+    }
+    #sdk {
+        display: none;
+    }
+    .right-col-what {
+        margin-top: -29px;
+    }
+    .right-col-what li {
+        font-size: 0.965rem;
+    }
+    .action-call h6 {
+        font-size: 1.2rem;
+    }
+    /* ---- Why Mainflux ---- */
+    .why h4 {
+        font-size: 2.5rem;
+        margin-bottom: 25px;
+    }
+    .why h5 {
+        font-size: 1.24rem;
+    }
+    .why h6 {
+        font-size: 0.96rem;
+    }
+    .why p {
+        font-size: 0.858rem;
+    }
+    .left-col-why {
+        border-right: none;
+        margin-bottom: 45px;
+        margin-left: 5.1vw;
+    }
+    .why img {
+        height: 45px;
+    }
+    /* ---- What can You do with  Mainflux ---- */
+    .do h4 {
+        font-size: 2.5rem;
+    }
+    .do h5 {
+        font-size: 1.24rem;
+    }
+    .do p {
+        font-size: 0.858rem;
+    }
+    .icon-do img {
+        height: 40px;
+    }
+    .right-icon {
+        height: 110px;
+    }
+    .right-col-do h6 {
+        font-size: 0.858rem;
+    }
+    div#app {
+        padding-bottom: 25px;
+    }
+    div#light {
+        padding-bottom: 25px;
+    }
+    h6#scal {
+        margin-top: 19px;
+    }
+    h6#create {
+        margin-top: 19px;
+    }
+    .action {
+        padding: 0;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 0.4rem;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 1.3vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 1.3vw;
+    }
+    #mainflux-footer {
+        text-align: left;
+    }
+}
+
+
+/* ---- EXTRA small devices ---- */
+
+
+@media screen and (min-width:480px) and (max-width:599px) {
+    
+     #edgex {
+        height: 22px;
+    }
+    
+    .bgimage {
+        background-image: url(images/iot-about-us-main-background-480-768.jpg');
+        background-position: center center;
+        background-size: cover;
+        height: 340px;
+    }
+    .headline h2 {
+        font-size: 2.6rem;
+        margin-top: 14px;
         letter-spacing: 0;
     }
     .headline h1 {
@@ -835,6 +1448,10 @@ div.footer-col {
         display: none;
     }
     .features p {
+        display: none;
+    }
+    
+    .github {
         display: none;
     }
     .btn {
@@ -933,6 +1550,7 @@ div.footer-col {
     .left-col-why {
         border-right: none;
         margin-bottom: 45px;
+        padding-left: 7px;
     }
     .why img {
         height: 45px;
@@ -1010,25 +1628,27 @@ div.footer-col {
 /* ---- EXTRA Extra small devices ---- */
 
 @media only screen and (min-width:320px) and (max-width:479px) {
+    
+    #edgex {
+        height: 22px;
+    }
     .bgimage {
         background-image: url('images/iot-about-us-main-background-320-480.png');
         background-position: center center;
         background-size: cover;
-        height: 310px;
+        height: 300px;
     }
-     .headline h2 {
+    .headline h2 {
         font-size: 2.3rem;
-        margin-top: 0.5rem;
+        margin-top: 0.8rem;
         letter-spacing: 0;
     }
     .headline h1 {
         font-size: 1.085rem;
     }
-    
     h1#deploy {
-         font-size: 0.886rem;
+        font-size: 0.886rem;
     }
-    
     .headline h3 {
         font-size: 0.8124rem;
     }
