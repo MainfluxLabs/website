@@ -87,7 +87,7 @@ a#active {
     font-family: Raleway;
     font-weight: 800;
     transform: scaleY(0.94);
-    font-size: 1.4rem;
+    font-size: 2rem;
     letter-spacing: -0.2px;
     color: white;
 }
@@ -99,7 +99,7 @@ a#active {
     font-size: 1.14rem;
     letter-spacing: 2.15px;
     color: white;
-    margin-top: -11px;
+    margin-top: -3px;
 }
 p.description {
     font-family: Raleway;
