@@ -58,11 +58,15 @@ a#active {
 
 /* ----- EDGEX LOGO ----- */
 
+
+/* ----- EDGEX LOGO ----- */
+
 .logo-edgex {
     margin-top: 50px;
 }
 #edgex {
     margin-left: 14px;
+    height: 35px;
 }
 
 /* -----Headline--Features--Button----- */
@@ -138,7 +142,21 @@ p.description {
     color: #003c61;
     margin-left: 10px;
 }
+.github {
+    margin-top: 30px;
+}
 .btn:hover {
+    background-color: #357dfc;
+    color: white;
+    border-color: #7d91e5;
+}
+.github>.btn {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    transition: all 0.3s;
+}
+.github>.btn:hover {
     background-color: #357dfc;
     color: white;
     border-color: #7d91e5;
@@ -243,17 +261,25 @@ div.right-icons {
     margin: 0 auto;
     display: block;
     margin-bottom: 9px;
-    
-    
 }
-
-
 .break-line {
     height: 1px;
     width: 79.6vw;
     background: rgba(12, 55, 105, .1);
     margin-left: 9vw;
     margin-bottom: 8px;
+}
+
+/* ---Hardware photos -- */
+
+#top {
+    padding-left: 3.5rem;
+}
+#top2 {
+    padding-left: 2rem;
+}
+#hw {
+    margin-top: -32px;
 }
 
 /* ---Table -- */
@@ -286,7 +312,6 @@ td {
     padding-left: 15px;
     background-color: #003c61;
     border-bottom: solid 1px rgba(255, 255, 255, 0.2);
-
 }
 td a {
     color: white;
@@ -454,7 +479,59 @@ div.footer-col {
 
 /* ---- medium desktops ---- */
 
-@media screen and (min-width:992px) and (max-width:1199px) {
+@media screen and (min-width:1920px) and (max-width:2560px) {
+    #top {
+        padding-left: 3.5rem;
+    }
+    #top2 {
+        padding-left: 2rem;
+    }
+    #hw {
+        margin-top: -36px;
+    }
+}
+@media screen and (min-width:1600px) and (max-width:1919px) {
+    #top {
+        padding-left: 3.5rem;
+    }
+    #top2 {
+        padding-left: 2rem;
+    }
+    #hw {
+        margin-top: -36px;
+    }
+}
+@media screen and (min-width: 1366px) and (max-width: 1399px) {
+    #top {
+        padding-left: 3.5rem;
+    }
+    #top2 {
+        padding-left: 2rem;
+    }
+    #hw {
+        margin-top: -36px;
+    }
+}
+@media screen and (min-width:1280px) and (max-width:1365px) {
+    #top {
+        padding-left: 3.5rem;
+    }
+    #top2 {
+        padding-left: 2.3rem;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    #top {
+        padding-left: 0.1rem;
+    }
+    #top2 {
+        padding-left: 0.8rem;
+    }
+    #hw {
+        margin-top: -27px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1023px) {
     .bgimage {
         background-image: url('images/iot-about-us-background-main-992-1200.jpg');
         background-position: center center;
@@ -479,13 +556,21 @@ div.footer-col {
     .features p {
         margin-top: 8px;
     }
-    /* ---- TECHNOLOGY CHOICES  ---- */
-    /* -- Server System-- */
+    /* ---- Main Content  ---- */
     div#server-stack {
         margin-top: 3.5rem;
     }
     div.right-icons {
         margin-top: 4em;
+    }
+    #top {
+        padding-left: 0.1rem;
+    }
+    #top2 {
+        padding-left: 0.8rem;
+    }
+    #hw {
+        margin-top: -27px;
     }
     /* -- Table-- */
     .table-box {
@@ -516,7 +601,64 @@ div.footer-col {
 
 /* ---- Small Devices ---- */
 
-@media screen and (min-width:768px) and (max-width:991px) {
+@media screen and (min-width:800px) and (max-width:991px) {
+    #kubernetes {
+        height: 44px;
+        margin-top: -34px;
+        margin-left: -10px;
+    }
+    #kubernetes1 {
+        height: 84px;
+        margin-top: 7px;
+    }
+    #top {
+        padding-left: 0.01rem;
+    }
+    #top2 {
+        padding-left: 0.1rem;
+    }
+    .dane {
+        margin-left: -3rem;
+    }
+    .mane {
+        margin-left: ;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+    }
+    div.input-group {
+        width: 55%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 0.4rem;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 1.3vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 1.3vw;
+    }
+    #mainflux-footer {
+        text-align: left;
+    }
+}
+@media screen and (min-width:768px) and (max-width:799px) {
     .bgimage {
         background-image: url('images/iot-about-us-background-main-768-992.jpg');
         background-position: center center;
@@ -530,6 +672,7 @@ div.footer-col {
     }
     .headline h1 {
         font-size: 1.415rem;
+        margin-top: 72px
     }
     h1#deploy {
         margin-top: -3px;
@@ -603,15 +746,26 @@ div.footer-col {
     .right-icons img {
         height: 240px;
     }
-    
-    #top {
-        margin-left: -100px;
-    }
-    
     #kubernetes {
-        height: 280px;
-       
-
+        height: 41px;
+        margin-top: 4px;
+        margin-left: -10px;
+    }
+    #kubernetes1 {
+        height: 84px;
+        margin-top: 17px;
+    }
+    #top {
+        padding-left: 0.01rem;
+    }
+    #top2 {
+        padding-left: 0.1rem;
+    }
+    .dane {
+        margin-left: -3rem;
+    }
+    .mane {
+        margin-left: 1rem;
     }
     #jwt {
         height: 160px;
@@ -620,7 +774,7 @@ div.footer-col {
         padding-top: 0;
         margin-top: -49px;
     }
-    /* ---- FOOTER  ---- */
+    /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
         padding-bottom: 15px;
@@ -658,7 +812,206 @@ div.footer-col {
 
 /* ---- EXTRA small devices ---- */
 
-@media screen and (min-width:480px) and (max-width:767px) {
+@media screen and (min-width:720px) and (max-width:767px) {
+    .bgimage {
+        background-image: url('images/iot-about-us-background-main-768-992.jpg');
+        background-position: center center;
+        background-size: cover;
+        height: 445px;
+    }
+    #edgex {
+        margin-left: 14px;
+        height: 28px;
+    }
+    .headline h1 {
+        font-size: 1.415rem;
+        margin-top: 72px
+    }
+    h1#deploy {
+        margin-top: -3px;
+    }
+    .headline h3 {
+        font-size: 1.17rem;
+    }
+    p.description {
+        font-size: 0.8rem;
+        margin-top: 1.1rem;
+    }
+    #kubernetes {
+        height: 58px;
+        margin-left: 6rem;
+    }
+    #kubernetes1 {
+        margin-left: -3rem;
+        margin-left: 7rem;
+    }
+    .general-stack h5 {
+        font-size: 1.77rem;
+    }
+    #preorder {
+        margin-top: -35px;
+    }
+    #datasheet {
+        margin-top: -5px;
+    }
+    #top {
+        padding-left: 0.01rem;
+        padding-right: 0;
+        margin-right: 0;
+        width: 8rem;
+        margin-left: 0;
+        display: none;
+    }
+    .dane {
+        margin-left: -5rem;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+        width: 12px;
+    }
+    #top2 {
+        padding-left: 0;
+        margin-left: 0;
+        width: 12rem;
+        display: none;
+    }
+    .mane {
+        margin-left: -5rem;
+        margin-right: 0;
+        width: 12px;
+    }
+    
+    #hw {
+      margin-top: -70px;
+    }
+    
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 0.4rem;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 1.3vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 1.3vw;
+    }
+    #mainflux-footer {
+        text-align: left;
+    }
+}
+@media screen and (min-width:600px) and (max-width:719px) {
+    .bgimage {
+        background-image: url('images/iot-about-us-background-main-768-992.jpg');
+        background-position: center center;
+        background-size: cover;
+        height: 445px;
+    }
+    #edgex {
+        margin-left: 14px;
+        height: 28px;
+    }
+    .headline h1 {
+        font-size: 1.415rem;
+        margin-top: 72px
+    }
+    h1#deploy {
+        margin-top: -3px;
+    }
+    .headline h3 {
+        font-size: 1.17rem;
+    }
+    p.description {
+        font-size: 0.66rem;
+        margin-top: 1.1rem;
+    }
+    #kubernetes {
+        height: 58px;
+        margin-left: 2rem;
+    }
+    #kubernetes1 {
+        margin-left: 2rem;
+    }
+    .general-stack h5 {
+        font-size: 1.77rem;
+    }
+    #preorder {
+        margin-top: -35px;
+    }
+    #datasheet {
+        margin-top: -5px;
+    }
+    #top {
+        margin-left: 11.6rem;
+        margin-bottom: 1px;
+        display: none;
+    }
+   
+    #top2 {
+        margin-left: 10rem;
+        margin-bottom: -35px;
+          display: none;
+    }
+    
+    
+    
+    
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 0.4rem;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 1.3vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 1.3vw;
+    }
+    #mainflux-footer {
+        text-align: left;
+    }
+}
+@media screen and (min-width:480px) and (max-width:599px) {
     .bgimage {
         background-image: url('images/iot-about-us-main-background-480-768.jpg');
         background-position: center center;
@@ -679,7 +1032,7 @@ div.footer-col {
     }
     p.description {
         font-size: 0.7rem;
-        margin-top: 1.3rem;
+        margin-top: 0.3rem;
     }
     .head-desc {
         display: none;
@@ -710,9 +1063,19 @@ div.footer-col {
         color: #003c61;
         padding-right: 10px;
     }
+    #edgex {
+        margin-left: 14px;
+        height: 28px;
+    }
+    #preorder {
+        margin-top: 4px;
+    }
+    #datasheet {
+        margin-top: 17px;
+    }
     /* ---- Main Content  ---- */
     .general-stack h5 {
-        font-size: 1.57rem;
+        font-size: 1.17rem;
     }
     .general-stack p {
         font-size: 0.96rem;
@@ -754,9 +1117,16 @@ div.footer-col {
     div#security-stack {
         margin-top: 20px;
     }
-    #board {
-        height: 245px;
-    
+    #top {
+        margin-left: 11.6rem;
+        margin-bottom: 1px;
+        display: none;
+    }
+   
+    #top2 {
+        margin-left: 10rem;
+        margin-bottom: -35px;
+          display: none;
     }
     #jwt {
         height: 160px;
@@ -778,45 +1148,102 @@ div.footer-col {
         margin-bottom: -25px;
         padding: 0;
     }
-    /* ---- FOOTER  ---- */
-    .footer-col {
-        margin-bottom: 22px;
-        padding-bottom: 15px;
+    #kubernetes {
+        height: 44px;
+        margin-left: 0.5rem;
+        margin-top: 20px;
     }
-    div.input-group {
-        width: 85%;
+    #kubernetes1 {
+        margin-left: 0.2rem;
     }
-    #licence {
-        margin-top: 3.1rem;
+    .general-stack h5 {
+        font-size: 1.77rem;
     }
-    .apache {
-        margin-bottom: 0.4rem;
-    }
-    #licence p {
-        margin-left: 0;
-    }
-    #social {
-        padding-left: 1.3vw;
-    }
-    .footer-line {
-        display: none;
-    }
-    #terms {
-        margin-left: 0;
-        margin-bottom: 0.3rem;
-        padding: 1px;
-    }
-    #terms p {
-        margin-left: 1.3vw;
-    }
-    #mainflux-footer {
-        text-align: left;
-    }
+    margin-top: -5px;
+}
+#top {
+    margin-left: 9rem;
+    margin-bottom: 41px;
+}
+#board-left {
+    margin-bottom: 21px;
+    margin-top: -32px;
+    margin-left: -1.1rem;
+    height: 300px;
+    margin-bottom: 3rem;
+}
+#top2 {
+    margin-left: 8.7rem;
+    margin-bottom: 5px;
+}
+#board-right {
+    margin-left: -0.7rem;
+    height: 300px;
+}
+
+/* ---- FOOTER  ---- */
+
+.footer-col {
+    margin-bottom: 22px;
+    padding-bottom: 15px;
+}
+div.input-group {
+    width: 85%;
+}
+#licence {
+    margin-top: 3.1rem;
+}
+.apache {
+    margin-bottom: 0.4rem;
+}
+#licence p {
+    margin-left: 0;
+}
+#social {
+    padding-left: 1.3vw;
+}
+.footer-line {
+    display: none;
+}
+#terms {
+    margin-left: 0;
+    margin-bottom: 0.3rem;
+    padding: 1px;
+}
+#terms p {
+    margin-left: 1.3vw;
+}
+#mainflux-footer {
+    text-align: left;
+}
+
 }
 
 /* ---- EXTRA Extra small devices ---- */
-
-@media only screen and (min-width:320px) and (max-width:479px) {
+@media screen and (min-width:412px) and (max-width:479px) {
+    .bgimage {
+        background-image: url('images/iot-about-us-main-background-320-480.png');
+        background-position: center center;
+        background-size: cover;
+        height: 109px;
+    }
+    
+     #top {
+        margin-left: 11.6rem;
+        margin-bottom: 1px;
+        display: none;
+    }
+   
+    #top2 {
+        margin-left: 10rem;
+        margin-bottom: -35px;
+          display: none;
+    }
+    
+    
+    
+}
+@media only screen and (min-width:320px) and (max-width:411px) {
     .bgimage {
         background-image: url('images/iot-about-us-main-background-320-480.png');
         background-position: center center;
@@ -858,6 +1285,7 @@ div.footer-col {
         display: none;
     }
     /* ---- Main Content  ---- */
+    
     .general-stack h5 {
         font-size: 1.4rem;
         margin-top: 15px;
@@ -932,7 +1360,24 @@ div.footer-col {
         padding-top: 0;
         margin-top: -19px;
     }
+    
+    
+     #top {
+        margin-left: 11.6rem;
+        margin-bottom: 1px;
+        display: none;
+    }
+   
+    #top2 {
+        margin-left: 10rem;
+        margin-bottom: -35px;
+          display: none;
+    }
+    
+    
+    
     /* -- Table-- */
+    
     .table th {
         font-size: 0.8rem;
     }
@@ -948,6 +1393,7 @@ div.footer-col {
         font-size: 1.2rem;
     }
     /* ---- FOOTER  ---- */
+    
     .footer-col {
         margin-bottom: 22px;
         padding-bottom: 15px;
