@@ -7,6 +7,13 @@ html {
     background-color: #003c61;
     border-radius: 0;
 }
+
+
+.navbar-default {
+    margin-top:0;
+    padding: 0;
+}
+
 .navbar-default .navbar-brand {
     color: #0c3769;
     font-family: Montserrat;
@@ -19,6 +26,14 @@ html {
     font-weight: 500;
     transform: scaleY(0.96);
 }
+
+.navbar-default .navbar-nav>li>a {
+   font-size: 14px; 
+    padding-left: 1px;
+    padding-right: 2px;
+}
+
+
 .navbar-default .navbar-nav>li>a:visited {
     color: white;
 }
@@ -113,6 +128,22 @@ h3 {
     color: #0c3769;
     text-align: center;
 }
+
+#action {
+    color: #003c61;
+    font-family: Questrial;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    border-radius: 1px;
+    width: 165px;
+    margin-top: 35px;
+    background-color: #003c61;
+    color: white;
+    
+}
+
+
+
 h4 {
     font-family: Raleway;
     font-weight: 700;
@@ -157,46 +188,11 @@ li {
     text-align: justify;
 }
 
-/* ------------ Main Content ----------- */
 
-div.country-section {
-    margin-bottom: 30px;
-    padding-top: 20px;
-}
-.country h5 {
-    /* -Subhedaline Why Mainflux-*/
-    font-family: Raleway;
-    font-weight: bolder;
-    font-size: 1.44rem;
-    color: #0c3769;
-    margin-top: 0;
-}
-#soc-icons i {
-    font-size: 1.8rem;
-    color: #0c3769;
-    padding-right: 26px;
-    margin-bottom: 12px;
-}
-.country h6 {
-    /* -Sub-Subheadline Why Mainflux-*/
-    font-family: Raleway;
-    font-weight: 300;
-    font-size: 1.097rem;
-    color: #0c3769;
-    margin-top: -7px;
-}
-.country p {
-    font-family: Heebo;
-    font-weight: 300;
-    font-size: 1.06rem;
-    color: #0c3769;
-    padding-right: 16px;
-    margin-top: 15px;
-}
-div#map {
-    max-width: 100%;
-    max-height: auto;
-    border: 0.8em solid #faf8f5;
+a#email {
+   color: #0c3769;
+     font-weight:400; 
+   
 }
 
 /*------------------------------------------*/
