@@ -7,13 +7,10 @@ html {
     background-color: #003c61;
     border-radius: 0;
 }
-
-
 .navbar-default {
-    margin-top:0;
+    margin-top: 0;
     padding: 0;
 }
-
 .navbar-default .navbar-brand {
     color: #0c3769;
     font-family: Montserrat;
@@ -26,14 +23,11 @@ html {
     font-weight: 500;
     transform: scaleY(0.96);
 }
-
 .navbar-default .navbar-nav>li>a {
-   font-size: 14px; 
+    font-size: 14px;
     padding-left: 1px;
     padding-right: 2px;
 }
-
-
 .navbar-default .navbar-nav>li>a:visited {
     color: white;
 }
@@ -116,7 +110,7 @@ p.description {
     margin-top: 15px;
 }
 
-/*------------------------------------------*/
+
 
 
 /*----Main  Us----*/
@@ -128,7 +122,6 @@ h3 {
     color: #0c3769;
     text-align: center;
 }
-
 #action {
     color: #003c61;
     font-family: Questrial;
@@ -139,11 +132,7 @@ h3 {
     margin-top: 35px;
     background-color: #003c61;
     color: white;
-    
 }
-
-
-
 h4 {
     font-family: Raleway;
     font-weight: 700;
@@ -187,12 +176,16 @@ li {
     margin-top: 15px;
     text-align: justify;
 }
-
-
 a#email {
-   color: #0c3769;
-     font-weight:400; 
-   
+    color: #0c3769;
+    font-weight: 400;
+}
+
+
+a#email:hover {
+    background-color: #357dfc;
+    color: white;
+    border-color: #7d91e5;
 }
 
 /*------------------------------------------*/
