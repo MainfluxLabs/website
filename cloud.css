@@ -1,0 +1,3671 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+    margin-bottom: 40px;
+}
+body {
+    line-height: 1;
+}
+
+/* ---- NAVIGATION ---- */
+
+.navbar-default {
+    border: none;
+    margin-bottom: 0;
+    background-color: #0b1e3b;
+    border-radius: 0;
+    background: rgb(1, 4, 28);
+    background: rgb(3, 18, 42);
+    background: rgb(3, 18, 42);
+    background: linear-gradient(90deg, rgba(3, 18, 42, 1) 27%, rgba(13, 46, 96, 1) 100%);
+}
+.navbar-default .navbar-brand {
+    color: #006599;
+    font-family: Montserrat;
+    font-weight: 800;
+    transform: scaleY(0.95);
+    color: #006599;
+}
+#brand {
+   color: white;
+    margin-left: 22px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-family: Raleway;
+    font-weight: 500;
+    transform: scaleY(0.96);
+    font-size: 12px;
+}
+.navbar-default .navbar-nav>li>a:visited {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #2891c7;
+}
+.navbar-default .navbar-nav>li>a:active {
+    color: #2891c7;
+}
+a#active {
+    color: #2891c7;
+}
+.navbar-default .navbar-brand:hover {
+    color: white;
+}
+.navbar-toggle {
+    border: none;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #e5ebf4;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #006599;
+    ;
+}
+.navbar-collapse {
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 12px;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #006599;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+    font-size: 12px;
+}
+.dropdown-menu a:hover {
+    background-color: white;
+    color: white;
+    font-family: Montserrat;
+    font-size: 12px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: #006599;
+    color: white;
+}
+.dropdown:hover {
+    background-color: #006599;
+    color: white;
+}
+.dropdown-menu>li>a {
+    color: white;
+    font-size: 12px;
+}
+ol,
+ul {
+    list-style: none;
+}
+.btn {
+    font-family: Montserrat;
+    font-size: 12px;
+    width: 190px;
+}
+
+/* ---- MAIN HOME ---- */
+
+.bg-image {
+    background-image: linear-gradient(to right top, #01041c, #02071e, #030a21, #040d23, #040f26, #05132c, #041631, #041937, #051e41, #07234b, #0a2955, #0d2e60);
+}
+.home-butt {
+    margin: 40px 0 0 23px;
+}
+#github,
+#dirdownload {
+    border: 3px solid #006599;
+    background-color: transparent;
+    color: #006599;
+    font-weight: 600;
+    width: 175px;
+    border-radius: 3px;
+    margin-bottom: 185px;
+}
+#github:hover {
+    background-color: #035e8d;
+    color: white;
+}
+#dirdownload:hover {
+    background-color: #035e8d;
+    color: white;
+}
+#stack {
+    height: 335px;
+    margin: 225px 15px 10px -39px;
+}
+h1 {
+    color: white;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 255px 0 0 40px;
+    line-height: ;
+}
+h2 {
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 0.7px;
+    margin: 10px 0 0 40px;
+}
+h3#home-sub {
+    font-family: Montserrat;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 0.7px;
+    margin: 10px 0 60px 40px;
+    text-align: left;
+}
+
+/* ---- Quick Preview ---- */
+
+#small-preview {
+    display: none;
+}
+#preview hr {
+    width: 12%;
+    height: 3px;
+    background-color: #00a7e0;
+    color: #00a7e0;
+}
+h3.section-subheadline {
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: 800;
+    color: #061856;
+    margin-bottom: 40px;
+    text-align: center;
+}
+hr.subhead-hr {
+    width: 12%;
+    height: 3px;
+    background-color: rgb(0, 167, 224);
+    color: rgb(0, 167, 224);
+}
+#preview h4 {
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-top: 30px;
+    color: #061856;
+}
+h4 {
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: rgb(0, 52, 102);
+    line-height: normal;
+    margin-bottom: 3vh;
+}
+h5 {
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #061856;
+    line-height: normal;
+    margin-bottom: 1vh;
+}
+#preview .section-text {
+    font-family: Montserrat;
+    font-weight: 400;
+    color: rgb(102, 106, 107);
+    line-height: 22px;
+    font-size: 14px;
+    padding-right: 17px
+}
+#preview .left {
+    margin-left: 9%;
+    margin-right: 45px;
+}
+
+/* ---- Diagram ---- */
+
+p#intro-stack {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: rgb(102, 106, 107);
+    line-height: 22px;
+    font-size: 14px;
+}
+
+/* ---- Stuck Sections ---- */
+
+.stack-sections h4 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #061856;
+}
+hr.subsub-hr {
+    width: 28%;
+    height: 3px;
+    background-color: rgb(0, 167, 224);
+    color: rgb(0, 167, 224);
+    margin-right: 72%;
+}
+.stack-row {
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
+.grey {
+    background-color: rgb(241, 241, 242);
+    padding-left: 6%;
+    padding-top: 45px;
+}
+.white {
+    padding-left: 6%;
+    padding-top: 35px;
+}
+h4.int-sec {
+    text-align: center;
+}
+#stack-sections .section-text {
+    font-family: Montserrat;
+    font-weight: 400;
+    color: rgb(102, 106, 107);
+    line-height: normal;
+    font-size: 14px;
+}
+p.int-sec {
+    text-align: justify;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: rgb(102, 106, 107);
+    line-height: normal;
+    font-size: 16px;
+}
+.right p {
+    padding-right: 2.5vw;
+}
+.stack-row p {
+    padding-right: 2.5vw;
+}
+
+/* ---Table -- */
+
+.table {
+    margin: 0 auto;
+    margin-bottom: 70px;
+    border-left: 135px solid #071440;
+    border-right: 110px solid #071440;
+    border-top: 18px solid #071440;
+    border-bottom: 20px solid #071440;
+}
+th {
+    font-family: Raleway;
+    font-size: 1.2rem;
+    color: white;
+    text-align: left;
+    padding: 8px;
+    background-color: #071440;
+    padding-left: 15px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+td {
+    font-family: Raleway;
+    font-size: 0.96rem;
+    font-weight: 300;
+    color: white;
+    text-align: left;
+    padding: 9px;
+    padding-left: 15px;
+    background-color: #071440;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+td a {
+    color: white;
+}
+td a:visited {
+    text-decoration: none;
+    color: #3aabe5;
+}
+td a:hover {
+    text-decoration: none;
+    color: #3aabe5;
+}
+td a:active {
+    text-decoration: none;
+    color: white;
+}
+
+/*---------- Action-call -----------*/
+
+
+/* --- 3 Buttons --- */
+
+.action-call h6 {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #061856;
+    line-height: normal;
+    font-size: 16px;
+    font-size: 12px;
+}
+#action-call .btn {
+    border: 3px solid #006599;
+    background-color: transparent;
+    color: #006599;
+    font-weight: 700;
+    width: 195px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+#action-call .btn:hover {
+    background-color: #061856;
+    color: white;
+    border-color: #061856;
+}
+
+/*---------- News -----------*/
+
+p.news-text {
+    text-align: justify;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: rgb(102, 106, 107);
+    line-height: normal;
+    font-size: 13px;
+    padding-right: 2vw;
+}
+
+/*---------- Conferences -----------*/
+
+#conferences {
+    background-color: #061856;
+    border-bottom: 20px solid #006599;
+    margin-bottom: auto;
+}
+#logoconf {
+    margin-bottom: 0px;
+}
+#conferences h3 {
+    color: white;
+    font-size: 25px;
+    margin-top: 35px;
+    margin-bottom: 36px;
+}
+#open {
+    height: 100px;
+    margin-top: -32px;
+    margin-left: -12px;
+}
+#relly {
+    height: 44px;
+    margin-left: 147px;
+    margin-top: 10px;
+}
+#barcelona {
+    height: 38px;
+    margin-left: 166px;
+    margin-top: 18px;
+}
+#fosdem {
+    height: 49px;
+    margin-left: 180px;
+    margin-top: 6px;
+}
+#emotion {
+    height: 64px;
+    margin-left: 164px;
+}
+#golab {
+    height: 30px;
+    margin-left: 236px;
+    margin-top: 15px;
+}
+#ons {
+    height: 50px;
+    margin-left: 237px;
+    margin-top: 15px;
+}
+#itnext {
+    height: 68px;
+    margin-left: 224px;
+}
+
+/*---------- News --------
+
+p.news-text {
+    font-family: Montserrat;
+    font-weight: 400;
+    color: rgb(102, 106, 107);
+    line-height: normal;
+    font-size: 14px;
+}
+---*/
+
+
+/* ----- FOOTER ----- */
+
+div.footer {
+    background: #071440;
+    margin-top: 0;
+    padding-top: 35px;
+}
+div.footer h6 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+    text-align: left;
+}
+div.footer a {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, .78);
+}
+div.footer a:hover {
+    text-decoration: none;
+    color: #357dfc;
+}
+div.footer-col {
+    margin-right: 45px
+}
+.input-group .form-control {
+    background: transparent;
+    border-color: rgba(255, 255, 255, .39);
+    border-radius: 1px;
+    height: 40px;
+    color: white;
+}
+.input-group-addon {
+    border-radius: 1px;
+    border-color: rgba(255, 255, 255, .39);
+    font-family: Montserrat;
+    font-weight: 600;
+    color: white;
+    background: transparent;
+    padding: 11px 25px;
+}
+.input-group-btn-newsletter button {
+    border-radius: 1px !important;
+    border-color: rgba(255, 255, 255, .39) !important;
+    font-family: Montserrat !important;
+    font-weight: 600 !important;
+    color: white !important;
+    background: transparent !important;
+    padding: 10px 8px !important;
+    margin-top: 0px;
+    width: 100%;
+}
+.footer p {
+    color: white;
+}
+.footer i {
+    font-size: 19.7px;
+    color: white;
+    padding-right: 16px;
+    margin-bottom: 12px;
+}
+#licence {
+    margin-top: 8rem;
+}
+#licence p {
+    font-family: Montserrat;
+    font-weight: lighter;
+    font-size: 0.7rem;
+    margin-left: 7.17rem
+}
+#social {
+    padding-left: 19.3vw;
+}
+.footer-line {
+    height: 1px;
+    width: 83vw;
+    background: rgba(255, 255, 255, .3);
+    margin-left: 7.7vw;
+    margin-bottom: 11px;
+}
+#terms {
+    margin-left: 0.78vw;
+    padding: 1px;
+}
+#terms a {
+    font-size: 0.8rem;
+}
+#mainflux-footer {
+    text-align: right;
+    padding-right: 1px;
+    padding-top: 0;
+    margin-top: -5px;
+}
+#mainflux-footer p {
+    font-family: Montserrat;
+    font-weight: 800;
+    transform: scaleY(0.94);
+    color: white;
+    font-size: 1.4rem;
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+
+/*------------------------------------------*/
+
+
+/*------------------------------------------*/
+
+
+/* ----- MEDIA QUERIES ----- */
+
+
+/* ---- Extra Large Desktops ---- */
+
+@media screen and (min-width:1920px) and (max-width:2560px) {
+    #small-preview {
+        display: none;
+    }
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: -32px;
+    }
+    .footer-line {
+        width: 85vw;
+        margin-left: 5.9vw;
+    }
+    #social {
+        padding-left: 24.7vw;
+    }
+}
+@media screen and (min-width:1600px) and (max-width:1919px) {
+    #small-preview {
+        display: none;
+    }
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: -82px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-line {
+        width: 84vw;
+        margin-left: 6.9vw;
+    }
+    #social {
+        padding-left: 21.7vw;
+    }
+}
+@media screen and (min-width:1440px) and (max-width:1559px) {
+    #small-preview {
+        display: none;
+    }
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: -82px;
+    }
+}
+@media screen and (min-width:1366px) and (max-width:1399px) {
+    /* ---- Main ---- */
+    #stack {
+        margin-left: -10%;
+    }
+    #small-preview {
+        display: none;
+    }
+    /* ---- Conferences ---- */
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: -82px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-line {
+        width: 82vw;
+        margin-left: 8.1vw;
+    }
+    #social {
+        padding-left: 17.7vw;
+    }
+    footer {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width:1280px) and (max-width:1365px) {
+    /* ---- Main ---- */
+    #stack {
+        margin-left: -15%;
+        height: 320px;
+    }
+    #small-preview {
+        display: none;
+    }
+    /* --- Conferences logo --- */
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: -82px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-line {
+        width: 82vw;
+        margin-left: 8.5vw;
+    }
+    #social {
+        padding-left: 16.4vw;
+    }
+    .footer {
+        padding-bottom: 20px;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    /* ---- Main ---- */
+    #brand {
+        margin-left: 2px;
+        padding-left: 0;
+    }
+    h1 {
+        font-size: 26px;
+        margin-left: 10px;
+    }
+    h2 {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    h3#home-sub {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .home-butt {
+        margin-left: -7px;
+        padding-left: 0;
+    }
+    #github,
+    #dirdownload {
+        width: 170px;
+    }
+    #stack {
+        margin-left: -16%;
+        height: 258px;
+        margin-top: 250px;
+    }
+    /* ---- Preview ---- */
+    #small-preview {
+        display: none;
+    }
+    /* --- Conferences logo --- */
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: -1px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-line {
+        width: 82vw;
+        margin-left: 8.5vw;
+    }
+    #social {
+        padding-left: 10.1vw;
+    }
+}
+@media screen and (min-width:800px) and (max-width:1023px) {
+    .navbar-default .navbar-nav {
+        margin-right: 2px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        margin-top: 4px;
+        padding: 8px;
+        font-size: 12px;
+    }
+    #brand {
+        margin-left: 1px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        font-size: 28px;
+        margin-left: 1px;
+        text-align: center;
+        margin-top: 120px;
+    }
+    h2 {
+        font-size: 16px;
+        margin-left: 1px;
+        text-align: center;
+    }
+    h3#home-sub {
+        font-size: 12px;
+        margin-left: 1px;
+        text-align: center;
+    }
+    #headline br {
+        display: none;
+    }
+    .home-butt {
+        margin-left: 23%;
+        padding-left: 0;
+        padding: 0;
+        margin-right: 0;
+        width: 77%;
+    }
+    #github,
+    #dirdownload {
+        width: 170px;
+        margin-bottom: auto;
+    }
+    #stack {
+        margin-left: 4.7%;
+        height: 320px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    /* ---- Preview ---- */
+    #small-preview {
+        display: none;
+    }
+    #preview .left {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #preview h4 {
+        font-size: 22px;
+    }
+    #preview h5 {
+        font-size: 16px;
+    }
+    section#preview {
+        margin: 0;
+        padding: 0;
+    }
+    #preview .row {
+        margin: 0;
+        padding: 0;
+        margin-left: 30px;
+    }
+    #preview .left {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #preview .right {
+        padding-right: 0;
+    }
+    /* --- Stack diagram --- */
+    .diagram {
+        margin-top: 40px;
+    }
+    /* --- Stack Sections --- */
+    #stack-sections h4 {
+        font-size: 22px;
+    }
+    /* --- Architecture--- */
+    #detail-architecture {
+        margin: 0;
+        padding: 0;
+    }
+    /* --- Table--- */
+    .table {
+        margin: 25px 0 95px 0;
+        border-left: 20px solid #071440;
+        border-right: 19px solid #071440;
+    }
+    /* --- Action Call --- */
+    #action-call {
+        margin: 35px 0 135px 0;
+        display: none;
+    }
+    #demo {
+        margin-top: 15px;
+    }
+    #products {
+        margin-top: 15px;
+    }
+    /* --- Conferences logo --- */
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: 1px;
+        width: 760px;
+    }
+    #conferences h3 {
+        color: white;
+        font-size: 23px;
+        margin-top: 35px;
+        margin-bottom: 32px;
+    }
+    #open {
+        height: 72px;
+        margin-top: -21px;
+        margin-left: -12px;
+    }
+    #relly {
+        height: 32px;
+        margin-left: 110px;
+        margin-top: 10px;
+    }
+    #barcelona {
+        height: 24px;
+        margin-left: 128px;
+        margin-top: 18px;
+    }
+    #fosdem {
+        height: 35px;
+        margin-left: 137px;
+        margin-top: 6px;
+    }
+    #emotion {
+        height: 49px;
+        margin-left: 128px;
+    }
+    #golab {
+        height: 20px;
+        margin-left: 195px;
+        margin-top: 15px;
+    }
+    #ons {
+        height: 38px;
+        margin-left: 192px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 53px;
+        margin-left: 178px;
+    }
+    /* ---- FOOTER ---- */
+    .footer {
+        width: 780px;
+    }
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+    }
+    div.input-group {
+        width: 55%;
+    }
+    .footer-line {
+        display: none;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 1.4rem;
+        margin-left: 2px;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 2.3vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-bottom: 0.3rem;
+        margin-left: -2px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        margin-bottom: 12px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        margin-left: 2px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:799px) {
+    .navbar-default .navbar-nav {
+        margin-right: 2px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        margin-top: 4px;
+        padding: 8px;
+        font-size: 12px;
+    }
+    #brand {
+        margin-left: 1px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        font-size: 28px;
+        margin-left: 1px;
+        text-align: center;
+        margin-top: 120px;
+    }
+    h2 {
+        font-size: 16px;
+        margin-left: 1px;
+        text-align: center;
+    }
+    h3#home-sub {
+        font-size: 12px;
+        margin-left: 1px;
+        text-align: center;
+    }
+    #headline br {
+        display: none;
+    }
+    .home-butt {
+        margin-left: 23%;
+        padding-left: 0;
+        padding: 0;
+        margin-right: 0;
+        width: 77%;
+    }
+    #github,
+    #dirdownload {
+        width: 170px;
+        margin-bottom: auto;
+    }
+    #stack {
+        margin-left: 3%;
+        height: 320px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    /* ---- Preview ---- */
+    #small-preview {
+        display: none;
+    }
+    #preview .left {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #preview h4 {
+        font-size: 22px;
+    }
+    #preview h5 {
+        font-size: 16px;
+    }
+    section#preview {
+        margin: 0;
+        padding: 0;
+    }
+    #preview .row {
+        margin: 0;
+        padding: 0;
+        margin-left: 30px;
+    }
+    #preview .left {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #preview .right {
+        padding-right: 0;
+    }
+    /* --- Stack diagram --- */
+    .diagram {
+        margin-top: 40px;
+    }
+    /* --- Stack Sections --- */
+    #stack-sections h4 {
+        font-size: 22px;
+    }
+    /* --- Architecture--- */
+    #detail-architecture {
+        margin: 0;
+        padding: 0;
+    }
+    /* --- Table--- */
+    .table {
+        margin: 25px 0 95px 0;
+        border-left: 20px solid #071440;
+        border-right: 19px solid #071440;
+    }
+    /* --- Action Call --- */
+    #demo {
+        margin-top: 15px;
+    }
+    #products {
+        margin-top: 15px;
+    }
+    /* --- Conferences logo --- */
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: 0;
+        width: 710px;
+    }
+    #conferences h3 {
+        color: white;
+        font-size: 22px;
+        margin-top: 35px;
+        margin-bottom: 32px;
+    }
+    #open {
+        height: 72px;
+        margin-top: -21px;
+        margin-left: -12px;
+    }
+    #relly {
+        height: 32px;
+        margin-left: 105px;
+        margin-top: 10px;
+    }
+    #barcelona {
+        height: 24px;
+        margin-left: 121px;
+        margin-top: 18px;
+    }
+    #fosdem {
+        height: 35px;
+        margin-left: 123px;
+        margin-top: 6px;
+    }
+    #emotion {
+        height: 44px;
+        margin-left: 115px;
+        margin-top: 4px;
+    }
+    #golab {
+        height: 20px;
+        margin-left: 173px;
+        margin-top: 15px;
+    }
+    #ons {
+        height: 38px;
+        margin-left: 175px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 53px;
+        margin-left: 159px;
+    }
+    /* ---- FOOTER ---- */
+    .footer {
+        width: 740px;
+        display:
+    }
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+    }
+    div.input-group {
+        width: 55%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 0.4rem;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    .footer-line {
+        display: none;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 1.4rem;
+        margin-left: 7px;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 3.4vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+        margin-left: 7px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        margin-bottom: 12px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        margin-left: 7px;
+    }
+}
+@media screen and (min-width:720px) and (max-width:767px) {
+    .navbar-default .navbar-nav {
+        margin-right: 2px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        margin-top: 4px;
+        padding: 8px;
+        font-size: 12px;
+    }
+    #brand {
+        margin-left: 11px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        font-size: 28px;
+        margin-left: -3px;
+        text-align: center;
+        margin-top: 120px;
+    }
+    h2 {
+        font-size: 18px;
+        margin-left: -3px;
+        text-align: center;
+    }
+    h3#home-sub {
+        font-size: 12px;
+        margin-left: -3px;
+        text-align: center;
+    }
+    #headline br {
+        display: none;
+    }
+    .home-butt {
+        margin-left: 15.1%;
+        padding-left: 0;
+        padding: 0;
+        margin-right: 0;
+        width: 77%;
+    }
+    #github,
+    #dirdownload {
+        width: 170px;
+        margin-bottom: auto;
+    }
+    #stack {
+        margin-left: 0;
+        height: 320px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    /* ---- Preview ---- */
+    #small-preview {
+        display: none;
+    }
+    #preview .left {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #preview h4 {
+        font-size: 22px;
+    }
+    #preview h5 {
+        font-size: 16px;
+    }
+    section#preview {
+        margin: 0;
+        padding: 0;
+    }
+    #preview .row {
+        margin: 0;
+        padding: 0;
+        margin-left: 30px;
+    }
+    #preview .left {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #preview .right {
+        padding-right: 0;
+    }
+    /* --- Stack diagram --- */
+    .diagram {
+        margin-top: 40px;
+    }
+    /* --- Stack Sections --- */
+    #stack-sections h4 {
+        font-size: 22px;
+    }
+    /* --- Architecture--- */
+    #detail-architecture {
+        margin: 0;
+        padding: 0;
+    }
+    /* --- Table--- */
+    .table {
+        margin: 25px 0 95px 0;
+        border-left: 20px solid #071440;
+        border-right: 19px solid #071440;
+    }
+    /* --- Action Call --- */
+    #demo {
+        margin-top: 15px;
+    }
+    #products {
+        margin-top: 15px;
+    }
+    /* ---- action call ---- */
+    #action-call .btn {
+        width: 195px;
+        font-size: 14px;
+        margin-bottom: 45px;
+    }
+    #demo {
+        margin-top: 1px;
+    }
+    #action-call h6 {
+        font-size: 13px;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*---------- Conferences -----------*/
+    #open {
+        height: 100px;
+        margin-top: -32px;
+        margin-left: 12px;
+    }
+    #relly {
+        height: 47px;
+        margin-left: 117px;
+        margin-top: 9px;
+    }
+    #barcelona {
+        height: 41px;
+        margin-left: 87px;
+        margin-top: 17px;
+    }
+    #fosdem {
+        height: 54px;
+        margin-left: 59px;
+        margin-top: 5px;
+    }
+    #emotion {
+        height: 66px;
+        margin-left: 16px;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 34px;
+        margin-left: 46px;
+        margin-top: 15px;
+    }
+    #ons {
+        height: 59px;
+        margin-left: 14px;
+        margin-top: 13px;
+    }
+    #itnext {
+        height: 75px;
+        margin-left: -39px;
+        margin-top: -2px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 29px;
+    }
+    #consulting .row {
+        width: 691px;
+    }
+    /*---------- News -----------*/
+    #news {
+        width: 98%;
+    }
+    #news h3 {
+        margin-top: 25px;
+        margin-bottom: 28px;
+    }
+    #news p {
+        font-size: 14px;
+        padding-right: 16px;
+    }
+    #column .col-xs-12 {
+        margin-bottom: 20px;
+        margin-left: 10px;
+        padding-right:
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        width: 68%;
+        margin-left: 12px;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 88%;
+    }
+    .apache {
+        margin-bottom: 1.4rem;
+        margin-left: 7px;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 3.4vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+        margin-left: 7px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        margin-bottom: 12px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        margin-left: 7px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:719px) {
+    .navbar-default .navbar-nav {
+        margin-right: 2px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        margin-top: 4px;
+        padding: 8px;
+        font-size: 12px;
+    }
+    #brand {
+        margin-left: 11px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        font-size: 28px;
+        margin-left: -3px;
+        text-align: center;
+        margin-top: 120px;
+    }
+    h2 {
+        font-size: 18px;
+        margin-left: -3px;
+        text-align: center;
+    }
+    h3#home-sub {
+        font-size: 12px;
+        margin-left: 3px;
+        text-align: center;
+    }
+    #headline br {
+        display: none;
+    }
+    .home-butt {
+        margin-left: 11.4%;
+        padding-left: 0;
+        padding: 0;
+        margin-right: 0;
+        width: 77%;
+    }
+    #github,
+    #dirdownload {
+        width: 170px;
+        margin-bottom: auto;
+    }
+    #stack {
+        margin-left: 0;
+        height: 260px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    /* ---- Small Preview ---- */
+    section#preview {
+        display: none;
+    }
+    #small-preview {
+        display: inline-block;
+    }
+    #small-preview .left {
+        margin-left: 30px;
+    }
+    #small-preview .right {
+        margin-left: 30px;
+    }
+    #small-preview hr {
+        width: 12%;
+        height: 3px;
+        background-color: #00a7e0;
+        color: #00a7e0;
+    }
+    #small-preview h3 {
+        font-size: 30px;
+        font-family: Montserrat;
+        font-weight: 800;
+        color: #061856;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    #small-preview h4 {
+        font-size: 25px;
+        font-family: Montserrat;
+        font-weight: 700;
+        margin-top: 30px;
+        color: #061856;
+    }
+    #small-preview h5 {
+        font-size: 18px;
+        font-family: Montserrat;
+        font-weight: 600;
+        color: #061856;
+        line-height: normal;
+        margin-bottom: 1vh;
+    }
+    #small-preview .section-text {
+        font-family: Montserrat;
+        font-weight: 400;
+        color: rgb(102, 106, 107);
+        line-height: 22px;
+        font-size: 14px;
+        padding-right: 17px
+    }
+    /* --- Stack diagram --- */
+    .diagram {
+        margin-top: 40px;
+    }
+    /* --- Stack Sections --- */
+    #stack-sections h4 {
+        font-size: 24px;
+    }
+    #stack-sections .features {
+        margin-top: 30px;
+    }
+    /* --- Architecture--- */
+    #detail-architecture {
+        margin: 0;
+        padding: 0;
+    }
+    /* --- Table--- */
+    .table {
+        margin: 25px 0 95px 0;
+        border-left: 20px solid #071440;
+        border-right: 19px solid #071440;
+    }
+    /* ---- action call ---- */
+    #action-call .btn {
+        width: 195px;
+        font-size: 14px;
+        margin-bottom: 45px;
+    }
+    #demo {
+        margin-top: 0px;
+    }
+    #action-call h6 {
+        font-size: 12px;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #open {
+        height: 100px;
+        margin-top: -32px;
+        margin-left: 1px;
+    }
+    #relly {
+        height: 47px;
+        margin-left: 113px;
+        margin-top: 9px;
+    }
+    #barcelona {
+        height: 41px;
+        margin-left: 86px;
+        margin-top: 17px;
+    }
+    #fosdem {
+        height: 54px;
+        margin-left: 55px;
+        margin-top: 5px;
+    }
+    #emotion {
+        height: 66px;
+        margin-left: 1px;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 32px;
+        margin-left: 36px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 57px;
+        margin-left: -2px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 75px;
+        margin-left: -59px;
+        margin-top: -3px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 25px;
+    }
+    /*---------- News -----------*/
+    #news {
+        width: 98%;
+    }
+    #news h3 {
+        margin-top: 25px;
+        margin-bottom: 28px;
+    }
+    #news p {
+        font-size: 14px;
+        padding-right: 16px;
+    }
+    #column .col-xs-12 {
+        margin-bottom: 30px;
+        margin-left: 10px;
+        padding-right:
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        width: 68%;
+        margin-left: 12px;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 88%;
+    }
+    .apache {
+        margin-bottom: 1.4rem;
+        margin-left: 7px;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 3.4vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+        margin-left: 7px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        margin-bottom: 12px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        margin-left: 7px;
+    }
+}
+@media screen and (min-width:480px) and (max-width:599px) {
+    #brand {
+        margin-left: 11px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        font-size: 28px;
+        margin-left: -3px;
+        text-align: center;
+        margin-top: 120px;
+    }
+    h2 {
+        font-size: 18px;
+        margin-left: -3px;
+        text-align: center;
+    }
+    h3#home-sub {
+        font-size: 12px;
+        margin-left: 3px;
+        text-align: center;
+    }
+    .home-butt {
+        margin-left: 3.6%;
+        padding-left: 0;
+        padding: 0;
+        margin-right: 0;
+        width: 90%;
+    }
+    #github,
+    #dirdownload {
+        width: 170px;
+        margin-bottom: auto;
+    }
+    #stack {
+        margin-left: 0;
+        height: 205px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    /* ---- Small Preview ---- */
+    section#preview {
+        display: none;
+    }
+    #small-preview {
+        display: inline-block;
+    }
+    #small-preview .left {
+        margin-left: 20px;
+    }
+    #small-preview .right {
+        margin-left: 20px;
+    }
+    #small-preview hr {
+        width: 12%;
+        height: 3px;
+        background-color: #00a7e0;
+        color: #00a7e0;
+    }
+    #small-preview h3 {
+        font-size: 30px;
+        font-family: Montserrat;
+        font-weight: 800;
+        color: #061856;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    #small-preview h4 {
+        font-size: 25px;
+        font-family: Montserrat;
+        font-weight: 700;
+        margin-top: 30px;
+        color: #061856;
+    }
+    #small-preview h5 {
+        font-size: 18px;
+        font-family: Montserrat;
+        font-weight: 600;
+        color: #061856;
+        line-height: normal;
+        margin-bottom: 1vh;
+    }
+    #small-preview .section-text {
+        font-family: Montserrat;
+        font-weight: 400;
+        color: rgb(102, 106, 107);
+        line-height: 22px;
+        font-size: 14px;
+        padding-right: 17px
+    }
+    /* --- Stack diagram --- */
+    .diagram {
+        margin-top: 40px;
+    }
+    /* --- Stack Sections --- */
+    #stack-sections h4 {
+        font-size: 24px;
+    }
+    #stack-sections .features {
+        margin-top: 30px;
+    }
+    #stack-sections .grey {
+        padding-left: 14px;
+    }
+    #stack-sections .white {
+        padding-left: 14px;
+    }
+    /* --- Architecture--- */
+    #detail-architecture {
+        margin: 0;
+        padding: 0;
+    }
+    /* --- Table--- */
+    .table {
+        margin: 25px 0 95px 0;
+        border-left: 23px solid #071440;
+        border-right: 23px solid #071440;
+    }
+    /* ---- action call ---- */
+    #action-call .btn {
+        width: 195px;
+        font-size: 14px;
+        margin-bottom: 45px;
+    }
+    #demo {
+        margin-top: 15px;
+    }
+    #action-call h6 {
+        font-size: 12px;
+    }
+    /* ---- action call ---- */
+    #action-call .btn {
+        width: 195px;
+        font-size: 14px;
+        margin-bottom: 45px;
+    }
+    #demo {
+        margin-top: 15px;
+    }
+    #action-call h6 {
+        font-size: 12px;
+    }
+    /*-------- Conferences -------*/
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    #open {
+        height: 73px;
+        margin-top: -12px;
+        margin-left: 1px;
+    }
+    #relly {
+        height: 35px;
+        margin-left: 80px;
+        margin-top: 17px;
+    }
+    #barcelona {
+        height: 28px;
+        margin-left: 56px;
+        margin-top: 17px;
+    }
+    #fosdem {
+        height: 40px;
+        margin-left: 35px;
+        margin-top: 5px;
+    }
+    #emotion {
+        height: 56px;
+        margin-left: 1px;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 22px;
+        margin-left: 31px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 44px;
+        margin-left: -12px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 61px;
+        margin-left: -59px;
+        margin-top: -3px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 21px;
+        font-size: 21px;
+    }
+    /*---------- News -----------*/
+    #news h3 {
+        margin-bottom: 10px;
+    }
+    #news p {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    /*-------- final adjustment ----*/
+    #consulting {
+        width: 447px;
+        padding: 0;
+        padding-left: 4px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 1em;
+        padding-left: 19px;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 3.8vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 3.3vw;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 9px 0 16px 16px;
+    }
+}
+@media screen and (min-width:414px) and (max-width:479px) {
+    #brand {
+        margin-left: 16px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        font-size: 25px;
+        margin-left: -6px;
+        text-align: center;
+        margin-top: 120px;
+    }
+    h2 {
+        font-size: 16px;
+        margin-left: -5px;
+        text-align: center;
+    }
+    h3#home-sub {
+        font-size: 12px;
+        margin-left: -4px;
+        text-align: center;
+    }
+    .home-butt {
+        margin-left: -4px;
+        padding-left: 0;
+        padding: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    #github,
+    #dirdownload {
+        width: 170px;
+        margin-bottom: auto;
+    }
+    #stack {
+        margin-left: -2px;
+        height: 185px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    /* ---- Small Preview ---- */
+    section#preview {
+        display: none;
+    }
+    #small-preview {
+        display: inline-block;
+    }
+    #small-preview .left {
+        margin-left: 20px;
+    }
+    #small-preview .right {
+        margin-left: 20px;
+    }
+    #small-preview hr {
+        width: 12%;
+        height: 3px;
+        background-color: #00a7e0;
+        color: #00a7e0;
+    }
+    #small-preview h3 {
+        font-size: 26px;
+        font-family: Montserrat;
+        font-weight: 800;
+        color: #061856;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    #small-preview h4 {
+        font-size: 22px;
+        font-family: Montserrat;
+        font-weight: 700;
+        margin-top: 30px;
+        color: #061856;
+    }
+    #small-preview h5 {
+        font-size: 16px;
+        font-family: Montserrat;
+        font-weight: 600;
+        color: #061856;
+        line-height: normal;
+        margin-bottom: 1vh;
+    }
+    #small-preview .section-text {
+        font-family: Montserrat;
+        font-weight: 400;
+        color: rgb(102, 106, 107);
+        line-height: 22px;
+        font-size: 14px;
+        padding-right: 17px;
+        padding-left: 0;
+    }
+    /* --- Stack diagram --- */
+    .diagram {
+        margin-top: 40px;
+    }
+    .diagram h3 {
+        font-size: 26px;
+    }
+    p#intro-stack {
+        padding-left: 0;
+        font-size: 12px;
+        text-align:
+    }
+    /* --- Stack Sections --- */
+    #stack-sections h4 {
+        font-size: 24px;
+    }
+    #stack-sections .features {
+        margin-top: 30px;
+    }
+    #stack-sections .grey {
+        padding-left: 14px;
+    }
+    #stack-sections .white {
+        padding-left: 14px;
+    }
+    #stack-sections p {
+        padding-left: 0;
+    }
+    /* --- Architecture--- */
+    #detail-architecture {
+        margin: 0;
+        padding: 0;
+    }
+    #detail-architecture h3 {
+        font-size: 26px;
+    }
+    /* --- Table--- */
+    .table {
+        margin: 25px 0 95px 0;
+        border-left: 23px solid #071440;
+        border-right: 23px solid #071440;
+    }
+    .table,
+    tr,
+    td {
+        font-size: 12px;
+    }
+    /* ---- action call ---- */
+    #action-call .btn {
+        width: 195px;
+        font-size: 12px;
+        margin-bottom: 45px;
+    }
+    #demo {
+        margin-top: 0px;
+    }
+    #action-call h6 {
+        font-size: 12px;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #logoconf,
+    #second-conf {
+        padding-left: 2px;
+    }
+    #open {
+        height: 73px;
+        margin-top: -12px;
+        margin-left: -5px;
+    }
+    #relly {
+        height: 34px;
+        margin-left: 77px;
+        margin-top: 18px;
+    }
+    #barcelona {
+        height: 27px;
+        margin-left: 56px;
+        margin-top: 22px;
+    }
+    #fosdem {
+        height: 40px;
+        margin-left: 29px;
+        margin-top: 9px;
+    }
+    #emotion {
+        height: 52px;
+        margin-left: -5px;
+        ;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 21px;
+        margin-left: 24px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 41px;
+        margin-left: -14px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 55px;
+        margin-left: -59px;
+        margin-top: 1px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 18px;
+        font-size: 21px;
+    }
+    /*---------- News -----------*/
+    #news h3 {
+        margin-bottom: 10px;
+        font-size: 26px;
+    }
+    #news p {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    #news h5,
+    p {
+        padding-left: 6px;
+    }
+    /*-------- final adjustment ----*/
+    section#consulting {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #consulting .container {
+        margin: 0;
+        padding: 0;
+    }
+    #consulting .row {
+        margin: 0;
+        padding: 0;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        width: 80%;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 95%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 98%;
+    }
+    .apache {
+        margin-bottom: 0.9rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding-left: 5.5vw;
+        width: 98%;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+        width: 91%;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        font-size: 16px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 14px 0 0 9px;
+        width: auto;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:412px) and (max-width:413px) {
+    #brand {
+        margin-left: 16px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        font-size: 25px;
+        margin-left: -6px;
+        text-align: center;
+        margin-top: 120px;
+    }
+    h2 {
+        font-size: 16px;
+        margin-left: -5px;
+        text-align: center;
+    }
+    h3#home-sub {
+        font-size: 12px;
+        margin-left: -4px;
+        text-align: center;
+    }
+    .home-butt {
+        margin-left: -4px;
+        padding-left: 0;
+        padding: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    #github,
+    #dirdownload {
+        width: 170px;
+        margin-bottom: auto;
+    }
+    #stack {
+        margin-left: -2px;
+        height: 185px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    /* ---- Small Preview ---- */
+    section#preview {
+        display: none;
+    }
+    #small-preview {
+        display: inline-block;
+    }
+    #small-preview .left {
+        margin-left: 20px;
+    }
+    #small-preview .right {
+        margin-left: 20px;
+    }
+    #small-preview hr {
+        width: 12%;
+        height: 3px;
+        background-color: #00a7e0;
+        color: #00a7e0;
+    }
+    #small-preview h3 {
+        font-size: 26px;
+        font-family: Montserrat;
+        font-weight: 800;
+        color: #061856;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    #small-preview h4 {
+        font-size: 22px;
+        font-family: Montserrat;
+        font-weight: 700;
+        margin-top: 30px;
+        color: #061856;
+    }
+    #small-preview h5 {
+        font-size: 16px;
+        font-family: Montserrat;
+        font-weight: 600;
+        color: #061856;
+        line-height: normal;
+        margin-bottom: 1vh;
+    }
+    #small-preview .section-text {
+        font-family: Montserrat;
+        font-weight: 400;
+        color: rgb(102, 106, 107);
+        line-height: 22px;
+        font-size: 14px;
+        padding-right: 17px;
+        padding-left: 0;
+    }
+    /* --- Stack diagram --- */
+    .diagram {
+        margin-top: 40px;
+    }
+    .diagram h3 {
+        font-size: 26px;
+    }
+    p#intro-stack {
+        padding-left: 0;
+        font-size: 12px;
+    }
+    /* --- Stack Sections --- */
+    #stack-sections h4 {
+        font-size: 22px;
+    }
+    #stack-sections .features {
+        margin-top: 30px;
+    }
+    #stack-sections .grey {
+        padding-left: 14px;
+    }
+    #stack-sections .white {
+        padding-left: 14px;
+    }
+    #stack-sections p {
+        padding-left: 0;
+    }
+    /* --- Architecture--- */
+    #detail-architecture {
+        margin: 0;
+        padding: 0;
+    }
+    #detail-architecture h3 {
+        font-size: 26px;
+    }
+    /* --- Table--- */
+    .table {
+        margin: 25px 0 95px 0;
+        border-left: 23px solid #071440;
+        border-right: 23px solid #071440;
+    }
+    .table,
+    tr,
+    td {
+        font-size: 12px;
+    }
+    /* ---- action call ---- */
+    #action-call .btn {
+        width: 195px;
+        font-size: 12px;
+        margin-bottom: 45px;
+    }
+    #demo {
+        margin-top: 0px;
+    }
+    #action-call h6 {
+        font-size: 12px;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #open {
+        height: 73px;
+        margin-top: -12px;
+        margin-left: -3px;
+    }
+    #relly {
+        height: 34px;
+        margin-left: 77px;
+        margin-top: 18px;
+    }
+    #barcelona {
+        height: 27px;
+        margin-left: 56px;
+        margin-top: 22px;
+    }
+    #fosdem {
+        height: 40px;
+        margin-left: 29px;
+        margin-top: 9px;
+    }
+    #emotion {
+        height: 52px;
+        margin-left: -1px;
+        ;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 21px;
+        margin-left: 26px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 41px;
+        margin-left: -14px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 55px;
+        margin-left: -59px;
+        margin-top: 1px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 18px;
+        font-size: 21px;
+    }
+    /*---------- News -----------*/
+    #news h3 {
+        margin-bottom: 10px;
+    }
+    #news p {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    #news h5,
+    p {
+        padding-left: 6px;
+    }
+    /*-------- final adjustment ----*/
+    section#consulting {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #consulting .container {
+        margin: 0;
+        padding: 0;
+    }
+    #consulting .row {
+        margin: 0;
+        padding: 0;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        width: 80%;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 95%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 98%;
+    }
+    .apache {
+        margin-bottom: 0.9rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding-left: 5.5vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 8px;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+        width: 91%;
+    }
+    #terms p {
+        margin-left: 1.3vw;
+        font-size: 16px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 12px 0 0 12px;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:384px) and (max-width:411px) {
+    #brand {
+        margin-left: 16px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        font-size: 25px;
+        margin-left: -6px;
+        text-align: center;
+        margin-top: 120px;
+    }
+    h2 {
+        font-size: 16px;
+        margin-left: -5px;
+        text-align: center;
+    }
+    h3#home-sub {
+        font-size: 12px;
+        margin-left: -6px;
+        text-align: center;
+    }
+    .home-butt {
+        margin-left: -12px;
+        padding-left: 0;
+        padding: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    #github,
+    #dirdownload {
+        width: 170px;
+        margin-bottom: auto;
+    }
+    #stack {
+        margin-left: -4px;
+        height: 170px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    /* ---- Small Preview ---- */
+    section#preview {
+        display: none;
+    }
+    #small-preview {
+        display: inline-block;
+    }
+    #small-preview .left {
+        margin-left: 20px;
+    }
+    #small-preview .right {
+        margin-left: 20px;
+    }
+    #small-preview hr {
+        width: 12%;
+        height: 3px;
+        background-color: #00a7e0;
+        color: #00a7e0;
+    }
+    #small-preview h3 {
+        font-size: 26px;
+        font-family: Montserrat;
+        font-weight: 800;
+        color: #061856;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    #small-preview h4 {
+        font-size: 22px;
+        font-family: Montserrat;
+        font-weight: 700;
+        margin-top: 30px;
+        color: #061856;
+    }
+    #small-preview h5 {
+        font-size: 16px;
+        font-family: Montserrat;
+        font-weight: 600;
+        color: #061856;
+        line-height: normal;
+        margin-bottom: 1vh;
+    }
+    #small-preview .section-text {
+        font-family: Montserrat;
+        font-weight: 400;
+        color: rgb(102, 106, 107);
+        line-height: 22px;
+        font-size: 14px;
+        padding-right: 17px;
+        padding-left: 0;
+    }
+    /* --- Stack diagram --- */
+    .diagram {
+        margin-top: 40px;
+    }
+    .diagram h3 {
+        font-size: 26px;
+    }
+    p#intro-stack {
+        padding-left: 0;
+        font-size: 12px;
+        text-align:
+    }
+    /* --- Stack Sections --- */
+    #stack-sections h4 {
+        font-size: 22px;
+    }
+    #stack-sections .features {
+        margin-top: 30px;
+    }
+    #stack-sections .grey {
+        padding-left: 14px;
+    }
+    #stack-sections .white {
+        padding-left: 14px;
+    }
+    #stack-sections p {
+        padding-left: 0;
+    }
+    /* --- Architecture--- */
+    #detail-architecture {
+        margin: 0;
+        padding: 0;
+    }
+    #detail-architecture h3 {
+        font-size: 26px;
+    }
+    /* --- Table--- */
+    .table {
+        margin: 25px 0 95px 0;
+        border-left: 23px solid #071440;
+        border-right: 23px solid #071440;
+    }
+    .table,
+    tr,
+    td {
+        font-size: 12px;
+    }
+    /* ---- action call ---- */
+    #action-call .btn {
+        width: 195px;
+        font-size: 12px;
+        margin-bottom: 45px;
+    }
+    #demo {
+        margin-top: 0px;
+    }
+    #action-call h6 {
+        font-size: 12px;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #open {
+        height: 73px;
+        margin-top: -12px;
+        margin-left: -3px;
+    }
+    #relly {
+        height: 34px;
+        margin-left: 77px;
+        margin-top: 18px;
+    }
+    #barcelona {
+        height: 27px;
+        margin-left: 56px;
+        margin-top: 22px;
+    }
+    #fosdem {
+        height: 40px;
+        margin-left: 29px;
+        margin-top: 9px;
+    }
+    #emotion {
+        height: 52px;
+        margin-left: -1px;
+        ;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 21px;
+        margin-left: 26px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 41px;
+        margin-left: -14px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 55px;
+        margin-left: -59px;
+        margin-top: 1px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 18px;
+        font-size: 21px;
+    }
+    /*---------- News -----------*/
+    #news h3 {
+        margin-bottom: 10px;
+    }
+    #news p {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    #news h5,
+    p {
+        padding-left: 6px;
+    }
+    /*-------- final adjustment ----*/
+    section#consulting {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #consulting .container {
+        margin: 0;
+        padding: 0;
+    }
+    #consulting .row {
+        margin: 0;
+        padding: 0;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        width: 80%;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 95%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 98%;
+    }
+    .apache {
+        margin-bottom: 0.8rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding: 0 0 0 15px
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 0 0 0 12px;
+    }
+    #terms p {
+        margin-left: 0.3vw;
+        font-size: 16px;
+        width: 91%;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 18px 0 0 12px;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:375px) and (max-width:383px) {
+    #brand {
+        margin-left: 16px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        font-size: 25px;
+        margin-left: -6px;
+        text-align: center;
+        margin-top: 120px;
+    }
+    h2 {
+        font-size: 16px;
+        margin-left: -5px;
+        text-align: center;
+    }
+    h3#home-sub {
+        font-size: 12px;
+        margin-left: -6px;
+        text-align: center;
+    }
+    .home-butt {
+        margin-left: -8px;
+        padding-left: 0;
+        padding: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    #github,
+    #dirdownload {
+        width: 160px;
+        margin-bottom: auto;
+    }
+    #stack {
+        margin-left: -2px;
+        height: 165px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    /* ---- Small Preview ---- */
+    section#preview {
+        display: none;
+    }
+    #small-preview {
+        display: inline-block;
+    }
+    #small-preview .left {
+        margin-left: 10px;
+    }
+    #small-preview .right {
+        margin-left: 10px;
+    }
+    #small-preview hr {
+        width: 12%;
+        height: 3px;
+        background-color: #00a7e0;
+        color: #00a7e0;
+    }
+    #small-preview h3 {
+        font-size: 26px;
+        font-family: Montserrat;
+        font-weight: 800;
+        color: #061856;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    #small-preview h4 {
+        font-size: 22px;
+        font-family: Montserrat;
+        font-weight: 700;
+        margin-top: 30px;
+        color: #061856;
+    }
+    #small-preview h5 {
+        font-size: 16px;
+        font-family: Montserrat;
+        font-weight: 600;
+        color: #061856;
+        line-height: normal;
+        margin-bottom: 1vh;
+    }
+    #small-preview .section-text {
+        font-family: Montserrat;
+        font-weight: 400;
+        color: rgb(102, 106, 107);
+        line-height: 22px;
+        font-size: 14px;
+        padding-right: 17px;
+        padding-left: 0;
+    }
+    /* --- Stack diagram --- */
+    .diagram {
+        margin-top: 40px;
+    }
+    .diagram h3 {
+        font-size: 26px;
+    }
+    p#intro-stack {
+        padding-left: 0;
+        font-size: 12px;
+        text-align:
+    }
+    /* --- Stack Sections --- */
+    #stack-sections h4 {
+        font-size: 22px;
+    }
+    #stack-sections .features {
+        margin-top: 30px;
+    }
+    #stack-sections .grey {
+        padding-left: 10px;
+    }
+    #stack-sections .white {
+        padding-left: 10px;
+    }
+    #stack-sections p {
+        padding-left: 0;
+    }
+    /* --- Architecture--- */
+    #detail-architecture {
+        margin: 0;
+        padding: 0;
+    }
+    #detail-architecture h3 {
+        font-size: 26px;
+    }
+    /* --- Table--- */
+    .table {
+        margin: 25px 0 95px 0;
+        border-left: 23px solid #071440;
+        border-right: 23px solid #071440;
+    }
+    .table,
+    tr,
+    td {
+        font-size: 12px;
+    }
+    /* ---- action call ---- */
+    #action-call .btn {
+        width: 195px;
+        font-size: 12px;
+        margin-bottom: 45px;
+    }
+    #demo {
+        margin-top: 0px;
+    }
+    #action-call h6 {
+        font-size: 12px;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #open {
+        height: 73px;
+        margin-top: -12px;
+        margin-left: -3px;
+    }
+    #relly {
+        height: 34px;
+        margin-left: 77px;
+        margin-top: 18px;
+    }
+    #barcelona {
+        height: 27px;
+        margin-left: 56px;
+        margin-top: 22px;
+    }
+    #fosdem {
+        height: 40px;
+        margin-left: 29px;
+        margin-top: 9px;
+    }
+    #emotion {
+        height: 52px;
+        margin-left: -1px;
+        ;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 21px;
+        margin-left: 26px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 41px;
+        margin-left: -14px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 55px;
+        margin-left: -59px;
+        margin-top: 1px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 18px;
+        font-size: 21px;
+    }
+    /*---------- News -----------
+    #news h3 {
+        margin-bottom: 10px;
+    }
+    #news p {
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+    #news h5,
+    p {
+        padding-left: 6px;
+    }
+    
+     -----  */
+    /*-------- final adjustment ----*/
+    section#consulting {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #consulting .container {
+        margin: 0;
+        padding: 0;
+    }
+    #consulting .row {
+        margin: 0;
+        padding: 0;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        width: 80%;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 95%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 98%;
+    }
+    .apache {
+        margin-bottom: 0.9rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding: 0 0 0 15px;
+        width: 98%;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 0 0 0 2px;
+        width: 95%;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        font-size: 16px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 16px 0 0 12px;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:360px) and (max-width:374px) {
+    #brand {
+        margin-left: 16px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        font-size: 25px;
+        margin-left: -6px;
+        text-align: center;
+        margin-top: 120px;
+    }
+    h2 {
+        font-size: 16px;
+        margin-left: -5px;
+        text-align: center;
+    }
+    h3#home-sub {
+        font-size: 12px;
+        margin-left: -6px;
+        text-align: center;
+    }
+    .home-butt {
+        margin-left: -12px;
+        padding-left: 0;
+        padding: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    #github,
+    #dirdownload {
+        width: 155px;
+        margin-bottom: auto;
+    }
+    #stack {
+        margin-left: -6px;
+        height: 161px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    /* ---- Small Preview ---- */
+    section#preview {
+        display: none;
+    }
+    #small-preview {
+        display: inline-block;
+    }
+    #small-preview .left {
+        margin-left: 10px;
+    }
+    #small-preview .right {
+        margin-left: 10px;
+    }
+    #small-preview hr {
+        width: 12%;
+        height: 3px;
+        background-color: #00a7e0;
+        color: #00a7e0;
+    }
+    #small-preview h3 {
+        font-size: 26px;
+        font-family: Montserrat;
+        font-weight: 800;
+        color: #061856;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    #small-preview h4 {
+        font-size: 22px;
+        font-family: Montserrat;
+        font-weight: 700;
+        margin-top: 30px;
+        color: #061856;
+    }
+    #small-preview h5 {
+        font-size: 16px;
+        font-family: Montserrat;
+        font-weight: 600;
+        color: #061856;
+        line-height: normal;
+        margin-bottom: 1vh;
+    }
+    #small-preview .section-text {
+        font-family: Montserrat;
+        font-weight: 400;
+        color: rgb(102, 106, 107);
+        line-height: 22px;
+        font-size: 14px;
+        padding-right: 17px;
+        padding-left: 0;
+    }
+    /* --- Stack diagram --- */
+    .diagram {
+        margin-top: 40px;
+    }
+    .diagram h3 {
+        font-size: 26px;
+    }
+    p#intro-stack {
+        padding-left: 0;
+        font-size: 12px;
+        text-align:
+    }
+    /* --- Stack Sections --- */
+    #stack-sections h4 {
+        font-size: 22px;
+    }
+    #stack-sections .features {
+        margin-top: 30px;
+    }
+    #stack-sections .grey {
+        padding-left: 10px;
+    }
+    #stack-sections .white {
+        padding-left: 10px;
+    }
+    #stack-sections p {
+        padding-left: 0;
+    }
+    /* --- Architecture--- */
+    #detail-architecture {
+        margin: 0;
+        padding: 0;
+    }
+    #detail-architecture h3 {
+        font-size: 26px;
+    }
+    /* --- Table--- */
+    .table {
+        margin: 25px 0 95px 0;
+        border-left: 23px solid #071440;
+        border-right: 23px solid #071440;
+    }
+    .table,
+    tr,
+    td {
+        font-size: 12px;
+    }
+    /* ---- action call ---- */
+    #action-call .btn {
+        width: 195px;
+        font-size: 12px;
+        margin-bottom: 45px;
+    }
+    #demo {
+        margin-top: 0px;
+    }
+    #action-call h6 {
+        font-size: 12px;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #open {
+        height: 71px;
+        margin-top: -12px;
+        margin-left: -4px;
+    }
+    #relly {
+        height: 29px;
+        margin-left: 84px;
+        margin-top: 20px;
+    }
+    #barcelona {
+        height: 21px;
+        margin-left: 63px;
+        margin-top: 26px;
+    }
+    #fosdem {
+        height: 34px;
+        margin-left: 29px;
+        margin-top: 10px;
+    }
+    #emotion {
+        height: 45px;
+        margin-left: -3px;
+        ;
+        margin-top: 3px;
+    }
+    #golab {
+        height: 18px;
+        margin-left: 22px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 38px;
+        margin-left: -11px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 50px;
+        margin-left: -51px;
+        margin-top: 1px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 18px;
+        font-size: 21px;
+    }
+    /*---------- News ---------
+    #news h3 {
+        margin-bottom: 10px;
+    }
+    #news p {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    #news h5,
+    p {
+        padding-left: 6px;
+    }
+    --*/
+    /*-------- final adjustment ----*/
+    section#consulting {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #consulting .container {
+        margin: 0;
+        padding: 0;
+    }
+    #consulting .row {
+        margin: 0;
+        padding: 0;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 95%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 98%;
+    }
+    .apache {
+        margin-bottom: 0.9rem;
+    }
+    #licence p {
+        margin-left: -3px;
+        font-size: 0.66937rem;
+        margin-bottom: 5px;
+    }
+    #social {
+        padding: 0 0 0 15px;
+        width:
+    }
+    #social i {
+        font-size: 18px;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 0 0 0 12px;
+    }
+    #terms p {
+        margin-left: 0;
+        font-size: 16px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 16px 0 0 12px;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:359px) {
+    #brand {
+        margin-left: 16px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        font-size: 25px;
+        margin-left: -6px;
+        text-align: center;
+        margin-top: 120px;
+    }
+    h2 {
+        font-size: 14px;
+        margin-left: -5px;
+        text-align: center;
+    }
+    h3#home-sub {
+        font-size: 10px;
+        margin-left: -6px;
+        text-align: center;
+    }
+    .home-butt {
+        margin-left: -12px;
+        padding-left: 0;
+        padding: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    #github,
+    #dirdownload {
+        width: 140px;
+        margin-bottom: auto;
+    }
+    #stack {
+        margin-left: -9px;
+        height: 145px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    /* ---- Small Preview ---- */
+    section#preview {
+        display: none;
+    }
+    #small-preview {
+        display: inline-block;
+    }
+    #small-preview .left {
+        margin-left: 5px;
+    }
+    #small-preview .right {
+        margin-left: 5px;
+    }
+    #small-preview hr {
+        width: 12%;
+        height: 3px;
+        background-color: #00a7e0;
+        color: #00a7e0;
+    }
+    #small-preview h3 {
+        font-size: 24px;
+        font-family: Montserrat;
+        font-weight: 800;
+        color: #061856;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    #small-preview h4 {
+        font-size: 20px;
+        font-family: Montserrat;
+        font-weight: 700;
+        margin-top: 30px;
+        color: #061856;
+    }
+    #small-preview h5 {
+        font-size: 14px;
+        font-family: Montserrat;
+        font-weight: 600;
+        color: #061856;
+        line-height: normal;
+        margin-bottom: 1vh;
+    }
+    #small-preview .section-text {
+        font-family: Montserrat;
+        font-weight: 400;
+        color: rgb(102, 106, 107);
+        line-height: 22px;
+        font-size: 13px;
+        padding-right: 17px;
+        padding-left: 0;
+    }
+    /* --- Stack diagram --- */
+    .diagram {
+        margin-top: 40px;
+    }
+    .diagram h3 {
+        font-size: 24px;
+    }
+    p#intro-stack {
+        padding-left: 0;
+        font-size: 12px;
+        text-align:
+    }
+    /* --- Stack Sections --- */
+    #stack-sections h4 {
+        font-size: 20px;
+    }
+    #stack-sections h5 {
+        font-size: 17px;
+    }
+    #stack-sections .features {
+        margin-top: 30px;
+    }
+    #stack-sections .grey {
+        padding-left: 5px;
+    }
+    #stack-sections .white {
+        padding-left: 5px;
+    }
+    #stack-sections p {
+        padding-left: 0;
+    }
+    #stack-sections .section-text {
+        font-size: 13px;
+    }
+    /* --- Architecture--- */
+    #detail-architecture {
+        margin: 0;
+        padding: 0;
+    }
+    #detail-architecture h3 {
+        font-size: 24px;
+    }
+    /* --- Table--- */
+    .table {
+        margin: 25px 0 95px 0;
+        border-left: 23px solid #071440;
+        border-right: 23px solid #071440;
+    }
+    .table,
+    tr,
+    td {
+        font-size: 11px;
+    }
+    /* ---- action call ---- */
+    #action-call .btn {
+        width: 195px;
+        font-size: 12px;
+        margin-bottom: 45px;
+        margin-left: 60px;
+    }
+    #demo {
+        margin-top: 0px;
+    }
+    #action-call h6 {
+        font-size: 12px;
+        margin-left: 20px;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #open {
+        height: 60px;
+        margin-top: -7px;
+        margin-left: -4px;
+    }
+    #relly {
+        height: 24px;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    #barcelona {
+        height: 17px;
+        margin-left: 53px;
+        margin-top: 26px;
+    }
+    #fosdem {
+        height: 30px;
+        margin-left: 29px;
+        margin-top: 10px;
+    }
+    #emotion {
+        height: 40px;
+        margin-left: -3px;
+        ;
+        margin-top: 4px;
+    }
+    #golab {
+        height: 15px;
+        margin-left: 19px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 32px;
+        margin-left: -11px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 45px;
+        margin-left: -47px;
+        margin-top: 1px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 18px;
+        font-size: 19px;
+    }
+    /*---------- News -----------*/
+    #news h3 {
+        margin-bottom: 10px;
+    }
+    #news p {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    #news h5,
+    p {
+        padding-left: 6px;
+    }
+    /*-------- final adjustment ----*/
+    section#consulting {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #consulting .container {
+        margin: 0;
+        padding: 0;
+    }
+    #consulting .row {
+        margin: 0;
+        padding: 0;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        width: 80%;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 95%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 98%;
+    }
+    .apache {
+        margin-bottom: 0.9rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding: 0 0 0 15px;
+    }
+    .footer i {
+        font-size: 14px;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 0 0 16px 11px;
+    }
+    #terms p {
+        margin-left: -4px;
+        font-size: 18px;
+    }
+    #terms a {
+        font-size: 12px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding-left: 7px;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
