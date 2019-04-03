@@ -647,20 +647,18 @@
         margin-left: 224px;
     }
     /*---------- News -----------*/
-
-.news h5 {
-    font-size: 16px;
-}
-
+    
+    .news h5 {
+        font-size: 16px;
+    }
     p.news-text {
         font-family: Montserrat;
         font-weight: 400;
         color: rgb(102, 106, 107);
         line-height: 20px;
         font-size: 14px;
-        text-align:justify;
+        text-align: justify;
         margin-top: 8px;
-        
     }
     /* ----- FOOTER ----- */
     

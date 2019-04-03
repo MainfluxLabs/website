@@ -359,9 +359,7 @@ p.section-text {
     color: rgb(0, 52, 102);
     font-weight: 500;
 }
-
-li
-.button {
+li .button {
     background-color: #006599;
     border: none;
     color: white;
@@ -394,11 +392,9 @@ hr#quick-preview {
     line-height: normal;
     font-size: 16px;
 }
-
 li#bussines {
     margin-bottom: 14px;
 }
-
 li#custom {
     margin-bottom: 12px;
 }
@@ -453,7 +449,7 @@ img#poc {
     margin: 0 auto;
 }
 p#proof {
-    margin-bottom:0px;
+    margin-bottom: 0px;
 }
 hr.subsub-hr {
     width: 12%;
@@ -904,20 +900,13 @@ div.footer a:hover {
         margin-bottom: 180px;
     }
     /* ---- Support plans ---*/
-    
-  li#bussines {
-    margin-bottom: -5px;
-}
-
-
-    .grey .button {
-    padding-left: 24px ; 
-    padding-right: 24px; 
-        
+    li#bussines {
+        margin-bottom: -5px;
     }
-
-    
-    
+    .grey .button {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
     /* ---- Consulting services ---*/
     p#proof {
         margin-bottom: 0;
@@ -2418,9 +2407,6 @@ div.footer a:hover {
     #team-members img {
         height: 188px;
     }
-   
-    
-    
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
         display: none;
@@ -2477,7 +2463,6 @@ div.footer a:hover {
         margin-bottom: 18px;
         font-size: 21px;
     }
-
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -2535,7 +2520,6 @@ div.footer a:hover {
     #mainflux-footer p {
         font-size: 16px;
     }
-     
 }
 @media screen and (min-width:412px) and (max-width:413px) {
     .navbar-default .navbar-nav {
@@ -2942,7 +2926,6 @@ div.footer a:hover {
         margin-left: 0;
         margin-right: 0;
     }
-  
     #preview h3 {
         font-size: 26px;
     }
@@ -2973,8 +2956,6 @@ div.footer a:hover {
     #team-members h3 {
         font-size: 26px;
     }
-  
-    
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
         display: none;
@@ -3031,7 +3012,6 @@ div.footer a:hover {
         margin-bottom: 18px;
         font-size: 21px;
     }
-   
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -3151,7 +3131,6 @@ div.footer a:hover {
         margin-left: 0;
         margin-right: 0;
     }
-    
     #preview h3 {
         font-size: 26px;
     }
@@ -3185,7 +3164,6 @@ div.footer a:hover {
     #team-members img {
         height: 150px;
     }
-   
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
         display: none;
@@ -3242,7 +3220,6 @@ div.footer a:hover {
         margin-bottom: 18px;
         font-size: 21px;
     }
-    
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -3362,7 +3339,6 @@ div.footer a:hover {
         margin-left: 0;
         margin-right: 0;
     }
-    
     #preview h3 {
         font-size: 26px;
     }
@@ -3393,7 +3369,7 @@ div.footer a:hover {
     #team-members h3 {
         font-size: 26px;
     }
-     /*--- Conferences BIG screens -------*/
+    /*--- Conferences BIG screens -------*/
     section.big-conferences {
         display: none;
     }
@@ -3449,7 +3425,6 @@ div.footer a:hover {
         margin-bottom: 18px;
         font-size: 21px;
     }
-   
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -3573,7 +3548,6 @@ div.footer a:hover {
         margin-left: 0;
         margin-right: 0;
     }
-   
     #preview h3 {
         font-size: 26px;
     }
@@ -3604,7 +3578,6 @@ div.footer a:hover {
     #team-members h3 {
         font-size: 26px;
     }
-   
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
         display: none;
@@ -3661,7 +3634,6 @@ div.footer a:hover {
         margin-bottom: 18px;
         font-size: 19px;
     }
-    
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
