@@ -1,2 +1,2 @@
-# mainflux.github.io
-Website - Mainflux
+# newmainflux
+New Mainflux website

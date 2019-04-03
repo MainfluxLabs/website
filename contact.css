@@ -1,0 +1,2832 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+    margin-bottom: 40px;
+}
+body {
+    line-height: 1;
+}
+
+/* ---- NAVIGATION ---- */
+
+.navbar-default {
+    border: none;
+    margin-bottom: 0;
+    background-color: #0b1e3b;
+    border-radius: 0;
+    background: rgb(1, 4, 28);
+    background: rgb(3, 18, 42);
+    background: rgb(3, 18, 42);
+    background: linear-gradient(90deg, rgba(3, 18, 42, 1) 27%, rgba(13, 46, 96, 1) 100%);
+}
+.navbar-default .navbar-brand {
+    color: #006599;
+    font-family: Montserrat;
+    font-weight: 800;
+    transform: scaleY(0.95);
+}
+#brand {
+    color: white;
+    margin-left: 22px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-family: Raleway;
+    font-weight: 500;
+    transform: scaleY(0.96);
+    font-size: 12px;
+}
+.navbar-default .navbar-nav>li>a:visited {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #2891c7;
+}
+.navbar-default .navbar-nav>li>a:active {
+    color: #2891c7;
+}
+a#active {
+    color: #2891c7;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+#brand {
+    color: #006599;
+    margin-left: 2px;
+}
+.navbar-default .navbar-brand:hover {
+    color: white;
+}
+.navbar-toggle {
+    border: none;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #e5ebf4;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #006599;
+    ;
+}
+.navbar-collapse {
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 12px;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #006599;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+    font-size: 12px;
+}
+.dropdown-menu a:hover {
+    background-color: white;
+    color: white;
+    font-family: Montserrat;
+    font-size: 12px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: #006599;
+    color: white;
+}
+.dropdown:hover {
+    background-color: #006599;
+    color: white;
+}
+.dropdown-menu>li>a {
+    color: white;
+    font-size: 12px;
+}
+
+
+
+
+ol,
+ul {
+    list-style: none;
+}
+h6 {
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #003466;
+    line-height: normal;
+    text-align: center;
+}
+
+
+
+/* ---- MAIN HOME ---- */
+
+.bg-image {
+    background-image: linear-gradient(to right top, #01041c, #02071e, #030a21, #040d23, #040f26, #05132c, #041631, #041937, #051e41, #07234b, #0a2955, #0d2e60);
+    z-index: 1;
+}
+#shape {
+    z-index: 2;
+    opacity: 0.4;
+    height: 600px;
+    margin-top: 20px;
+}
+h1 {
+    color: white;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: -385px;
+    line-height: normal;
+    text-align: center;
+    opacity: 0.999;
+}
+h3#home-sub {
+    font-family: Montserrat;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 0.7px;
+    text-align: center;
+    opacity: 0.999;
+}
+.headline {
+    margin-bottom: 85px;
+}
+.home-button {
+    margin-bottom: 180px;
+}
+.btn {
+    font-family: Montserrat;
+    font-size: 12px;
+    width: 190px;
+}
+#contactus-home {
+    border: 3px solid #006599;
+    background-color: transparent;
+    color: #006599;
+    font-weight: 600;
+    width: 175px;
+    border-radius: 3px;
+}
+#contactus-home:hover {
+    background-color: #035e8d;
+    color: white;
+}
+h3.section-subheadline {
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: 800;
+    color: rgb(0, 52, 102);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*------------------------------------------*/
+
+
+/*----Main Contact Us----*/
+
+
+/* ------------ Main Content ----------- */
+
+div.country-section {
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+.country h5 {
+    /* -Subhedaline Why Mainflux-*/
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 1.44rem;
+    color: #061856;
+    margin-top: 0;
+}
+#soc-icons i {
+    font-size: 1.8rem;
+    color: #0c3769;
+    padding-right: 26px;
+    margin-bottom: 12px;
+}
+.country h6 {
+    /* -Sub-Subheadline Why Mainflux-*/
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 1.097rem;
+    color: #061856;
+    margin-top: 0;
+    text-align: left;
+}
+.country p {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 15px;
+    color: #061856;
+    padding-right: 16px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    line-height: 22px;
+}
+p#science-park {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 15px;
+    color: #061856;
+    margin-bottom: 0;
+}
+#parkimg {
+    margin-top: 27px;
+}
+#get {
+    background-color: #1786bf;
+    padding: 10px;
+}
+#get a {
+    color: white;
+    font-weight: 600;
+}
+.country-section a {
+    color: #061856;
+}
+div#map {
+    max-width: 100%;
+    max-height: auto;
+    border: 0.8em solid #faf8f5;
+}
+
+/*------------------------------------------*/
+
+
+/*---- O'Reilly Book -----*/
+
+section#reilly-book {
+    margin-top: 85px;
+    border-top: 1px solid rgb(154, 154, 154, 0.2);
+    padding-top: 85px;
+}
+#reilly-book h4 {
+    font-size: 23px;
+    text-align: center;
+    font-weight: 700;
+    color: #061856;
+    font-family: Montserrat;
+}
+#reilly-book p {
+    font-family: Montserrat;
+    font-weight: 400;
+    color: rgb(102, 106, 107);
+    line-height: normal;
+    font-size: 15px;
+    margin-top: 5%;
+}
+img#book-cover {
+    height: 420px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+p.authors {
+    text-align: center;
+    font-weight: 600;
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #061856;
+}
+a.authors {
+    color: #061856;
+    background-color: transparent;
+    display: block;
+    margin-top: -10%;
+    margin-left: 9px;
+}
+
+/*---------- Conferences -----------*/
+
+#conferences {
+    background-color: #061856;
+    border-bottom: 20px solid #006599;
+    margin-bottom: auto;
+}
+#logoconf {
+    margin-bottom: 0px;
+}
+#conferences h3 {
+    color: white;
+    font-size: 25px;
+    margin-top: 35px;
+    margin-bottom: 36px;
+}
+#open {
+    height: 100px;
+    margin-top: -32px;
+    margin-left: -12px;
+}
+#relly {
+    height: 44px;
+    margin-left: 147px;
+    margin-top: 10px;
+}
+#barcelona {
+    height: 38px;
+    margin-left: 166px;
+    margin-top: 18px;
+}
+#fosdem {
+    height: 49px;
+    margin-left: 180px;
+    margin-top: 6px;
+}
+#emotion {
+    height: 64px;
+    margin-left: 164px;
+}
+#golab {
+    height: 30px;
+    margin-left: 236px;
+    margin-top: 15px;
+}
+#ons {
+    height: 50px;
+    margin-left: 237px;
+    margin-top: 15px;
+}
+#itnext {
+    height: 68px;
+    margin-left: 224px;
+}
+
+/* ----- FOOTER ----- */
+
+div.footer {
+    background: #071440;
+    padding-top: 35px;
+    margin-top: 0;
+}
+div.footer h6 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+    text-align: left;
+}
+div.footer a {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, .78);
+}
+div.footer a:hover {
+    text-decoration: none;
+    color: #357dfc;
+}
+.footer-col {
+    margin-left: 28px;
+    width: auto;
+    margin-right: 30px
+}
+.input-group .form-control {
+    background: transparent;
+    border-color: rgba(255, 255, 255, .39);
+    border-radius: 1px;
+    height: 40px;
+    color: white;
+}
+.input-group-addon {
+    border-radius: 1px;
+    border-color: rgba(255, 255, 255, .39);
+    font-family: Montserrat;
+    font-weight: 600;
+    color: white;
+    background: transparent;
+    padding: 11px 25px;
+}
+.input-group-btn-newsletter button {
+    border-radius: 1px !important;
+    border-color: rgba(255, 255, 255, .39) !important;
+    font-family: Montserrat !important;
+    font-weight: 600 !important;
+    color: white !important;
+    background: transparent !important;
+    padding: 10px 8px !important;
+    margin-top: 0px;
+    width: 100%;
+}
+.footer p {
+    color: white;
+}
+.footer i {
+    font-size: 19.7px;
+    color: white;
+    padding-right: 16px;
+    margin-bottom: 12px;
+}
+#licence {
+    margin-top: 8rem;
+}
+#licence p {
+    font-family: Montserrat;
+    font-weight: lighter;
+    font-size: 0.7rem;
+    margin-left: 7.17rem
+}
+#social {
+    padding-left: 18vw;
+}
+.footer-line {
+    height: 1px;
+    width: 83vw;
+    background: rgba(255, 255, 255, .3);
+    margin-left: 7.7vw;
+    margin-bottom: 11px;
+}
+#terms {
+    margin-left: 0.78vw;
+    padding: 1px;
+}
+#terms a {
+    font-size: 0.8rem;
+}
+#mainflux-footer {
+    text-align: right;
+    padding-right: 1px;
+    padding-top: 0;
+    margin-top: -5px;
+}
+#mainflux-footer p {
+    font-family: Montserrat;
+    font-weight: 800;
+    transform: scaleY(0.94);
+    color: white;
+    font-size: 1.4rem;
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+
+/*------------------------------------------*/
+
+
+/*------------------------------------------*/
+
+
+/* ----- MEDIA QUERIES ----- */
+
+
+/* ---- Extra Large Desktops ---- */
+
+@media screen and (min-width:1920px) and (max-width:2560px) {
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: -32px;
+    }
+    .footer-line {
+        width: 85vw;
+        margin-left: 5.9vw;
+    }
+    #social {
+        padding-left: 24.7vw;
+    }
+}
+@media screen and (min-width:1600px) and (max-width:1919px) {
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: -82px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-line {
+        width: 84vw;
+        margin-left: 6.9vw;
+    }
+    #social {
+        padding-left: 21.7vw;
+    }
+}
+@media screen and (min-width:1440px) and (max-width:1559px) {
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: -82px;
+    }
+}
+@media screen and (min-width:1366px) and (max-width:1399px) {
+    #shape {
+        z-index: 2;
+        opacity: 0.19;
+        height: 600px;
+        margin-top: 20px;
+    }
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -385px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-bottom: 85px;
+    }
+    .home-button {
+        margin-bottom: 180px;
+    }
+    #soc-icons i {
+        font-size: 1.5rem;
+        color: #0c3769;
+        padding-right: 24px;
+        margin-bottom: 12px;
+    }
+    section.conferences {
+        display: none;
+    }
+    /* ---- FOOTER ---- */
+    .footer-line {
+        width: 82vw;
+        margin-left: 8.1vw;
+    }
+    #social {
+        padding-left: 17.7vw;
+    }
+}
+@media screen and (min-width:1280px) and (max-width:1365px) {
+    #shape {
+        z-index: 2;
+        opacity: 0.19;
+        height: 600px;
+        margin-top: 20px;
+    }
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -385px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-bottom: 85px;
+    }
+    .home-button {
+        margin-bottom: 180px;
+    }
+    /* --- Conferences logo --- */
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: -82px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-left: 50px;
+        width: auto;
+    }
+    .footer-line {
+        width: 82vw;
+        margin-left: 8.5vw;
+    }
+    #social {
+        padding-left: 16.4vw;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    #brand {
+        margin-left: 7px;
+    }
+    #shape {
+        z-index: 2;
+        opacity: 0.19;
+        height: 600px;
+        margin-top: 20px;
+    }
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -385px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-bottom: 85px;
+    }
+    .home-button {
+        margin-bottom: 180px;
+    }
+    #parkimg {
+        margin-top: 1px;
+    }
+    .left-col {
+        margin-left: auto;
+        width: 23.3rem;
+    }
+    .right-col {
+        margin-left: auto;
+        width: 34.1rem;
+    }
+    /* --- Conferences logo --- */
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: 16px;
+    }
+    #conferences h3 {
+        color: white;
+        font-size: 25px;
+        margin-top: 35px;
+        margin-bottom: 36px;
+    }
+    #open {
+        height: 91px;
+        margin-top: -32px;
+        margin-left: -12px;
+    }
+    #relly {
+        height: 35px;
+        margin-left: 147px;
+        margin-top: 10px;
+    }
+    #barcelona {
+        height: 28px;
+        margin-left: 166px;
+        margin-top: 18px;
+    }
+    #fosdem {
+        height: 39px;
+        margin-left: 180px;
+        margin-top: 6px;
+    }
+    #emotion {
+        height: 54px;
+        margin-left: 169px;
+    }
+    #golab {
+        height: 24px;
+        margin-left: 236px;
+        margin-top: 15px;
+    }
+    #ons {
+        height: 42px;
+        margin-left: 237px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 58px;
+        margin-left: 224px;
+    }
+    /* ---- FOOTER ---- */
+    #licence p {
+        margin-left: 9vw;
+    }
+    .footer-line {
+        width: 82vw;
+        margin-left: 8.5vw;
+    }
+    #social {
+        padding-left: 7vw;
+    }
+}
+@media screen and (min-width:800px) and (max-width:1023px) {
+    .navbar-default .navbar-nav {
+        margin-right: 2px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+        font-family: Raleway;
+        font-weight: 500;
+        transform: scaleY(0.96);
+        margin-top: 4px;
+        padding: 8px;
+        font-size: 12px;
+    }
+    #brand {
+        margin-left: 7px;
+    }
+    #shape {
+        z-index: 2;
+        opacity: 0.19;
+        height: 600px;
+        margin-top: 20px;
+    }
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -385px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-bottom: 85px;
+    }
+    .home-button {
+        margin-bottom: 180px;
+    }
+    .left-col {
+        margin-top: 45px;
+    }
+    /* --- O'Reilly Book --- */
+    #reilly-book h4 {
+        font-size: 20px;
+    }
+    p#text-book {
+        text-align: justify;
+    }
+    #reilly-book img {
+        height: 400px;
+    }
+    /* --- Conferences logo --- */
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: 3px;
+        width: 760px;
+    }
+    #conferences h3 {
+        color: white;
+        font-size: 23px;
+        margin-top: 35px;
+        margin-bottom: 32px;
+    }
+    #open {
+        height: 72px;
+        margin-top: -21px;
+        margin-left: -12px;
+    }
+    #relly {
+        height: 32px;
+        margin-left: 110px;
+        margin-top: 10px;
+    }
+    #barcelona {
+        height: 24px;
+        margin-left: 128px;
+        margin-top: 18px;
+    }
+    #fosdem {
+        height: 35px;
+        margin-left: 137px;
+        margin-top: 6px;
+    }
+    #emotion {
+        height: 49px;
+        margin-left: 128px;
+    }
+    #golab {
+        height: 20px;
+        margin-left: 195px;
+        margin-top: 15px;
+    }
+    #ons {
+        height: 38px;
+        margin-left: 192px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 53px;
+        margin-left: 178px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        margin-left: 10px;
+    }
+    div.input-group {
+        width: 55%;
+    }
+    .footer-line {
+        display: none;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 90%
+    }
+    .apache {
+        margin-bottom: 1.4rem;
+        margin-left: 2px;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 2.3vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-bottom: 0.3rem;
+        margin-left: -2px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        margin-bottom: 12px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        margin-left: 2px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:799px) {
+    .navbar-default .navbar-nav {
+        margin-right: 2px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+        font-family: Raleway;
+        font-weight: 500;
+        transform: scaleY(0.96);
+        margin-top: 4px;
+        padding: 8px;
+        font-size: 12px;
+    }
+    #brand {
+        margin-left: 1px;
+        padding-left: 7px;
+    }
+    #shape {
+        z-index: 2;
+        opacity: 0.19;
+        height: 600px;
+        margin-top: 20px;
+    }
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -385px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-bottom: 85px;
+    }
+    .home-button {
+        margin-bottom: 180px;
+    }
+    .left-col {
+        margin-top: 45px;
+    }
+    /* --- O'Reilly Book --- */
+    #reilly-book h4 {
+        font-size: 20px;
+    }
+    p#text-book {
+        text-align: justify;
+    }
+    #reilly-book img {
+        height: 400px;
+    }
+    /* --- Conferences logo --- */
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: 0;
+        width: 710px;
+    }
+    #conferences h3 {
+        color: white;
+        font-size: 22px;
+        margin-top: 35px;
+        margin-bottom: 32px;
+    }
+    #open {
+        height: 72px;
+        margin-top: -21px;
+        margin-left: -12px;
+    }
+    #relly {
+        height: 32px;
+        margin-left: 105px;
+        margin-top: 10px;
+    }
+    #barcelona {
+        height: 24px;
+        margin-left: 121px;
+        margin-top: 18px;
+    }
+    #fosdem {
+        height: 35px;
+        margin-left: 123px;
+        margin-top: 6px;
+    }
+    #emotion {
+        height: 44px;
+        margin-left: 115px;
+        margin-top: 4px;
+    }
+    #golab {
+        height: 20px;
+        margin-left: 173px;
+        margin-top: 15px;
+    }
+    #ons {
+        height: 38px;
+        margin-left: 175px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 53px;
+        margin-left: 159px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        margin-left: 10px;
+    }
+    div.input-group {
+        width: 55%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 0.4rem;
+        width: auto;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    .footer-line {
+        display: none;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 90%;
+    }
+    .apache {
+        margin-bottom: 1.4rem;
+        margin-left: 7px;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 2.4vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+        margin-left: 7px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        margin-bottom: 12px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        margin-left: 7px;
+    }
+}
+@media screen and (min-width:720px) and (max-width:767px) {
+    .navbar-default .navbar-nav {
+        margin-right: 2px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+        font-family: Raleway;
+        font-weight: 500;
+        transform: scaleY(0.96);
+        margin-top: 4px;
+        padding: 8px;
+        font-size: 14px;
+    }
+    #brand {
+        margin-left: 11px;
+        padding-left: 7px;
+    }
+    #shape {
+        z-index: 2;
+        opacity: 0.19;
+        height: 600px;
+        margin-top: 20px;
+    }
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -385px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-bottom: 85px;
+    }
+    .home-button {
+        margin-bottom: 180px;
+    }
+    .left-col {
+        margin-top: 45px;
+    }
+    /* --- O'Reilly Book --- */
+    #reilly-book h4 {
+        font-size: 18px;
+    }
+    p#text-book {
+        text-align: justify;
+        font-size: 12px;
+    }
+    #reilly-book img {
+        height: 390px;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*---------- Conferences -----------*/
+    #open {
+        height: 100px;
+        margin-top: -32px;
+        margin-left: 12px;
+    }
+    #relly {
+        height: 47px;
+        margin-left: 117px;
+        margin-top: 9px;
+    }
+    #barcelona {
+        height: 41px;
+        margin-left: 87px;
+        margin-top: 17px;
+    }
+    #fosdem {
+        height: 54px;
+        margin-left: 59px;
+        margin-top: 5px;
+    }
+    #emotion {
+        height: 66px;
+        margin-left: 16px;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 34px;
+        margin-left: 46px;
+        margin-top: 15px;
+    }
+    #ons {
+        height: 59px;
+        margin-left: 14px;
+        margin-top: 13px;
+    }
+    #itnext {
+        height: 75px;
+        margin-left: -39px;
+        margin-top: -2px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 29px;
+    }
+    #consulting .row {
+        width: 691px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        margin-left: 0
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 90%;
+    }
+    .apache {
+        margin-bottom: 1.4rem;
+        margin-left: 5px;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 1.9vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-bottom: 0.3rem;
+        padding: 1px;
+        margin-left: 5px;
+    }
+    #terms p {
+        margin-left: 1.7vw;
+        margin-bottom: 12px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        margin-left: 3px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:719px) {
+    .navbar-default .navbar-nav {
+        margin-right: 2px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+        font-family: Raleway;
+        font-weight: 500;
+        transform: scaleY(0.96);
+        margin-top: 4px;
+        padding: 8px;
+        font-size: 14px;
+    }
+    #brand {
+        margin-left: 11px;
+        padding-left: 7px;
+    }
+    #shape {
+        z-index: 2;
+        opacity: 0.19;
+        height: 500px;
+        margin-top: 20px;
+    }
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -385px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-bottom: 85px;
+    }
+    .home-button {
+        margin-bottom: 180px;
+    }
+    .left-col {
+        margin-top: 45px;
+    }
+    /* --- O'Reilly Book --- */
+    #reilly-book h4 {
+        font-size: 18px;
+    }
+    p#text-book {
+        text-align: justify;
+        font-size: 12px;
+    }
+    #reilly-book img {
+        height: 370px;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #open {
+        height: 100px;
+        margin-top: -32px;
+        margin-left: 1px;
+    }
+    #relly {
+        height: 47px;
+        margin-left: 113px;
+        margin-top: 9px;
+    }
+    #barcelona {
+        height: 41px;
+        margin-left: 86px;
+        margin-top: 17px;
+    }
+    #fosdem {
+        height: 54px;
+        margin-left: 55px;
+        margin-top: 5px;
+    }
+    #emotion {
+        height: 66px;
+        margin-left: 1px;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 32px;
+        margin-left: 36px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 57px;
+        margin-left: -2px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 75px;
+        margin-left: -59px;
+        margin-top: -3px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 25px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        margin-left: 12px
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 90%
+    }
+    .apache {
+        margin-bottom: 1.4rem;
+        margin-left: 7px;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 3.4vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+        margin-left: 7px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        margin-bottom: 12px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        margin-left: 7px;
+    }
+}
+@media screen and (min-width:480px) and (max-width:599px) {
+    .navbar-default .navbar-nav {
+        margin-right: 2px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+        font-family: Raleway;
+        font-weight: 500;
+        transform: scaleY(0.96);
+        margin-top: 4px;
+        padding: 8px;
+        font-size: 14px;
+    }
+    #brand {
+        margin-left: 1px;
+        padding-left: 12px;
+    }
+    #brand {
+        margin-left: 11px;
+        padding-left: 7px;
+    }
+    #shape {
+        z-index: 2;
+        opacity: 0.19;
+        height: 400px;
+        margin-top: 20px;
+    }
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -255px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-bottom: 85px;
+    }
+    .home-button {
+        margin-bottom: 180px;
+    }
+    .left-col {
+        margin-top: 45px;
+    }
+    /* --- O'Reilly Book --- */
+    #book-text {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    #book {
+        width: auto;
+    }
+    #reilly-book h4 {
+        font-size: 19px;
+    }
+    p#text-book {
+        text-align: justify;
+        font-size: 12px;
+        margin-bottom: 29px;
+    }
+    #reilly-book img {
+        height: 340px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #open {
+        height: 73px;
+        margin-top: -12px;
+        margin-left: 1px;
+    }
+    #relly {
+        height: 35px;
+        margin-left: 80px;
+        margin-top: 17px;
+    }
+    #barcelona {
+        height: 28px;
+        margin-left: 56px;
+        margin-top: 17px;
+    }
+    #fosdem {
+        height: 40px;
+        margin-left: 35px;
+        margin-top: 5px;
+    }
+    #emotion {
+        height: 56px;
+        margin-left: 1px;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 22px;
+        margin-left: 31px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 44px;
+        margin-left: -12px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 61px;
+        margin-left: -59px;
+        margin-top: -3px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 21px;
+        font-size: 21px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        margin-left: 6px;
+        width: 85%;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 90%;
+    }
+    .apache {
+        margin-bottom: 1em;
+        padding-left: 19px;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 3.8vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 3.3vw;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 9px 0 16px 16px;
+    }
+}
+@media screen and (min-width:414px) and (max-width:479px) {
+    .navbar-default .navbar-nav {
+        margin-right: 2px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+        font-family: Raleway;
+        font-weight: 500;
+        transform: scaleY(0.96);
+        margin-top: 4px;
+        padding: 8px;
+        font-size: 14px;
+    }
+    #brand {
+        margin-left: 11px;
+        padding-left: 7px;
+    }
+    #shape {
+        z-index: 2;
+        opacity: 0.6;
+        height: 390px;
+        margin-top: 40px;
+    }
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -305px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 13px;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-left: 0 0 85px 0;
+        padding: 0 0 0 0;
+    }
+    .home-button {
+        margin-bottom: 170px;
+    }
+    .left-col {
+        margin-top: 45px;
+    }
+    /* --- O'Reilly Book --- */
+    #book-text {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    #book {
+        width: auto;
+    }
+    #reilly-book h4 {
+        font-size: 19px;
+    }
+    p#text-book {
+        text-align: justify;
+        font-size: 12px;
+        margin-bottom: 29px;
+    }
+    #reilly-book img {
+        height: 340px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+    }
+    p.authors {
+        margin-left: -3.7%;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #open {
+        height: 73px;
+        margin-top: -12px;
+        margin-left: -5px;
+    }
+    #relly {
+        height: 34px;
+        margin-left: 77px;
+        margin-top: 18px;
+    }
+    #barcelona {
+        height: 27px;
+        margin-left: 56px;
+        margin-top: 22px;
+    }
+    #fosdem {
+        height: 40px;
+        margin-left: 29px;
+        margin-top: 9px;
+    }
+    #emotion {
+        height: 52px;
+        margin-left: -5px;
+        ;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 21px;
+        margin-left: 24px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 41px;
+        margin-left: -14px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 55px;
+        margin-left: -59px;
+        margin-top: 1px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 18px;
+        font-size: 21px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        padding-left: 14px;
+        margin-left: 0;
+        width: 67%;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 87%;
+    }
+    .apache {
+        margin-bottom: 0.9rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding-left: 3.5vw;
+        padding-right: 0;
+        margin-right: 0;
+        width: 389px;
+    }
+    .footer-line {
+        display: none;
+    }
+    .footer i {
+        font-size: 19px;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        font-size: 8px;
+    }
+    #terms a {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 9px 0 0 9px;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:412px) and (max-width:413px) {
+    .navbar-default .navbar-nav {
+        margin-right: 2px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+        font-family: Raleway;
+        font-weight: 500;
+        transform: scaleY(0.96);
+        margin-top: 4px;
+        padding: 8px;
+        font-size: 14px;
+    }
+    #brand {
+        margin-left: 1px;
+        padding-left: 12px;
+    }
+    #brand {
+        margin-left: 11px;
+        padding-left: 7px;
+    }
+    #shape {
+        z-index: 2;
+        opacity: 0.6;
+        height: 390px;
+        margin-top: 40px;
+    }
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -305px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 13px;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-left: 0 0 85px 0;
+        padding: 0 0 0 0;
+    }
+    .home-button {
+        margin-bottom: 170px;
+    }
+    .left-col {
+        margin-top: 45px;
+    }
+    /* --- O'Reilly Book --- */
+    #book-text {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    #book {
+        width: auto;
+    }
+    #reilly-book h4 {
+        font-size: 19px;
+    }
+    p#text-book {
+        text-align: justify;
+        font-size: 12px;
+        margin-bottom: 29px;
+    }
+    #reilly-book img {
+        height: 340px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+    }
+    p.authors {
+        margin-left: -3.7%;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #open {
+        height: 73px;
+        margin-top: -12px;
+        margin-left: -3px;
+    }
+    #relly {
+        height: 34px;
+        margin-left: 77px;
+        margin-top: 18px;
+    }
+    #barcelona {
+        height: 27px;
+        margin-left: 56px;
+        margin-top: 22px;
+    }
+    #fosdem {
+        height: 40px;
+        margin-left: 29px;
+        margin-top: 9px;
+    }
+    #emotion {
+        height: 52px;
+        margin-left: -1px;
+        ;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 21px;
+        margin-left: 26px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 41px;
+        margin-left: -14px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 55px;
+        margin-left: -59px;
+        margin-top: 1px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 18px;
+        font-size: 21px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        padding-left: 14px;
+        margin-left: 0;
+        width: 67%;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 87%;
+    }
+    .apache {
+        margin-bottom: 0.9rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding-left: 3.5vw;
+        padding-right: 0;
+        margin-right: 0;
+        width: 389px;
+    }
+    .footer-line {
+        display: none;
+    }
+    .footer i {
+        font-size: 19px;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        font-size: 8px;
+    }
+    #terms a {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 9px 0 0 9px;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:384px) and (max-width:411px) {
+    .navbar-default .navbar-nav {
+        margin-right: 2px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+        font-family: Raleway;
+        font-weight: 500;
+        transform: scaleY(0.96);
+        margin-top: 4px;
+        padding: 8px;
+        font-size: 14px;
+    }
+    #brand {
+        margin-left: 11px;
+        padding-left: 7px;
+    }
+    #shape {
+        z-index: 2;
+        opacity: 0.6;
+        height: 360px;
+        margin-top: 40px;
+    }
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: -305px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 12px;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-left: 0 0 85px 0;
+        padding: 0 0 0 0;
+    }
+    .home-button {
+        margin-bottom: 170px;
+    }
+    .left-col {
+        margin-top: 45px;
+    }
+    /* --- O'Reilly Book --- */
+    #book-text {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    #book {
+        width: auto;
+    }
+    #reilly-book h4 {
+        font-size: 19px;
+    }
+    p#text-book {
+        text-align: justify;
+        font-size: 12px;
+        margin-bottom: 29px;
+    }
+    #reilly-book img {
+        height: 340px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+    }
+    p.authors {
+        margin-left: -3.7%;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #open {
+        height: 73px;
+        margin-top: -12px;
+        margin-left: -3px;
+    }
+    #relly {
+        height: 34px;
+        margin-left: 77px;
+        margin-top: 18px;
+    }
+    #barcelona {
+        height: 27px;
+        margin-left: 56px;
+        margin-top: 22px;
+    }
+    #fosdem {
+        height: 40px;
+        margin-left: 29px;
+        margin-top: 9px;
+    }
+    #emotion {
+        height: 52px;
+        margin-left: -1px;
+        ;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 21px;
+        margin-left: 26px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 41px;
+        margin-left: -14px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 55px;
+        margin-left: -59px;
+        margin-top: 1px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 18px;
+        font-size: 21px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        padding-left: 14px;
+        margin-left: 0;
+        width: 67%;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 87%;
+    }
+    .apache {
+        margin-bottom: 0.9rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding-left: 3.5vw;
+        padding-right: 0;
+        margin-right: 0;
+        width: 356px;
+    }
+    .footer-line {
+        display: none;
+    }
+    .footer i {
+        font-size: 17px;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        font-size: 8px;
+    }
+    #terms a {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 9px 0 0 9px;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:375px) and (max-width:383px) {
+    .navbar-default .navbar-nav {
+        margin-right: 2px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+        font-family: Raleway;
+        font-weight: 500;
+        transform: scaleY(0.96);
+        margin-top: 4px;
+        padding: 8px;
+        font-size: 14px;
+    }
+    #brand {
+        margin-left: 11px;
+        padding-left: 7px;
+    }
+    #shape {
+        z-index: 2;
+        opacity: 0.6;
+        height: 330px;
+        margin-top: 40px;
+    }
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: -255px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 12px;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-left: 0 0 85px 0;
+        padding: 0 0 0 0;
+    }
+    .home-button {
+        margin-bottom: 120px;
+    }
+    .left-col {
+        margin-top: 45px;
+    }
+    /* --- O'Reilly Book --- */
+    #book-text {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    #book {
+        width: auto;
+    }
+    #reilly-book h4 {
+        font-size: 19px;
+    }
+    p#text-book {
+        text-align: justify;
+        font-size: 12px;
+        margin-bottom: 29px;
+    }
+    #reilly-book img {
+        height: 340px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+    }
+    p.authors {
+        margin-left: -3.7%;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #open {
+        height: 73px;
+        margin-top: -12px;
+        margin-left: -3px;
+    }
+    #relly {
+        height: 34px;
+        margin-left: 77px;
+        margin-top: 18px;
+    }
+    #barcelona {
+        height: 27px;
+        margin-left: 56px;
+        margin-top: 22px;
+    }
+    #fosdem {
+        height: 40px;
+        margin-left: 29px;
+        margin-top: 9px;
+    }
+    #emotion {
+        height: 52px;
+        margin-left: -1px;
+        ;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 21px;
+        margin-left: 26px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 41px;
+        margin-left: -14px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 55px;
+        margin-left: -59px;
+        margin-top: 1px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 18px;
+        font-size: 21px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        padding-left: 14px;
+        margin-left: 0;
+        width: 67%;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 87%;
+    }
+    .apache {
+        margin-bottom: 0.9rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding-left: 3.5vw;
+        padding-right: 0;
+        margin-right: 0;
+        width: 356px;
+    }
+    .footer-line {
+        display: none;
+    }
+    .footer i {
+        font-size: 17px;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        font-size: 8px;
+    }
+    #terms a {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 9px 0 0 9px;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:360px) and (max-width:374px) {
+    .navbar-default .navbar-nav {
+        margin-right: 2px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+        font-family: Raleway;
+        font-weight: 500;
+        transform: scaleY(0.96);
+        margin-top: 4px;
+        padding: 8px;
+        font-size: 14px;
+    }
+    #brand {
+        margin-left: 1px;
+        padding-left: 12px;
+    }
+    #shape {
+        z-index: 2;
+        opacity: 0.6;
+        height: 310px;
+        margin-top: 40px;
+    }
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: -255px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 11px;
+        font-weight: 200;
+        line-height: 17px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-left: 0 0 85px 0;
+        padding: 0;
+    }
+    .home-button {
+        margin-bottom: 120px;
+    }
+    .left-col {
+        margin-top: 45px;
+    }
+    /* --- O'Reilly Book --- */
+    #book-text {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    #book {
+        width: auto;
+    }
+    #reilly-book h4 {
+        font-size: 19px;
+    }
+    p#text-book {
+        text-align: justify;
+        font-size: 12px;
+        margin-bottom: 29px;
+    }
+    #reilly-book img {
+        height: 340px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+    }
+    p.authors {
+        margin-left: -3.7%;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #open {
+        height: 71px;
+        margin-top: -12px;
+        margin-left: -4px;
+    }
+    #relly {
+        height: 29px;
+        margin-left: 84px;
+        margin-top: 20px;
+    }
+    #barcelona {
+        height: 21px;
+        margin-left: 63px;
+        margin-top: 26px;
+    }
+    #fosdem {
+        height: 34px;
+        margin-left: 29px;
+        margin-top: 10px;
+    }
+    #emotion {
+        height: 45px;
+        margin-left: -3px;
+        ;
+        margin-top: 3px;
+    }
+    #golab {
+        height: 18px;
+        margin-left: 22px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 38px;
+        margin-left: -11px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 50px;
+        margin-left: -51px;
+        margin-top: 1px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 18px;
+        font-size: 21px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        padding-left: 14px;
+        margin-left: 0;
+        width: 67%;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 87%;
+    }
+    .apache {
+        margin-bottom: 0.9rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding-left: 3.5vw;
+        padding-right: 0;
+        margin-right: 0;
+        width: 336px;
+    }
+    .footer-line {
+        display: none;
+    }
+    .footer i {
+        font-size: 14px;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        font-size: 8px;
+    }
+    #terms a {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 9px 0 0 9px;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:359px) {
+    .navbar-default .navbar-nav {
+        margin-right: 2px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+        font-family: Raleway;
+        font-weight: 500;
+        transform: scaleY(0.96);
+        margin-top: 4px;
+        padding: 8px;
+        font-size: 14px;
+    }
+    #brand {
+        margin-left: 1px;
+        padding-left: 12px;
+    }
+    #brand {
+        margin-left: 1px;
+        padding-left: 12px;
+    }
+    #shape {
+        z-index: 2;
+        opacity: 0.6;
+        height: 280px;
+        margin-top: 40px;
+    }
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: -255px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 11px;
+        font-weight: 200;
+        line-height: 17px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-left: 0 0 85px 0;
+        padding: 0;
+    }
+    .home-button {
+        margin-bottom: 120px;
+    }
+    .left-col {
+        margin-top: 45px;
+    }
+    /* --- O'Reilly Book --- */
+    #book-text {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    #book {
+        width: auto;
+    }
+    #reilly-book h4 {
+        font-size: 19px;
+    }
+    p#text-book {
+        text-align: justify;
+        font-size: 12px;
+        margin-bottom: 29px;
+    }
+    #reilly-book img {
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+    }
+    p.authors {
+        margin-left: -3.7%;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #open {
+        height: 60px;
+        margin-top: -7px;
+        margin-left: -4px;
+    }
+    #relly {
+        height: 24px;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    #barcelona {
+        height: 17px;
+        margin-left: 53px;
+        margin-top: 26px;
+    }
+    #fosdem {
+        height: 30px;
+        margin-left: 29px;
+        margin-top: 10px;
+    }
+    #emotion {
+        height: 40px;
+        margin-left: -3px;
+        ;
+        margin-top: 4px;
+    }
+    #golab {
+        height: 15px;
+        margin-left: 19px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 32px;
+        margin-left: -11px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 45px;
+        margin-left: -47px;
+        margin-top: 1px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 18px;
+        font-size: 19px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        padding-left: 14px;
+        margin-left: 0;
+        width: 77%;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 87%;
+    }
+    .apache {
+        margin-bottom: 0.9rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding-left: 1vw;
+        padding-right: 0;
+        margin-right: 0;
+        width: 292px;
+    }
+    .footer-line {
+        display: none;
+    }
+    .footer i {
+        font-size: 14px;
+        padding-right: 13px;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        font-size: 8px;
+    }
+    #terms a {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 9px 0 0 9px;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}

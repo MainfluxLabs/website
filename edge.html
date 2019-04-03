@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>IoT Edge Computing Gateway – MFX-1</title>
+
+    <meta name="description" content="Linux Foundation EdgeX Foundry compliant IoT gateway developed on the optimized hardware platform for  industrial IoT edge computing solutions.">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="edge.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,800,900" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato|NTR|Numans|Nunito|Nunito+Sans|Questrial" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900&amp;subset=latin-ext" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,800,900|Rubik:300,400,500,700,900" rel="stylesheet">
+
+
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo-iot-mainflux.png" sizes="32x32" />
+    <link rel="shortcut icon" type="image/png" href="images/logo-iot-mainflux.png" />
+
+    <!-- Google Analytic -->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-97185759-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+</head>
+
+
+<body>
+    <header>
+
+
+        <nav class="navbar navbar-default  navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="brand" class="navbar-brand" href="index.html">MAINFLUX</a>
+                </div>
+                <!-- navbar-header -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul id="nav" class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="get-started"><a href="technology.html">Cloud</a></li>
+                        <li class="get-started"><a id="active" href="edge-computing.html">Edge</a></li>
+                        <li class="get-started"><a href="consulting.html">Services</a></li>
+
+                        <li class="get-started"><a href="pricing.html">Pricing</a></li>
+
+                        <li class="dropdown"><a href="">Resources</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://mainflux.readthedocs.io/en/latest/" target="_blank">Documentation</a></li>
+
+                                <li><a href="">Tutorials</a></li>
+                                <li class="get-started"><a href="https://github.com/mainflux/mainflux" target="_blank">GitHub</a></li>
+                                <li><a href="https://medium.com/mainflux-iot-platform">Blog</a></li>
+                                <li><a href="news.html">News</a></li>
+                                <li><a href="">FAQ</a></li>
+
+                            </ul>
+
+
+                        </li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- collapse navbar-collapse -->
+            </div>
+            <!-- container -->
+        </nav>
+
+    </header>
+
+    <!-- ----------------- Main home ---------------- -->
+
+    <!-- -------MAIN-------- -->
+    <section class="main-home" id="main-home">
+
+        <div class="container-fluid">
+
+            <div class="row  bgimage">
+
+                <div id="headline" class="col-xs-6 col-sm-6">
+
+
+                    <h1>MFX-1 IoT EDGE GATEWAY<br> </h1>
+                    <h2>COMPLIANT WITH LINUX FOUNDATION  
+
+<br>EDGEX FOUNDRY OPEN SOURCE FRAMEWORK</h2>
+
+                    <br>
+                    <h3 id="home-sub">MFX-1 IoT Edge Gateway is edge computing solution based <br>
+on LF EdgeX Foundry open source framework that offers 
+<br>interoperable ecosystem of plug-and-play components<br>
+for faster deployment of IoT solutions.
+</h3>
+
+                    <!-- --- buttons --- -->
+                    <div class="row home-butt">
+
+
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
+
+                            <a id="github" class="btn btn-default github" href=""> PRE-ORDER</a>
+
+
+                        </div>
+
+
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+
+                            <a id="dirdownload" class="btn btn-default download" href=""> DATASHEET</a>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="col-xs-6 col-sm-6">
+                    <img id="shape" src="images/shape_edge-shadow.png" alt="open source internet of things">
+
+
+                </div>
+
+                <!--  ---- References Section --- -->
+                <div class="container">
+
+                    <div class="row references">
+
+                        <div id="edgex" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+
+                            <a href="https://wiki.edgexfoundry.org/pages/viewpage.action?pageId=329436"><img class="edgex" src="images/edegex.png" alt="Mainflux is member of the Linux Foundation Edgex Foundry project, in which it has leadership role"></a>
+
+                            <h5 id="edge">MEMBER & LEADERSHIP</h5>
+
+
+                        </div>
+
+                        <div id="reilly" class="col-xs-3 col-sm-3 col-md-3 col-lg-3 ">
+
+                            <a href="https://www.edgexfoundry.org/blog/2018/05/17/edgex-foundry-member-spotlight-mainflux/"> <img class="oreilly" src="images/awwards.png" alt="Mainflux founder Draško Drašković received two awards from
+the community and Governing board: Community Contribution Award for Exemplary
+Leadership and Innovation Award for Extensive Technical Contribution"></a>
+                            <h5 id="oreilly">AWARDS</h5>
+
+                        </div>
+
+
+                        <div id="park" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+
+                            <a href="https://www.lfedge.org/members/"> <img class="sciencepark" src="images/LFEDGE.png" alt="Mainflux is member of The Science technology park Belgrade"></a>
+                            <h5 id="science">MEMBER</h5>
+
+                        </div>
+
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+
+                            <a href="http://www.innovationfund.rs/"> <img class="fund" src="images/innovationa-fund-logo.png" alt="The Government of Serbia Innovation Fund, supported by European Union and World Bank technology innovation programs, has awarded Mainflux a significant funding grant for the continued development of its two main systems,the core IoT Platform and the EdgeX Gateway."></a>
+
+                            <h5 id="fund">FOUNDED BY <br>SERBIAN INNOVATION FUND</h5>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <!-- ------------------- MAIN CONTENT ------------------ -->
+
+
+    <section class="what">
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- Mainflux Gateway with Photo Introduction-->
+
+                <div class="col-md-12">
+                    <div class="row">
+
+                        <div class="col-md-12 general-stack">
+                            <h5> MAINFLUX MFX-1 IoT EDGEX GATEWAY</h5>
+
+
+                            <p>MFX-1 IoT EdgeX Gateway is Linux Foundation EdgeX Foundry compliant IoT gateway
+                                <br>developed on the optimized hardware platform for industrial IoT edge computing solutions.
+                                <br>
+                                <br>EdgeX Foundry is an open source framework for edge computing hosted within a full hardware and OS-agnostic
+                                <br> reference software platform that unifies the marketplace and accelerates the deployment of IoT solutions.
+                            </p>
+
+                            <img class="img-responsive infrastructure" src="images/Edge-Computing-Gateway-Mainflux.jpg" style="margin-bottom: 55px">
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- END OF Mainflux Gateway with Photo Introduction -->
+
+
+                <div class="col-md-12">
+                    <div class="break-line"></div>
+
+
+                    <!-- - MAINFLUX AND LINUX FOUNDATION <br> EDGEX FOUNDRY- -->
+
+                    <div class="col-md-12">
+
+                        <div class="row">
+
+                            <div class="col-md-12 general-stack">
+                                <h5> MAINFLUX AND LINUX FOUNDATION <br> EDGEX FOUNDRY </h5>
+
+                            </div>
+
+                            <div class="col-md-12 tech-section" id="techology-sec">
+
+
+                                <div class="col-lg-6 col-lg-offset-1 col-md-7 col-sm-6  left-col-what">
+                                    <div class="media">
+
+                                        <div class="media-body">
+                                            <h5 class="media-heading why-subheadline">LINUX FOUNDATION EDGEX FOUNDRY </h5>
+
+                                        </div>
+                                        <br>
+                                        <div class="col-md-10" style="padding-left:0">
+
+
+
+                                            <p class="tech-section">
+                                                Over 80 member companies across the IoT space including Dell, AMD, Toshiba, Analog Devices, and Samsung.
+                                                <br>
+                                                <br> Objective: Build a vendor-neutral, flexible, highly-scalable and industrial-grade open source edge software platform supported by a rich ecosystem of plug-and-play components that unifies the marketplace and accelerates the deployment of IoT solutions.
+
+                                            </p>
+
+
+                                            <br>
+
+
+                                            <br>
+                                            <img id="kubernetes" src="images/LF-Edegx-Foundry.jpg" style="margin-bottom:61px">
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-5  col-sm-6 right-col-what">
+                                    <div class="media">
+
+                                        <div class="media-body">
+                                            <h5 class="media-heading why-subheadline">MAINFLUX AT EDGEX FOUNDRY</h5>
+
+                                        </div>
+                                        <br>
+                                        <div class="col-md-12 col-sm-12" style="padding-left:0">
+
+                                            <p class="tech-section">
+                                                Chairs the Application Workgroup in Technical Steering Committee.
+
+                                                <br>
+                                                <br> Member at large Technical Steering Committee.
+
+
+                                                <br>
+                                                <br> Community Contribution Award for Exemplary Leadership Innovation Award for Extensive Technical Contribution.
+                                            </p>
+
+
+                                            <br>
+
+
+
+                                            <img id="kubernetes1" src="images/edgex-foundry-awwards.jpg" height="105px" style="margin-bottom:21px">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 general-stack">
+
+
+                                <img class="img-responsive infrastructure" src="images/EdgeXFoundry_Open_Interop.jpg" style="margin-bottom:51px">
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                    <!-- END OF LINUX FOUNDATION AND MAINFLUX-->
+
+
+                    <div class="col-md-12">
+                        <div class="break-line"></div>
+
+                        <!-- - MAINFLUX - MFX-1 IoT EDGE GATEWAY- Features -->
+
+                        <div class="col-md-12">
+                            <div class="row">
+
+
+                                <div class="col-md-12 general-stack">
+                                    <h5> MAINFLUX - MFX-1 IoT EDGE GATEWAY </h5>
+
+
+                                </div>
+
+                                <div class="col-md-12 tech-section" id="techology-sec">
+
+
+                                    <div class="col-lg-6 col-lg-offset-1 col-md-7 col-sm-6  left-col-what">
+                                        <div class="media">
+
+                                            <div class="media-body">
+                                                <h5 class="media-heading why-subheadline">EDGEX FOUNDRY PLATFORM </h5>
+
+
+                                            </div>
+                                            <br>
+                                            <div class="col-md-10" style="padding-left:0">
+
+
+                                                <br>
+
+                                                <ul class="fa-ul">
+
+                                                    <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Microservices architecture supports the use of any combination of heterogeneous components plugged into a common interoperability foundation.</li>
+                                                    <br>
+                                                    <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Agnostic to any hardware CPUs ( x86, ARM), OS ( Linux, Windows, Mac OS), and app environment (Java, JavaScript, Python, Golang, C/C++ to work together through the common APIs</li>
+                                                    <br>
+                                                    <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Allow services to scale up and down to highly-constrained devices, based on device capability and use case</li>
+                                                    <br>
+                                                    <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Support for any combination of device interfaces to normalize connectivity protocols (both IP- and non-IP) into a common API</li>
+                                                    <br>
+
+
+
+                                                    <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Functionality across multiple edge hardware nodes or across processors within a given node.</li>
+                                                    <br>
+
+                                                    <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Optional microservices (e.g., northbound message bus, rules engine, database) can be quickly replaced with preferred open-source or proprietary alternative</li>
+                                                    <br>
+
+
+
+                                                    <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Industrial-grade security, manageability, performance, and reliability while still maintaining extensibility.</li>
+                                                    <br>
+
+
+
+                                                    <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Drop-in replacements of microservices or entire subsections with more performant versions without requiring architectural changes</li>
+
+                                                </ul>
+                                                <br>
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+
+                                    <div class="col-md-5  col-sm-6 right-col-what">
+                                        <div class="media">
+
+                                            <div class="media-body">
+                                                <h5 class="media-heading why-subheadline">HARDWARE PLATFORM</h5>
+
+                                            </div>
+                                            <br>
+                                            <div class="col-md-12 col-sm-12" style="padding-left:0">
+
+                                                <p class="tech-section">
+                                                    Mainflux- MFX-1 IoT EdgeX Gateway is implemented on Solid Run HummingBoard-Edge hardware platform. It was developed to meet the B2B market demand for a high performance and includes a whole new set of features:
+                                                </p>
+
+
+
+                                                <ul class="fa-ul">
+
+                                                    <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Low memory footprint (RAM)</li>
+                                                    <br>
+                                                    <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Small size binaries</li>
+                                                    <br>
+                                                    <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Low Latency</li>
+                                                    <br>
+                                                    <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Hi Performance</li>
+                                                    <br>
+                                                    <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Deploy only microservices you need</li>
+                                                    <br>
+                                                    <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Based on NXP’s iMX6 Single to Quad Core</li>
+                                                    <br>
+
+                                                    <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Optimal IoT platform</li>
+                                                    <br>
+                                                    <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Feature rich</li>
+                                                    <br>
+                                                    <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Industrial Temp. (-40° to 85° C)</li>
+                                                    <br>
+                                                    <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Physical radio connectivity: WiFi, BLE</li>
+
+                                                    <br>
+                                                    <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Cellular connectivity: GSM/GPRS/LTE/CAT-M/NB-IoT, LoRa, 6LoWPAN/Zigbee</li>
+
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <!-- END OF Features -->
+
+                        <div class="col-md-12 action-button">
+
+                            <a href="images/MFX-1-Gateway- MAINFLUX.pdf">
+                                <button class="btn btn-default" id="action">DATASHEET</button>
+                            </a>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <!-- END OF Security List -->
+                    <div class="col-md-12" style="margin-top:25px">
+                        <div class="break-line"></div>
+
+                    </div>
+
+                    <!-- Edgex Open Source Platform -->
+
+                    <div class="col-md-12" id="architecture">
+                        <div class="row">
+
+                            <div class="col-md-12 general-stack">
+                                <h5>OPEN SOURCE SOFTWARE<br>EDGEX FOUNDRY PLATFORM</h5>
+
+                                <img class="img-responsive infrastructure" src="images/EdgeXFoundry_Platform-Architecture.jpg">
+
+                                <p>The architecture supports communications “north, south, east and west” as needed in the IoT
+                                    <br> “fog” and can be deployed on a variety of edge nodes in a tiered computing architecture.
+
+                                    <br>
+                                    <br>The deployment of combinations of different plug-and-play microservices simply depends
+                                    <br> on the use cases and capability of the host device.</p>
+
+                            </div>
+
+
+                            <div class="col-md-12">
+                                <div class="break-line"></div>
+                            </div>
+                            <!-- -Hardware Platform Specification - -->
+                            <div class="container">
+                                <div class="row">
+
+
+
+
+
+                                    <div class="col-md-12 general-stack">
+                                        <h5>HARDWARE PLATFORM<br>  </h5>
+                                        <p id="humm">Solid Run HummingBoard Carrier Board for iMX6 SOM</p>
+
+
+                                    </div>
+
+                                    <div class="col-md-12 tech-section" id="techology-sec">
+
+
+
+
+                                        <div class="col-md-12 general-stack">
+
+
+                                            <img class="img-responsive infrastructure" id="hw" src="images/edge-computing-hardware.jpg" style="margin-bottom:51px">
+
+                                        </div>
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- END OF LINUX FOUNDATION AND MAINFLUX-->
+
+
+
+                            <!--TABLE-->
+
+                            <div class="container-fluid">
+
+                                <div class="row">
+
+
+                                    <div class="col-md-12 general-stack">
+                                        <h5 id="spec" class="media-heading why-subheadline">System Specification<br>  </h5>
+
+
+                                    </div>
+
+                                    <div class="col-md-12 col-lg-8 col-lg-offset-2 table-box">
+
+
+                                        <table class="table">
+                                            <tr>
+                                                <th></th>
+                                                <th style="font-weight:600">HummingBoard Edge</th>
+
+                                            </tr>
+                                            <tr>
+                                                <td> <a target="_blank">SOM Model</a></td>
+                                                <td>i.MX6 based Solo to Quad Core SOM</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td><a target="_blank"> Memory and Storage</a></td>
+                                                <td>Up to 2GB DDR3
+                                                    <br> uSD
+                                                    <br>eMMC (8GB) M.2 (2242)*)</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td><a target="_blank">Connectivity</a></td>
+                                                <td>1×RJ-45**
+                                                    <br>4×USB 2.0
+                                                    <br>mPCIE with SIM card holder</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td><a target="_blank">Media</a></td>
+                                                <td>HDMI-Out
+                                                    <br> MIPI-CSI-2 and MIPI-DSI
+                                                    <br>Parallel Camera (on GPIO header)
+                                                    <br>LVDS
+                                                    <br> Analog Audio</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td><a target="_blank">I/O</a></td>
+                                                <td>Reset Button
+                                                    <br>36 pins GPIO Header
+                                                    <br> RTC with battery IR
+                                                    <br>
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+                                                <td><a target="_blank">Power</a></td>
+                                                <td>7V-36V, 5.5mm in (Twist and Lock mechanism)</td>
+                                            </tr>
+                                            <tr>
+                                                <td><a target="_blank"> Software</a></td>
+                                                <td>Linux</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td><a target="_blank"> Dimensions (WxL)</a></td>
+                                                <td>102mm×69mm</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><a target="_blank"> Enclosure</a></td>
+                                                <td>Optional Metal Enclosure</td>
+                                            </tr>
+
+                                        </table>
+                                    </div>
+
+
+
+                                    <div class="col-md-12">
+                                        <div class="break-line"></div>
+
+                                        <!-- Mainflux IIoT System -- -->
+
+                                        <div class="col-md-12 general-stack">
+                                            <h5> MAINFLUX - IIoT SYSTEM</h5>
+
+
+                                            <p>The combination of Mainflux’s IoT platform and its MFX-1 EdgeX Gateway will provide
+                                                <br> an open source full-featured systemfor IoT solutions development.
+                                                <br>
+                                                <br>The turn-key system is designed for scale, performance, operational efficiency and the ability
+                                                <br>to create intelligent products and value-added services across the range of industries.
+                                                <br>
+                                                <br>For the full functionality, special middleware connectors are created both on
+                                                <br> the IoT Platform and IoT Edge Gateway side and additional original application
+                                                <br> with user-interface for the control and management of the whole IIoT System.
+                                            </p>
+
+                                            <img class="img-responsive infrastructure" src="images/Mainflux-Internent-of-things-System.jpg">
+
+                                            <p>IoT Platform is a remote control of the IoT Edge Gateway, management, storage, advanced analytics
+                                                <br>and learning, acting as meta-instance of more immediate processing data needs.</p>
+                                        </div>
+
+
+
+
+
+
+                                        <!-- END Mainflux IIoT System -- -->
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+    </section>
+
+
+
+
+    <!-- --- Action Call --- -->
+
+    <div class="container-fluid">
+
+        <div class="row action">
+
+            <div class="col-md-12 action-call">
+                <h6>You need internet of things solution or hardware expertise?</h6>
+            </div>
+
+            <div class="col-md-12 action-button">
+
+                <a href="contact-us.html">
+                    <button class="btn btn-default" id="action">CONTACT US</button>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- END OF Action Call -->
+
+    <!-- ---------------- FOOTER ---------------- -->
+
+
+    <!-- ---------------- FOOTER ---------------- -->
+
+    <div class="container-fluid">
+        <div class="row footer">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-2 col-md-offset-1 footer-col">
+                        <h6>CONTACT US</h6>
+                        <br/>
+                        <p><a href="mailto:info@mainflux.com" target="_blank">Email: info@mainflux.com</a></p>
+                        <br/>
+                        <p><a href="#">Website: mainflux.com</a></p>
+                        <br/>
+                        <p><a href="https://github.com/mainflux/mainflux">GitHub</a></p>
+                        <br>
+                        <p><a href="careers.html">Careers</a></p>
+
+                    </div>
+
+
+
+                    <div class="col-md-2 footer-col">
+                        <h6>PLATFORM & SERVICES</h6>
+                        <br/>
+                        <p><a href="technology.html">IoT Cloud Platform</a></p>
+                        <br/>
+
+                        <p><a href="edge-computing.html">Edge Computing</a></p>
+                        <br/>
+
+                        <p><a href="consalting.html">Services</a></p>
+                        <br/>
+                        <p><a href="http://mainflux.readthedocs.io/en/latest/" target="_blank">Documentation</a></p>
+
+                    </div>
+
+                    <div class="col-md-2 footer-col">
+
+                        <h6>ABOUT US</h6>
+                        <br/>
+                        <p><a href="about-us.html">Team</a></p>
+                        <br/>
+                        <p><a href="https://medium.com/mainflux-iot-platform">Blog</a></p>
+                        <br/>
+                        <p><a href="news.html">News and Press</a></p>
+                        <br/>
+                        <p><a href="faq.html">FAQ</a></p>
+
+
+                    </div>
+                    <div class="col-md-3">
+                        <h6>NEWSLETTER</h6>
+                        <br/>
+                        <!-- Begin MailChimp Signup Form -->
+                        <form class="form-horizontal" action="//mainflux.us12.list-manage.com/subscribe/post?u=b9b2ffdff810ddd685623007b&amp;id=3528078a5f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+                            <div class="input-group">
+                                <input type="email" value="" name="EMAIL" id="mce-EMAIL" required="required" placeholder="Enter your email to sing up" class="form-control">
+                                <span class="input-group-btn input-group-btn-newsletter">
+                                    <button class="btn btn-sm btn-outline-default" type="submit">SUBMIT</button>
+                                </span>
+                            </div>
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" name="b_b9b2ffdff810ddd685623007b_3528078a5f" tabindex="-1" value="">
+                            </div>
+                        </form>
+                        <!--End mc_embed_signup-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12" id="licence">
+
+                <div class="row">
+
+                    <div class="col-md-6 col-xs-12 apache">
+
+                        <p>Apache v2.0 – 2017 Mainflux - Internet of Things Solutions</p>
+
+                    </div>
+
+                    <div class="col-md-6 col-xs-12" id="social">
+
+                        <a href="https://github.com/mainflux/mainflux" target="_blank"><i class="fa fa-github"></i></a>
+                        <a href="https://twitter.com/Mainflux" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/mainflux/#" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                        <a href="https://plus.google.com/u/0/118370332058380800320" target="_blank"><i class="fa fa-google-plus"></i></a>
+                        <a href="https://www.linkedin.com/company/mainflux?trk=top_nav_home" target="_blank"> <i class="fa fa-linkedin"></i></a>
+                        <a href="http://www.slideshare.net/Mainflux
+                        " target="_blank"><i class="fa fa-slideshare"></i></a>
+                        <a href="https://www.youtube.com/channel/UCVoy7rdj7T9uuASB3E_Fuiw" target="_blank"><i class="fa fa-youtube"></i></a>
+                        <a href="https://vimeo.com/mainflux" target="_blank"><i class="fa fa-vimeo"></i></a>
+                        <i class="fa fa-reddit-alien"></i>
+
+                    </div>
+
+
+                    <div class="col-md-12 col-xs-12">
+                        <div class="footer-line"></div>
+
+                    </div>
+
+
+                    <div class="col-md-7 col-xs-12" id="terms">
+                        <p><a href="#">Terms of Use /</a><a href="#">Internet Security /</a><a href="#">Privacy & Cookie Policy /</a><a href="#">Accessibility</a></p>
+
+
+                    </div>
+                    <div class="col-md-4 col-xs-12" id="mainflux-footer">
+                        <p>MAINFLUX</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- jqery and JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        _linkedin_partner_id = "619313";
+        window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+        window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var s = document.getElementsByTagName("script")[0];
+            var b = document.createElement("script");
+            b.type = "text/javascript";
+            b.async = true;
+            b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+            s.parentNode.insertBefore(b, s);
+        })();
+
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=619313&fmt=gif" />
+    </noscript>
+
+
+</body>
+
+</html>

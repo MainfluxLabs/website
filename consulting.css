@@ -1,0 +1,4187 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+    margin-bottom: 40px;
+}
+body {
+    line-height: 1;
+}
+
+/* ---- NAVIGATION ---- */
+
+.navbar-default {
+    border: none;
+    margin-bottom: 0;
+    background-color: #0b1e3b;
+    border-radius: 0;
+    background: rgb(1, 4, 28);
+    background: rgb(3, 18, 42);
+    background: rgb(3, 18, 42);
+    background: linear-gradient(90deg, rgba(3, 18, 42, 1) 27%, rgba(13, 46, 96, 1) 100%);
+}
+.navbar-default .navbar-brand {
+    color: #006599;
+    font-family: Montserrat;
+    font-weight: 800;
+    transform: scaleY(0.95);
+    color: #006599;
+}
+#brand {
+    color: white;
+    margin-left: 22px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-family: Raleway;
+    font-weight: 500;
+    transform: scaleY(0.96);
+    font-size: 12px;
+}
+.navbar-default .navbar-nav>li>a:visited {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #2891c7;
+}
+.navbar-default .navbar-nav>li>a:active {
+    color: #2891c7;
+}
+a#active {
+    color: #2891c7;
+}
+.navbar-default .navbar-brand:hover {
+    color: white;
+}
+.navbar-toggle {
+    border: none;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #e5ebf4;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #006599;
+    ;
+}
+.navbar-collapse {
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 12px;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #006599;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+    font-size: 12px;
+}
+.dropdown-menu a:hover {
+    background-color: white;
+    color: white;
+    font-family: Montserrat;
+    font-size: 12px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: #006599;
+    color: white;
+}
+.dropdown:hover {
+    background-color: #006599;
+    color: white;
+}
+.dropdown-menu>li>a {
+    color: white;
+    font-size: 12px;
+}
+ol,
+ul {
+    list-style: none;
+}
+.btn {
+    font-family: Montserrat;
+    font-size: 12px;
+    width: 190px;
+}
+
+/* ---- MAIN HOME ---- */
+
+.bgimage {
+    background-image: linear-gradient(to right top, #01041c, #02071e, #030a21, #040d23, #040f26, #05132c, #041631, #041937, #051e41, #07234b, #0a2955, #0d2e60);
+}
+h1 {
+    color: white;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 240px 0 0 40px;
+    line-height: normal;
+  
+}
+h2 {
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+    margin: 1.5vh 0 0 3vw;
+    
+}
+h3#home-sub {
+    font-family: Montserrat;
+    color: white;
+    font-size: 14px;
+    ;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 0.7px;
+    margin: 1.5vh 0 0 3vw;
+    text-align: left;
+}
+.headline {
+    margin-bottom: 14vh;
+}
+.btn {
+    font-family: Montserrat;
+    font-size: 12px;
+    width: 190px;
+}
+img#shape {
+    height: 550px;
+    margin-top: 70px;
+    margin-left: 12px;
+    opacity: 0.8;
+    margin-bottom: 25px;
+}
+.home-butt {
+    margin: 40px 0 0 23px;
+}
+#contact-us {
+    border: 3px solid #006599;
+    background-color: transparent;
+    color: #006599;
+    font-weight: 600;
+    width: 175px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+#contact-us:hover {
+    background-color: #035e8d;
+    color: white;
+}
+
+/* ---- References ---- */
+
+.references {
+    margin-bottom: 22px;
+}
+.references h5 {
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    color: #006599;
+}
+.edgex {
+    height: 50px;
+    margin-left: 55px;
+}
+h5#edge {
+    padding-left: 47px;
+    padding-top: 10px;
+}
+.oreilly {
+    height: 52px;
+    margin-left: 81px;
+}
+h5#oreilly {
+    padding-left: 56px;
+    padding-top: 8px;
+}
+.sciencepark {
+    height: 56px;
+    margin-left: 68px;
+    margin-top: -1px;
+}
+h5#science {
+    padding-left: 108px;
+    padding-top: 5px;
+}
+.fund {
+    height: 55px;
+    margin-left: 76px;
+    margin-top: -6px;
+}
+h5#fund {
+    margin-left: 14px;
+    padding-top: 11px;
+    text-align: center;
+}
+
+/* ---- Consulting layers ---- */
+
+#consulting h3 {
+    margin-bottom: 17px;
+}
+h4#expertise {
+    font-size: 23px;
+    text-align: center;
+    font-weight: 700;
+    color: #061856;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#consulting img {
+    height: 65px;
+    margin: auto;
+}
+#consulting h6 {
+    margin-top: 9px;
+    color: #061856;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #061856;
+    line-height: normal;
+    text-align: center;
+}
+#consulting hr {
+    width: 12%;
+    height: 3px;
+    background-color: rgb(0, 167, 224);
+    color: rgb(0, 167, 224);
+}
+
+/*---------- Consulting Services -----------*/
+
+h3 {
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: 800;
+    color: #061856;
+    margin-bottom: 40px;
+    text-align: center;
+}
+h4 {
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #061856;
+    line-height: normal;
+}
+h5 {
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #061856;
+    line-height: normal;
+}
+.btn {
+    font-family: Montserrat;
+    font-size: 12px;
+    width: 190px;
+}
+#consulting hr {
+    width: 12%;
+    height: 3px;
+    background-color: rgb(0, 167, 224);
+    color: rgb(0, 167, 224);
+}
+p#intro {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: rgb(102, 106, 107);
+    line-height: normal;
+    font-size: 18px;
+}
+.consulting h4 {
+    font-size: 26px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+}
+img#devices {
+    height: auto;
+}
+img#integration {
+    height: 88px;
+    margin-bottom: 28px;
+}
+img#advisory {
+    height: 96px;
+    margin-bottom: 18px;
+}
+img#managed {
+    height: 102px;
+    margin-bottom: 24px;
+}
+
+/*---------- Consulting Services -----------*/
+
+.consulting p {
+    font-family: Montserrat;
+    font-weight: 400;
+    color: rgb(102, 106, 107);
+    line-height: normal;
+    font-size: 15px;
+    margin-top: 3px;
+}
+.left-text {
+    padding-right: 5vw;
+}
+
+/*---------- Action-call -----------*/
+
+section.action-call {
+    margin-bottom: 125px;
+    margin-top: -25px;
+}
+.action-call h6 {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: rgb(0, 52, 102);
+    line-height: normal;
+    font-size: 16px;
+}
+#action-call .btn {
+    border: 3px solid #061856;
+    background-color: #061856;
+    color: white;
+    font-weight: 600;
+    width: 210px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+#action-call .btn:hover {
+    border: 3px solid #00a7e0;
+    background-color: #00a7e0;
+}
+#table {
+    display: none;
+}
+
+/*--------- Pricing Table --------
+
+
+.box {
+    background-color: #272f52;
+    height: 500px;
+    border: 1px solid #f80000;
+}
+.table h5 {
+    color: white;
+    text-align: center;
+    margin-top: 10vh;
+    padding-bottom: 17px;
+}
+.table p {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 300;
+    color: white;
+    font-size: 14px;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+.table li {
+    font-family: Montserrat;
+    font-weight: 300;
+    color: white;
+    font-size: 12px;
+    line-height: normal;
+    padding-bottom: 12px;
+    margin-left: 16px;
+}
+
+
+--------------------------*/
+
+
+/*---- O'Reilly Book -----*/
+
+#reilly-book h4 {
+    font-size: 23px;
+    text-align: center;
+    font-weight: 700;
+    color: #061856;
+    font-family: Montserrat;
+}
+#reilly-book p {
+    font-family: Montserrat;
+    font-weight: 400;
+    color: rgb(102, 106, 107);
+    line-height: normal;
+    font-size: 15px;
+    margin-top: 5%;
+}
+img#book-cover {
+    height: 420px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+p.authors {
+    text-align: center;
+    font-weight: 600;
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #061856;
+}
+a.authors {
+    color: #061856;
+    background-color: transparent;
+    display: block;
+    margin-top: -10%;
+    margin-left: 9px;
+}
+
+/*---------- Conferences -----------*/
+
+#conferences {
+    background-color: #061856;
+    border-bottom: 8px solid #006599;
+}
+#logoconf {
+    margin-bottom: 6px;
+}
+#conferences h3 {
+    color: white;
+    font-size: 25px;
+    margin-top: 35px;
+    margin-bottom: 36px;
+}
+#open {
+    height: 100px;
+    margin-top: -32px;
+    margin-left: -12px;
+}
+#relly {
+    height: 44px;
+    margin-left: 147px;
+    margin-top: 10px;
+}
+#barcelona {
+    height: 38px;
+    margin-left: 166px;
+    margin-top: 18px;
+}
+#fosdem {
+    height: 49px;
+    margin-left: 180px;
+    margin-top: 6px;
+}
+#emotion {
+    height: 64px;
+    margin-left: 164px;
+}
+#golab {
+    height: 30px;
+    margin-left: 236px;
+    margin-top: 15px;
+}
+#ons {
+    height: 50px;
+    margin-left: 237px;
+    margin-top: 15px;
+}
+#itnext {
+    height: 68px;
+    margin-left: 224px;
+}
+
+/* ----- FOOTER ----- */
+
+div.footer {
+    background: #071440;
+    ;
+    padding-top: 35px;
+}
+div.footer h6 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+    text-align: left;
+}
+div.footer a {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, .78);
+}
+div.footer a:hover {
+    text-decoration: none;
+    color: #357dfc;
+}
+div.footer-col {
+    margin-right: 45px
+}
+.input-group .form-control {
+    background: transparent;
+    border-color: rgba(255, 255, 255, .39);
+    border-radius: 1px;
+    height: 40px;
+    color: white;
+}
+.input-group-addon {
+    border-radius: 1px;
+    border-color: rgba(255, 255, 255, .39);
+    font-family: Montserrat;
+    font-weight: 600;
+    color: white;
+    background: transparent;
+    padding: 11px 25px;
+}
+.input-group-btn-newsletter button {
+    border-radius: 1px !important;
+    border-color: rgba(255, 255, 255, .39) !important;
+    font-family: Montserrat !important;
+    font-weight: 600 !important;
+    color: white !important;
+    background: transparent !important;
+    padding: 10px 8px !important;
+    margin-top: 0px;
+    width: 100%;
+}
+.footer p {
+    color: white;
+}
+.footer i {
+    font-size: 19.7px;
+    color: white;
+    padding-right: 16px;
+    margin-bottom: 12px;
+}
+#licence {
+    margin-top: 8rem;
+}
+#licence p {
+    font-family: Montserrat;
+    font-weight: lighter;
+    font-size: 0.7rem;
+    margin-left: 7.17rem
+}
+#social {
+    padding-left: 19.3vw;
+}
+.footer-line {
+    height: 1px;
+    width: 83vw;
+    background: rgba(255, 255, 255, .3);
+    margin-left: 7.7vw;
+    margin-bottom: 11px;
+}
+#terms {
+    margin-left: 0.78vw;
+    padding: 1px;
+}
+#terms a {
+    font-size: 0.8rem;
+}
+#mainflux-footer {
+    text-align: right;
+    padding-right: 1px;
+    padding-top: 0;
+    margin-top: -5px;
+}
+#mainflux-footer p {
+    font-family: Montserrat;
+    font-weight: 800;
+    transform: scaleY(0.94);
+    color: white;
+    font-size: 1.4rem;
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+
+/*------------------------------------------*/
+
+
+/*------------------------------------------*/
+
+
+/* ----- MEDIA QUERIES ----- */
+
+
+/* ---- Extra Large Desktops ---- */
+
+@media screen and (min-width:1920px) and (max-width:2560px) {
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: -32px;
+    }
+    .footer-line {
+        width: 85vw;
+        margin-left: 5.9vw;
+    }
+    #social {
+        padding-left: 24.7vw;
+    }
+}
+@media screen and (min-width:1600px) and (max-width:1919px) {
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: -82px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-line {
+        width: 84vw;
+        margin-left: 6.9vw;
+    }
+    #social {
+        padding-left: 21.7vw;
+    }
+}
+@media screen and (min-width:1440px) and (max-width:1559px) {
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: -82px;
+    }
+}
+@media screen and (min-width:1366px) and (max-width:1399px) {
+    /* ---- Main ---- */
+    h1 {
+        margin-top: 210px;
+    }
+    img#shape {
+        height: 500px;
+        margin-top: 40px;
+        margin-left: 52px;
+        margin-bottom: 15px;
+    }
+    /* ---- Conferences ---- */
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: -82px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-line {
+        width: 82vw;
+        margin-left: 8.1vw;
+    }
+    #social {
+        padding-left: 17.7vw;
+    }
+    footer {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width:1280px) and (max-width:1365px) {
+    /* ---- Main ---- */
+    #headline {
+        margin-left: 0px;
+        padding-left: 0;
+    }
+    h1 {
+        margin-top: 200px;
+    }
+    img#shape {
+        height: 500px;
+        margin-top: 40px;
+        margin-left: 12px;
+        margin-bottom: 15px;
+    }
+    /* --- Conferences logo --- */
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: -82px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-line {
+        width: 82vw;
+        margin-left: 8.5vw;
+    }
+    #social {
+        padding-left: 16.4vw;
+    }
+    .footer {
+        padding-bottom: 20px;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    /* ---- Main ---- */
+    #brand {
+        margin-left: 2px;
+        padding-left: 0;
+    }
+    h1 {
+        font-size: 26px;
+        margin-left: 10px;
+        margin-top: 180px;
+    }
+    h2 {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    h3#home-sub {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .home-butt {
+        margin-left: -7px;
+        padding-left: 0;
+    }
+    img#shape {
+        height: 420px;
+        margin-top: 40px;
+        margin-left: 2px;
+        margin-bottom: 65px;
+    }
+    /* ---- References ---- */
+    .references {
+        margin-bottom: 22px;
+        margin-left: -50px
+    }
+    .references h5 {
+        font-size: 10px;
+        font-weight: 600;
+        margin-bottom: 14px;
+        color: #006599;
+    }
+    .edgex {
+        height: 50px;
+        margin-left: 55px;
+    }
+    h5#edge {
+        padding-left: 48px;
+        padding-top: 10px;
+    }
+    .oreilly {
+        height: 52px;
+        margin-left: 63px;
+    }
+    h5#oreilly {
+        padding-left: 37px;
+        padding-top: 8px;
+    }
+    .sciencepark {
+        height: 56px;
+        margin-left: 68px;
+        margin-top: -4px;
+    }
+    h5#science {
+        padding-left: 108px;
+        padding-top: 8px;
+    }
+    .fund {
+        height: 55px;
+        margin-left: 76px;
+        margin-top: -6px;
+    }
+    h5#fund {
+        margin-left: 14px;
+        padding-top: 11px;
+        text-align: center;
+    }
+    /* --- Conferences logo --- */
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: -1px;
+    }
+    /* ---- FOOTER ---- */
+    div.footer {
+        padding-bottom: 45px;
+    }
+    .footer-line {
+        width: 82vw;
+        margin-left: 8.5vw;
+    }
+    #social {
+        padding-left: 10.1vw;
+    }
+}
+@media screen and (min-width:800px) and (max-width:1023px) {
+    .navbar-default .navbar-nav {
+        margin-right: 2px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        margin-top: 4px;
+        padding: 8px;
+        font-size: 12px;
+    }
+    #brand {
+        margin-left: 1px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        font-size: 26px;
+        margin-left: 10px;
+        margin-top: 180px;
+    }
+    h2 {
+        font-size: 13px;
+        margin-left: 10px;
+        line-height: normal;
+        margin-bottom: 15px;
+    }
+    h3#home-sub {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .home-butt {
+        margin-left: -7px;
+        padding-left: 0;
+    }
+    img#shape {
+        height: 350px;
+        margin-top: 60px;
+        margin-left: -9px;
+        margin-bottom: 95px;
+    }
+    #headline br {
+        display: none;
+    }
+    /* ---- References ---- */
+    .references {
+        margin-bottom: 22px;
+        margin-left: -78px
+    }
+    .references h5 {
+        font-size: 9px;
+        font-weight: 600;
+        margin-bottom: 14px;
+        color: #006599;
+    }
+    .edgex {
+        height: 50px;
+        margin-left: 55px;
+    }
+    h5#edge {
+        padding-left: 55px;
+        padding-top: 10px;
+    }
+    .oreilly {
+        height: 52px;
+        margin-left: 64px;
+    }
+    h5#oreilly {
+        padding-left: 18px;
+        margin-left: 25px;
+        padding-top: 8px;
+        text-align: center;
+        width: 175px
+    }
+    .sciencepark {
+        height: 56px;
+        margin-left: 52px;
+        margin-top: -4px;
+    }
+    h5#science {
+        padding-left: 94px;
+        padding-top: 8px;
+    }
+    .fund {
+        height: 55px;
+        margin-left: 52px;
+        margin-top: -8px;
+    }
+    h5#fund {
+        margin-left: 37px;
+        padding-top: 13px;
+        text-align: center;
+    }
+    /* --- Action Call --- */
+    #action-call {
+        margin: 35px 0 135px 0;
+    }
+    /* --- O'Reilly Book --- */
+    #reilly-book h4 {
+        font-size: 20px;
+    }
+    p#text-book {
+        text-align: justify;
+    }
+    #reilly-book img {
+        height: 400px;
+    }
+    /* --- Conferences logo --- */
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: 1px;
+        width: 760px;
+    }
+    #conferences h3 {
+        color: white;
+        font-size: 23px;
+        margin-top: 35px;
+        margin-bottom: 32px;
+    }
+    #open {
+        height: 72px;
+        margin-top: -21px;
+        margin-left: -12px;
+    }
+    #relly {
+        height: 32px;
+        margin-left: 110px;
+        margin-top: 10px;
+    }
+    #barcelona {
+        height: 24px;
+        margin-left: 128px;
+        margin-top: 18px;
+    }
+    #fosdem {
+        height: 35px;
+        margin-left: 137px;
+        margin-top: 6px;
+    }
+    #emotion {
+        height: 49px;
+        margin-left: 128px;
+    }
+    #golab {
+        height: 20px;
+        margin-left: 195px;
+        margin-top: 15px;
+    }
+    #ons {
+        height: 38px;
+        margin-left: 192px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 53px;
+        margin-left: 178px;
+    }
+    /* ---- FOOTER ---- */
+    .footer {
+        width: 780px;
+    }
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+    }
+    div.input-group {
+        width: 55%;
+    }
+    .footer-line {
+        display: none;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 1.4rem;
+        margin-left: 2px;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 2.3vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-bottom: 0.3rem;
+        margin-left: -2px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        margin-bottom: 12px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        margin-left: 2px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:799px) {
+    .navbar-default .navbar-nav {
+        margin-right: 2px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        margin-top: 4px;
+        padding: 8px;
+        font-size: 12px;
+    }
+    #brand {
+        margin-left: 1px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        font-size: 26px;
+        margin-left: 10px;
+        margin-top: 180px;
+    }
+    h2 {
+        font-size: 13px;
+        margin-left: 10px;
+        line-height: normal;
+        margin-bottom: 15px;
+    }
+    h3#home-sub {
+        font-size: 11px;
+        margin-left: 10px;
+        line-height: normal;
+    }
+    .home-butt {
+        margin-left: -7px;
+        padding-left: 0;
+    }
+    img#shape {
+        height: 350px;
+        margin-top: 60px;
+        margin-left: -15px;
+        margin-bottom: 95px;
+    }
+    #headline br {
+        display: none;
+    }
+    /* ---- References ---- */
+    .references {
+        margin-bottom: 22px;
+        margin-left: -60px;
+    }
+    .references h5 {
+        font-size: 9px;
+        font-weight: 600;
+        margin-bottom: 14px;
+        color: #006599;
+    }
+    .edgex {
+        height: 50px;
+        margin-left: 55px;
+    }
+    h5#edge {
+        padding-left: 1px;
+        padding-top: 10px;
+        margin-left: 53px;
+    }
+    .oreilly {
+        height: 52px;
+        margin-left: 64px;
+    }
+    h5#oreilly {
+        padding-left: 1px;
+        margin-left: 35px;
+        padding-top: 8px;
+        text-align: center;
+        width: 175px
+    }
+    .sciencepark {
+        height: 56px;
+        margin-left: 48px;
+        margin-top: -4px;
+    }
+    h5#science {
+        padding-left: 1px;
+        padding-top: 8px;
+        margin-left: 91px
+    }
+    .fund {
+        height: 55px;
+        margin-left: 32px;
+        margin-top: -8px;
+    }
+    h5#fund {
+        margin-left: 17px;
+        padding-top: 13px;
+        text-align: center;
+    }
+    /* --- all Layers --- */
+    #consulting h3 {
+        font-size: 28px;
+    }
+    .preview .container {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .preview .row {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /* --- Consulting Services --- */
+    #consulting h4 {
+        font-size: 23px;
+    }
+    #consulting h5 {
+        font-size: 14px;
+    }
+    #consulting p {
+        font-size: 12px;
+    }
+    p#intro {
+        font-size: 16px;
+    }
+    img#devices {
+        height: 75px;
+    }
+    img#integration {
+        height: 65px;
+    }
+    img#advisory {
+        height: 75px;
+    }
+    img#managed {
+        height: 75px;
+    }
+    /* --- O'Reilly Book --- */
+    #reilly-book h4 {
+        font-size: 20px;
+    }
+    p#text-book {
+        text-align: justify;
+    }
+    #reilly-book img {
+        height: 400px;
+    }
+    /* --- Conferences logo --- */
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: 0;
+        width: 710px;
+    }
+    #conferences h3 {
+        color: white;
+        font-size: 22px;
+        margin-top: 35px;
+        margin-bottom: 32px;
+    }
+    #open {
+        height: 72px;
+        margin-top: -21px;
+        margin-left: -12px;
+    }
+    #relly {
+        height: 32px;
+        margin-left: 105px;
+        margin-top: 10px;
+    }
+    #barcelona {
+        height: 24px;
+        margin-left: 121px;
+        margin-top: 18px;
+    }
+    #fosdem {
+        height: 35px;
+        margin-left: 123px;
+        margin-top: 6px;
+    }
+    #emotion {
+        height: 44px;
+        margin-left: 115px;
+        margin-top: 4px;
+    }
+    #golab {
+        height: 20px;
+        margin-left: 173px;
+        margin-top: 15px;
+    }
+    #ons {
+        height: 38px;
+        margin-left: 175px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 53px;
+        margin-left: 159px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        width: 55%;
+    }
+    div.input-group {
+        width: 55%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 95%;
+    }
+    .apache {
+        margin-bottom: 0.4rem;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    .footer-line {
+        display: none;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 1.4rem;
+        margin-left: 7px;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 3.4vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+        margin-left: 7px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        margin-bottom: 12px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        margin-left: 7px;
+    }
+}
+@media screen and (min-width:720px) and (max-width:767px) {
+    .navbar-default .navbar-nav {
+        margin-right: 2px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        margin-top: 4px;
+        padding: 8px;
+        font-size: 12px;
+    }
+    #brand {
+        margin-left: 1px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        font-size: 24px;
+        margin-left: 10px;
+        margin-top: 140px;
+    }
+    h2 {
+        font-size: 13px;
+        margin-left: 10px;
+        line-height: normal;
+        margin-bottom: 15px;
+    }
+    h3#home-sub {
+        font-size: 11px;
+        margin-left: 10px;
+        line-height: normal;
+    }
+    .home-butt {
+        margin-left: -7px;
+        padding-left: 0;
+    }
+    img#shape {
+        height: 310px;
+        margin-top: 60px;
+        margin-left: -15px;
+        margin-bottom: 95px;
+    }
+    #headline br {
+        display: none;
+    }
+    /* ---- References ---- */
+    .references {
+        margin-bottom: 22px;
+        margin-left: -60px;
+    }
+    .references h5 {
+        font-size: 9px;
+        font-weight: 600;
+        margin-bottom: 14px;
+        color: #006599;
+    }
+    .edgex {
+        height: 45px;
+        margin-left: 55px;
+    }
+    h5#edge {
+        padding-left: 1px;
+        padding-top: 10px;
+        margin-left: 50px;
+        width: 117px;
+    }
+    .oreilly {
+        height: 47px;
+        margin-left: 55px;
+    }
+    h5#oreilly {
+        padding-left: 1px;
+        margin-left: 24px;
+        padding-top: 8px;
+        text-align: center;
+        width: 175px
+    }
+    .sciencepark {
+        height: 51px;
+        margin-left: 40px;
+        margin-top: -4px;
+    }
+    h5#science {
+        padding-left: 1px;
+        padding-top: 8px;
+        margin-left: 76px;
+    }
+    .fund {
+        height: 50px;
+        margin-left: 28px;
+        margin-top: -8px;
+    }
+    h5#fund {
+        margin-left: 8px;
+        padding-top: 13px;
+        text-align: center;
+    }
+    /* --- all Layers --- */
+    #consulting h3 {
+        font-size: 26px;
+    }
+    .preview .container {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .preview .row {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /* --- Consulting Services --- */
+    #consulting h4 {
+        font-size: 21px;
+    }
+    #consulting h5 {
+        font-size: 14px;
+    }
+    #consulting p {
+        font-size: 12px;
+    }
+    p#intro {
+        font-size: 14px;
+    }
+    img#devices {
+        height: 70px;
+    }
+    img#integration {
+        height: 60px;
+    }
+    img#advisory {
+        height: 70px;
+    }
+    img#managed {
+        height: 70px;
+    }
+    /* --- O'Reilly Book --- */
+    #reilly-book h4 {
+        font-size: 18px;
+    }
+    p#text-book {
+        text-align: justify;
+        font-size: 12px;
+    }
+    #reilly-book img {
+        height: 390px;
+    }
+    /* ---- action call ---- */
+    #action-call .btn {
+        width: 195px;
+        font-size: 14px;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*---------- Conferences -----------*/
+    #open {
+        height: 100px;
+        margin-top: -32px;
+        margin-left: 12px;
+    }
+    #relly {
+        height: 47px;
+        margin-left: 117px;
+        margin-top: 9px;
+    }
+    #barcelona {
+        height: 41px;
+        margin-left: 87px;
+        margin-top: 17px;
+    }
+    #fosdem {
+        height: 54px;
+        margin-left: 59px;
+        margin-top: 5px;
+    }
+    #emotion {
+        height: 66px;
+        margin-left: 16px;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 34px;
+        margin-left: 46px;
+        margin-top: 15px;
+    }
+    #ons {
+        height: 59px;
+        margin-left: 14px;
+        margin-top: 13px;
+    }
+    #itnext {
+        height: 75px;
+        margin-left: -39px;
+        margin-top: -2px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 29px;
+    }
+    #consulting .row {
+        width: 691px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        width: 68%;
+        margin-left: 12px;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 88%;
+    }
+    .apache {
+        margin-bottom: 1.4rem;
+        margin-left: 7px;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 3.4vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+        margin-left: 7px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        margin-bottom: 12px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        margin-left: 7px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:719px) {
+    .navbar-default .navbar-nav {
+        margin-right: 2px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        margin-top: 4px;
+        padding: 8px;
+        font-size: 12px;
+    }
+    #brand {
+        margin-left: 1px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 140px;
+    }
+    h2 {
+        font-size: 13px;
+        margin-left: 10px;
+        line-height: normal;
+        margin-bottom: 15px;
+    }
+    h3#home-sub {
+        font-size: 11px;
+        margin-left: 10px;
+        line-height: normal;
+        width: 100%;
+    }
+    .home-butt {
+        margin-left: -6px;
+        padding-left: 0;
+    }
+    img#shape {
+        height: 270px;
+        margin-top: 60px;
+        margin-left: -15px;
+        margin-bottom: 95px;
+    }
+    #headline br {
+        display: none;
+    }
+    /* ---- References ---- */
+    .references {
+        margin-bottom: 22px;
+        margin-left: -60px;
+    }
+    .references h5 {
+        font-size: 9px;
+        font-weight: 600;
+        margin-bottom: 14px;
+        color: #006599;
+    }
+    .edgex {
+        height: 45px;
+        margin-left: 55px;
+    }
+    h5#edge {
+        padding-left: 1px;
+        padding-top: 10px;
+        margin-left: 50px;
+        width: 117px;
+        display: none;
+    }
+    .oreilly {
+        height: 47px;
+        margin-left: 45px;
+    }
+    h5#oreilly {
+        padding-left: 1px;
+        margin-left: 24px;
+        padding-top: 8px;
+        text-align: center;
+        width: 175px;
+        display: none;
+    }
+    .sciencepark {
+        height: 51px;
+        margin-left: 22px;
+        margin-top: -4px;
+    }
+    h5#science {
+        padding-left: 1px;
+        padding-top: 8px;
+        margin-left: 76px;
+        display: none;
+    }
+    .fund {
+        height: 50px;
+        margin-left: 14px;
+        margin-top: -8px;
+    }
+    h5#fund {
+        margin-left: 8px;
+        padding-top: 13px;
+        text-align: center;
+        display: none;
+    }
+    /* --- all Layers --- */
+    #consulting h3 {
+        font-size: 26px;
+    }
+    #consulting h6 {
+        font-size: 11px;
+        text-align: center;
+    }
+    #consulting img {
+        height: 60px;
+    }
+    .preview .container {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .preview .row {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /* --- Consulting Services --- */
+    #consulting h4 {
+        font-size: 21px;
+    }
+    #consulting h5 {
+        font-size: 14px;
+    }
+    #consulting p {
+        font-size: 12px;
+    }
+    p#intro {
+        font-size: 14px;
+        width: 100.5%;
+    }
+    img#devices {
+        height: 70px;
+    }
+    img#integration {
+        height: 60px;
+    }
+    img#advisory {
+        height: 70px;
+    }
+    img#managed {
+        height: 70px;
+    }
+    /* --- O'Reilly Book --- */
+    #reilly-book h4 {
+        font-size: 18px;
+    }
+    p#text-book {
+        text-align: justify;
+        font-size: 12px;
+    }
+    #reilly-book img {
+        height: 370px;
+    }
+    /* ---- action call ---- */
+    #action-call .btn {
+        width: 195px;
+        font-size: 14px;
+        margin-bottom: 45px;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #open {
+        height: 100px;
+        margin-top: -32px;
+        margin-left: 1px;
+    }
+    #relly {
+        height: 47px;
+        margin-left: 113px;
+        margin-top: 9px;
+    }
+    #barcelona {
+        height: 41px;
+        margin-left: 86px;
+        margin-top: 17px;
+    }
+    #fosdem {
+        height: 54px;
+        margin-left: 55px;
+        margin-top: 5px;
+    }
+    #emotion {
+        height: 66px;
+        margin-left: 1px;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 32px;
+        margin-left: 36px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 57px;
+        margin-left: -2px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 75px;
+        margin-left: -59px;
+        margin-top: -3px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 25px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        width: 68%;
+        margin-left: 12px;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 88%;
+    }
+    .apache {
+        margin-bottom: 1.4rem;
+        margin-left: 7px;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 3.4vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+        margin-left: 7px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        margin-bottom: 12px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        margin-left: 7px;
+    }
+}
+@media screen and (min-width:480px) and (max-width:599px) {
+    #brand {
+        margin-left: 1px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        font-size: 24px;
+        margin-left: 1px;
+        margin-top: 120px;
+        width: 215%;
+        text-align: center;
+    }
+    #headline {
+        z-index: 2;
+    }
+    h2 {
+        font-size: 13px;
+        margin-left: -1px;
+        line-height: normal;
+        margin-bottom: 5px;
+        width: 215%;
+        text-align: center;
+    }
+    h3#home-sub {
+        font-size: 12px;
+        margin-left: 2px;
+        line-height: normal;
+        width: 211%;
+        text-align: center;
+    }
+    .home-butt {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .button-div {
+        margin-left: 56%;
+    }
+    img#shape {
+        height: 370px;
+        margin-top: 40px;
+        margin-left: -205px;
+        margin-bottom: 30px;
+        opacity: 0.2;
+    }
+    /* ---- References ---- */
+    .references {
+        margin-bottom: 22px;
+        margin-left: -63px;
+    }
+    .references h5 {
+        font-size: 9px;
+        font-weight: 600;
+        margin-bottom: 14px;
+        color: #006599;
+    }
+    .edgex {
+        height: 41px;
+        margin-left: 55px;
+    }
+    h5#edge {
+        padding-left: 1px;
+        padding-top: 10px;
+        margin-left: 50px;
+        width: 117px;
+        display: none;
+    }
+    .oreilly {
+        height: 43px;
+        margin-left: 41px;
+    }
+    h5#oreilly {
+        padding-left: 1px;
+        margin-left: 24px;
+        padding-top: 8px;
+        text-align: center;
+        width: 175px;
+        display: none;
+    }
+    .sciencepark {
+        height: 47px;
+        margin-left: 14px;
+        margin-top: -4px;
+    }
+    h5#science {
+        padding-left: 1px;
+        padding-top: 8px;
+        margin-left: 76px;
+        display: none;
+    }
+    .fund {
+        height: 46px;
+        margin-left: 0;
+        margin-top: -8px;
+    }
+    h5#fund {
+        margin-left: 8px;
+        padding-top: 13px;
+        text-align: center;
+        display: none;
+    }
+    /* --- all Layers --- */
+    #consulting h3 {
+        font-size: 26px;
+    }
+    #consulting h6 {
+        font-size: 8px;
+        text-align: center;
+    }
+    #consulting img {
+        height: 48px;
+    }
+    .preview .container {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .preview .row {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /* --- Consulting Services --- */
+    #consulting h4 {
+        font-size: 20px;
+    }
+    #consulting h5 {
+        font-size: 14px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    #consulting p {
+        font-size: 12px;
+        padding-left: 8px;
+        padding-right: 8px
+    }
+    p#intro {
+        font-size: 12px;
+    }
+    .section-sub br {
+        display: none;
+    }
+    img#devices {
+        height: 60px;
+    }
+    img#integration {
+        height: 50px;
+    }
+    img#advisory {
+        height: 60px;
+    }
+    img#managed {
+        height: 60px;
+    }
+    .subsub-left {
+        width: auto;
+    }
+    .right-text {
+        width: auto;
+        margin-top: 30px;
+    }
+    .left-text {
+        width: auto;
+    }
+    .subsub-right {
+        width: auto;
+        margin-top: 30px;
+    }
+    /* ---- action call ---- */
+    #action-call .btn {
+        width: 195px;
+        font-size: 14px;
+        margin-bottom: 25px;
+        margin-left: -27%;
+    }
+    /* --- O'Reilly Book --- */
+    #book-text {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    #book {
+        width: auto;
+    }
+    #reilly-book h4 {
+        font-size: 19px;
+    }
+    p#text-book {
+        text-align: justify;
+        font-size: 12px;
+        margin-bottom: 29px;
+    }
+    #reilly-book img {
+        height: 340px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+    }
+    /*-------- Conferences -------*/
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    #open {
+        height: 73px;
+        margin-top: -12px;
+        margin-left: 1px;
+    }
+    #relly {
+        height: 35px;
+        margin-left: 80px;
+        margin-top: 17px;
+    }
+    #barcelona {
+        height: 28px;
+        margin-left: 56px;
+        margin-top: 17px;
+    }
+    #fosdem {
+        height: 40px;
+        margin-left: 35px;
+        margin-top: 5px;
+    }
+    #emotion {
+        height: 56px;
+        margin-left: 1px;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 22px;
+        margin-left: 31px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 44px;
+        margin-left: -12px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 61px;
+        margin-left: -59px;
+        margin-top: -3px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 21px;
+        font-size: 21px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 1em;
+        padding-left: 19px;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 3.8vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 3.3vw;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 9px 0 16px 16px;
+    }
+}
+@media screen and (min-width:414px) and (max-width:479px) {
+    #brand {
+        margin-left: 1px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        font-size: 26px;
+        margin-left: -5px;
+        margin-top: 120px;
+        width: 215%;
+        text-align: center;
+    }
+    #headline {
+        z-index: 2;
+    }
+    #headline br {
+        display: none;
+    }
+    #headline #headbr {
+        display: block;
+    }
+    h2 {
+        font-size: 16px;
+        margin-left: -1px;
+        line-height: normal;
+        margin-bottom: 15px;
+        width: 215%;
+        text-align: center;
+    }
+    h3#home-sub {
+        font-size: 12px;
+        margin-left: 2px;
+        line-height: normal;
+        width: 211%;
+        text-align: center;
+    }
+    .home-butt {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .button-div {
+        margin-left: 50%;
+    }
+    img#shape {
+        height: 400px;
+        margin-top: 40px;
+        margin-left: -245px;
+        margin-bottom: 10px;
+        opacity: 0.15;
+    }
+    /* ---- References ---- */
+    .references {
+        margin-bottom: 22px;
+        margin-left: -27px;
+    }
+    .references h5 {
+        font-size: 9px;
+        font-weight: 600;
+        margin-bottom: 14px;
+        color: #006599;
+        display: none;
+    }
+    .edgex {
+        height: 51px;
+        margin-left: 55px;
+    }
+    #edgex {
+        margin-right: 75px;
+    }
+    h5#edge {
+        padding-left: 1px;
+        padding-top: 10px;
+        margin-left: 56px;
+        width: 117px;
+    }
+    .oreilly {
+        height: 53px;
+        margin-left: 45px;
+        margin-bottom: 19px;
+    }
+    #reilly {
+        margin-right: 100px;
+    }
+    h5#oreilly {
+        padding-left: 1px;
+        margin-left: 45px;
+        padding-top: 8px;
+        text-align: center;
+        width: 175px;
+    }
+    .sciencepark {
+        height: 57px;
+        margin-left: 29px;
+        margin-top: 6px;
+    }
+    #park {
+        margin-right: 115px;
+    }
+    h5#science {
+        padding-left: 1px;
+        padding-top: 8px;
+        margin-left: 55px;
+    }
+    .fund {
+        height: 56px;
+        margin-left: 0;
+        margin-top: -8px;
+    }
+    h5#fund {
+        margin-left: 20px;
+        padding-top: 13px;
+        text-align: left;
+        width: 150px
+    }
+    /* --- all Layers --- */
+    #consulting h3 {
+        font-size: 26px;
+    }
+    #consulting h6 {
+        display: none;
+    }
+    #consulting img {
+        height: 40px;
+    }
+    .preview .container {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .preview .row {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /* --- Consulting Services --- */
+    #consulting h4 {
+        font-size: 20px;
+    }
+    #consulting h5 {
+        font-size: 14px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    #consulting p {
+        font-size: 12px;
+        padding-left: 5px;
+        padding-right: 8px
+    }
+    p#intro {
+        font-size: 12px;
+    }
+    .section-sub br {
+        display: none;
+    }
+    img#devices {
+        height: 60px;
+    }
+    img#integration {
+        height: 50px;
+    }
+    img#advisory {
+        height: 60px;
+    }
+    img#managed {
+        height: 60px;
+    }
+    .subsub-left {
+        width: auto;
+    }
+    .right-text {
+        width: auto;
+        margin-top: 30px;
+    }
+    .left-text {
+        width: auto;
+    }
+    .subsub-right {
+        width: auto;
+        margin-top: 30px;
+    }
+    /* ---- action call ---- */
+    #action-call .btn {
+        width: 195px;
+        font-size: 14px;
+        margin-bottom: 5px;
+        margin-left: -42%;
+    }
+    /* --- O'Reilly Book --- */
+    #book-text {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    #book {
+        width: auto;
+    }
+    #reilly-book h4 {
+        font-size: 19px;
+    }
+    p#text-book {
+        text-align: justify;
+        font-size: 12px;
+        margin-bottom: 29px;
+    }
+    #reilly-book img {
+        height: 340px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+    }
+    p.authors {
+        margin-left: -3.7%;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #logoconf,
+    #second-conf {
+        padding-left: 2px;
+    }
+    #open {
+        height: 73px;
+        margin-top: -12px;
+        margin-left: -5px;
+    }
+    #relly {
+        height: 34px;
+        margin-left: 77px;
+        margin-top: 18px;
+    }
+    #barcelona {
+        height: 27px;
+        margin-left: 56px;
+        margin-top: 22px;
+    }
+    #fosdem {
+        height: 40px;
+        margin-left: 29px;
+        margin-top: 9px;
+    }
+    #emotion {
+        height: 52px;
+        margin-left: -5px;
+        ;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 21px;
+        margin-left: 24px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 41px;
+        margin-left: -14px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 55px;
+        margin-left: -59px;
+        margin-top: 1px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 18px;
+        font-size: 21px;
+    }
+    /*---------- News -----------*/
+    #news h3 {
+        margin-bottom: 10px;
+        font-size: 26px;
+    }
+    #news p {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    #news h5,
+    p {
+        padding-left: 6px;
+    }
+    /*-------- final adjustment ----*/
+    section#consulting {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #consulting .container {
+        margin: 0;
+        padding: 0;
+    }
+    #consulting .row {
+        margin: 0;
+        padding: 0;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        width: 80%;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 95%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 98%;
+    }
+    .apache {
+        margin-bottom: 0.9rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding-left: 5.5vw;
+        width: 98%;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+        width: 91%;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        font-size: 16px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 14px 0 0 9px;
+        width: auto;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:412px) and (max-width:413px) {
+    #brand {
+        margin-left: 1px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        font-size: 26px;
+        margin-left: -1px;
+        margin-top: 120px;
+        width: 215%;
+        text-align: center;
+    }
+    #headline {
+        z-index: 2;
+    }
+    #headline br {
+        display: none;
+    }
+    #headline #headbr {
+        display: block;
+    }
+    h2 {
+        font-size: 16px;
+        margin-left: 2px;
+        line-height: 21px;
+        margin-bottom: 15px;
+        width: 215%;
+        text-align: center;
+    }
+    h3#home-sub {
+        font-size: 12px;
+        margin-left: 4px;
+        line-height: normal;
+        width: 211%;
+        text-align: center;
+    }
+    .home-butt {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .button-div {
+        margin-left: 50%;
+    }
+    img#shape {
+        height: 400px;
+        margin-top: 40px;
+        margin-left: -245px;
+        margin-bottom: 10px;
+        opacity: 0.15;
+    }
+    /* ---- References ---- */
+    .references {
+        margin-bottom: 22px;
+        margin-left: -25px;
+    }
+    .references h5 {
+        font-size: 9px;
+        font-weight: 600;
+        margin-bottom: 14px;
+        color: #006599;
+        display: none;
+    }
+    .edgex {
+        height: 51px;
+        margin-left: 55px;
+    }
+    #edgex {
+        margin-right: 75px;
+    }
+    h5#edge {
+        padding-left: 1px;
+        padding-top: 10px;
+        margin-left: 56px;
+        width: 117px;
+    }
+    .oreilly {
+        height: 53px;
+        margin-left: 45px;
+        margin-bottom: 19px;
+    }
+    #reilly {
+        margin-right: 100px;
+    }
+    h5#oreilly {
+        padding-left: 1px;
+        margin-left: 45px;
+        padding-top: 8px;
+        text-align: center;
+        width: 175px;
+    }
+    .sciencepark {
+        height: 57px;
+        margin-left: 29px;
+        margin-top: 6px;
+    }
+    #park {
+        margin-right: 115px;
+    }
+    h5#science {
+        padding-left: 1px;
+        padding-top: 8px;
+        margin-left: 56px;
+    }
+    .fund {
+        height: 56px;
+        margin-left: 0;
+        margin-top: -8px;
+    }
+    h5#fund {
+        margin-left: 20px;
+        padding-top: 13px;
+        text-align: left;
+        width: 150px
+    }
+    /* --- all Layers --- */
+    #consulting h3 {
+        font-size: 26px;
+    }
+    #consulting h6 {
+        display: none;
+    }
+    #consulting img {
+        height: 40px;
+    }
+    .preview .container {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .preview .row {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /* --- Consulting Services --- */
+    #consulting h4 {
+        font-size: 20px;
+    }
+    #consulting h5 {
+        font-size: 14px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    #consulting p {
+        font-size: 12px;
+        padding-left: 3px;
+        padding-right: 8px
+    }
+    p#intro {
+        font-size: 12px;
+    }
+    .section-sub br {
+        display: none;
+    }
+    img#devices {
+        height: 60px;
+    }
+    img#integration {
+        height: 50px;
+    }
+    img#advisory {
+        height: 60px;
+    }
+    img#managed {
+        height: 60px;
+    }
+    .subsub-left {
+        width: auto;
+    }
+    .right-text {
+        width: auto;
+        margin-top: 30px;
+    }
+    .left-text {
+        width: auto;
+    }
+    .subsub-right {
+        width: auto;
+        margin-top: 30px;
+    }
+    /* ---- action call ---- */
+    #action-call .btn {
+        width: 195px;
+        font-size: 14px;
+        margin-bottom: 5px;
+        margin-left: -42%;
+    }
+    /* --- O'Reilly Book --- */
+    #book-text {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    #book {
+        width: auto;
+    }
+    #reilly-book h4 {
+        font-size: 19px;
+    }
+    p#text-book {
+        text-align: justify;
+        font-size: 12px;
+        margin-bottom: 29px;
+    }
+    #reilly-book img {
+        height: 340px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+    }
+    p.authors {
+        margin-left: -3.7%;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #open {
+        height: 73px;
+        margin-top: -12px;
+        margin-left: -3px;
+    }
+    #relly {
+        height: 34px;
+        margin-left: 77px;
+        margin-top: 18px;
+    }
+    #barcelona {
+        height: 27px;
+        margin-left: 56px;
+        margin-top: 22px;
+    }
+    #fosdem {
+        height: 40px;
+        margin-left: 29px;
+        margin-top: 9px;
+    }
+    #emotion {
+        height: 52px;
+        margin-left: -1px;
+        ;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 21px;
+        margin-left: 26px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 41px;
+        margin-left: -14px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 55px;
+        margin-left: -59px;
+        margin-top: 1px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 18px;
+        font-size: 21px;
+    }
+    /*-------- final adjustment ----*/
+    section#consulting {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #consulting .container {
+        margin: 0;
+        padding: 0;
+    }
+    #consulting .row {
+        margin: 0;
+        padding: 0;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        width: 80%;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 95%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 98%;
+    }
+    .apache {
+        margin-bottom: 0.9rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding-left: 5.5vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 8px;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+        width: 91%;
+    }
+    #terms p {
+        margin-left: 1.3vw;
+        font-size: 16px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 12px 0 0 12px;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:384px) and (max-width:411px) {
+    #brand {
+        margin-left: 1px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        font-size: 26px;
+        margin-left: -1px;
+        margin-top: 120px;
+        width: 215%;
+        text-align: center;
+    }
+    #headline {
+        z-index: 2;
+    }
+    #headline br {
+        display: none;
+    }
+    #headline #headbr {
+        display: block;
+    }
+    h2 {
+        font-size: 16px;
+        margin-left: 2px;
+        line-height: 21px;
+        margin-bottom: 15px;
+        width: 215%;
+        text-align: center;
+    }
+    h3#home-sub {
+        font-size: 12px;
+        margin-left: 4px;
+        line-height: normal;
+        width: 211%;
+        text-align: center;
+    }
+    .home-butt {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .button-div {
+        margin-left: 43%;
+    }
+    img#shape {
+        height: 400px;
+        margin-top: 40px;
+        margin-left: -249px;
+        margin-bottom: 10px;
+        opacity: 0.15;
+    }
+    /* ---- References ---- */
+    .references {
+        margin-bottom: 22px;
+        margin-left: -39px;
+    }
+    .references h5 {
+        display: none;
+    }
+    .edgex {
+        height: 51px;
+        margin-left: 55px;
+    }
+    #edgex {
+        margin-right: 75px;
+    }
+    h5#edge {
+        padding-left: 1px;
+        padding-top: 10px;
+        margin-left: 56px;
+        width: 117px;
+    }
+    .oreilly {
+        height: 53px;
+        margin-left: 45px;
+        margin-bottom: 19px;
+    }
+    #reilly {
+        margin-right: 100px;
+    }
+    h5#oreilly {
+        padding-left: 1px;
+        margin-left: 45px;
+        padding-top: 8px;
+        text-align: center;
+        width: 175px;
+    }
+    .sciencepark {
+        height: 57px;
+        margin-left: 29px;
+        margin-top: 4px;
+    }
+    #park {
+        margin-right: 115px;
+    }
+    h5#science {
+        padding-left: 1px;
+        padding-top: 8px;
+        margin-left: 56px;
+    }
+    .fund {
+        height: 56px;
+        margin-left: 0;
+        margin-top: -8px;
+    }
+    h5#fund {
+        margin-left: 20px;
+        padding-top: 13px;
+        text-align: left;
+        width: 150px
+    }
+    /* --- all Layers --- */
+    #consulting h3 {
+        font-size: 26px;
+    }
+    #consulting h6 {
+        display: none;
+    }
+    #consulting img {
+        height: 40px;
+    }
+    .preview .container {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .preview .row {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /* --- Consulting Services --- */
+    #consulting h4 {
+        font-size: 20px;
+    }
+    #consulting h5 {
+        font-size: 14px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    #consulting p {
+        font-size: 12px;
+        padding-left: 3px;
+        padding-right: 8px
+    }
+    p#intro {
+        font-size: 12px;
+    }
+    .section-sub br {
+        display: none;
+    }
+    img#devices {
+        height: 60px;
+    }
+    img#integration {
+        height: 50px;
+    }
+    img#advisory {
+        height: 60px;
+    }
+    img#managed {
+        height: 60px;
+    }
+    .subsub-left {
+        width: auto;
+    }
+    .right-text {
+        width: auto;
+        margin-top: 30px;
+    }
+    .left-text {
+        width: auto;
+    }
+    .subsub-right {
+        width: auto;
+        margin-top: 30px;
+    }
+    /* ---- action call ---- */
+    #action-call .btn {
+        width: 195px;
+        font-size: 14px;
+        margin-bottom: 5px;
+        margin-left: -50%;
+    }
+    /* --- O'Reilly Book --- */
+    #book-text {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    #book {
+        width: auto;
+    }
+    #reilly-book h4 {
+        font-size: 19px;
+    }
+    p#text-book {
+        text-align: justify;
+        font-size: 12px;
+        margin-bottom: 29px;
+    }
+    #reilly-book img {
+        height: 340px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+    }
+    p.authors {
+        margin-left: -3.7%;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #open {
+        height: 73px;
+        margin-top: -12px;
+        margin-left: -3px;
+    }
+    #relly {
+        height: 34px;
+        margin-left: 77px;
+        margin-top: 18px;
+    }
+    #barcelona {
+        height: 27px;
+        margin-left: 56px;
+        margin-top: 22px;
+    }
+    #fosdem {
+        height: 40px;
+        margin-left: 29px;
+        margin-top: 9px;
+    }
+    #emotion {
+        height: 52px;
+        margin-left: -1px;
+        ;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 21px;
+        margin-left: 26px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 41px;
+        margin-left: -14px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 55px;
+        margin-left: -59px;
+        margin-top: 1px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 18px;
+        font-size: 21px;
+    }
+    /*-------- final adjustment ----*/
+    section#consulting {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #consulting .container {
+        margin: 0;
+        padding: 0;
+    }
+    #consulting .row {
+        margin: 0;
+        padding: 0;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        width: 80%;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 95%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 98%;
+    }
+    .apache {
+        margin-bottom: 0.8rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding: 0 0 0 15px
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 0 0 0 12px;
+    }
+    #terms p {
+        margin-left: 0.3vw;
+        font-size: 16px;
+        width: 91%;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 18px 0 0 12px;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:375px) and (max-width:383px) {
+    #brand {
+        margin-left: 1px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        font-size: 26px;
+        margin-left: -1px;
+        margin-top: 120px;
+        width: 215%;
+        text-align: center;
+    }
+    #headline {
+        z-index: 2;
+    }
+    #headline br {
+        display: none;
+    }
+    #headline #headbr {
+        display: block;
+    }
+    h2 {
+        font-size: 16px;
+        margin-left: 2px;
+        line-height: 21px;
+        margin-bottom: 15px;
+        width: 215%;
+        text-align: center;
+    }
+    h3#home-sub {
+        font-size: 12px;
+        margin-left: 4px;
+        line-height: normal;
+        width: 211%;
+        text-align: center;
+    }
+    .home-butt {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .button-div {
+        margin-left: 41%;
+    }
+    img#shape {
+        height: 400px;
+        margin-top: 40px;
+        margin-left: -251px;
+        margin-bottom: 10px;
+        opacity: 0.15;
+    }
+    /* ---- References ---- */
+    .references {
+        margin-bottom: 22px;
+        margin-left: -46px;
+    }
+    .references h5 {
+        display: none;
+    }
+    .edgex {
+        height: 51px;
+        margin-left: 55px;
+    }
+    #edgex {
+        margin-right: 75px;
+    }
+    h5#edge {
+        padding-left: 1px;
+        padding-top: 10px;
+        margin-left: 56px;
+        width: 117px;
+    }
+    .oreilly {
+        height: 53px;
+        margin-left: 45px;
+        margin-bottom: 19px;
+    }
+    #reilly {
+        margin-right: 100px;
+    }
+    h5#oreilly {
+        padding-left: 1px;
+        margin-left: 45px;
+        padding-top: 8px;
+        text-align: center;
+        width: 175px;
+    }
+    .sciencepark {
+        height: 57px;
+        margin-left: 29px;
+        margin-top: 4px;
+    }
+    #park {
+        margin-right: 115px;
+    }
+    h5#science {
+        padding-left: 1px;
+        padding-top: 8px;
+        margin-left: 56px;
+    }
+    .fund {
+        height: 56px;
+        margin-left: 0;
+        margin-top: -8px;
+    }
+    h5#fund {
+        margin-left: 20px;
+        padding-top: 13px;
+        text-align: left;
+        width: 150px
+    }
+    /* --- all Layers --- */
+    #consulting h3 {
+        font-size: 26px;
+    }
+    #consulting h6 {
+        display: none;
+    }
+    #consulting img {
+        height: 40px;
+    }
+    .preview .container {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .preview .row {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /* --- Consulting Services --- */
+    #consulting h4 {
+        font-size: 20px;
+    }
+    #consulting h5 {
+        font-size: 14px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    #consulting p {
+        font-size: 12px;
+        padding-left: 3px;
+        padding-right: 8px
+    }
+    p#intro {
+        font-size: 12px;
+    }
+    .section-sub br {
+        display: none;
+    }
+    img#devices {
+        height: 60px;
+    }
+    img#integration {
+        height: 50px;
+    }
+    img#advisory {
+        height: 60px;
+    }
+    img#managed {
+        height: 60px;
+    }
+    .subsub-left {
+        width: auto;
+    }
+    .right-text {
+        width: auto;
+        margin-top: 30px;
+    }
+    .left-text {
+        width: auto;
+    }
+    .subsub-right {
+        width: auto;
+        margin-top: 30px;
+    }
+    /* ---- action call ---- */
+    #action-call .btn {
+        width: 195px;
+        font-size: 14px;
+        margin-bottom: 5px;
+        margin-left: -51%;
+    }
+    /* --- O'Reilly Book --- */
+    #book-text {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    #book {
+        width: auto;
+    }
+    #reilly-book h4 {
+        font-size: 19px;
+    }
+    p#text-book {
+        text-align: justify;
+        font-size: 12px;
+        margin-bottom: 29px;
+    }
+    #reilly-book img {
+        height: 340px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+    }
+    p.authors {
+        margin-left: -3.7%;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #open {
+        height: 73px;
+        margin-top: -12px;
+        margin-left: -3px;
+    }
+    #relly {
+        height: 34px;
+        margin-left: 77px;
+        margin-top: 18px;
+    }
+    #barcelona {
+        height: 27px;
+        margin-left: 56px;
+        margin-top: 22px;
+    }
+    #fosdem {
+        height: 40px;
+        margin-left: 29px;
+        margin-top: 9px;
+    }
+    #emotion {
+        height: 52px;
+        margin-left: -1px;
+        ;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 21px;
+        margin-left: 26px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 41px;
+        margin-left: -14px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 55px;
+        margin-left: -59px;
+        margin-top: 1px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 18px;
+        font-size: 21px;
+    }
+    /*---------- News -----------
+    #news h3 {
+        margin-bottom: 10px;
+    }
+    #news p {
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+    #news h5,
+    p {
+        padding-left: 6px;
+    }
+    
+     -----  */
+    /*-------- final adjustment ----*/
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        width: 80%;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 95%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 98%;
+    }
+    .apache {
+        margin-bottom: 0.9rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding: 0 0 0 15px;
+        width: 98%;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 0 0 0 2px;
+        width: 95%;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        font-size: 16px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 16px 0 0 12px;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:360px) and (max-width:374px) {
+    #brand {
+        margin-left: 1px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        font-size: 26px;
+        margin-left: 3px;
+        margin-top: 120px;
+        width: 215%;
+        text-align: center;
+    }
+    #headline {
+        z-index: 2;
+    }
+    #headline br {
+        display: none;
+    }
+    #headline #headbr {
+        display: block;
+    }
+    h2 {
+        font-size: 16px;
+        margin-left: 2px;
+        line-height: 21px;
+        margin-bottom: 15px;
+        width: 215%;
+        text-align: center;
+    }
+    h3#home-sub {
+        font-size: 12px;
+        margin-left: 6px;
+        line-height: normal;
+        width: 211%;
+        text-align: center;
+    }
+    .home-butt {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .button-div {
+        margin-left: 39%;
+    }
+    img#shape {
+        height: 400px;
+        margin-top: 40px;
+        margin-left: -251px;
+        margin-bottom: 10px;
+        opacity: 0.15;
+    }
+    /* ---- References ---- */
+    .references {
+        margin-bottom: 22px;
+        margin-left: -48px;
+    }
+    .references h5 {
+        display: none;
+    }
+    .edgex {
+        height: 51px;
+        margin-left: 55px;
+    }
+    #edgex {
+        margin-right: 75px;
+    }
+    h5#edge {
+        padding-left: 1px;
+        padding-top: 10px;
+        margin-left: 56px;
+        width: 117px;
+    }
+    .oreilly {
+        height: 53px;
+        margin-left: 45px;
+        margin-bottom: 19px;
+    }
+    #reilly {
+        margin-right: 100px;
+    }
+    h5#oreilly {
+        padding-left: 1px;
+        margin-left: 45px;
+        padding-top: 8px;
+        text-align: center;
+        width: 175px;
+    }
+    .sciencepark {
+        height: 57px;
+        margin-left: 29px;
+        margin-top: 7px;
+    }
+    #park {
+        margin-right: 115px;
+    }
+    h5#science {
+        padding-left: 1px;
+        padding-top: 8px;
+        margin-left: 56px;
+    }
+    .fund {
+        height: 56px;
+        margin-left: 0;
+        margin-top: -8px;
+    }
+    h5#fund {
+        margin-left: 20px;
+        padding-top: 13px;
+        text-align: left;
+        width: 150px
+    }
+    /* --- all Layers --- */
+    #consulting h3 {
+        font-size: 26px;
+    }
+    #consulting h6 {
+        display: none;
+    }
+    #consulting img {
+        height: 40px;
+    }
+    .preview .container {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .preview .row {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /* --- Consulting Services --- */
+    #consulting h4 {
+        font-size: 20px;
+    }
+    #consulting h5 {
+        font-size: 14px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    #consulting p {
+        font-size: 12px;
+        padding-left: 3px;
+        padding-right: 8px
+    }
+    p#intro {
+        font-size: 12px;
+    }
+    .section-sub br {
+        display: none;
+    }
+    img#devices {
+        height: 60px;
+    }
+    img#integration {
+        height: 50px;
+    }
+    img#advisory {
+        height: 60px;
+    }
+    img#managed {
+        height: 60px;
+    }
+    .subsub-left {
+        width: auto;
+    }
+    .right-text {
+        width: auto;
+        margin-top: 30px;
+    }
+    .left-text {
+        width: auto;
+    }
+    .subsub-right {
+        width: auto;
+        margin-top: 30px;
+    }
+    /* ---- action call ---- */
+    #action-call .btn {
+        width: 195px;
+        font-size: 14px;
+        margin-bottom: 5px;
+        margin-left: -55%;
+    }
+    /* --- O'Reilly Book --- */
+    #book-text {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    #book {
+        width: auto;
+    }
+    #reilly-book h4 {
+        font-size: 19px;
+    }
+    p#text-book {
+        text-align: justify;
+        font-size: 12px;
+        margin-bottom: 29px;
+    }
+    #reilly-book img {
+        height: 340px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+    }
+    p.authors {
+        margin-left: -3.7%;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #open {
+        height: 71px;
+        margin-top: -12px;
+        margin-left: -4px;
+    }
+    #relly {
+        height: 29px;
+        margin-left: 84px;
+        margin-top: 20px;
+    }
+    #barcelona {
+        height: 21px;
+        margin-left: 63px;
+        margin-top: 26px;
+    }
+    #fosdem {
+        height: 34px;
+        margin-left: 29px;
+        margin-top: 10px;
+    }
+    #emotion {
+        height: 45px;
+        margin-left: -3px;
+        ;
+        margin-top: 3px;
+    }
+    #golab {
+        height: 18px;
+        margin-left: 22px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 38px;
+        margin-left: -11px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 50px;
+        margin-left: -51px;
+        margin-top: 1px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 18px;
+        font-size: 21px;
+    }
+    /*---------- News ---------
+    #news h3 {
+        margin-bottom: 10px;
+    }
+    #news p {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    #news h5,
+    p {
+        padding-left: 6px;
+    }
+    --*/
+    /*-------- final adjustment ----*/
+    section#consulting {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #consulting .container {
+        margin: 0;
+        padding: 0;
+    }
+    #consulting .row {
+        margin: 0;
+        padding: 0;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 95%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 98%;
+    }
+    .apache {
+        margin-bottom: 0.9rem;
+    }
+    #licence p {
+        margin-left: -3px;
+        font-size: 0.66937rem;
+        margin-bottom: 5px;
+    }
+    #social {
+        padding: 0 0 0 15px;
+        width:
+    }
+    #social i {
+        font-size: 18px;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 0 0 0 12px;
+    }
+    #terms p {
+        margin-left: 0;
+        font-size: 16px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 16px 0 0 12px;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:359px) {
+    #brand {
+        margin-left: 1px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        font-size: 22px;
+        margin-left: 3px;
+        margin-top: 120px;
+        width: 215%;
+        text-align: center;
+    }
+    #headline {
+        z-index: 2;
+    }
+    #headline br {
+        display: none;
+    }
+    #headline #headbr {
+        display: block;
+    }
+    h2 {
+        font-size: 16px;
+        margin-left: 2px;
+        line-height: 21px;
+        margin-bottom: 15px;
+        width: 215%;
+        text-align: center;
+    }
+    h3#home-sub {
+        font-size: 12px;
+        margin-left: 6px;
+        line-height: normal;
+        width: 211%;
+        text-align: center;
+    }
+    .home-butt {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .button-div {
+        margin-left: 29%;
+    }
+    img#shape {
+        height: 320px;
+        margin-top: 80px;
+        margin-left: -191px;
+        margin-bottom: 90px;
+        opacity: 0.2;
+    }
+    /* ---- References ---- */
+    .references {
+        margin-bottom: 22px;
+        margin-left: -68px;
+    }
+    .references h5 {
+        display: none;
+    }
+    .edgex {
+        height: 51px;
+        margin-left: 55px;
+    }
+    #edgex {
+        margin-right: 75px;
+    }
+    h5#edge {
+        padding-left: 1px;
+        padding-top: 10px;
+        margin-left: 56px;
+        width: 117px;
+    }
+    .oreilly {
+        height: 53px;
+        margin-left: 45px;
+        margin-bottom: 19px;
+    }
+    #reilly {
+        margin-right: 100px;
+    }
+    h5#oreilly {
+        padding-left: 1px;
+        margin-left: 45px;
+        padding-top: 8px;
+        text-align: center;
+        width: 175px;
+    }
+    .sciencepark {
+        height: 57px;
+        margin-left: 29px;
+        margin-top: 6px;
+    }
+    #park {
+        margin-right: 115px;
+    }
+    h5#science {
+        padding-left: 1px;
+        padding-top: 8px;
+        margin-left: 56px;
+    }
+    .fund {
+        height: 56px;
+        margin-left: 0;
+        margin-top: -8px;
+    }
+    h5#fund {
+        margin-left: 20px;
+        padding-top: 13px;
+        text-align: left;
+        width: 150px
+    }
+    /* --- all Layers --- */
+    #consulting h3 {
+        font-size: 26px;
+    }
+    #consulting h6 {
+        display: none;
+    }
+    #consulting img {
+        height: auto;
+    }
+    .preview .container {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .preview .row {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /* --- Consulting Services --- */
+    #consulting h4 {
+        font-size: 20px;
+    }
+    #consulting h5 {
+        font-size: 14px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    #consulting p {
+        font-size: 12px;
+        padding-left: 3px;
+        padding-right: 8px
+    }
+    p#intro {
+        font-size: 12px;
+    }
+    .section-sub br {
+        display: none;
+    }
+    img#devices {
+        height: 60px;
+    }
+    img#integration {
+        height: 50px;
+    }
+    img#advisory {
+        height: 60px;
+    }
+    img#managed {
+        height: 60px;
+    }
+    .subsub-left {
+        width: auto;
+    }
+    .right-text {
+        width: auto;
+        margin-top: 30px;
+    }
+    .left-text {
+        width: auto;
+    }
+    .subsub-right {
+        width: auto;
+        margin-top: 30px;
+    }
+    /* ---- action call ---- */
+    #action-call .btn {
+        width: 195px;
+        font-size: 14px;
+        margin-bottom: 5px;
+        margin-left: -77%;
+    }
+    /* --- O'Reilly Book --- */
+    #book-text {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    #book {
+        width: auto;
+    }
+    #reilly-book h4 {
+        font-size: 19px;
+    }
+    p#text-book {
+        text-align: justify;
+        font-size: 12px;
+        margin-bottom: 29px;
+    }
+    #reilly-book img {
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+    }
+    p.authors {
+        margin-left: -3.7%;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #open {
+        height: 60px;
+        margin-top: -7px;
+        margin-left: -4px;
+    }
+    #relly {
+        height: 24px;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    #barcelona {
+        height: 17px;
+        margin-left: 53px;
+        margin-top: 26px;
+    }
+    #fosdem {
+        height: 30px;
+        margin-left: 29px;
+        margin-top: 10px;
+    }
+    #emotion {
+        height: 40px;
+        margin-left: -3px;
+        ;
+        margin-top: 4px;
+    }
+    #golab {
+        height: 15px;
+        margin-left: 19px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 32px;
+        margin-left: -11px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 45px;
+        margin-left: -47px;
+        margin-top: 1px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 18px;
+        font-size: 19px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        width: 80%;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 95%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 98%;
+    }
+    .apache {
+        margin-bottom: 0.9rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding: 0 0 0 15px;
+    }
+    .footer i {
+        font-size: 14px;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 0 0 16px 11px;
+    }
+    #terms p {
+        margin-left: -4px;
+        font-size: 18px;
+    }
+    #terms a {
+        font-size: 12px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding-left: 7px;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
