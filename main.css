@@ -4277,7 +4277,7 @@
         h1 {
             margin-top: 110px;
             margin-left: 0;
-            font-size: 21px;
+            font-size: 22px;
             line-height: 25px;
             z-index: 4;
             width: 300px;
@@ -4286,9 +4286,9 @@
             z-index: 3;
         }
         h2 {
-            font-size: 8.2px;
+            font-size: 12.2px;
             line-height: 15px;
-            width: 355px;
+            width: 310px;
             margin-left: 0;
             z-index: 4;
         }
@@ -4397,9 +4397,9 @@
             font-size: 13px;
         }
         img#stack {
-            height: 168px;
+            height: 170px;
             margin-top: 22px;
-            margin-left: -9px;
+            margin-left: -25px;
         }
         /* ---- IoT Platform Features ---- */
         #platform-features {
@@ -4695,7 +4695,7 @@
         h1 {
             margin-top: 110px;
             margin-left: 0;
-            font-size: 21px;
+            font-size: 22px;
             line-height: 25px;
             z-index: 4;
             width: 300px;
@@ -4704,9 +4704,9 @@
             z-index: 3;
         }
         h2 {
-            font-size: 8.2px;
+            font-size: 12.2px;
             line-height: 15px;
-            width: 355px;
+            width: 310px;
             margin-left: 0;
             z-index: 4;
         }
@@ -4757,14 +4757,14 @@
         }
         .oreilly {
             height: 53px;
-            margin-left: 45px;
+            margin-left: 35px;
         }
         #reilly {
             margin-right: 100px;
         }
         h5#oreilly {
             padding-left: 1px;
-            margin-left: 45px;
+            margin-left: 35px;
             padding-top: 8px;
             text-align: center;
             width: 175px;
@@ -4778,17 +4778,17 @@
             margin-right: 115px;
         }
         h5#science {
-            padding-left: 1px;
+            padding-left: 17px;
             padding-top: 8px;
             margin-left: 56px;
         }
         .fund {
             height: 56px;
-            margin-left: 0;
+            margin-left: -12px;
             margin-top: -8px;
         }
         h5#fund {
-            margin-left: 20px;
+            margin-left: 8px;
             padding-top: 13px;
             text-align: left;
             width: 150px
@@ -4814,9 +4814,9 @@
             font-size: 13px;
         }
         img#stack {
-            height: 168px;
+            height: 160px;
             margin-top: 22px;
-            margin-left: -9px;
+            margin-left: -22px;
         }
         /* ---- IoT Platform Features ---- */
         #platform-features {
