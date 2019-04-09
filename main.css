@@ -131,7 +131,7 @@
         font-family: Raleway;
         font-weight: 500;
         transform: scaleY(0.96);
-        font-size: 12px;
+        font-size: 14px;
     }
     .navbar-default .navbar-nav>li>a:visited {
         color: white;
@@ -172,7 +172,7 @@
         position: relative;
         display: inline-block;
         font-family: Montserrat;
-        font-size: 12px;
+        font-size: 14px;
     }
     .dropdown-menu {
         display: none;
@@ -189,13 +189,13 @@
     }
     .dropdown-menu>li>a {
         color: white;
-        font-size: 12px;
+        font-size: 14px;
     }
     .dropdown-menu a:hover {
         background-color: white;
         color: white;
         font-family: Montserrat;
-        font-size: 12px;
+        font-size: 14px;
         text-decoration-color: white;
     }
     .dropdown:hover .dropdown-menu {
@@ -276,23 +276,23 @@
         color: white;
     }
     #shape {
-        height: 610px;
-        margin: 20px 0 20px 0;
+        height: 650px;
+        margin: 20px 0 20px 32px;
         opacity: 0.4;
     }
     h1 {
         color: white;
         font-family: Montserrat;
-        font-size: 26px;
+        font-size: 34px;
         font-weight: 600;
-        margin: 255px 0 0 40px;
+        margin: 255px 0 22px 40px;
     }
     h2 {
         color: white;
         font-family: Montserrat;
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 200;
-        line-height: 20px;
+        line-height: 23px;
         letter-spacing: 0.7px;
         margin: 10px 0 0 40px;
     }
@@ -816,24 +816,25 @@
             background-image: linear-gradient(to right top, #01041c, #02071e, #030a21, #040d23, #040f26, #05132c, #041631, #041937, #051e41, #07234b, #0a2955, #0d2e60);
         }
         h1 {
-            margin-top: 205px;
-            font-size: 23px;
-            line-height: 27px;
+            margin-top: 200px;
+            font-size: 32px;
+            line-height: 35px;
         }
         h2 {
-            font-size: 12px;
-            line-height: 17px;
+            font-size: 14px;
+            line-height: 22px;
+            width:720px;
         }
         #shape {
-            height: 520px;
-            margin-left: 18px;
-            margin-top: 15px;
+            height: 539px;
+            margin-left: 32px;
+            margin-top: 2px;
             margin-bottom: 16px;
         }
         #github,
         #dirdownload {
             width: 165px;
-            font-size: 11px;
+            font-size: 12px;
         }
         /* ---- References ---- */
         .references {
@@ -910,23 +911,24 @@
         }
         h1 {
             margin-top: 205px;
-            font-size: 23px;
-            line-height: 27px;
+            font-size: 30px;
+            line-height: 33px;
         }
         h2 {
-            font-size: 12px;
-            line-height: 17px;
+            font-size: 14px;
+            line-height: 22px;
+            width:620px
         }
         #shape {
-            height: 520px;
-            margin-left: 18px;
+            height: 560px;
+            margin-left: 38px;
             margin-top: 15px;
             margin-bottom: 16px;
         }
         #github,
         #dirdownload {
             width: 165px;
-            font-size: 11px;
+            font-size: 12px;
         }
         /* ---- References ---- */
         .references {
@@ -1008,18 +1010,19 @@
         h1 {
             margin-top: 190px;
             margin-left: 25px;
-            font-size: 22px;
-            line-height: 27px;
+            font-size: 28px;
+            line-height: 33px;
         }
         h2 {
-            font-size: 11px;
-            line-height: 17px;
+            font-size: 14px;
+            line-height: 22px;
             width: 460px;
             margin-left: 25px;
+            width:610px;
         }
         #shape {
-            height: 430px;
-            margin-left: 31px;
+            height: 440px;
+            margin-left: 51px;
             margin-top: 46px;
             margin-bottom: 55px;
         }

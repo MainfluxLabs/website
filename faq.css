@@ -133,7 +133,7 @@ body {
     font-family: Raleway;
     font-weight: 500;
     transform: scaleY(0.96);
-    font-size: 12px;
+    font-size: 14px;
 }
 .navbar-default .navbar-nav>li>a:visited {
     color: white;

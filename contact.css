@@ -133,7 +133,7 @@ body {
     font-family: Raleway;
     font-weight: 500;
     transform: scaleY(0.96);
-    font-size: 12px;
+    font-size: 14px;
 }
 .navbar-default .navbar-nav>li>a:visited {
     color: white;
@@ -178,7 +178,7 @@ a#active {
     position: relative;
     display: inline-block;
     font-family: Montserrat;
-    font-size: 12px;
+    font-size: 14px;
 }
 .dropdown-menu {
     display: none;
@@ -190,13 +190,13 @@ a#active {
     text-align: center;
     color: white;
     font-family: Montserrat;
-    font-size: 12px;
+    font-size: 14px;
 }
 .dropdown-menu a:hover {
     background-color: white;
     color: white;
     font-family: Montserrat;
-    font-size: 12px;
+    font-size: 14px;
 }
 .dropdown:hover .dropdown-menu {
     display: block;
@@ -209,7 +209,7 @@ a#active {
 }
 .dropdown-menu>li>a {
     color: white;
-    font-size: 12px;
+    font-size: 14px;
 }
 ol,
 ul {
