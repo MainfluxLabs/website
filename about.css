@@ -575,6 +575,16 @@ p.news-text {
     text-align: justify;
     margin-top: 8px;
 }
+a.news-link {
+    font-weight: 500;
+    font-family: Montserrat;
+    font-size: 13px;
+}
+a.news-link:hover {
+    text-decoration: none;
+    color: #061856;
+    font-weight: 500;
+}
 
 /* ----- FOOTER ----- */
 

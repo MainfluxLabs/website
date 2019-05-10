@@ -1,0 +1,2346 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+
+/* ---- NAVIGATION ---- */
+
+.navbar-default {
+    border: none;
+    margin-bottom: 0;
+    background-color: #0b1e3b;
+    border-radius: 0;
+    background: rgb(1, 4, 28);
+    background: rgb(3, 18, 42);
+    background: rgb(3, 18, 42);
+    background: linear-gradient(90deg, rgba(3, 18, 42, 1) 27%, rgba(13, 46, 96, 1) 100%);
+}
+.navbar-default .navbar-brand {
+    color: #006599;
+    font-family: Montserrat;
+    font-weight: 700;
+    transform: scaleY(0.95);
+}
+#brand {
+    color: white;
+    margin-left: 22px;
+    margin-top: 10px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+.navbar-nav {
+    height: 70px;
+}
+.navbar-default .navbar-nav>li>a:visited {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #2891c7;
+}
+.navbar-default .navbar-nav>li>a:active {
+    color: #2891c7;
+}
+a#active {
+    color: #2891c7;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-brand:hover {
+    color: white;
+}
+.navbar-toggle {
+    border: none;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #e5ebf4;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #006599;
+}
+.navbar-collapse {
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 12px;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #006599;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+    font-size: 12px;
+}
+.dropdown-menu a:hover {
+    background-color: white;
+    color: white;
+    font-family: Montserrat;
+    font-size: 12px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: #006599;
+    color: white;
+}
+.dropdown:hover {
+    background-color: #006599;
+    color: white;
+}
+.dropdown-menu>li>a {
+    color: white;
+    font-size: 12px;
+}
+
+/* ---- Tutorials  ---- */
+
+h3.section-subheadline {
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: 800;
+    color: rgb(0, 52, 102);
+    margin-bottom: 20px;
+    text-align: center;
+}
+hr#quick-preview {
+    width: 12%;
+    height: 3px;
+    background-color: rgb(0, 167, 224);
+    color: rgb(0, 167, 224);
+}
+h4 {
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: rgb(0, 52, 102);
+    line-height: normal;
+    margin-bottom: 3vh;
+}
+h5 {
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: rgb(0, 52, 102);
+    line-height: normal;
+    margin-bottom: 1vh;
+}
+p.section-text {
+    font-family: Montserrat;
+    font-weight: 400;
+    color: rgb(102, 106, 107);
+    line-height: normal;
+    font-size: 14px;
+}
+
+/*---------- Tutorials main -----------*/
+
+section#tutorials {
+    background-color: rgb(239, 239, 239);
+}
+div.article {
+    background-color: white;
+    padding: 17px;
+    border-radius: 4px;
+    overflow: hidden;
+    height: auto;
+}
+#top {
+    margin-top: 55px;
+}
+#bottom {
+    margin-bottom: 75px;
+}
+.article-date-category p {
+    font-family: Montserrat;
+    font-weight: 300;
+    color: rgb(102, 106, 107);
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+p#date {
+    color: #061856;
+    font-weight: 700;
+    font-size: 18px;
+}
+p#category {
+    float: right;
+    margin-top: -26px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #055f8e;
+    font-family: Raleway;
+}
+.article h5 {
+    margin-top: 30px;
+    padding-bottom: 8px;
+}
+p.tutorials-text {
+    text-align: justify;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: rgb(102, 106, 107);
+    line-height: normal;
+    font-size: 13px;
+    padding-right: 1.8vw;
+    margin-bottom: 3px;
+}
+#buy {
+    border: 1px solid #061856;
+    background-color: #061856;
+    color: white;
+    font-weight: 600;
+    width: 180px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+#buy:hover {
+    border: 1px solid #035e8d;
+    background-color: #035e8d;
+    color: white;
+}
+
+
+
+/* ----- FOOTER ----- */
+
+div.footer {
+    background-color: rgb(239, 239, 239);
+    padding-top: 35px;
+}
+div.footer h6 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #061856;
+    text-align: left;
+}
+div.footer a {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 0.8rem;
+    color: #061856;
+}
+div.footer a:hover {
+    text-decoration: none;
+    color: #357dfc;
+}
+.footer-col {
+    margin-left: 28px;
+    width: auto;
+    margin-right: 30px
+}
+.input-group .form-control {
+    background: transparent;
+    border-color: #061856;
+    border-radius: 1px;
+    height: 40px;
+    color: white;
+}
+.input-group-addon {
+    border-radius: 1px;
+    border-color: #061856;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: white;
+    background: transparent;
+    padding: 11px 25px;
+}
+.input-group-btn-newsletter button {
+    border-radius: 1px !important;
+    border-color: #061856; !important;
+    font-family: Montserrat !important;
+    font-weight: 600 !important;
+    color: #061856; !important;
+    background: transparent !important;
+    padding: 10px 8px !important;
+    margin-top: 0px;
+    width: 100%;
+}
+.footer p {
+    color: #061856;
+}
+.footer i {
+    font-size: 19.7px;
+    color: #061856;;
+    padding-right: 16px;
+    margin-bottom: 12px;
+}
+#licence {
+    margin-top: 8rem;
+}
+#licence p {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 0.7rem;
+    margin-left: 7.17rem;
+    color: #061856;
+}
+#social {
+    padding-left: 18vw;
+}
+.footer-line {
+    height: 1px;
+    width: 83vw;
+    background: #061856;;
+    margin-left: 7.7vw;
+    margin-bottom: 11px;
+}
+#terms {
+    margin-left: 0.78vw;
+    padding: 1px;
+}
+#terms a {
+    font-size: 0.8rem;
+}
+#mainflux-footer {
+    text-align: right;
+    padding-right: 1px;
+    padding-top: 0;
+    margin-top: -5px;
+}
+#mainflux-footer p {
+    font-family: Montserrat;
+    font-weight: 800;
+    transform: scaleY(0.94);
+    color: #061856;
+    font-size: 1.4rem;
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+
+/*------------------------------------------*/
+
+
+/*------------------------------------------*/
+
+
+/* ----- MEDIA QUERIES ----- */
+
+
+/* ---- Extra Large Desktops ---- */
+
+@media screen and (min-width:1920px) and (max-width:2560px) {
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: -32px;
+    }
+    .footer-line {
+        width: 85vw;
+        margin-left: 5.9vw;
+    }
+    #social {
+        padding-left: 24.7vw;
+    }
+}
+@media screen and (min-width:1600px) and (max-width:1919px) {
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: -82px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-line {
+        width: 84vw;
+        margin-left: 6.9vw;
+    }
+    #social {
+        padding-left: 21.7vw;
+    }
+}
+@media screen and (min-width:1440px) and (max-width:1559px) {
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: -82px;
+    }
+}
+@media screen and (min-width:1366px) and (max-width:1399px) {
+   
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -385px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-bottom: 85px;
+    }
+    .home-button {
+        margin-bottom: 180px;
+    }
+    /* ---- References ---- */
+    .references {
+        margin-bottom: 22px;
+    }
+    .references h5 {
+        font-size: 10px;
+        font-weight: 600;
+        margin-bottom: 14px;
+        color: #006599;
+    }
+    .edgex {
+        height: 50px;
+        margin-left: 55px;
+    }
+    h5#edge {
+        padding-left: 48px;
+        padding-top: 10px;
+    }
+    .oreilly {
+        height: 52px;
+        margin-left: 63px;
+    }
+    h5#oreilly {
+        padding-left: 37px;
+        padding-top: 8px;
+    }
+    .sciencepark {
+        height: 56px;
+        margin-left: 68px;
+        margin-top: -4px;
+    }
+    h5#science {
+        padding-left: 108px;
+        padding-top: 8px;
+    }
+    .fund {
+        height: 55px;
+        margin-left: 76px;
+        margin-top: -6px;
+    }
+    h5#fund {
+        margin-left: 14px;
+        padding-top: 11px;
+        text-align: center;
+    }
+    section.conferences {
+        display: none;
+    }
+    /* ---- FOOTER ---- */
+    .footer-line {
+        width: 82vw;
+        margin-left: 8.1vw;
+    }
+    #social {
+        padding-left: 17.7vw;
+    }
+}
+@media screen and (min-width:1280px) and (max-width:1365px) {
+    
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -385px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-bottom: 85px;
+    }
+    .home-button {
+        margin-bottom: 180px;
+    }
+    /* ---- References ---- */
+    .references {
+        margin-bottom: 22px;
+    }
+    .references h5 {
+        font-size: 10px;
+        font-weight: 600;
+        margin-bottom: 14px;
+        color: #006599;
+    }
+    .edgex {
+        height: 50px;
+        margin-left: 55px;
+    }
+    h5#edge {
+        padding-left: 48px;
+        padding-top: 10px;
+    }
+    .oreilly {
+        height: 52px;
+        margin-left: 63px;
+    }
+    h5#oreilly {
+        padding-left: 37px;
+        padding-top: 8px;
+    }
+    .sciencepark {
+        height: 56px;
+        margin-left: 68px;
+        margin-top: -4px;
+    }
+    h5#science {
+        padding-left: 108px;
+        padding-top: 8px;
+    }
+    .fund {
+        height: 55px;
+        margin-left: 76px;
+        margin-top: -6px;
+    }
+    h5#fund {
+        margin-left: 14px;
+        padding-top: 11px;
+        text-align: center;
+    }
+    /* --- Conferences logo --- */
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: -82px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-left: 50px;
+        width: auto;
+    }
+    .footer-line {
+        width: 82vw;
+        margin-left: 8.5vw;
+    }
+    #social {
+        padding-left: 16.4vw;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    #brand {
+        margin-left: 7px;
+    }
+   
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -385px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-bottom: 85px;
+    }
+    .home-button {
+        margin-bottom: 180px;
+    }
+    /* ---- References ---- */
+    .references {
+        margin-bottom: 22px;
+        margin-left: -50px
+    }
+    .references h5 {
+        font-size: 10px;
+        font-weight: 600;
+        margin-bottom: 14px;
+        color: #006599;
+    }
+    .edgex {
+        height: 50px;
+        margin-left: 55px;
+    }
+    h5#edge {
+        padding-left: 48px;
+        padding-top: 10px;
+    }
+    .oreilly {
+        height: 52px;
+        margin-left: 63px;
+    }
+    h5#oreilly {
+        padding-left: 37px;
+        padding-top: 8px;
+    }
+    .sciencepark {
+        height: 56px;
+        margin-left: 68px;
+        margin-top: -4px;
+    }
+    h5#science {
+        padding-left: 108px;
+        padding-top: 8px;
+    }
+    .fund {
+        height: 55px;
+        margin-left: 76px;
+        margin-top: -6px;
+    }
+    h5#fund {
+        margin-left: 14px;
+        padding-top: 11px;
+        text-align: center;
+    }
+    /* --- Conferences logo --- */
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: 16px;
+    }
+    #conferences h3 {
+        color: white;
+        font-size: 25px;
+        margin-top: 35px;
+        margin-bottom: 36px;
+    }
+    #open {
+        height: 91px;
+        margin-top: -32px;
+        margin-left: -12px;
+    }
+    #relly {
+        height: 35px;
+        margin-left: 147px;
+        margin-top: 10px;
+    }
+    #barcelona {
+        height: 28px;
+        margin-left: 166px;
+        margin-top: 18px;
+    }
+    #fosdem {
+        height: 39px;
+        margin-left: 180px;
+        margin-top: 6px;
+    }
+    #emotion {
+        height: 54px;
+        margin-left: 169px;
+    }
+    #golab {
+        height: 24px;
+        margin-left: 236px;
+        margin-top: 15px;
+    }
+    #ons {
+        height: 42px;
+        margin-left: 237px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 58px;
+        margin-left: 224px;
+    }
+    /* ---- FOOTER ---- */
+    #licence p {
+        margin-left: 9vw;
+    }
+    .footer-line {
+        width: 82vw;
+        margin-left: 8.5vw;
+    }
+    #social {
+        padding-left: 7vw;
+    }
+}
+@media screen and (min-width:800px) and (max-width:1023px) {
+    
+    #brand {
+        margin-left: 7px;
+    }
+   
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -385px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-bottom: 85px;
+    }
+    .home-button {
+        margin-bottom: 180px;
+    }
+    #preview .container {
+        padding: 0;
+    }
+    #preview p {
+        padding: 0;
+        margin: 0;
+    }
+    /* ---- Team Members ---- */
+    .left-member {
+        width: 550px;
+        margin-left: 125px;
+    }
+    .right-member {
+        width: 550px;
+        margin-left: 125px;
+    }
+    .bio-member {
+        text-align: justify;
+    }
+    /* ---- References ---- */
+    .references {
+        margin-bottom: 22px;
+        margin-left: -78px
+    }
+    .references h5 {
+        font-size: 9px;
+        font-weight: 600;
+        margin-bottom: 14px;
+        color: #006599;
+    }
+    .edgex {
+        height: 50px;
+        margin-left: 55px;
+    }
+    h5#edge {
+        padding-left: 55px;
+        padding-top: 10px;
+    }
+    .oreilly {
+        height: 52px;
+        margin-left: 64px;
+    }
+    h5#oreilly {
+        padding-left: 18px;
+        margin-left: 25px;
+        padding-top: 8px;
+        text-align: center;
+        width: 175px
+    }
+    .sciencepark {
+        height: 56px;
+        margin-left: 52px;
+        margin-top: -4px;
+    }
+    h5#science {
+        padding-left: 94px;
+        padding-top: 8px;
+    }
+    .fund {
+        height: 55px;
+        margin-left: 52px;
+        margin-top: -8px;
+    }
+    h5#fund {
+        margin-left: 37px;
+        padding-top: 13px;
+        text-align: center;
+    }
+    /* --- Action Call --- */
+    #demo {
+        margin-top: 15px;
+    }
+    #products {
+        margin-top: 15px;
+    }
+    /* --- Conferences logo --- */
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: 3px;
+        width: 760px;
+    }
+    #conferences h3 {
+        color: white;
+        font-size: 23px;
+        margin-top: 35px;
+        margin-bottom: 32px;
+    }
+    #open {
+        height: 72px;
+        margin-top: -21px;
+        margin-left: -12px;
+    }
+    #relly {
+        height: 32px;
+        margin-left: 110px;
+        margin-top: 10px;
+    }
+    #barcelona {
+        height: 24px;
+        margin-left: 128px;
+        margin-top: 18px;
+    }
+    #fosdem {
+        height: 35px;
+        margin-left: 137px;
+        margin-top: 6px;
+    }
+    #emotion {
+        height: 49px;
+        margin-left: 128px;
+    }
+    #golab {
+        height: 20px;
+        margin-left: 195px;
+        margin-top: 15px;
+    }
+    #ons {
+        height: 38px;
+        margin-left: 192px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 53px;
+        margin-left: 178px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        margin-left: 10px;
+    }
+    div.input-group {
+        width: 55%;
+    }
+    .footer-line {
+        display: none;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 90%
+    }
+    .apache {
+        margin-bottom: 1.4rem;
+        margin-left: 2px;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 2.3vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-bottom: 0.3rem;
+        margin-left: -2px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        margin-bottom: 12px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        margin-left: 2px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:799px) {
+    
+    #brand {
+        margin-left: 1px;
+        padding-left: 7px;
+    }
+   
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -385px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-bottom: 85px;
+    }
+    .home-button {
+        margin-bottom: 180px;
+    }
+    /* ---- Quick Preview---- */
+    #preview .container {
+        padding: 0;
+        width: 95%;
+    }
+    /* ---- Mainflux Team--- */
+    #mainflux-team p {
+        padding: 0 10px 0 10px;
+    }
+    /* ---- Team Members ---- */
+    .left-member {
+        width: 550px;
+        margin-left: 125px;
+    }
+    .right-member {
+        width: 550px;
+        margin-left: 125px;
+    }
+    .bio-member {
+        text-align: justify;
+    }
+    /* ---- References ---- */
+    .references {
+        margin-bottom: 22px;
+        margin-left: -60px;
+    }
+    .references h5 {
+        font-size: 9px;
+        font-weight: 600;
+        margin-bottom: 14px;
+        color: #006599;
+    }
+    .edgex {
+        height: 50px;
+        margin-left: 55px;
+    }
+    h5#edge {
+        padding-left: 1px;
+        padding-top: 10px;
+        margin-left: 53px;
+    }
+    .oreilly {
+        height: 52px;
+        margin-left: 64px;
+    }
+    h5#oreilly {
+        padding-left: 1px;
+        margin-left: 35px;
+        padding-top: 8px;
+        text-align: center;
+        width: 175px
+    }
+    .sciencepark {
+        height: 56px;
+        margin-left: 48px;
+        margin-top: -4px;
+    }
+    h5#science {
+        padding-left: 1px;
+        padding-top: 8px;
+        margin-left: 91px
+    }
+    .fund {
+        height: 55px;
+        margin-left: 32px;
+        margin-top: -8px;
+    }
+    h5#fund {
+        margin-left: 17px;
+        padding-top: 13px;
+        text-align: center;
+    }
+    /* --- Action Call --- */
+    #demo {
+        margin-top: 15px;
+    }
+    #products {
+        margin-top: 15px;
+    }
+    /* --- Conferences logo --- */
+    section.conferences {
+        display: none;
+    }
+    #logoconf {
+        margin-left: 0;
+        width: 710px;
+    }
+    #conferences h3 {
+        color: white;
+        font-size: 22px;
+        margin-top: 35px;
+        margin-bottom: 32px;
+    }
+    #open {
+        height: 72px;
+        margin-top: -21px;
+        margin-left: -12px;
+    }
+    #relly {
+        height: 32px;
+        margin-left: 105px;
+        margin-top: 10px;
+    }
+    #barcelona {
+        height: 24px;
+        margin-left: 121px;
+        margin-top: 18px;
+    }
+    #fosdem {
+        height: 35px;
+        margin-left: 123px;
+        margin-top: 6px;
+    }
+    #emotion {
+        height: 44px;
+        margin-left: 115px;
+        margin-top: 4px;
+    }
+    #golab {
+        height: 20px;
+        margin-left: 173px;
+        margin-top: 15px;
+    }
+    #ons {
+        height: 38px;
+        margin-left: 175px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 53px;
+        margin-left: 159px;
+    }
+    /* ---- News ---- */
+    #column h5 {
+        font-size: 16px:
+    }
+    #news p {
+        font-size: 14px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        margin-left: 10px;
+    }
+    div.input-group {
+        width: 55%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 0.4rem;
+        width: auto;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    .footer-line {
+        display: none;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 90%;
+    }
+    .apache {
+        margin-bottom: 1.4rem;
+        margin-left: 7px;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 2.4vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+        margin-left: 7px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        margin-bottom: 12px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        margin-left: 7px;
+    }
+}
+@media screen and (min-width:720px) and (max-width:767px) {
+    
+    #brand {
+        margin-left: 11px;
+        padding-left: 7px;
+    }
+   
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -385px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-bottom: 85px;
+    }
+    .home-button {
+        margin-bottom: 180px;
+    }
+    /* ---- Quick Preview---- */
+    #preview .container {
+        padding: 0;
+        width: 95%;
+    }
+    #preview .left {
+        padding: 0;
+    }
+    #preview .right {
+        padding-right: 0;
+    }
+    #preview p {
+        margin-right: 0;
+        margin-left: 14px;
+    }
+    /* ---- Mainflux Team--- */
+    #mainflux-team p {
+        padding: 0 10px 0 10px;
+    }
+    /* ---- Team Members ---- */
+    .left-member {
+        width: 550px;
+        margin-left: 105px;
+    }
+    .right-member {
+        width: 550px;
+        margin-left: 105px;
+    }
+    .bio-member {
+        text-align: justify;
+    }
+    /* ---- References ---- */
+    .references {
+        margin-bottom: 22px;
+        margin-left: -60px;
+    }
+    .references h5 {
+        font-size: 9px;
+        font-weight: 600;
+        margin-bottom: 14px;
+        color: #006599;
+    }
+    .edgex {
+        height: 45px;
+        margin-left: 55px;
+    }
+    h5#edge {
+        padding-left: 1px;
+        padding-top: 10px;
+        margin-left: 50px;
+        width: 117px;
+    }
+    .oreilly {
+        height: 47px;
+        margin-left: 55px;
+    }
+    h5#oreilly {
+        padding-left: 1px;
+        margin-left: 24px;
+        padding-top: 8px;
+        text-align: center;
+        width: 175px
+    }
+    .sciencepark {
+        height: 51px;
+        margin-left: 40px;
+        margin-top: -4px;
+    }
+    h5#science {
+        padding-left: 1px;
+        padding-top: 8px;
+        margin-left: 76px;
+    }
+    .fund {
+        height: 50px;
+        margin-left: 28px;
+        margin-top: -8px;
+    }
+    h5#fund {
+        margin-left: 8px;
+        padding-top: 13px;
+        text-align: center;
+    }
+    /* ---- action call ---- */
+    #action-call .btn {
+        width: 195px;
+        font-size: 14px;
+        margin-bottom: 45px;
+    }
+    #demo {
+        margin-top: 15px;
+    }
+    #action-call h6 {
+        font-size: 13px;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*---------- Conferences -----------*/
+    #open {
+        height: 100px;
+        margin-top: -32px;
+        margin-left: 12px;
+    }
+    #relly {
+        height: 47px;
+        margin-left: 117px;
+        margin-top: 9px;
+    }
+    #barcelona {
+        height: 41px;
+        margin-left: 87px;
+        margin-top: 17px;
+    }
+    #fosdem {
+        height: 54px;
+        margin-left: 59px;
+        margin-top: 5px;
+    }
+    #emotion {
+        height: 66px;
+        margin-left: 16px;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 34px;
+        margin-left: 46px;
+        margin-top: 15px;
+    }
+    #ons {
+        height: 59px;
+        margin-left: 14px;
+        margin-top: 13px;
+    }
+    #itnext {
+        height: 75px;
+        margin-left: -39px;
+        margin-top: -2px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 29px;
+    }
+    #consulting .row {
+        width: 691px;
+    }
+    /*---------- News -----------*/
+    #news h5 {
+        padding-left: 10px;
+    }
+    #news p {
+        font-size: 14px;
+        margin-bottom: 35px;
+        padding: 0 12px 0 10px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        margin-left: 0
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 90%;
+    }
+    .apache {
+        margin-bottom: 1.4rem;
+        margin-left: 5px;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 1.9vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-bottom: 0.3rem;
+        padding: 1px;
+        margin-left: 5px;
+    }
+    #terms p {
+        margin-left: 1.7vw;
+        margin-bottom: 12px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        margin-left: 3px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:719px) {
+    
+    #brand {
+        margin-left: 11px;
+        padding-left: 7px;
+    }
+  
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -385px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-bottom: 85px;
+    }
+    .home-button {
+        margin-bottom: 180px;
+    }
+    /* ---- Quick Preview---- */
+    #preview .container {
+        padding: 0;
+        width: 95%;
+    }
+    #preview .left {
+        padding: 0;
+        width: 500px;
+        margin-left: 14px;
+        margin-bottom: 20px;
+    }
+    #preview .right {
+        padding-right: 0;
+        width: 500px;
+    }
+    #preview p {
+        margin-right: 0;
+        margin-left: 14px;
+    }
+    /* ---- Mainflux Team--- */
+    #mainflux-team p {
+        padding: 0 10px 0 10px;
+    }
+    /* ---- Team Members ---- */
+    .left-member {
+        width: 500px;
+        margin-left: 55px;
+    }
+    .right-member {
+        width: 500px;
+        margin-left: 55px;
+    }
+    .bio-member {
+        text-align: justify;
+    }
+    /* ---- References ---- */
+    .references {
+        margin-bottom: 22px;
+        margin-left: -60px;
+    }
+    .references h5 {
+        font-size: 9px;
+        font-weight: 600;
+        margin-bottom: 14px;
+        color: #006599;
+    }
+    .edgex {
+        height: 45px;
+        margin-left: 55px;
+    }
+    h5#edge {
+        padding-left: 1px;
+        padding-top: 10px;
+        margin-left: 50px;
+        width: 117px;
+        display: none;
+    }
+    .oreilly {
+        height: 47px;
+        margin-left: 45px;
+    }
+    h5#oreilly {
+        padding-left: 1px;
+        margin-left: 24px;
+        padding-top: 8px;
+        text-align: center;
+        width: 175px;
+        display: none;
+    }
+    .sciencepark {
+        height: 51px;
+        margin-left: 22px;
+        margin-top: -4px;
+    }
+    h5#science {
+        padding-left: 1px;
+        padding-top: 8px;
+        margin-left: 76px;
+        display: none;
+    }
+    .fund {
+        height: 50px;
+        margin-left: 14px;
+        margin-top: -8px;
+    }
+    h5#fund {
+        margin-left: 8px;
+        padding-top: 13px;
+        text-align: center;
+        display: none;
+    }
+    /* ---- action call ---- */
+    #action-call .btn {
+        width: 195px;
+        font-size: 14px;
+        margin-bottom: 45px;
+    }
+    #demo {
+        margin-top: 15px;
+    }
+    #action-call h6 {
+        font-size: 12px;
+    }
+    /*--- Conferences BIG screens -------*/
+    section.big-conferences {
+        display: none;
+    }
+    /*-------- Conferences -------*/
+    #open {
+        height: 100px;
+        margin-top: -32px;
+        margin-left: 1px;
+    }
+    #relly {
+        height: 47px;
+        margin-left: 113px;
+        margin-top: 9px;
+    }
+    #barcelona {
+        height: 41px;
+        margin-left: 86px;
+        margin-top: 17px;
+    }
+    #fosdem {
+        height: 54px;
+        margin-left: 55px;
+        margin-top: 5px;
+    }
+    #emotion {
+        height: 66px;
+        margin-left: 1px;
+        margin-top: 1px;
+    }
+    #golab {
+        height: 32px;
+        margin-left: 36px;
+        margin-top: 16px;
+    }
+    #ons {
+        height: 57px;
+        margin-left: -2px;
+        margin-top: 15px;
+    }
+    #itnext {
+        height: 75px;
+        margin-left: -59px;
+        margin-top: -3px;
+    }
+    #logoconf {
+        margin-bottom: auto;
+    }
+    #second-conf {
+        margin-bottom: 25px;
+    }
+    #conferences h3 {
+        margin-bottom: 25px;
+    }
+    /*---------- News -----------*/
+    #news h5 {
+        padding-left: 10px;
+    }
+    #news p {
+        font-size: 14px;
+        margin-bottom: 35px;
+        padding: 0 12px 0 10px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        margin-left: 12px
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 90%
+    }
+    .apache {
+        margin-bottom: 1.4rem;
+        margin-left: 7px;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 3.4vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+        margin-left: 7px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        margin-bottom: 12px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        margin-left: 7px;
+    }
+}
+@media screen and (min-width:480px) and (max-width:599px) {
+   
+    #brand {
+        margin-left: 1px;
+        padding-left: 12px;
+    }
+    #brand {
+        margin-left: 11px;
+        padding-left: 7px;
+    }
+  
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -255px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-bottom: 85px;
+    }
+    .home-button {
+        margin-bottom: 180px;
+    }
+    
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        margin-left: 6px;
+        width: 85%;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 90%;
+    }
+    .apache {
+        margin-bottom: 1em;
+        padding-left: 19px;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 3.8vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 3.3vw;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 9px 0 16px 16px;
+    }
+}
+@media screen and (min-width:414px) and (max-width:479px) {
+    
+    #brand {
+        margin-left: 11px;
+        padding-left: 7px;
+    }
+   
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -305px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 13px;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-left: 0 0 85px 0;
+        padding: 0 0 0 0;
+    }
+    .home-button {
+        margin-bottom: 170px;
+    }
+   
+    
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        padding-left: 14px;
+        margin-left: 0;
+        width: 67%;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 87%;
+    }
+    .apache {
+        margin-bottom: 0.9rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding-left: 3.5vw;
+        padding-right: 0;
+        margin-right: 0;
+        width: 389px;
+    }
+    .footer-line {
+        display: none;
+    }
+    .footer i {
+        font-size: 19px;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        font-size: 8px;
+    }
+    #terms a {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 9px 0 0 9px;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:412px) and (max-width:413px) {
+    
+    #brand {
+        margin-left: 1px;
+        padding-left: 12px;
+    }
+    #brand {
+        margin-left: 11px;
+        padding-left: 7px;
+    }
+    
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -305px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 13px;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-left: 0 0 85px 0;
+        padding: 0 0 0 0;
+    }
+    .home-button {
+        margin-bottom: 170px;
+    }
+  
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        padding-left: 14px;
+        margin-left: 0;
+        width: 67%;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 87%;
+    }
+    .apache {
+        margin-bottom: 0.9rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding-left: 3.5vw;
+        padding-right: 0;
+        margin-right: 0;
+        width: 389px;
+    }
+    .footer-line {
+        display: none;
+    }
+    .footer i {
+        font-size: 19px;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        font-size: 8px;
+    }
+    #terms a {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 9px 0 0 9px;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:384px) and (max-width:411px) {
+   
+    #brand {
+        margin-left: 11px;
+        padding-left: 7px;
+    }
+    
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: -305px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 12px;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-left: 0 0 85px 0;
+        padding: 0 0 0 0;
+    }
+    .home-button {
+        margin-bottom: 170px;
+    }
+    
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        padding-left: 14px;
+        margin-left: 0;
+        width: 67%;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 87%;
+    }
+    .apache {
+        margin-bottom: 0.9rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding-left: 3.5vw;
+        padding-right: 0;
+        margin-right: 0;
+        width: 356px;
+    }
+    .footer-line {
+        display: none;
+    }
+    .footer i {
+        font-size: 17px;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        font-size: 8px;
+    }
+    #terms a {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 9px 0 0 9px;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:375px) and (max-width:383px) {
+   
+    #brand {
+        margin-left: 11px;
+        padding-left: 7px;
+    }
+    
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: -255px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 12px;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-left: 0 0 85px 0;
+        padding: 0 0 0 0;
+    }
+    .home-button {
+        margin-bottom: 120px;
+    }
+    
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        padding-left: 14px;
+        margin-left: 0;
+        width: 67%;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 87%;
+    }
+    .apache {
+        margin-bottom: 0.9rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding-left: 3.5vw;
+        padding-right: 0;
+        margin-right: 0;
+        width: 356px;
+    }
+    .footer-line {
+        display: none;
+    }
+    .footer i {
+        font-size: 17px;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        font-size: 8px;
+    }
+    #terms a {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 9px 0 0 9px;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:360px) and (max-width:374px) {
+    
+    #brand {
+        margin-left: 1px;
+        padding-left: 12px;
+    }
+    
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: -255px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 11px;
+        font-weight: 200;
+        line-height: 17px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-left: 0 0 85px 0;
+        padding: 0;
+    }
+    .home-button {
+        margin-bottom: 120px;
+    }
+   
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        padding-left: 14px;
+        margin-left: 0;
+        width: 67%;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 87%;
+    }
+    .apache {
+        margin-bottom: 0.9rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding-left: 3.5vw;
+        padding-right: 0;
+        margin-right: 0;
+        width: 336px;
+    }
+    .footer-line {
+        display: none;
+    }
+    .footer i {
+        font-size: 14px;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        font-size: 8px;
+    }
+    #terms a {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 9px 0 0 9px;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:359px) {
+
+    #brand {
+        margin-left: 1px;
+        padding-left: 12px;
+    }
+    #brand {
+        margin-left: 1px;
+        padding-left: 12px;
+    }
+    
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: -255px;
+        line-height: normal;
+        text-align: center;
+        opacity: 0.999;
+    }
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 11px;
+        font-weight: 200;
+        line-height: 17px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
+    }
+    .headline {
+        margin-left: 0 0 85px 0;
+        padding: 0;
+    }
+    .home-button {
+        margin-bottom: 120px;
+    }
+    s
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        padding-left: 14px;
+        margin-left: 0;
+        width: 77%;
+    }
+    .footer-col p {
+        padding-left: 0;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+        width: 87%;
+    }
+    .apache {
+        margin-bottom: 0.9rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding-left: 1vw;
+        padding-right: 0;
+        margin-right: 0;
+        width: 292px;
+    }
+    .footer-line {
+        display: none;
+    }
+    .footer i {
+        font-size: 14px;
+        padding-right: 13px;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 2.3vw;
+        font-size: 8px;
+    }
+    #terms a {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    #mainflux-footer {
+        text-align: left;
+        padding: 9px 0 0 9px;
+    }
+    #mainflux-footer p {
+        font-size: 16px;
+    }
+}
