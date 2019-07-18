@@ -1707,6 +1707,21 @@
          margin-left: 3px;
      }
  }
+ @media (max-width: 767px) {
+     .navbar-default .navbar-nav>.open>a,
+     .navbar-default .navbar-nav>.open>a:focus,
+     .navbar-default .navbar-nav>.open>a:hover {
+         color: white;
+         background-color: #006599;
+     }
+     .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+         color: white;
+         background-color: #006599;
+     }
+     .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+         color: #061856;
+     }
+ }
  @media screen and (min-width:600px) and (max-width:719px) {
      .navbar-default .navbar-nav {
          margin-right: 2px;
@@ -2417,7 +2432,7 @@
          padding-left: 0;
          padding-right: 0;
      }
-      h1 {
+     h1 {
          font-size: 26px;
          margin-left: -14px;
          text-align: center;
@@ -2922,10 +2937,8 @@
      #headline br {
          display: none;
      }
-    
      #github,
      #dirdownload {
-         
          display: none;
      }
      #shape {
@@ -3134,7 +3147,7 @@
          padding-left: 0;
          padding-right: 0;
      }
-      h1 {
+     h1 {
          font-size: 22px;
          margin-left: -40px;
          text-align: center;
@@ -3157,10 +3170,8 @@
      #headline br {
          display: none;
      }
-    
      #github,
      #dirdownload {
-         
          display: none;
      }
      #shape {
@@ -3369,7 +3380,7 @@
          padding-left: 0;
          padding-right: 0;
      }
-      h1 {
+     h1 {
          font-size: 20px;
          margin-left: -11px;
          text-align: center;
@@ -3392,10 +3403,8 @@
      #headline br {
          display: none;
      }
-    
      #github,
      #dirdownload {
-         
          display: none;
      }
      #shape {
@@ -3644,47 +3653,47 @@
      .action-call h6 {
          font-size: 1.2rem;
      }
-      /* ---- FOOTER ---- */
-        .footer-col {
-            margin-bottom: 22px;
-            padding-bottom: 15px;
-            padding-left: 18px;
-            margin-left: auto
-        }
-        div.input-group {
-            width: 95%;
-        }
-        #licence {
-            margin-top: 3.1rem;
-        }
-        .apache {
-            margin-bottom: 0.6rem;
-        }
-        #licence p {
-            margin-left: 0;
-            font-size: 0.66937rem;
-        }
-        #social {
-            padding: 0 0 0 9px;
-            width: 101%;
-        }
-        .footer i {
-            font-size: 14px;
-        }
-        .footer-line {
-            display: none;
-        }
-        #terms {
-            margin-left: 0;
-            margin-bottom: 0.3rem;
-            padding: 0 0 0 11px;
-        }
-        #terms a {
-            font-size: 12px;
-        }
-        #mainflux-footer {
-            text-align: left;
-            padding-left: 9px;
-            margin-top: 5px;
-        }
-    }
+     /* ---- FOOTER ---- */
+     .footer-col {
+         margin-bottom: 22px;
+         padding-bottom: 15px;
+         padding-left: 18px;
+         margin-left: auto
+     }
+     div.input-group {
+         width: 95%;
+     }
+     #licence {
+         margin-top: 3.1rem;
+     }
+     .apache {
+         margin-bottom: 0.6rem;
+     }
+     #licence p {
+         margin-left: 0;
+         font-size: 0.66937rem;
+     }
+     #social {
+         padding: 0 0 0 9px;
+         width: 101%;
+     }
+     .footer i {
+         font-size: 14px;
+     }
+     .footer-line {
+         display: none;
+     }
+     #terms {
+         margin-left: 0;
+         margin-bottom: 0.3rem;
+         padding: 0 0 0 11px;
+     }
+     #terms a {
+         font-size: 12px;
+     }
+     #mainflux-footer {
+         text-align: left;
+         padding-left: 9px;
+         margin-top: 5px;
+     }
+ }

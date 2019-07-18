@@ -163,7 +163,6 @@ a#active {
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #006599;
-    
 }
 .navbar-collapse {
     border: none;
@@ -1614,6 +1613,21 @@ div.footer-col {
     #mainflux-footer {
         text-align: left;
         margin-left: 7px;
+    }
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav>.open>a,
+    .navbar-default .navbar-nav>.open>a:focus,
+    .navbar-default .navbar-nav>.open>a:hover {
+        color: white;
+        background-color: #006599;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: white;
+        background-color: #006599;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+        color: #061856;
     }
 }
 @media screen and (min-width:600px) and (max-width:719px) {
