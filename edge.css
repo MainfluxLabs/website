@@ -3192,8 +3192,7 @@
      }
      /* ---- References ---- */
      .references {
-         margin-bottom: 22px;
-         margin-left: -71px;
+         display: none;
      }
      .references h5 {
          font-size: 9px;
