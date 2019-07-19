@@ -1306,7 +1306,7 @@
      /* ---- References ---- */
      .references {
          margin-bottom: 22px;
-         margin-left: -78px
+         margin-left: -78px;
      }
      .references h5 {
          font-size: 9px;
@@ -1391,6 +1391,12 @@
      /* ---- Main Content  ---- */
      .general-stack h5 {
          font-size: 2.57rem;
+     }
+     .hwrow {
+         margin-left: -14px;
+     }
+     #techology-sec {
+         width: 99%;
      }
      .general-stack p {
          font-size: 0.96rem;
