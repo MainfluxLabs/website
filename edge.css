@@ -1554,8 +1554,8 @@
          margin-bottom: auto;
      }
      #shape {
-         height: 323px;
-         margin-left: 15px;
+         height: 300px;
+         margin-left: 22px;
          margin-right: 0;
          margin-top: 56px;
          margin-bottom: 111px;
@@ -1770,10 +1770,10 @@
          margin-bottom: auto;
      }
      #shape {
-         height: 323px;
-         margin-left: 15px;
+         height: 270px;
+         margin-left: 1px;
          margin-right: 0;
-         margin-top: 56px;
+         margin-top: 89px;
          margin-bottom: 111px;
          padding: 0;
      }
@@ -1936,13 +1936,13 @@
          margin-bottom: auto;
      }
      #shape {
-         height: 323px;
-         margin-left: 15px;
+         height: 300px;
+         margin-left: -168px;
          margin-right: 0;
-         margin-top: 56px;
-         margin-bottom: 65px;
+         margin-top: 66px;
+         margin-bottom: 21px;
          padding: 0;
-         opacity: 0.0;
+         opacity: 0.2;
      }
      /* ---- References ---- */
      .references {
@@ -2225,13 +2225,13 @@
          display: none;
      }
      #shape {
-         height: 323px;
-         margin-left: 15px;
+         height: 300px;
+         margin-left: -168px;
          margin-right: 0;
-         margin-top: 56px;
-         margin-bottom: 65px;
+         margin-top: 66px;
+         margin-bottom: 21px;
          padding: 0;
-         opacity: 0.0;
+         opacity: 0.2;
      }
      /* ---- References ---- */
      .references {
@@ -2468,13 +2468,13 @@
          display: none;
      }
      #shape {
-         height: 323px;
-         margin-left: 15px;
+         height: 300px;
+         margin-left: -168px;
          margin-right: 0;
-         margin-top: 56px;
-         margin-bottom: 65px;
+         margin-top: 66px;
+         margin-bottom: 21px;
          padding: 0;
-         opacity: 0.0;
+         opacity: 0.2;
      }
      /* ---- References ---- */
      .references {
@@ -2675,20 +2675,20 @@
      }
      h1 {
          font-size: 24px;
-         margin-left: -28px;
+         margin-left: -8px;
          text-align: center;
          margin-top: 120px;
-         width: 390px;
+         width: 350px;
      }
      h2 {
          font-size: 16px;
-         margin-left: -28px;
+         margin-left: -8px;
          text-align: center;
-         width: 390px;
+         width: 350px;
      }
      h3#home-sub {
          font-size: 12px;
-         margin-left: -11px;
+         margin-left: -10px;
          text-align: center;
          width: 355px;
          margin-top: 22px;
@@ -2697,8 +2697,9 @@
          display: none;
      }
      .home-butt {
-         margin-left: 36px;
-         width: 340px;
+         margin-left: 16px;
+         width: 310px;
+         display: none;
      }
      #github,
      #dirdownload {
@@ -2709,13 +2710,13 @@
          display: none;
      }
      #shape {
-         height: 323px;
-         margin-left: 15px;
+         height: 300px;
+         margin-left: -168px;
          margin-right: 0;
-         margin-top: 56px;
-         margin-bottom: 65px;
+         margin-top: 66px;
+         margin-bottom: 21px;
          padding: 0;
-         opacity: 0.0;
+         opacity: 0.2;
      }
      /* ---- References ---- */
      .references {
@@ -2916,22 +2917,22 @@
      }
      h1 {
          font-size: 24px;
-         margin-left: -33px;
+         margin-left: -3px;
          text-align: center;
          margin-top: 120px;
-         width: 390px;
+         width: 332px;
      }
      h2 {
          font-size: 16px;
-         margin-left: -33px;
+         margin-left: -3px;
          text-align: center;
-         width: 390px;
+         width: 332px;
      }
      h3#home-sub {
          font-size: 12px;
-         margin-left: -14px;
+         margin-left: -11px;
          text-align: center;
-         width: 355px;
+         width: 349px;
          margin-top: 22px;
      }
      #headline br {
@@ -2942,13 +2943,13 @@
          display: none;
      }
      #shape {
-         height: 323px;
-         margin-left: 15px;
+         height: 300px;
+         margin-left: -168px;
          margin-right: 0;
-         margin-top: 56px;
-         margin-bottom: 65px;
+         margin-top: 66px;
+         margin-bottom: 21px;
          padding: 0;
-         opacity: 0.0;
+         opacity: 0.12;
      }
      /* ---- References ---- */
      .references {
@@ -3149,20 +3150,20 @@
      }
      h1 {
          font-size: 22px;
-         margin-left: -40px;
+         margin-left: -9px;
          text-align: center;
          margin-top: 120px;
-         width: 390px;
+         width: 330px;
      }
      h2 {
          font-size: 14px;
-         margin-left: -24px;
+         margin-left: -9px;
          text-align: center;
-         width: 355px;
+         width: 330px;
      }
      h3#home-sub {
          font-size: 12px;
-         margin-left: -12px;
+         margin-left: -11px;
          text-align: center;
          width: 335px;
          margin-top: 22px;
@@ -3175,13 +3176,13 @@
          display: none;
      }
      #shape {
-         height: 323px;
-         margin-left: 15px;
+         height: 300px;
+         margin-left: -168px;
          margin-right: 0;
-         margin-top: 56px;
-         margin-bottom: 65px;
+         margin-top: 66px;
+         margin-bottom: 21px;
          padding: 0;
-         opacity: 0.0;
+         opacity: 0.12;
      }
      /* ---- References ---- */
      .references {
@@ -3217,10 +3218,10 @@
      }
      h5#oreilly {
          padding-left: 1px;
-         margin-left: 41px;
+         margin-left: 58px;
          padding-top: 4px;
          text-align: center;
-         width: 175px;
+         width: 145px;
      }
      .sciencepark {
          height: 41px;
@@ -3237,14 +3238,14 @@
      }
      .fund {
          height: 56px;
-         margin-left: 10px;
+         margin-left: 6px;
          margin-top: -5px;
      }
      h5#fund {
-         margin-left: 29px;
+         margin-left: 26px;
          padding-top: 13px;
          text-align: left;
-         width: 150px
+         width: 136px
      }
      /* -- Gateway --- */
      .right-col-what {
@@ -3382,16 +3383,16 @@
      }
      h1 {
          font-size: 20px;
-         margin-left: -11px;
+         margin-left: -10px;
          text-align: center;
          margin-top: 120px;
          width: 290px;
      }
      h2 {
          font-size: 14px;
-         margin-left: -14px;
+         margin-left: -8px;
          text-align: center;
-         width: 290px;
+         width: 280px;
      }
      h3#home-sub {
          font-size: 12px;
@@ -3408,77 +3409,13 @@
          display: none;
      }
      #shape {
-         height: 323px;
-         margin-left: 15px;
-         margin-right: 0;
-         margin-top: 56px;
-         margin-bottom: 65px;
-         padding: 0;
-         opacity: 0.0;
+         display: none;
      }
      /* ---- References ---- */
      .references {
          margin-bottom: 22px;
          margin-left: -71px;
          display: none;
-     }
-     .references h5 {
-         font-size: 9px;
-         font-weight: 600;
-         margin-bottom: 14px;
-         color: #006599;
-     }
-     .edgex {
-         height: 51px;
-         margin-left: 55px;
-     }
-     #edgex {
-         margin-right: 75px;
-     }
-     h5#edge {
-         padding-left: 1px;
-         padding-top: 10px;
-         margin-left: 56px;
-         width: 117px;
-     }
-     .oreilly {
-         height: 53px;
-         margin-left: 45px;
-         margin-top: 4px;
-     }
-     #reilly {
-         margin-right: 100px;
-     }
-     h5#oreilly {
-         padding-left: 1px;
-         margin-left: 41px;
-         padding-top: 4px;
-         text-align: center;
-         width: 175px;
-     }
-     .sciencepark {
-         height: 41px;
-         margin-left: 58px;
-         margin-top: 16px;
-     }
-     #park {
-         margin-right: 115px;
-     }
-     h5#science {
-         padding-left: 1px;
-         padding-top: 8px;
-         margin-left: 55px;
-     }
-     .fund {
-         height: 56px;
-         margin-left: 10px;
-         margin-top: -5px;
-     }
-     h5#fund {
-         margin-left: 29px;
-         padding-top: 13px;
-         text-align: left;
-         width: 150px
      }
      /* -- Gateway --- */
      .right-col-what {
@@ -3488,6 +3425,20 @@
      }
      .general-stack h5 {
          font-size: 24px;
+     }
+     #linux320 {
+         margin-top: 15px;
+     }
+     #mfx320 {
+         width: 110%;
+         margin-left: -13px;
+     }
+     .left-col-what ul {
+         margin-left: -1px;
+     }
+     .left-col-what li {
+         width: 111%;
+         margin-bottom: 6px;
      }
      .right-col-what ul {
          margin-bottom: -320px;
@@ -3644,11 +3595,16 @@
      }
      .table td {
          font-size: 0.51562rem;
+         width:
      }
      .table-box {
          margin-top: -25px;
          margin-bottom: -33px;
          padding: 0;
+     }
+     .table>tbody>tr>td {
+         padding-right: 0;
+         padding-left: 0;
      }
      .action-call h6 {
          font-size: 1.2rem;
@@ -3674,8 +3630,8 @@
          font-size: 0.66937rem;
      }
      #social {
-         padding: 0 0 0 9px;
-         width: 101%;
+         padding: 0 0 0 5px;
+         width: 100%;
      }
      .footer i {
          font-size: 14px;
