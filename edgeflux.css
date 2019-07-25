@@ -5,8 +5,8 @@ span,
 applet,
 object,
 iframe,
-h1,
-h2,
+#edgeflux-head,
+h2#home-sub,
 h3,
 h4,
 h5,
@@ -128,6 +128,7 @@ body {
 #brand {
     color: white;
     margin-left: 22px;
+    font-size: 14px;
 }
 .navbar-default .navbar-nav>li>a {
     color: white;
@@ -219,29 +220,29 @@ ul {
 .bgimage {
     background-image: linear-gradient(to right top, #01041c, #02071e, #030a21, #040d23, #040f26, #05132c, #041631, #041937, #051e41, #07234b, #0a2955, #0d2e60);
 }
-h1 {
+#edgeflux-head {
     color: white;
     font-family: Montserrat;
-    font-size: 28px;
+    font-size: 34px;
     font-weight: 700;
     margin: 240px 0 0 40px;
     line-height: normal;
 }
-h2 {
+h1 {
     color: white;
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 200;
-    line-height: 24px;
+    line-height: 28px;
     letter-spacing: 0.7px;
     margin: 1.5vh 0 0 3vw;
 }
-h3#home-sub {
+h2#home-sub {
     font-family: Montserrat;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 200;
-    line-height: 20px;
+    line-height: 23px;
     letter-spacing: 0.7px;
     margin: 1.5vh 0 0 3vw;
     text-align: left;
@@ -493,13 +494,13 @@ div.footer-col {
 /* ---- Extra Large Desktops ---- */
 
 @media screen and (min-width:1920px) and (max-width:2560px) {
-    h1 {
+    #edgeflux-head {
         margin: 240px 0 0 160px;
     }
-    h2 {
+    h1 {
         margin: 1.5vh 0 0 8.2vw;
     }
-    h3#home-sub {
+    h2#home-sub {
         margin: 1.5vh 0 0 8.2vw;
     }
     #contact-us {
@@ -522,13 +523,13 @@ div.footer-col {
     }
 }
 @media screen and (min-width:1600px) and (max-width:1919px) {
-    h1 {
+    #edgeflux-head {
         margin: 240px 0 0 120px;
     }
-    h2 {
+    h1 {
         margin: 1.5vh 0 0 120px;
     }
-    h3#home-sub {
+    h2#home-sub {
         margin: 1.5vh 0 0 120px;
     }
     #contact-us {
@@ -551,10 +552,18 @@ div.footer-col {
         padding-left: 21.7vw;
     }
 }
-@media screen and (min-width:1440px) and (max-width:1559px) {}
-@media screen and (min-width:1366px) and (max-width:1399px) {
+@media screen and (min-width:1440px) and (max-width:1559px) {
+    
+      img#stack {
+        height: 155px;
+        margin-top: 305px;
+        margin-left: 2px;
+    }
+    
+}
+@media screen and (min-width:1366px) and (max-width:1439px) {
     /* ---- Main ---- */
-    h1 {
+    #edgeflux-head {
         margin-top: 210px;
     }
     img#shape {
@@ -586,14 +595,15 @@ div.footer-col {
         margin-left: 0px;
         padding-left: 0;
     }
-    h1 {
+    #edgeflux-head {
         margin: 220px 0 0 60px;
     }
-    h2 {
+    h1 {
         margin: 1.5vh 0 0 60px;
     }
-    h3#home-sub {
+    h2#home-sub {
         margin: 1.5vh 0 0 60px;
+        font-size: 14px;
     }
     #contact-us {
         margin-left: 20px;
@@ -627,20 +637,19 @@ div.footer-col {
         margin-left: 2px;
         padding-left: 0;
     }
-    h1 {
-        font-size: 26px;
+    #edgeflux-head {
+        font-size: 30px;
         margin-left: 17px;
         margin-top: 180px;
     }
-    h2 {
-        font-size: 14px;
+    h1 {
+        font-size: 22px;
         margin-left: 17px;
-        ;
     }
-    h3#home-sub {
+    h2#home-sub {
         font-size: 12px;
         margin-left: 17px;
-        ;
+        line-height: 20px;
     }
     .home-butt {
         margin-left: 1px;
@@ -686,20 +695,21 @@ div.footer-col {
         padding-left: 0;
         padding-right: 0;
     }
-    h1 {
-        font-size: 26px;
+    #edgeflux-head {
+        font-size: 28px;
         margin-left: 11px;
         margin-top: 160px;
     }
-    h2 {
-        font-size: 14px;
+    h1 {
+        font-size: 20px;
         margin-left: 10px;
         line-height: normal;
         margin-bottom: 15px;
     }
-    h3#home-sub {
+    h2#home-sub {
         font-size: 12px;
         margin-left: 10px;
+        line-height: 20px;
     }
     .home-butt {
         margin-left: -7px;
@@ -796,25 +806,26 @@ div.footer-col {
         padding-left: 0;
         padding-right: 0;
     }
-    h1 {
-        font-size: 28px;
+    #edgeflux-head {
+        font-size: 30px;
         margin-left: 10px;
         margin-top: 150px;
     }
-    h2 {
-        font-size: 16px;
+    h1 {
+        font-size: 20px;
         margin-left: 10px;
-        line-height: normal;
+        line-height: 28px;
         margin-bottom: 15px;
     }
-    h3#home-sub {
+    h2#home-sub {
         font-size: 13px;
         margin-left: 10px;
-        line-height: normal;
+        line-height: 19px;
     }
     .home-butt {
         margin-left: -7px;
         padding-left: 0;
+        margin-bottom: 42px;
     }
     img#shape {
         height: 310px;
@@ -921,25 +932,26 @@ div.footer-col {
         padding-left: 0;
         padding-right: 0;
     }
-    h1 {
-        font-size: 28px;
+    #edgeflux-head {
+        font-size: 29px;
         margin-left: 10px;
         margin-top: 140px;
     }
-    h2 {
-        font-size: 15px;
+    h1 {
+        font-size: 20px;
         margin-left: 10px;
-        line-height: normal;
+        line-height: 26px;
         margin-bottom: 15px;
     }
-    h3#home-sub {
-        font-size: 12px;
+    h2#home-sub {
+        font-size: 13px;
         margin-left: 10px;
-        line-height: normal;
+        line-height: 19px;
     }
     .home-butt {
         margin-left: -7px;
         padding-left: 0;
+        margin-bottom: 40px;
     }
     img#shape {
         height: 310px;
@@ -1046,32 +1058,33 @@ div.footer-col {
         font-size: 12px;
     }
     #brand {
-        margin-left: 15px;
+        margin-left: 19px;
         padding-left: 0;
         padding-right: 0;
     }
-    h1 {
+    #edgeflux-head {
         font-size: 28px;
         margin-left: 10px;
         margin-top: 110px;
     }
-    h2 {
-        font-size: 14px;
+    h1 {
+        font-size: 18px;
         margin-left: 10px;
-        line-height: normal;
+        line-height: 24px;
         margin-bottom: 15px;
         width: 109%;
     }
-    h3#home-sub {
+    h2#home-sub {
         font-size: 12px;
         margin-left: 10px;
-        line-height: normal;
+        line-height: 19px;
         width: 111%;
     }
     .home-butt {
         margin-left: -6px;
         padding-left: 0;
-        margin-top: 20px
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     img#shape {
         height: 230px;
@@ -1085,7 +1098,11 @@ div.footer-col {
     img#stack {
         height: 133px;
         margin-top: 40px;
-        margin-left: 0px;
+        margin-left: -16px;
+    }
+    section.what-is-edge-flux {
+        margin-left: 12px;
+        padding-right: 0;
     }
     #features-edgeflux h4 {
         margin-left: 12px;
@@ -1094,6 +1111,13 @@ div.footer-col {
     #features-edgeflux ul {
         margin-left: 35px;
         padding-right: 0;
+    }
+    .dashboards h4 {
+        margin-left: 12px;
+        padding-right: 0;
+    }
+    .dashboards p {
+        margin-left: 12px;
     }
     img#dashboard-1 {
         height: 300px;
@@ -1159,8 +1183,8 @@ div.footer-col {
         padding-left: 0;
         padding-right: 0;
     }
-    h1 {
-        font-size: 28px;
+    #edgeflux-head {
+        font-size: 32px;
         margin-left: 1px;
         margin-top: 110px;
         width: 215%;
@@ -1169,19 +1193,19 @@ div.footer-col {
     #headline {
         z-index: 2;
     }
-    h2 {
-        font-size: 16px;
+    h1 {
+        font-size: 22px;
         margin-left: -1px;
         line-height: normal;
-        margin-bottom: 1px;
+        margin-bottom: -3px;
         width: 215%;
         text-align: center;
     }
-    h3#home-sub {
-        font-size: 11px;
-        margin-left: -11px;
-        line-height: normal;
-        width: 225%;
+    h2#home-sub {
+        font-size: 12px;
+        margin-left: -10px;
+        line-height: 20px;
+        width: 223%;
         text-align: center;
     }
     .home-butt {
@@ -1201,15 +1225,40 @@ div.footer-col {
     img#stack {
         height: 105px;
         margin-top: 40px;
-        margin-left: 0px;
+        margin-left: -3px;
+    }
+    div.main-text {
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: 0;
+    }
+    .main-text h4 {
+        padding-left: 18px;
+    }
+    .main-text h6 {
+        padding-left: 18px;
+        margin-bottom: 4px;
+    }
+    .main-text p {
+        margin-left: 0;
+        padding-right: 18px;
+        padding-left: 18px;
+        margin-right: 0;
     }
     #features-edgeflux h4 {
-        margin-left: 12px;
+        margin-left: 4px;
         padding-right: 0;
     }
     #features-edgeflux ul {
-        margin-left: 35px;
+        margin-left: 30px;
         padding-right: 0;
+    }
+    .dashboards h4 {
+        padding-left: 6px;
+    }
+    .dashboards p {
+        padding-left: 6px;
     }
     img#dashboard-1 {
         height: 235px;
@@ -1270,8 +1319,8 @@ div.footer-col {
         padding-left: 0;
         padding-right: 0;
     }
-    h1 {
-        font-size: 28px;
+    #edgeflux-head {
+        font-size: 30px;
         margin-left: -5px;
         margin-top: 110px;
         width: 215%;
@@ -1286,18 +1335,18 @@ div.footer-col {
     #headline #headbr {
         display: block;
     }
-    h2 {
-        font-size: 18px;
+    h1 {
+        font-size: 20px;
         margin-left: -1px;
-        line-height: normal;
+        line-height: 24px;
         margin-bottom: 15px;
         width: 215%;
         text-align: center;
     }
-    h3#home-sub {
+    h2#home-sub {
         font-size: 13px;
         margin-left: 2px;
-        line-height: normal;
+        line-height: 18px;
         width: 211%;
         text-align: center;
     }
@@ -1318,7 +1367,26 @@ div.footer-col {
     img#stack {
         height: 90px;
         margin-top: 40px;
-        margin-left: 0px;
+        margin-left: -4px;
+    }
+    div.main-text {
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: 0;
+    }
+    .main-text h4 {
+        padding-left: 18px;
+    }
+    .main-text h6 {
+        padding-left: 18px;
+        margin-bottom: 4px;
+    }
+    .main-text p {
+        margin-left: 0;
+        padding-right: 18px;
+        padding-left: 18px;
+        margin-right: 0;
     }
     #features-edgeflux h4 {
         margin-left: 12px;
@@ -1327,6 +1395,12 @@ div.footer-col {
     #features-edgeflux ul {
         margin-left: 35px;
         padding-right: 0;
+    }
+    .dashboards h4 {
+        padding-left: 6px;
+    }
+    .dashboards p {
+        padding-left: 6px;
     }
     img#dashboard-1 {
         height: 200px;
@@ -1399,7 +1473,7 @@ div.footer-col {
         padding-left: 0;
         padding-right: 0;
     }
-    h1 {
+    #edgeflux-head {
         font-size: 28px;
         margin-left: -1px;
         margin-top: 110px;
@@ -1415,18 +1489,18 @@ div.footer-col {
     #headline #headbr {
         display: block;
     }
-    h2 {
-        font-size: 18px;
+    h1 {
+        font-size: 20px;
         margin-left: 2px;
-        line-height: 21px;
+        line-height: 24px;
         margin-bottom: 15px;
         width: 215%;
         text-align: center;
     }
-    h3#home-sub {
+    h2#home-sub {
         font-size: 13px;
         margin-left: 4px;
-        line-height: normal;
+        line-height: 18px;
         width: 211%;
         text-align: center;
     }
@@ -1447,7 +1521,26 @@ div.footer-col {
     img#stack {
         height: 89px;
         margin-top: 40px;
-        margin-left: 0px;
+        margin-left: -2px;
+    }
+    div.main-text {
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: 0;
+    }
+    .main-text h4 {
+        padding-left: 18px;
+    }
+    .main-text h6 {
+        padding-left: 18px;
+        margin-bottom: 4px;
+    }
+    .main-text p {
+        margin-left: 0;
+        padding-right: 18px;
+        padding-left: 18px;
+        margin-right: 0;
     }
     #features-edgeflux h4 {
         margin-left: 12px;
@@ -1456,6 +1549,12 @@ div.footer-col {
     #features-edgeflux ul {
         margin-left: 35px;
         padding-right: 0;
+    }
+    .dashboards h4 {
+        padding-left: 6px;
+    }
+    .dashboards p {
+        padding-left: 6px;
     }
     img#dashboard-1 {
         height: 200px;
@@ -1526,8 +1625,8 @@ div.footer-col {
         padding-left: 0;
         padding-right: 0;
     }
-    h1 {
-        font-size: 26px;
+    #edgeflux-head {
+        font-size: 28px;
         margin-left: -1px;
         margin-top: 120px;
         width: 215%;
@@ -1542,18 +1641,18 @@ div.footer-col {
     #headline #headbr {
         display: block;
     }
-    h2 {
-        font-size: 16px;
+    h1 {
+        font-size: 18px;
         margin-left: 2px;
         line-height: 21px;
-        margin-bottom: 15px;
+        margin-bottom: 18px;
         width: 215%;
         text-align: center;
     }
-    h3#home-sub {
+    h2#home-sub {
         font-size: 12px;
         margin-left: 4px;
-        line-height: normal;
+        line-height: 18px;
         width: 211%;
         text-align: center;
     }
@@ -1576,8 +1675,27 @@ div.footer-col {
         margin-top: 40px;
         margin-left: 0px;
     }
+    div.main-text {
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: 0;
+    }
+    .main-text h4 {
+        padding-left: 18px;
+    }
+    .main-text h6 {
+        padding-left: 18px;
+        margin-bottom: 4px;
+    }
+    .main-text p {
+        margin-left: 0;
+        padding-right: 18px;
+        padding-left: 18px;
+        margin-right: 0;
+    }
     #features-edgeflux h4 {
-        margin-left: 12px;
+        padding-left: 105px;
         padding-right: 0;
     }
     #features-edgeflux ul {
@@ -1587,6 +1705,12 @@ div.footer-col {
     img#dashboard-1 {
         height: 184px;
         margin-left: 0;
+    }
+    .dashboards h4 {
+        padding-left: 6px;
+    }
+    .dashboards p {
+        padding-left: 6px;
     }
     img#dashboard-2 {
         height: 240px;
@@ -1653,8 +1777,8 @@ div.footer-col {
         padding-left: 0;
         padding-right: 0;
     }
-    h1 {
-        font-size: 28px;
+    #edgeflux-head {
+        font-size: 29px;
         margin-left: -1px;
         margin-top: 100px;
         width: 215%;
@@ -1669,18 +1793,18 @@ div.footer-col {
     #headline #headbr {
         display: block;
     }
-    h2 {
-        font-size: 18px;
+    h1 {
+        font-size: 20px;
         margin-left: 2px;
-        line-height: 21px;
+        line-height: 24px;
         margin-bottom: 15px;
         width: 215%;
         text-align: center;
     }
-    h3#home-sub {
+    h2#home-sub {
         font-size: 12px;
         margin-left: 4px;
-        line-height: normal;
+        line-height: 18px;
         width: 211%;
         text-align: center;
     }
@@ -1699,17 +1823,44 @@ div.footer-col {
         opacity: 0.15;
     }
     img#stack {
-       height: 81px;
+        height: 81px;
         margin-top: 40px;
         margin-left: 0px;
     }
+    div.main-text {
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: 0;
+    }
+    .main-text h4 {
+        padding-left: 18px;
+    }
+    .main-text h6 {
+        padding-left: 18px;
+        margin-bottom: 4px;
+    }
+    .main-text p {
+        margin-left: 0;
+        padding-right: 10px;
+        padding-left: 18px;
+        margin-right: 0;
+    }
     #features-edgeflux h4 {
-        margin-left: 12px;
+        padding-left: 97px;
         padding-right: 0;
     }
     #features-edgeflux ul {
         margin-left: 35px;
         padding-right: 0;
+    }
+    .dashboards h4 {
+        padding-left: 6px;
+    }
+    .dashboards p {
+        padding-left: 7px;
+        padding-right: 0px;
+        line-height: 19px;
     }
     img#dashboard-1 {
         height: 181px;
@@ -1782,7 +1933,7 @@ div.footer-col {
         padding-left: 0;
         padding-right: 0;
     }
-    h1 {
+    #edgeflux-head {
         font-size: 28px;
         margin-left: 3px;
         margin-top: 100px;
@@ -1798,18 +1949,18 @@ div.footer-col {
     #headline #headbr {
         display: block;
     }
-    h2 {
-        font-size: 16px;
+    h1 {
+        font-size: 19px;
         margin-left: 2px;
-        line-height: 21px;
+        line-height: 23px;
         margin-bottom: 15px;
         width: 215%;
         text-align: center;
     }
-    h3#home-sub {
+    h2#home-sub {
         font-size: 12px;
         margin-left: 6px;
-        line-height: normal;
+        line-height: 20px;
         width: 211%;
         text-align: center;
     }
@@ -1832,13 +1983,43 @@ div.footer-col {
         margin-top: 40px;
         margin-left: 0px;
     }
-    #features-edgeflux h4 {
-        margin-left: 12px;
+    div.main-text {
+        margin-left: 0;
         padding-right: 0;
+        padding-left: 0;
+        margin-right: 0;
+    }
+    .main-text h4 {
+        padding-left: 18px;
+        font-size: 24px;
+    }
+    .main-text h6 {
+        padding-left: 18px;
+        margin-bottom: 4px;
+    }
+    .main-text p {
+        margin-left: 0;
+        padding-right: 8px;
+        padding-left: 18px;
+        margin-right: 0;
+    }
+    #features-edgeflux h4 {
+        margin-left: 1px;
+        padding-right: 0;
+        font-size: 24px;
     }
     #features-edgeflux ul {
         margin-left: 35px;
         padding-right: 0;
+    }
+    .dashboards h4 {
+        padding-left: 6px;
+        font-size: 24px;
+    }
+    .dashboards p {
+        padding-left: 6px;
+        padding-right: 0;
+        line-height: 20px;
     }
     img#dashboard-1 {
         height: 172px;
@@ -1912,13 +2093,16 @@ div.footer-col {
         margin-left: 8px;
         padding-left: 0;
         padding-right: 0;
+        font-size: 11px;
+        font-weight: 600;
     }
-    h1 {
-        font-size: 28px;
+    #edgeflux-head {
+        font-size: 29px;
         margin-left: 3px;
-        margin-top: 110px;
+        margin-top: 70px;
         width: 215%;
         text-align: center;
+        margin-bottom: 30px;
     }
     #headline {
         z-index: 2;
@@ -1929,18 +2113,18 @@ div.footer-col {
     #headline #headbr {
         display: block;
     }
-    h2 {
-        font-size: 16px;
+    h1 {
+        font-size: 19px;
         margin-left: -10px;
-        line-height: 21px;
-        margin-bottom: 15px;
+        line-height: 24px;
+        margin-bottom: 24px;
         width: 239%;
         text-align: center;
     }
-    h3#home-sub {
-        font-size: 12px;
+    h2#home-sub {
+        font-size: 13px;
         margin-left: 6px;
-        line-height: normal;
+        line-height:19px;
         width: 211%;
         text-align: center;
     }
@@ -1954,7 +2138,7 @@ div.footer-col {
     img#shape {
         height: 320px;
         margin-top: 80px;
-        margin-left: -191px;
+        margin-left: -193px;
         margin-bottom: 90px;
         opacity: 0.2;
     }
@@ -1963,13 +2147,44 @@ div.footer-col {
         margin-top: 40px;
         margin-left: 0px;
     }
-    #features-edgeflux h4 {
-        margin-left: 12px;
+   div.main-text {
+        margin-left: 0;
         padding-right: 0;
+        padding-left: 0;
+        margin-right: 0;
+    }
+    .main-text h4 {
+        padding-left: 18px;
+        font-size: 24px;
+    }
+    .main-text h6 {
+        padding-left: 18px;
+        margin-bottom: 4px;
+    }
+    .main-text p {
+        margin-left: 0;
+        padding-right: 8px;
+        padding-left: 18px;
+        margin-right: 0;
+    }
+    #features-edgeflux h4 {
+        margin-left: 1px;
+        padding-right: 0;
+        font-size: 24px;
     }
     #features-edgeflux ul {
         margin-left: 35px;
         padding-right: 0;
+    }
+    .dashboards h4 {
+        padding-left: 6px;
+        font-size: 24px;
+    }
+    .dashboards p {
+        padding-left: 6px;
+        padding-right: 0;
+        line-height: 20px;
+        width: 111%;
     }
     img#dashboard-1 {
         height: 152px;
