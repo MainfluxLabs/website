@@ -319,8 +319,6 @@ p.tutorials-text {
     color: white;
 }
 
-
-
 /* ----- FOOTER ----- */
 
 div.footer {
@@ -367,10 +365,12 @@ div.footer a:hover {
 }
 .input-group-btn-newsletter button {
     border-radius: 1px !important;
-    border-color: #061856; !important;
+    border-color: #061856;
+    !important;
     font-family: Montserrat !important;
     font-weight: 600 !important;
-    color: #061856; !important;
+    color: #061856;
+    !important;
     background: transparent !important;
     padding: 10px 8px !important;
     margin-top: 0px;
@@ -381,7 +381,8 @@ div.footer a:hover {
 }
 .footer i {
     font-size: 19.7px;
-    color: #061856;;
+    color: #061856;
+    ;
     padding-right: 16px;
     margin-bottom: 12px;
 }
@@ -401,7 +402,8 @@ div.footer a:hover {
 .footer-line {
     height: 1px;
     width: 83vw;
-    background: #061856;;
+    background: #061856;
+    ;
     margin-left: 7.7vw;
     margin-bottom: 11px;
 }
@@ -479,7 +481,6 @@ div.footer a:hover {
     }
 }
 @media screen and (min-width:1366px) and (max-width:1399px) {
-   
     h1 {
         color: white;
         font-family: Montserrat;
@@ -564,7 +565,6 @@ div.footer a:hover {
     }
 }
 @media screen and (min-width:1280px) and (max-width:1365px) {
-    
     h1 {
         color: white;
         font-family: Montserrat;
@@ -660,7 +660,6 @@ div.footer a:hover {
     #brand {
         margin-left: 7px;
     }
-   
     h1 {
         color: white;
         font-family: Montserrat;
@@ -797,11 +796,9 @@ div.footer a:hover {
     }
 }
 @media screen and (min-width:800px) and (max-width:1023px) {
-    
     #brand {
         margin-left: 7px;
     }
-   
     h1 {
         color: white;
         font-family: Montserrat;
@@ -998,12 +995,10 @@ div.footer a:hover {
     }
 }
 @media screen and (min-width:768px) and (max-width:799px) {
-    
     #brand {
         margin-left: 1px;
         padding-left: 7px;
     }
-   
     h1 {
         color: white;
         font-family: Montserrat;
@@ -1224,12 +1219,10 @@ div.footer a:hover {
     }
 }
 @media screen and (min-width:720px) and (max-width:767px) {
-    
     #brand {
         margin-left: 11px;
         padding-left: 7px;
     }
-   
     h1 {
         color: white;
         font-family: Montserrat;
@@ -1459,12 +1452,10 @@ div.footer a:hover {
     }
 }
 @media screen and (min-width:600px) and (max-width:719px) {
-    
     #brand {
         margin-left: 11px;
         padding-left: 7px;
     }
-  
     h1 {
         color: white;
         font-family: Montserrat;
@@ -1699,7 +1690,6 @@ div.footer a:hover {
     }
 }
 @media screen and (min-width:480px) and (max-width:599px) {
-   
     #brand {
         margin-left: 1px;
         padding-left: 12px;
@@ -1708,7 +1698,6 @@ div.footer a:hover {
         margin-left: 11px;
         padding-left: 7px;
     }
-  
     h1 {
         color: white;
         font-family: Montserrat;
@@ -1735,7 +1724,6 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 180px;
     }
-    
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -1777,12 +1765,10 @@ div.footer a:hover {
     }
 }
 @media screen and (min-width:414px) and (max-width:479px) {
-    
     #brand {
         margin-left: 11px;
         padding-left: 7px;
     }
-   
     h1 {
         color: white;
         font-family: Montserrat;
@@ -1810,8 +1796,6 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 170px;
     }
-   
-    
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -1871,7 +1855,6 @@ div.footer a:hover {
     }
 }
 @media screen and (min-width:412px) and (max-width:413px) {
-    
     #brand {
         margin-left: 1px;
         padding-left: 12px;
@@ -1880,7 +1863,6 @@ div.footer a:hover {
         margin-left: 11px;
         padding-left: 7px;
     }
-    
     h1 {
         color: white;
         font-family: Montserrat;
@@ -1908,7 +1890,6 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 170px;
     }
-  
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -1968,12 +1949,10 @@ div.footer a:hover {
     }
 }
 @media screen and (min-width:384px) and (max-width:411px) {
-   
     #brand {
         margin-left: 11px;
         padding-left: 7px;
     }
-    
     h1 {
         color: white;
         font-family: Montserrat;
@@ -2001,7 +1980,6 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 170px;
     }
-    
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -2061,12 +2039,10 @@ div.footer a:hover {
     }
 }
 @media screen and (min-width:375px) and (max-width:383px) {
-   
     #brand {
         margin-left: 11px;
         padding-left: 7px;
     }
-    
     h1 {
         color: white;
         font-family: Montserrat;
@@ -2094,7 +2070,6 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 120px;
     }
-    
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -2154,12 +2129,10 @@ div.footer a:hover {
     }
 }
 @media screen and (min-width:360px) and (max-width:374px) {
-    
     #brand {
         margin-left: 1px;
         padding-left: 12px;
     }
-    
     h1 {
         color: white;
         font-family: Montserrat;
@@ -2187,7 +2160,6 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 120px;
     }
-   
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -2247,7 +2219,6 @@ div.footer a:hover {
     }
 }
 @media screen and (min-width:320px) and (max-width:359px) {
-
     #brand {
         margin-left: 1px;
         padding-left: 12px;
@@ -2256,7 +2227,6 @@ div.footer a:hover {
         margin-left: 1px;
         padding-left: 12px;
     }
-    
     h1 {
         color: white;
         font-family: Montserrat;

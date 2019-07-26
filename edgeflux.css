@@ -553,13 +553,11 @@ div.footer-col {
     }
 }
 @media screen and (min-width:1440px) and (max-width:1559px) {
-    
-      img#stack {
+    img#stack {
         height: 155px;
         margin-top: 305px;
         margin-left: 2px;
     }
-    
 }
 @media screen and (min-width:1366px) and (max-width:1439px) {
     /* ---- Main ---- */
@@ -2124,7 +2122,7 @@ div.footer-col {
     h2#home-sub {
         font-size: 13px;
         margin-left: 6px;
-        line-height:19px;
+        line-height: 19px;
         width: 211%;
         text-align: center;
     }
@@ -2147,7 +2145,7 @@ div.footer-col {
         margin-top: 40px;
         margin-left: 0px;
     }
-   div.main-text {
+    div.main-text {
         margin-left: 0;
         padding-right: 0;
         padding-left: 0;
