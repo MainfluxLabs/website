@@ -376,6 +376,14 @@ img#dashboard-3 {
     margin-left: auto;
     margin-right: auto;
 }
+img#dashboard-4 {
+    height: 710px;
+    margin-top: 42px;
+    margin-left: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* ----- FOOTER ----- */
 
@@ -747,6 +755,14 @@ div.footer-col {
         height: 511px;
         margin-left: 0;
     }
+    img#dashboard-4 {
+        height: 634px;
+        margin-top: 42px;
+        margin-left: 2px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
     /* ---- FOOTER ---- */
     .footer {
         width: 780px;
@@ -862,6 +878,14 @@ div.footer-col {
     img#dashboard-3 {
         height: 511px;
         margin-left: 0;
+    }
+    img#dashboard-4 {
+        height: 634px;
+        margin-top: 42px;
+        margin-left: 2px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     /* ---- FOOTER ---- */
     .footer-col {
@@ -988,6 +1012,14 @@ div.footer-col {
     img#dashboard-3 {
         height: 472px;
         margin-left: 0;
+    }
+    img#dashboard-4 {
+        height: 586px;
+        margin-top: 42px;
+        margin-left: 2px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     /* ---- FOOTER ---- */
     .footer-col {
@@ -1128,6 +1160,14 @@ div.footer-col {
     img#dashboard-3 {
         height: 389px;
         margin-left: 0;
+    }
+    img#dashboard-4 {
+        height: 484px;
+        margin-top: 42px;
+        margin-left: 2px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     .fa-ul p {
         line-height: 23px;
@@ -1270,6 +1310,14 @@ div.footer-col {
         height: 305px;
         margin-left: 0;
     }
+    img#dashboard-4 {
+        height: 379px;
+        margin-top: 42px;
+        margin-left: 2px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .fa-ul p {
         line-height: 23px;
         padding-right: 1px;
@@ -1411,6 +1459,14 @@ div.footer-col {
     img#dashboard-3 {
         height: 260px;
         margin-left: 0;
+    }
+    img#dashboard-4 {
+        height: 323px;
+        margin-top: 42px;
+        margin-left: 2px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     .fa-ul p {
         line-height: 23px;
@@ -1566,6 +1622,14 @@ div.footer-col {
         height: 260px;
         margin-left: 0;
     }
+    img#dashboard-4 {
+        height: 323px;
+        margin-top: 42px;
+        margin-left: 2px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .fa-ul p {
         line-height: 23px;
         padding-right: 1px;
@@ -1717,6 +1781,14 @@ div.footer-col {
     img#dashboard-3 {
         height: 240px;
         margin-left: 0;
+    }
+    img#dashboard-4 {
+        height: 298px;
+        margin-top: 42px;
+        margin-left: 2px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     .fa-ul p {
         line-height: 23px;
@@ -1871,6 +1943,14 @@ div.footer-col {
     img#dashboard-3 {
         height: 235px;
         margin-left: 0;
+    }
+    img#dashboard-4 {
+        height: 292px;
+        margin-top: 42px;
+        margin-left: 2px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     .fa-ul p {
         line-height: 23px;
@@ -2030,6 +2110,14 @@ div.footer-col {
     img#dashboard-3 {
         height: 223px;
         margin-left: 0;
+    }
+    img#dashboard-4 {
+        height: 277px;
+        margin-top: 42px;
+        margin-left: 2px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     .fa-ul p {
         line-height: 23px;
@@ -2195,6 +2283,14 @@ div.footer-col {
     img#dashboard-3 {
         height: 197px;
         margin-left: 0;
+    }
+    img#dashboard-4 {
+        height: 245px;
+        margin-top: 42px;
+        margin-left: 2px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     .fa-ul p {
         line-height: 23px;
