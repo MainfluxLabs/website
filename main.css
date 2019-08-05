@@ -2158,8 +2158,18 @@
         }
         /*---------- News -----------*/
         #news p {
-            font-size: 12px;
+            font-size: 14px;
+            margin-bottom: 5px;
+            padding: 0 12px 0 0px;
         }
+        p#news-link {
+            font-weight: 500;
+            margin-bottom: 18px;
+        }
+        p#middle {
+            margin-bottom: 18px;
+        }
+      
         /* ---- FOOTER ---- */
         .footer-col {
             margin-bottom: 22px;
@@ -2256,7 +2266,7 @@
         }
         #shape {
             height: 465px;
-            margin-left: -195px;
+            margin-left: -235px;
             margin-right: 0;
             margin-top: 1px;
             margin-bottom: 46px;
@@ -2572,7 +2582,14 @@
         }
         #news p {
             font-size: 13px;
-            margin-bottom: 20px;
+            margin-bottom: 5px;
+        }
+        p#news-link {
+            font-weight: 500;
+            margin-bottom: 18px;
+        }
+        p#middle {
+            margin-bottom: 18px;
         }
         /* ---- FOOTER ---- */
         .footer-col {
@@ -2980,7 +2997,14 @@
         }
         #news p {
             font-size: 13px;
-            margin-bottom: 20px;
+            margin-bottom: 5px;
+        }
+        p#news-link {
+            font-weight: 500;
+            margin-bottom: 18px;
+        }
+        p#middle {
+            margin-bottom: 18px;
         }
         /*-------- final adjustment ----*/
         #consulting {
@@ -3382,11 +3406,18 @@
         }
         #news p {
             font-size: 13px;
-            margin-bottom: 20px;
+            margin-bottom: 5px;
         }
         #news h5,
         p {
             padding-left: 6px;
+        }
+        p#news-link {
+            font-weight: 500;
+            margin-bottom: 18px;
+        }
+        p#middle {
+            margin-bottom: 18px;
         }
         /*-------- final adjustment ----*/
         section#consulting {
@@ -3798,11 +3829,18 @@
         }
         #news p {
             font-size: 13px;
-            margin-bottom: 20px;
+            margin-bottom: 5px;
         }
         #news h5,
         p {
             padding-left: 6px;
+        }
+        p#news-link {
+            font-weight: 500;
+            margin-bottom: 18px;
+        }
+        p#middle {
+            margin-bottom: 18px;
         }
         /*-------- final adjustment ----*/
         section#consulting {
@@ -4212,11 +4250,18 @@
         }
         #news p {
             font-size: 13px;
-            margin-bottom: 20px;
+            margin-bottom: 5px;
         }
         #news h5,
         p {
             padding-left: 6px;
+        }
+        p#news-link {
+            font-weight: 500;
+            margin-bottom: 18px;
+        }
+        p#middle {
+            margin-bottom: 19px;
         }
         /*-------- final adjustment ----*/
         section#consulting {
@@ -4632,11 +4677,18 @@
         }
         #news p {
             font-size: 13px;
-            margin-bottom: 20px;
+            margin-bottom: 5px;
         }
         #news h5,
         p {
             padding-left: 6px;
+        }
+        p#news-link {
+            font-weight: 500;
+            margin-bottom: 19px;
+        }
+        p#middle {
+            margin-bottom: 19px;
         }
         /*-------- final adjustment ----*/
         section#consulting {
@@ -5059,11 +5111,18 @@
         }
         #news p {
             font-size: 13px;
-            margin-bottom: 20px;
+            margin-bottom: 5px;
         }
         #news h5,
         p {
             padding-left: 6px;
+        }
+        p#news-link {
+            font-weight: 500;
+            margin-bottom: 19px;
+        }
+        p#middle {
+            margin-bottom: 19px;
         }
         /*-------- final adjustment ----*/
         section#consulting {
@@ -5451,11 +5510,18 @@
         }
         #news p {
             font-size: 13px;
-            margin-bottom: 20px;
+            margin-bottom: 5px;
         }
         #news h5,
         p {
             padding-left: 6px;
+        }
+        p#news-link {
+            font-weight: 500;
+            margin-bottom: 19px;
+        }
+        p#middle {
+            margin-bottom: 19px;
         }
         /*-------- final adjustment ----*/
         section#consulting {

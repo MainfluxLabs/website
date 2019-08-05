@@ -312,58 +312,6 @@ p.section-text {
     font-size: 14px;
 }
 
-/*---------- Accordion -----------*/
-
-.accordion {
-    background-color: #d2dae1;
-    color: rgb(0, 52, 102);
-    cursor: pointer;
-    padding: 10px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-    font-family: Montserrat;
-    font-weight: 700;
-}
-.active,
-.accordion:hover {
-    background-color: rgb(0, 52, 102);
-    color: white;
-}
-.accordion:after {
-    content: '\002B';
-    color: rgb(0, 52, 102);
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-    font-size: 22px;
-}
-.active:after {
-    content: "\2212";
-    color: white;
-}
-.panel {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    margin-bottom: -1px;
-    font-family: Montserrat;
-    font-weight: 400;
-    color: rgb(102, 106, 107);
-    line-height: normal;
-    font-size: 14px;
-    padding-bottom: 0;
-}
-.panel p {
-    padding-top: 20px;
-    padding-bottom: 35px;
-}
-
 /*---------- Tutorials main -----------*/
 
 div.article {
@@ -483,6 +431,16 @@ p.news-text {
     line-height: normal;
     font-size: 13px;
     padding-right: 2vw;
+}
+a.news-link {
+    font-weight: 500;
+    font-family: Montserrat;
+    font-size: 14px;
+}
+a.news-link:hover {
+    text-decoration: none;
+    color: #061856;
+    font-weight: 500;
 }
 
 /* ----- FOOTER ----- */
@@ -1029,17 +987,28 @@ div.footer a:hover {
         padding: 0;
         margin: 0;
     }
-    /* ---- Team Members ---- */
-    .left-member {
-        width: 550px;
-        margin-left: 125px;
+    /*---------- Tutorials main -----------*/
+    div.article {
+        background-color: rgb(239, 239, 239);
+        padding: 17px;
+        border-radius: 4px;
+        overflow: hidden;
+        height: 190px;
+        margin-bottom: 25px;
     }
-    .right-member {
-        width: 550px;
-        margin-left: 125px;
+    .article h5 {
+        margin-top: 30px;
+        padding-bottom: 8px;
     }
-    .bio-member {
+    p.tutorials-text {
         text-align: justify;
+        font-family: Montserrat;
+        font-weight: 400;
+        color: rgb(102, 106, 107);
+        line-height: normal;
+        font-size: 13px;
+        padding-right: 1.8vw;
+        margin-bottom: 3px;
     }
     /* ---- References ---- */
     .references {
@@ -1245,21 +1214,14 @@ div.footer a:hover {
         padding: 0;
         width: 95%;
     }
-    /* ---- Mainflux Team--- */
-    #mainflux-team p {
-        padding: 0 10px 0 10px;
-    }
-    /* ---- Team Members ---- */
-    .left-member {
-        width: 550px;
-        margin-left: 125px;
-    }
-    .right-member {
-        width: 550px;
-        margin-left: 125px;
-    }
-    .bio-member {
-        text-align: justify;
+    /*---------- Tutorials main -----------*/
+    div.article {
+        background-color: rgb(239, 239, 239);
+        padding: 17px;
+        border-radius: 4px;
+        overflow: hidden;
+        height: 190px;
+        margin-bottom: 25px;
     }
     /* ---- References ---- */
     .references {
@@ -1497,21 +1459,14 @@ div.footer a:hover {
         margin-right: 0;
         margin-left: 14px;
     }
-    /* ---- Mainflux Team--- */
-    #mainflux-team p {
-        padding: 0 10px 0 10px;
-    }
-    /* ---- Team Members ---- */
-    .left-member {
-        width: 550px;
-        margin-left: 105px;
-    }
-    .right-member {
-        width: 550px;
-        margin-left: 105px;
-    }
-    .bio-member {
-        text-align: justify;
+    /*---------- Tutorials main -----------*/
+    div.article {
+        background-color: rgb(239, 239, 239);
+        padding: 17px;
+        border-radius: 4px;
+        overflow: hidden;
+        height: 190px;
+        margin-bottom: 25px;
     }
     /* ---- References ---- */
     .references {
@@ -1640,8 +1595,15 @@ div.footer a:hover {
     }
     #news p {
         font-size: 14px;
-        margin-bottom: 35px;
+        margin-bottom: 5px;
         padding: 0 12px 0 10px;
+    }
+    p#news-link {
+        font-weight: 500;
+        margin-bottom: 14px;
+    }
+    p#middle {
+        margin-bottom: 14px;
     }
     /* ---- FOOTER ---- */
     .footer-col {
@@ -1748,40 +1710,14 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 180px;
     }
-    /* ---- Quick Preview---- */
-    #preview .container {
-        padding: 0;
-        width: 95%;
-    }
-    #preview .left {
-        padding: 0;
-        width: 500px;
-        margin-left: 14px;
-        margin-bottom: 20px;
-    }
-    #preview .right {
-        padding-right: 0;
-        width: 500px;
-    }
-    #preview p {
-        margin-right: 0;
-        margin-left: 14px;
-    }
-    /* ---- Mainflux Team--- */
-    #mainflux-team p {
-        padding: 0 10px 0 10px;
-    }
-    /* ---- Team Members ---- */
-    .left-member {
-        width: 500px;
-        margin-left: 55px;
-    }
-    .right-member {
-        width: 500px;
-        margin-left: 55px;
-    }
-    .bio-member {
-        text-align: justify;
+    /*---------- Tutorials main -----------*/
+    div.article {
+        background-color: rgb(239, 239, 239);
+        padding: 17px;
+        border-radius: 4px;
+        overflow: hidden;
+        height: 190px;
+        margin-bottom: 25px;
     }
     /* ---- References ---- */
     .references {
@@ -1911,8 +1847,15 @@ div.footer a:hover {
     }
     #news p {
         font-size: 14px;
-        margin-bottom: 35px;
+        margin-bottom: 5px;
         padding: 0 12px 0 10px;
+    }
+    p#news-link {
+        font-weight: 500;
+        margin-bottom: 14px;
+    }
+    p#middle {
+        margin-bottom: 14px;
     }
     /* ---- FOOTER ---- */
     .footer-col {
@@ -2008,47 +1951,14 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 180px;
     }
-    /* ---- Quick Preview---- */
-    #preview .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #preview .row {
-        width: 99%;
-    }
-    #preview .left {
-        padding: 0;
-        width: 440px;
-        margin-left: 24px;
-        margin-bottom: 20px;
-    }
-    #preview .right {
-        padding-right: 0;
-        width: 440px;
-        margin-left: 24px;
-    }
-    #preview p {
-        margin-right: 0;
-        margin-left: 14px;
-    }
-    /* ---- Mainflux Team--- */
-    #mainflux-team p {
-        padding: 0 10px 0 10px;
-    }
-    /* ---- Team Members ---- */
-    .left-member {
-        width: 420px;
-        margin-left: 28px;
-        padding: 0;
-    }
-    .right-member {
-        width: 420px;
-        margin-left: 28px;
-        padding: 0;
-    }
-    .bio-member {
-        text-align: left;
+    /*---------- Tutorials main -----------*/
+    div.article {
+        background-color: rgb(239, 239, 239);
+        padding: 17px;
+        border-radius: 4px;
+        overflow: hidden;
+        height: 190px;
+        margin-bottom: 25px;
     }
     /* ---- References ---- */
     .references {
@@ -2227,7 +2137,14 @@ div.footer a:hover {
     }
     #news p {
         font-size: 13px;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
+    }
+    p#news-link {
+        font-weight: 500;
+        margin-bottom: 14px;
+    }
+    p#middle {
+        margin-bottom: 14px;
     }
     /* ---- FOOTER ---- */
     .footer-col {
@@ -2319,94 +2236,14 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 170px;
     }
-    /* ---- Quick Preview---- */
-    #preview .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #preview .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #preview .left {
-        padding: 0;
-        width: 390px;
-        margin-left: 0px;
-        margin-bottom: 20px;
-        padding-left: 5px;
-    }
-    #preview .right {
-        padding-right: 0;
-        width: 390px;
-        margin-left: 0px;
-        padding-left: 5px;
-    }
-    #preview h3 {
-        font-size: 26px;
-    }
-    #preview p {
-        margin-right: 0;
-        margin-left: 14px;
-        font-size: 12px;
-    }
-    /* ---- Mainflux Team--- */
-    #mainflux-team h3 {
-        font-size: 26px;
-    }
-    #mainflux-team p {
-        padding: 0 10px 0 10px;
-        font-size: 12px;
-    }
-    /* ---- Team Members ---- */
-    #team-members .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members h3 {
-        font-size: 26px;
-    }
-    #team-members img {
-        height: 188px;
-    }
-    .left-member {
-        width: 389px;
-        margin-left: 8px;
-        padding: 0;
-    }
-    .right-member {
-        width: 389px;
-        margin-left: 8px;
-        padding: 0;
-    }
-    p.name {
-        font-size: 16px;
-        padding-left: 9px;
-    }
-    p.role {
-        font-size: 14px;
-        padding-left: 9px;
-    }
-    p.expertise {
-        font-size: 10px;
-        margin-left: 0;
-        padding-left: 9px;
-    }
-    .name-member i {
-        padding-left: 9px;
-    }
-    .bio-member p {
-        font-size: 12px;
-    }
-    .bio-member {
-        text-align: left;
+    /*---------- Tutorials main -----------*/
+    div.article {
+        background-color: rgb(239, 239, 239);
+        padding: 17px;
+        border-radius: 4px;
+        overflow: hidden;
+        height: 232px;
+        margin-bottom: 25px;
     }
     /* ---- References ---- */
     .references {
@@ -2545,11 +2382,18 @@ div.footer a:hover {
     }
     #news p {
         font-size: 13px;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
     #news h5,
     p {
         padding-left: 6px;
+    }
+    p#news-link {
+        font-weight: 500;
+        margin-bottom: 18px;
+    }
+    p#middle {
+        margin-bottom: 18px;
     }
     /* ---- FOOTER ---- */
     .footer-col {
@@ -2663,94 +2507,14 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 170px;
     }
-    /* ---- Quick Preview---- */
-    #preview .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #preview .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #preview .left {
-        padding: 0;
-        width: 390px;
-        margin-left: 0px;
-        margin-bottom: 20px;
-        padding-left: 5px;
-    }
-    #preview .right {
-        padding-right: 0;
-        width: 390px;
-        margin-left: 0px;
-        padding-left: 5px;
-    }
-    #preview h3 {
-        font-size: 26px;
-    }
-    #preview p {
-        margin-right: 0;
-        margin-left: 14px;
-        font-size: 12px;
-    }
-    /* ---- Mainflux Team--- */
-    #mainflux-team h3 {
-        font-size: 26px;
-    }
-    #mainflux-team p {
-        padding: 0 10px 0 10px;
-        font-size: 12px;
-    }
-    /* ---- Team Members ---- */
-    #team-members .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members h3 {
-        font-size: 26px;
-    }
-    #team-members img {
-        height: 186px;
-    }
-    .left-member {
-        width: 386px;
-        margin-left: 8px;
-        padding: 0;
-    }
-    .right-member {
-        width: 386px;
-        margin-left: 8px;
-        padding: 0;
-    }
-    p.name {
-        font-size: 16px;
-        padding-left: 9px;
-    }
-    p.role {
-        font-size: 14px;
-        padding-left: 9px;
-    }
-    p.expertise {
-        font-size: 10px;
-        margin-left: 0;
-        padding-left: 9px;
-    }
-    .name-member i {
-        padding-left: 9px;
-    }
-    .bio-member p {
-        font-size: 12px;
-    }
-    .bio-member {
-        text-align: left;
+    /*---------- Tutorials main -----------*/
+    div.article {
+        background-color: rgb(239, 239, 239);
+        padding: 17px;
+        border-radius: 4px;
+        overflow: hidden;
+        height: 230px;
+        margin-bottom: 25px;
     }
     /* ---- References ---- */
     .references {
@@ -2889,11 +2653,18 @@ div.footer a:hover {
     }
     #news p {
         font-size: 13px;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
     #news h5,
     p {
         padding-left: 6px;
+    }
+    p#news-link {
+        font-weight: 500;
+        margin-bottom: 18px;
+    }
+    p#middle {
+        margin-bottom: 18px;
     }
     /* ---- FOOTER ---- */
     .footer-col {
@@ -3003,102 +2774,14 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 170px;
     }
-    /* ---- Quick Preview---- */
-    #preview .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #preview .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #preview .left {
-        padding: 0;
-        width: 360px;
-        margin-left: 0px;
-        margin-bottom: 20px;
-        padding-left: 5px;
-    }
-    #preview .right {
-        padding-right: 0;
-        width: 360px;
-        margin-left: 0px;
-        padding-left: 5px;
-    }
-    #preview h3 {
-        font-size: 26px;
-    }
-    #preview p {
-        margin-right: 0;
-        margin-left: 14px;
-        font-size: 12px;
-    }
-    /* ---- Mainflux Team--- */
-    #mainflux-team h3 {
-        font-size: 26px;
-    }
-    #mainflux-team p {
-        padding: 0 10px 0 10px;
-        font-size: 12px;
-    }
-    /* ---- Team Members ---- */
-    #team-members .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members h3 {
-        font-size: 26px;
-    }
-    #team-members img {
-        height: 150px;
-    }
-    .left-member {
-        width: 359px;
-        margin-left: 8px;
-        padding: 0;
-    }
-    .right-member {
-        width: 359px;
-        margin-left: 8px;
-        padding: 0;
-    }
-    .name-member {
-        padding: 0;
-        margin-left: -5px;
-    }
-    p.name {
-        font-size: 16px;
-        padding-left: 0px;
-    }
-    p.role {
-        font-size: 14px;
-        padding-left: 0px;
-        margin-top: -18px;
-    }
-    p.expertise {
-        font-size: 10px;
-        margin-left: 0;
-        padding-left: 0px;
-        margin-top: -8px;
-    }
-    .name-member i {
-        padding-left: 0px;
-        margin-top: -8px;
-        padding-top: -10px;
-    }
-    .bio-member p {
-        font-size: 12px;
-    }
-    .bio-member {
-        text-align: left;
+    /*---------- Tutorials main -----------*/
+    div.article {
+        background-color: rgb(239, 239, 239);
+        padding: 17px;
+        border-radius: 4px;
+        overflow: hidden;
+        height: 230px;
+        margin-bottom: 25px;
     }
     /* ---- References ---- */
     .references {
@@ -3167,7 +2850,6 @@ div.footer a:hover {
         width: 195px;
         font-size: 12px;
         margin-bottom: 45px;
-        margin-left: -20px;
     }
     #demo {
         margin-top: 15px;
@@ -3238,7 +2920,7 @@ div.footer a:hover {
     }
     #news p {
         font-size: 13px;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
     #news h5 {
         font-size: 16px;
@@ -3246,6 +2928,13 @@ div.footer a:hover {
     #news h5,
     p {
         padding-left: 6px;
+    }
+    p#news-link {
+        font-weight: 500;
+        margin-bottom: 18px;
+    }
+    p#middle {
+        margin-bottom: 18px;
     }
     /* ---- FOOTER ---- */
     .footer-col {
@@ -3355,102 +3044,14 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 120px;
     }
-    /* ---- Quick Preview---- */
-    #preview .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #preview .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #preview .left {
-        padding: 0;
-        width: 347px;
-        margin-left: 0px;
-        margin-bottom: 20px;
-        padding-left: 3px;
-    }
-    #preview .right {
-        padding-right: 0;
-        width: 347px;
-        margin-left: 0px;
-        padding-left: 3px;
-    }
-    #preview h3 {
-        font-size: 26px;
-    }
-    #preview p {
-        margin-right: 0;
-        margin-left: 14px;
-        font-size: 12px;
-    }
-    /* ---- Mainflux Team--- */
-    #mainflux-team h3 {
-        font-size: 26px;
-    }
-    #mainflux-team p {
-        padding: 0 5px 0 5px;
-        font-size: 12px;
-    }
-    /* ---- Team Members ---- */
-    #team-members .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members h3 {
-        font-size: 26px;
-    }
-    #team-members img {
-        height: 150px;
-    }
-    .left-member {
-        width: 349px;
-        margin-left: 8px;
-        padding: 0;
-    }
-    .right-member {
-        width: 349px;
-        margin-left: 8px;
-        padding: 0;
-    }
-    .name-member {
-        padding: 0;
-        margin-left: -5px;
-    }
-    p.name {
-        font-size: 16px;
-        padding-left: 0px;
-    }
-    p.role {
-        font-size: 14px;
-        padding-left: 0px;
-        margin-top: -18px;
-    }
-    p.expertise {
-        font-size: 10px;
-        margin-left: 0;
-        padding-left: 0px;
-        margin-top: -8px;
-    }
-    .name-member i {
-        padding-left: 0px;
-        margin-top: -8px;
-        padding-top: -10px;
-    }
-    .bio-member p {
-        font-size: 12px;
-    }
-    .bio-member {
-        text-align: left;
+    /*---------- Tutorials main -----------*/
+    div.article {
+        background-color: rgb(239, 239, 239);
+        padding: 17px;
+        border-radius: 4px;
+        overflow: hidden;
+        height: 230px;
+        margin-bottom: 25px;
     }
     /* ---- References ---- */
     .references {
@@ -3589,7 +3190,7 @@ div.footer a:hover {
     }
     #news p {
         font-size: 13px;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
     #news h5 {
         font-size: 16px;
@@ -3597,6 +3198,13 @@ div.footer a:hover {
     #news h5,
     p {
         padding-left: 6px;
+    }
+    p#news-link {
+        font-weight: 500;
+        margin-bottom: 18px;
+    }
+    p#middle {
+        margin-bottom: 18px;
     }
     /* ---- FOOTER ---- */
     .footer-col {
@@ -3676,7 +3284,7 @@ div.footer a:hover {
     img.img-responsive {
         z-index: 2;
         opacity: 0.6;
-        height: 310px;
+        height: 210px;
         margin-top: 40px;
     }
     h1 {
@@ -3706,102 +3314,14 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 120px;
     }
-    /* ---- Quick Preview---- */
-    #preview .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #preview .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #preview .left {
-        padding: 0;
-        width: 337px;
-        margin-left: 0px;
-        margin-bottom: 20px;
-        padding-left: 1px;
-    }
-    #preview .right {
-        padding-right: 0;
-        width: 337px;
-        margin-left: 0px;
-        padding-left: 1px;
-    }
-    #preview h3 {
-        font-size: 26px;
-    }
-    #preview p {
-        margin-right: 0;
-        margin-left: 10px;
-        font-size: 12px;
-    }
-    /* ---- Mainflux Team--- */
-    #mainflux-team h3 {
-        font-size: 26px;
-    }
-    #mainflux-team p {
-        padding: 0 5px 0 5px;
-        font-size: 12px;
-    }
-    /* ---- Team Members ---- */
-    #team-members .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members h3 {
-        font-size: 26px;
-    }
-    #team-members img {
-        height: 142px;
-    }
-    .left-member {
-        width: 331px;
-        margin-left: 8px;
-        padding: 0;
-    }
-    .right-member {
-        width: 331px;
-        margin-left: 8px;
-        padding: 0;
-    }
-    .name-member {
-        padding: 0;
-        margin-left: -5px;
-    }
-    p.name {
-        font-size: 14px;
-        padding-left: 0px;
-    }
-    p.role {
-        font-size: 12px;
-        padding-left: 0px;
-        margin-top: -18px;
-    }
-    p.expertise {
-        font-size: 9px;
-        margin-left: 0;
-        padding-left: 0px;
-        margin-top: -12px;
-    }
-    .name-member i {
-        padding-left: 0px;
-        margin-top: -8px;
-        padding-top: -10px;
-    }
-    .bio-member p {
-        font-size: 12px;
-    }
-    .bio-member {
-        text-align: left;
+    /*---------- Tutorials main -----------*/
+    div.article {
+        background-color: rgb(239, 239, 239);
+        padding: 17px;
+        border-radius: 4px;
+        overflow: hidden;
+        height: 245px;
+        margin-bottom: 25px;
     }
     /* ---- References ---- */
     .references {
@@ -3940,7 +3460,7 @@ div.footer a:hover {
     }
     #news p {
         font-size: 13px;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
     #news h5 {
         font-size: 16px;
@@ -3948,6 +3468,13 @@ div.footer a:hover {
     #news h5,
     p {
         padding-left: 6px;
+    }
+    p#news-link {
+        font-weight: 500;
+        margin-bottom: 18px;
+    }
+    p#middle {
+        margin-bottom: 18px;
     }
     /* ---- FOOTER ---- */
     .footer-col {
@@ -4060,110 +3587,14 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 120px;
     }
-    /* ---- Quick Preview---- */
-    #preview .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #preview .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #preview .left {
-        padding: 0;
-        width: 300px;
-        margin-left: 0px;
-        margin-bottom: 20px;
-        padding-left: 1px;
-    }
-    #preview .right {
-        padding-right: 0;
-        width: 300px;
-        margin-left: 0px;
-        padding-left: 1px;
-    }
-    #preview h3 {
-        font-size: 26px;
-    }
-    #preview p {
-        margin-right: 0;
-        margin-left: 5px;
-        font-size: 12px;
-    }
-    /* ---- Mainflux Team--- */
-    #mainflux-team h3 {
-        font-size: 26px;
-    }
-    #mainflux-team p {
-        padding: 0 5px 0 5px;
-        font-size: 12px;
-    }
-    /* ---- Team Members ---- */
-    #team-members .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members h3 {
-        font-size: 26px;
-    }
-    .img-member {
-        padding-left: 9px;
-        padding-right: 0;
-    }
-    #team-members img {
-        height: 140px;
-    }
-    .left-member {
-        width: 301px;
-        margin-left: 2px;
-        padding: 0;
-    }
-    .right-member {
-        width: 301px;
-        margin-left: 2px;
-        padding: 0;
-    }
-    .name-member {
-        padding: 0;
-        margin-left: -5px;
-    }
-    p.name {
-        font-size: 14px;
-        padding-left: 0px;
-    }
-    p.role {
-        font-size: 12px;
-        padding-left: 0px;
-        margin-top: -18px;
-    }
-    p.expertise {
-        font-size: 9px;
-        margin-left: 0;
-        padding-left: 0px;
-        margin-top: -12px;
-    }
-    .name-member i {
-        padding-left: 0px;
-        margin-top: -8px;
-        padding-top: -10px;
-    }
-    .bio-member {
-        padding: 0 3px 0 4px;
-        margin-left: 0;
-    }
-    .bio-member p {
-        font-size: 12px;
-    }
-    .bio-member {
-        text-align: left;
+    /*---------- Tutorials main -----------*/
+    div.article {
+        background-color: rgb(239, 239, 239);
+        padding: 17px;
+        border-radius: 4px;
+        overflow: hidden;
+        height: 262px;
+        margin-bottom: 25px;
     }
     /* ---- References ---- */
     .references {
@@ -4304,7 +3735,7 @@ div.footer a:hover {
     }
     #news p {
         font-size: 12px;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
     #news h5 {
         font-size: 14px;
@@ -4312,6 +3743,13 @@ div.footer a:hover {
     #news h5,
     p {
         padding-left: 6px;
+    }
+    p#news-link {
+        font-weight: 500;
+        margin-bottom: 19px;
+    }
+    p#middle {
+        margin-bottom: 19px;
     }
     /* ---- FOOTER ---- */
     .footer-col {
