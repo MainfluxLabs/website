@@ -311,6 +311,18 @@ img#stack {
     margin-left: 2px;
 }
 
+/* ----- How it Works ----- */
+
+h4#how {
+    margin-left: auto;
+}
+img#deamon {
+    height: 265px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* ----- Features ----- */
 
 .features h4 {
@@ -625,6 +637,10 @@ div.footer-col {
         margin-top: 150px;
         margin-left: 0px;
     }
+    /* ---- How it works ---- */
+    img#deamon {
+        height: 220px;
+    }
     /* ---- FOOTER ---- */
     .footer-line {
         width: 82vw;
@@ -668,12 +684,16 @@ div.footer-col {
         margin-bottom: 65px;
     }
     img#stack {
-        height: 111px;
+        height: 120px;
         margin-top: 150px;
-        margin-left: 0px;
+        margin-left: -35px;
     }
     div#features-edgeflux {
         margin-left: 98px;
+    }
+    /* ---- How it works ---- */
+    img#deamon {
+        height: 220px;
     }
     /* ---- FOOTER ---- */
     div.footer {
@@ -762,6 +782,10 @@ div.footer-col {
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+    /* ---- How it works ---- */
+    img#deamon {
+        height: 230px;
     }
     /* ---- FOOTER ---- */
     .footer {
@@ -886,6 +910,10 @@ div.footer-col {
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+    /* ---- How it works ---- */
+    img#deamon {
+        height: 230px;
     }
     /* ---- FOOTER ---- */
     .footer-col {
@@ -1021,6 +1049,10 @@ div.footer-col {
         margin-left: auto;
         margin-right: auto;
     }
+    /* ---- How it works ---- */
+    img#deamon {
+        height: 230px;
+    }
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -1117,22 +1149,23 @@ div.footer-col {
         margin-bottom: 30px;
     }
     img#shape {
-        height: 230px;
+        height: 220px;
         margin-top: 60px;
-        margin-left: 15px;
+        margin-left: -5px;
         margin-bottom: 95px;
     }
     #headline br {
         display: none;
     }
     img#stack {
-        height: 133px;
+        height: 123px;
         margin-top: 40px;
-        margin-left: -16px;
+        margin-left: -19px;
     }
     section.what-is-edge-flux {
         margin-left: 12px;
         padding-right: 0;
+        width: 90%;
     }
     #features-edgeflux h4 {
         margin-left: 12px;
@@ -1150,19 +1183,19 @@ div.footer-col {
         margin-left: 12px;
     }
     img#dashboard-1 {
-        height: 300px;
+        height: 283px;
         margin-left: 0;
     }
     img#dashboard-2 {
-        height: 389px;
+        height: 367px;
         margin-left: 0;
     }
     img#dashboard-3 {
-        height: 389px;
+        height: 367px;
         margin-left: 0;
     }
     img#dashboard-4 {
-        height: 484px;
+        height: 455px;
         margin-top: 42px;
         margin-left: 2px;
         display: block;
@@ -1172,6 +1205,15 @@ div.footer-col {
     .fa-ul p {
         line-height: 23px;
         padding-right: 1px;
+    }
+    /* ---- How it works ---- */
+    img#deamon {
+        height: 190px;
+        margin-left: 9px;
+    }
+    .how p {
+        margin-left: 12px;
+        width: 90%;
     }
     /* ---- FOOTER ---- */
     .footer-col {
@@ -1321,6 +1363,18 @@ div.footer-col {
     .fa-ul p {
         line-height: 23px;
         padding-right: 1px;
+    }
+    /* ---- How it works ---- */
+    .how h6 {
+        margin-left: 12px;
+    }
+    img#deamon {
+        height: 180px;
+        margin-left: 19px;
+    }
+    .how p {
+        margin-left: 12px;
+        width: 90%;
     }
     /* ---- FOOTER ---- */
     .footer-col {
@@ -1472,6 +1526,20 @@ div.footer-col {
         line-height: 23px;
         padding-right: 1px;
     }
+    /* ---- How it works ---- */
+    h4#how {
+        margin-left: 11px;
+    }
+    .how h6 {
+        margin-left: 12px;
+    }
+    img#deamon {
+        height: 160px;
+        margin-left: 9px;
+    }
+    .how p {
+        margin-left: 12px;
+    }
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -1597,11 +1665,11 @@ div.footer-col {
         margin-right: 0;
     }
     #features-edgeflux h4 {
-        margin-left: 12px;
+        margin-left: 2px;
         padding-right: 0;
     }
     #features-edgeflux ul {
-        margin-left: 35px;
+        margin-left: 27px;
         padding-right: 0;
     }
     .dashboards h4 {
@@ -1633,6 +1701,20 @@ div.footer-col {
     .fa-ul p {
         line-height: 23px;
         padding-right: 1px;
+    }
+    /* ---- How it works ---- */
+    h4#how {
+        margin-left: 2px;
+    }
+    .how h6 {
+        margin-left: 2px;
+    }
+    img#deamon {
+        height: 160px;
+        margin-left: 9px;
+    }
+    .how p {
+        margin-left: 2px;
     }
     /* ---- FOOTER ---- */
     .footer-col {
@@ -1794,6 +1876,20 @@ div.footer-col {
         line-height: 23px;
         padding-right: 1px;
     }
+    /* ---- How it works ---- */
+    h4#how {
+        margin-left: 2px;
+    }
+    .how h6 {
+        margin-left: 2px;
+    }
+    img#deamon {
+        height: 149px;
+        margin-left: 9px;
+    }
+    .how p {
+        margin-left: 2px;
+    }
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -1921,7 +2017,7 @@ div.footer-col {
         padding-right: 0;
     }
     #features-edgeflux ul {
-        margin-left: 35px;
+        margin-left: 25px;
         padding-right: 0;
     }
     .dashboards h4 {
@@ -1956,6 +2052,20 @@ div.footer-col {
         line-height: 23px;
         padding-right: 0px;
         width: 108%;
+    }
+    /* ---- How it works ---- */
+    h4#how {
+        margin-left: 2px;
+    }
+    .how h6 {
+        margin-left: 2px;
+    }
+    img#deamon {
+        height: 145px;
+        margin-left: 9px;
+    }
+    .how p {
+        margin-left: 2px;
     }
     /* ---- FOOTER ---- */
     .footer-col {
@@ -2087,7 +2197,7 @@ div.footer-col {
         font-size: 24px;
     }
     #features-edgeflux ul {
-        margin-left: 35px;
+        margin-left: 25px;
         padding-right: 0;
     }
     .dashboards h4 {
@@ -2123,6 +2233,20 @@ div.footer-col {
         line-height: 23px;
         padding-right: 0px;
         width: 108%;
+    }
+    /* ---- How it works ---- */
+    h4#how {
+        margin-left: 2px;
+    }
+    .how h6 {
+        margin-left: 2px;
+    }
+    img#deamon {
+        height: 137px;
+        margin-left: 15px;
+    }
+    .how p {
+        margin-left: 2px;
     }
     /* ---- FOOTER ---- */
     .footer-col {
@@ -2259,7 +2383,7 @@ div.footer-col {
         font-size: 24px;
     }
     #features-edgeflux ul {
-        margin-left: 35px;
+        margin-left: 25px;
         padding-right: 0;
     }
     .dashboards h4 {
@@ -2296,6 +2420,20 @@ div.footer-col {
         line-height: 23px;
         padding-right: 0px;
         width: 108%;
+    }
+    /* ---- How it works ---- */
+    h4#how {
+        margin-left: 2px;
+    }
+    .how h6 {
+        margin-left: 2px;
+    }
+    img#deamon {
+        height: 120px;
+        margin-left: 15px;
+    }
+    .how p {
+        margin-left: 2px;
     }
     /* ---- FOOTER ---- */
     .footer-col {

@@ -256,6 +256,58 @@ Edgeflux is IoT device management solution for remote onboarding, monitoring and
     <br>
     <br>
 
+    <!-- ---------------- How It Works ---------------- -->
+
+    <section class="how">
+
+        <div class="container">
+
+
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12  main-text">
+
+
+                    <h4 id="how">HOW IT WORKS </h4>
+
+
+                    <h6>Edgeflux Usage</h6>
+
+                    <p>Edgeflux is an application built on the top of the Mainflux open-source and patent-free IoT Platform, which is used internally as the main engine for device management and it is invisible/transparent to the end-user.
+                        <br> However, Edgeflux works as a separate product meaning that all data can be pushed to the other IoT platforms. </p>
+                    <br>
+                    <br>
+
+                    <h6>Gateway Compatibility</h6>
+                    <p>Edgeflux is hardware agnostic and it can be used with any gateway. What is only needed is the installation of the small IoT agent daemon - Edged, on the gateway.
+                        <br> Edged securely connects to Edgeflux and acts as a bridge between remote IoT gateway and Edgeflux removing the need for VPN. It is written in Go and open control MQTT channels towards Edgeflux in the cloud so it can be managed from the Edgeflux app.
+                    </p>
+                    <br>
+
+                    <img id="deamon" title="Egded deamon diagram" src="images/edged-deamon-iot-device-management.jpg" alt=" Diagram of edged deamon which has to be deployed in to the  IoT gateway and serves as bridge between remote IoT gateway and Edgeflux ">
+
+                    <br>
+                    <br>
+
+                    <p>Once Mainflux Labs Edged daemon is deployed to the remote gateway it connects to Edgeflux Bootstrap service enabling application lifecycle management. Edged also connects to Edgeflux enabling control plane communication.
+                        <br> All connections are secure (TLS and/or mTLS) and initiated by the remote gateway so there are no open ingress ports. VPN is not required for the system to operate securely, thanks to the innovative implementation of remote terminal and browser via mTLS-encrypted MQTT channels.
+                    </p>
+                    <br>
+                    <br>
+                    <h6>Gateway Requirements</h6>
+
+                    <p>There are no particular hardware requirements for the Gateway, considering that Edgeflux is a very small Go statically-compiled binary that can fit under the 900k, while Go can for any architecture and OS</p>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </section>
 
     <!-- ---------------- Features ---------------- -->
 
