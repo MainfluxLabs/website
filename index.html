@@ -65,6 +65,38 @@
 
     </script>
 
+
+    <link rel="stylesheet" type="text/css" href="//wpcc.io/lib/1.0.2/cookieconsent.min.css" />
+
+    <script src="//wpcc.io/lib/1.0.2/cookieconsent.min.js"></script>
+
+    <script>
+        window.addEventListener("load", function() {
+            window.wpcc.init({
+                "colors": {
+                    "popup": {
+                        "background": "#f6f6f6",
+                        "text": "#000000",
+                        "border": "#555555"
+                    },
+                    "button": {
+                        "background": "#555555",
+                        "text": "#ffffff"
+                    }
+                },
+                "position": "bottom-right",
+                "fontsize": "small",
+                "corners": "large",
+                "content": {
+                    "button": "I agree",
+                    "message": "We use cookies to analyze this site’s usage, pages viewed and your journey around a website. Therefore, some data will be stored on, and retrieved from, your device.",
+                    "href": "https://en.wikipedia.org/wiki/HTTP_cookie"
+                }
+            })
+        });
+
+    </script>
+
 </head>
 
 
@@ -1111,9 +1143,10 @@
 
             <div id="column" class="row">
 
-                  <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                     <h5>Mainflux Labs On KubeCon + CloudNativeCon Open Source Summit In Shanghai</h5>
-                    <p class="news-text">Drasko Draskovic and Janko Isidorovic will present Mainflux and EdgeXFoundry IoT platforms at Open Source Summit In Shanghai that will be held on June 24–26. Minflux team will present the architecture of an end-to-end open-source source solution for IoT edge-fog-cloud continuum. </p>  <p id="news-link"><a href="https://kccncosschn19eng.sched.com/event/Nrul" class="news-link">Read More</a></p>
+                    <p class="news-text">Drasko Draskovic and Janko Isidorovic will present Mainflux and EdgeXFoundry IoT platforms at Open Source Summit In Shanghai that will be held on June 24–26. Minflux team will present the architecture of an end-to-end open-source source solution for IoT edge-fog-cloud continuum. </p>
+                    <p id="news-link"><a href="https://kccncosschn19eng.sched.com/event/Nrul" class="news-link">Read More</a></p>
 
                 </div>
 
@@ -1126,7 +1159,8 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                     <h5>Mainflux Labs Participated At SmartCity SEE Conference Panel in Belgrade</h5>
-                    <p class="news-text">Janko Isidorovic, Mainflux Labs COO participated at the SmartCity SEE Conference panel: "Smart City Connectivity" together with representatives from Telecom Serbia, Huawei, and Deutsche Telecom.</p> <p id="news-link"><a href="http://www.smartcitysee.com/" class="news-link">Read More</a></p>
+                    <p class="news-text">Janko Isidorovic, Mainflux Labs COO participated at the SmartCity SEE Conference panel: "Smart City Connectivity" together with representatives from Telecom Serbia, Huawei, and Deutsche Telecom.</p>
+                    <p id="news-link"><a href="http://www.smartcitysee.com/" class="news-link">Read More</a></p>
 
 
                 </div>
