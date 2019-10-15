@@ -778,6 +778,11 @@
     /* ---- Extra Large Desktops ---- */
     
     @media screen and (min-width:1920px) and (max-width:2560px) {
+        .fund {
+            height: 49px;
+            margin-left: 70px;
+            margin-top: -6px;
+        }
         section.conferences {
             display: none;
         }
@@ -2169,7 +2174,6 @@
         p#middle {
             margin-bottom: 18px;
         }
-      
         /* ---- FOOTER ---- */
         .footer-col {
             margin-bottom: 22px;
