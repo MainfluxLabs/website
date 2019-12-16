@@ -482,6 +482,12 @@ p.int-sec {
     padding-right: 2.5vw;
 }
 
+.double-mike {
+    display: none;
+}
+
+
+
 /* --- 3 Buttons --- */
 
 .action-call h6 {
