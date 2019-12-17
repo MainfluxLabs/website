@@ -389,7 +389,7 @@ img#dashboard-3 {
     margin-right: auto;
 }
 img#dashboard-4 {
-    height: 955px;
+    height: 573px;
     margin-top: 42px;
     margin-left: 2px;
     display: block;
@@ -764,19 +764,19 @@ div.footer-col {
         padding-right: 0;
     }
     img#dashboard-1 {
-        height: 394px;
+        height: 387px;
         margin-left: 0;
     }
     img#dashboard-2 {
-        height: 511px;
+        height: 390px;
         margin-left: 0;
     }
     img#dashboard-3 {
-        height: 511px;
+        height: 391px;
         margin-left: 0;
     }
     img#dashboard-4 {
-        height: 634px;
+        height: 394px;
         margin-top: 42px;
         margin-left: 2px;
         display: block;
@@ -1030,19 +1030,19 @@ div.footer-col {
         padding-right: 1px;
     }
     img#dashboard-1 {
-        height: 364px;
+        height: 367px;
         margin-left: 0;
     }
     img#dashboard-2 {
-        height: 472px;
+        height: 370px;
         margin-left: 0;
     }
     img#dashboard-3 {
-        height: 472px;
+        height: 370px;
         margin-left: 0;
     }
     img#dashboard-4 {
-        height: 586px;
+        height: 372px;
         margin-top: 42px;
         margin-left: 2px;
         display: block;
@@ -1183,19 +1183,19 @@ div.footer-col {
         margin-left: 12px;
     }
     img#dashboard-1 {
-        height: 283px;
+        height: 294px;
         margin-left: 0;
     }
     img#dashboard-2 {
-        height: 367px;
+        height: 297px;
         margin-left: 0;
     }
     img#dashboard-3 {
-        height: 367px;
+        height: 299px;
         margin-left: 0;
     }
     img#dashboard-4 {
-        height: 455px;
+        height: 300px;
         margin-top: 42px;
         margin-left: 2px;
         display: block;
@@ -1341,19 +1341,19 @@ div.footer-col {
         padding-left: 6px;
     }
     img#dashboard-1 {
-        height: 235px;
+        height: 240px;
         margin-left: 0;
     }
     img#dashboard-2 {
-        height: 305px;
+        height: 241px;
         margin-left: 0;
     }
     img#dashboard-3 {
-        height: 305px;
+        height: 241px;
         margin-left: 0;
     }
     img#dashboard-4 {
-        height: 379px;
+        height: 242px;
         margin-top: 42px;
         margin-left: 2px;
         display: block;
@@ -1507,15 +1507,15 @@ div.footer-col {
         margin-left: 0;
     }
     img#dashboard-2 {
-        height: 260px;
+        height: 201px;
         margin-left: 0;
     }
     img#dashboard-3 {
-        height: 260px;
+        height: 201px;
         margin-left: 0;
     }
     img#dashboard-4 {
-        height: 323px;
+        height: 201px;
         margin-top: 42px;
         margin-left: 2px;
         display: block;
@@ -1683,15 +1683,15 @@ div.footer-col {
         margin-left: 0;
     }
     img#dashboard-2 {
-        height: 260px;
+        height: 201px;
         margin-left: 0;
     }
     img#dashboard-3 {
-        height: 260px;
+        height: 201px;
         margin-left: 0;
     }
     img#dashboard-4 {
-        height: 323px;
+        height: 201px;
         margin-top: 42px;
         margin-left: 2px;
         display: block;
@@ -1856,16 +1856,20 @@ div.footer-col {
     .dashboards p {
         padding-left: 6px;
     }
+    img#dashboard-1 {
+        height: 190px;
+        margin-left: 0;
+    }
     img#dashboard-2 {
-        height: 240px;
+        height: 190px;
         margin-left: 0;
     }
     img#dashboard-3 {
-        height: 240px;
+        height: 190px;
         margin-left: 0;
     }
     img#dashboard-4 {
-        height: 298px;
+        height: 190px;
         margin-top: 42px;
         margin-left: 2px;
         display: block;
@@ -2029,19 +2033,19 @@ div.footer-col {
         line-height: 19px;
     }
     img#dashboard-1 {
-        height: 181px;
+        height: 180px;
         margin-left: 0;
     }
     img#dashboard-2 {
-        height: 235px;
+        height: 180px;
         margin-left: 0;
     }
     img#dashboard-3 {
-        height: 235px;
+        height: 180px;
         margin-left: 0;
     }
     img#dashboard-4 {
-        height: 292px;
+        height: 180px;
         margin-top: 42px;
         margin-left: 2px;
         display: block;
@@ -2209,20 +2213,20 @@ div.footer-col {
         padding-right: 0;
         line-height: 20px;
     }
-    img#dashboard-1 {
-        height: 172px;
+  img#dashboard-1 {
+        height: 168px;
         margin-left: 0;
     }
     img#dashboard-2 {
-        height: 223px;
+        height: 170px;
         margin-left: 0;
     }
     img#dashboard-3 {
-        height: 223px;
+        height: 170px;
         margin-left: 0;
     }
     img#dashboard-4 {
-        height: 277px;
+        height: 172px;
         margin-top: 42px;
         margin-left: 2px;
         display: block;
@@ -2396,20 +2400,20 @@ div.footer-col {
         line-height: 20px;
         width: 111%;
     }
-    img#dashboard-1 {
-        height: 152px;
+   img#dashboard-1 {
+        height: 158px;
         margin-left: 0;
     }
     img#dashboard-2 {
-        height: 197px;
+        height: 159px;
         margin-left: 0;
     }
     img#dashboard-3 {
-        height: 197px;
+        height: 158px;
         margin-left: 0;
     }
     img#dashboard-4 {
-        height: 245px;
+        height: 160px;
         margin-top: 42px;
         margin-left: 2px;
         display: block;
