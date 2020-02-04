@@ -413,6 +413,9 @@
     .left p {
         padding-right: 12px;
     }
+    p.section-text {
+        line-height: 22px;
+    }
     #platform-features img {
         height: 58px;
         margin-top: 8px;
