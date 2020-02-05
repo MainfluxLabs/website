@@ -413,7 +413,7 @@ img.infrastructure {
     font-family: Montserrat;
     font-weight: 300;
     color: rgb(102, 106, 107);
-    line-height: 20px;
+    line-height: 22px;
     font-size: 16px;
     margin-bottom: 65px;
 }
@@ -573,6 +573,9 @@ td a:active {
 
 /*---------------------------*/
 
+h5#contribution {
+  font-size: 28px;  
+}
 
 /* -- Action Call Section -- */
 
