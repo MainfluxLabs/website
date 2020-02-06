@@ -110,7 +110,7 @@
                                 <li><a href="https://medium.com/mainflux-iot-platform" target="_blank">Blog</a></li>
 
                                 <li><a href="news.html">News</a></li>
-                                <li><a href="">FAQ</a></li>
+                                <li><a id="active" href="faq.html">FAQ</a></li>
                             </ul>
                         </li>
                         <li><a href="careers.html">Careers</a></li>
@@ -189,41 +189,120 @@
 
                     <!-- -- Accordion -- -->
 
-                    <button class="accordion">1. ARE YOU REALLY OPEN SOURCE AND WHAT APACHE 2.0 LICENCE MEAN?</button>
+                    <button class="accordion">ARE YOU REALLY OPEN SOURCE AND WHAT APACHE 2.0 LICENCE MEAN?</button>
                     <div class="panel">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>Mainflux software is open-source and patent-free, published under very liberal Apache-2.0 License - meaning that you can use it in your commercial products without any material compensation (for free :)).
+                            <br>
+                            <br> You can even close-source that code or sensitive parts of your proprietary code, and you can resell it.
+                            <br>
+                            <br> <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank"> Apache-2.0 License</a> is most used today in enterprise open-source. If you want to deploy Mainflux IoT cloud yourself and you do not need our help, then there is absolutely no cost for using the Mainflux IoT Platform.</p>
                     </div>
 
-                    <button class="accordion">2. WHY GO?</button>
+                    <button class="accordion">WHAT IS YOUR BUSINESS MODEL IF YOUR IOT PLATFORM IS UNDER A LIBERAL LICENSE APACHE 2.0? </button>
                     <div class="panel">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>
+                            Mainflux Labs company was formed around its open-source IoT Platform published under a very liberal Apache -2.0 license which means that it can be used in commercial products without any financial obligations to Mainflux Labs.
+                            <br>
+                            <br> If the business, government, education entity or individual can deploy Mainflux IoT Platform without our help and professional services, there is no cost for using it.
+                            <br>
+                            <br> Mainflux Lab’s business model is based on the revenue that comes from several sources:</p>
+                        <ul>
+                            <li>Mainflux Lab’s professional services for the entities that need deployment, configuration, maintenance, custom development, integrations, PoC's, audit support and training around Mainflux open-source IoT Platform, for their IoT project, solution or product.</li>
+                            <br>
+                            <li>Enterprise version of the Mainflux open-source IoT Platform with advanced features</li>
+                            <br>
+                            <li>MFX-1 Edge Computing Gateway hardware units, with installed Linux Foundation EdgeX Foundry framework or Mainflux IoT platform software, with professional services around this product if needed.</li>
+                            <br>
+                            <br>
+
+
+                        </ul>
+
+
+
                     </div>
 
-                    <button class="accordion">Question 3</button>
+                    <button class="accordion">WHY IS MAINFLUX CREATED USING GO PROGRAMMING LANGUAGE? </button>
                     <div class="panel">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>We are often asked why we chose Go programming language to create the Mainflux open-source IoT Platform.
+                            <br>
+                            <br> Go is open-source, a statically typed, compiled programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson. Due to its comprehensive advantages, many companies are actually using Go for their services, including Netflix, Uber, Google, Slack, SpaceX, Dropbox, Adobe, BBC, IBM, Intel, Docker.
+                            <br>
+                            <br> First, Go is fast. It runs straight on the underlying hardware because it is compiled directly to the machine code and not interpreted. Processors understand binaries. When applications are built-in Java or other VM languages, the first human-readable code must be compiled to byte code for JVM or other virtual machines. Virtual Machines then has to interpret those bytecodes and convert them in binaries that processors can understand.
+                            <br>
+                            <br> Go, like C/C++ languages, does not execute on the virtual machine, which eliminates one step from the execution cycle and increases the performance. On the other hand, while Go has efficiency as C/C++, unlike it, Go has simple and clean syntax like Python and Ruby which makes its code also easy to maintain and to modify.
+                            <br>
+                            <br> Having a central role in the Internet of Things architecture, IoT platforms must provide a full-scale of different functionalities, services, and capabilities that are essential for any kind of sustainable IoT solution due to the massive number of connected devices and the enormous quantity of data generated by them.
+                            <br>
+                            <br> The crucial is high-concurrency, the capability of dealing with multiple processes simultaneously and effectively. Most of the modern programming languages like Python, Java are from the ’90s single-threaded environment and are not very efficient.
+                            <br>
+                            <br> For example, creating a new thread in Java consumes approximately 1MB of the memory heap size. With spinning thousands of threads, is not memory efficient - they will put an enormous load on the heap and will cause shut down due to out of memory.
+                            <br>
+                            <br> Go supports concurrency at the language level. Released in 2009 when multi-core processors were already on the market, Go is built with keeping concurrency in mind. Instead of threads, Go has routines that are lightweight, cheap and take less memory than usual threads of execution. Go routine consumes around 2KB memory from the heap, meaning you can spin millions of goroutines at any time.
+                            <br>
+                            <br> In the context of the Mainflux IoT Platform which is based on a set of scalable containerized microservices, the whole binary can be packed in less than 5MB container per microservice.
+                            <br>
+                            <br> Go compiles well on many operating systems and is already used for different platforms, Windows, Linux, Unix and mobile devices, which makes it cross-platform.
+                            <br>
+                            <br> Go has an inbuilt garbage collector (improves the program performance with automated management and utilization of the memory) which makes concurrency more efficient.
+                            <br>
+                            <br> And finally, Go is open-source and empowered by the open-source community. All codes and libraries built to solve problems are its part providing excellent tools that are shared.</p>
                     </div>
 
 
-                    <button class="accordion">3. Question </button>
+                    <button class="accordion">DOES YOUR MANAGED CLOUD EDITION INCLUDE THE ACTUAL HOSTING COSTS? OR IS THIS MAINTENANCE ONLY? </button>
                     <div class="panel">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>It does include hosting costs, but the price can go up from $500 to whatever is the system demand, so the actual needs must be analyzed for the final offer.
+                            <br>
+                            <br> Regarding the support plans, they are not hosting related, but Mainflux related - helping with Mainflux features, customizations, debugging, tracing and log analysis, and so on. .
+                        </p>
                     </div>
 
 
 
-                    <button class="accordion">4. Question </button>
+                    <button class="accordion">WHAT ARE THE SERVER RECOMMENDATIONS FOR MAINFLUX IoT PLATFORM?</button>
                     <div class="panel">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>4 core CPU, 64 bit
+                            <br>
+                            <br> 32 GB RAM
+                            <br>
+                            <br> 256 GB HDD</p>
                     </div>
 
 
 
-                    <button class="accordion">5. Question </button>
+                    <button class="accordion">WHAT IS THE RECOMMENDED OS?</button>
                     <div class="panel">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>CentOS or Debian, while deployment of Mainflux on Windows systems (Windows Server 2016, Windows Server 2019) <br>is in experimental phase.</p>
                     </div>
+                    
+                    
+                    
+                     <button class="accordion">WHICH CODING LANGUAGE IS USED FOR UI?</button>
+                    <div class="panel">
+                        <p>Angular 8 is used for development of Mainflux UI.</p>
+                    </div>
+                    
+                    
+                        <button class="accordion">WHICH API 3rd APP PARTY IS ACCESSING? </button>
+                    <div class="panel">
+                        <p>There is an HTTP API for things provisioning/management. Depending on your needs or use case, you can choose multiple protocols for messaging HTTP, WS, MQTT or CoAP.
+</p>
+                    </div>
+                    
 
+                 <button class="accordion">WHERE DEVICES ARE SENDING DATA?  </button>
+                    <div class="panel">
+                        <p>The device will send data to “Channels” for example via MQTT, those messages can be stored in Database (Mainflux support multiple DB’s for message writers).
+</p>
+                    </div>    
+                   
+              <button class="accordion">WHAT IS NATS‘s CAPACITY?  </button>
+                    <div class="panel">
+                        <p>NATS aims to be a high-performance message broker, it is designed for massive load and scalability. <br> You can check the <a href="https://docs.nats.io/" target="_blank"> NATS documentation </a> for more info. 
+</p>
+                    </div>       
+                   
                     <script>
                         var acc = document.getElementsByClassName("accordion");
                         var i;

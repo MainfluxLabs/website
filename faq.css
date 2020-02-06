@@ -362,6 +362,7 @@ p.section-text {
 .panel p {
     padding-top: 20px;
     padding-bottom: 35px;
+    line-height: 21px;
 }
 
 /* ---- Action call contact us --- */
