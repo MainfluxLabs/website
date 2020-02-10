@@ -325,7 +325,7 @@ p.news-text {
     font-family: Montserrat;
     font-weight: 400;
     color: rgb(102, 106, 107);
-    line-height: 20px;
+    line-height: 21px;
     font-size: 14px;
     text-align: justify;
     margin-top: 6px;
@@ -528,6 +528,15 @@ div.footer a:hover {
 /* ---- Extra Large Desktops ---- */
 
 @media screen and (min-width:1920px) and (max-width:2560px) {
+    .news-section h5 {
+        font-size: 22px;
+        line-height: 31px;
+    }
+    p.news-text {
+        line-height: 23px;
+        font-size: 15px;
+        margin-bottom: 7px;
+    }
     section.conferences {
         display: none;
     }
@@ -543,6 +552,15 @@ div.footer a:hover {
     }
 }
 @media screen and (min-width:1600px) and (max-width:1919px) {
+    .news-section h5 {
+        font-size: 22px;
+        line-height: 31px;
+    }
+    p.news-text {
+        line-height: 22px;
+        font-size: 15px;
+        margin-bottom: 7px;
+    }
     section.conferences {
         display: none;
     }
@@ -559,6 +577,15 @@ div.footer a:hover {
     }
 }
 @media screen and (min-width:1440px) and (max-width:1559px) {
+    .news-section h5 {
+        font-size: 22px;
+        line-height: 29px;
+    }
+    p.news-text {
+        line-height: 22px;
+        font-size: 15px;
+        margin-bottom: 7px;
+    }
     section.conferences {
         display: none;
     }
@@ -599,50 +626,14 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 180px;
     }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
+    .news-section h5 {
+        font-size: 22px;
+        line-height: 27px;
     }
-    .references h5 {
-        font-size: 10px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 50px;
-        margin-left: 55px;
-    }
-    h5#edge {
-        padding-left: 48px;
-        padding-top: 10px;
-    }
-    .oreilly {
-        height: 52px;
-        margin-left: 63px;
-    }
-    h5#oreilly {
-        padding-left: 37px;
-        padding-top: 8px;
-    }
-    .sciencepark {
-        height: 56px;
-        margin-left: 68px;
-        margin-top: -4px;
-    }
-    h5#science {
-        padding-left: 108px;
-        padding-top: 8px;
-    }
-    .fund {
-        height: 55px;
-        margin-left: 76px;
-        margin-top: -6px;
-    }
-    h5#fund {
-        margin-left: 14px;
-        padding-top: 11px;
-        text-align: center;
+    p.news-text {
+        line-height: 22px;
+        font-size: 15px;
+        margin-bottom: 7px;
     }
     section.conferences {
         display: none;
@@ -687,52 +678,16 @@ div.footer a:hover {
         margin-bottom: 85px;
     }
     .home-button {
-        margin-bottom: 180px;
+        margin-bottom: 220px;
     }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
+    .news-section h5 {
+        font-size: 22px;
+        line-height: 27px;
     }
-    .references h5 {
-        font-size: 10px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 50px;
-        margin-left: 55px;
-    }
-    h5#edge {
-        padding-left: 48px;
-        padding-top: 10px;
-    }
-    .oreilly {
-        height: 52px;
-        margin-left: 63px;
-    }
-    h5#oreilly {
-        padding-left: 37px;
-        padding-top: 8px;
-    }
-    .sciencepark {
-        height: 56px;
-        margin-left: 68px;
-        margin-top: -4px;
-    }
-    h5#science {
-        padding-left: 108px;
-        padding-top: 8px;
-    }
-    .fund {
-        height: 55px;
-        margin-left: 76px;
-        margin-top: -6px;
-    }
-    h5#fund {
-        margin-left: 14px;
-        padding-top: 11px;
-        text-align: center;
+    p.news-text {
+        line-height: 22px;
+        font-size: 15px;
+        margin-bottom: 7px;
     }
     /* --- Conferences logo --- */
     section.conferences {
@@ -788,53 +743,20 @@ div.footer a:hover {
         margin-bottom: 85px;
     }
     .home-button {
-        margin-bottom: 180px;
+        margin-bottom: 210px;
     }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -50px
+    /* --- News Section --- */
+    .news-section h5 {
+        font-size: 20px;
+        line-height: 27px;
+        width: 110%;
     }
-    .references h5 {
-        font-size: 10px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 50px;
-        margin-left: 55px;
-    }
-    h5#edge {
-        padding-left: 48px;
-        padding-top: 10px;
-    }
-    .oreilly {
-        height: 52px;
-        margin-left: 63px;
-    }
-    h5#oreilly {
-        padding-left: 37px;
-        padding-top: 8px;
-    }
-    .sciencepark {
-        height: 56px;
-        margin-left: 68px;
-        margin-top: -4px;
-    }
-    h5#science {
-        padding-left: 108px;
-        padding-top: 8px;
-    }
-    .fund {
-        height: 55px;
-        margin-left: 76px;
-        margin-top: -6px;
-    }
-    h5#fund {
-        margin-left: 14px;
-        padding-top: 11px;
-        text-align: center;
+    p.news-text {
+        line-height: 22px;
+        font-size: 14px;
+        margin-bottom: 7px;
+        padding-right: 0;
+        width: 110%;
     }
     /* --- Conferences logo --- */
     section.conferences {
@@ -926,7 +848,7 @@ div.footer a:hover {
         font-family: Montserrat;
         font-size: 30px;
         font-weight: 700;
-        margin-top: -385px;
+        margin-top: -335px;
         line-height: normal;
         text-align: center;
         opacity: 0.999;
@@ -942,85 +864,25 @@ div.footer a:hover {
         opacity: 0.999;
     }
     .headline {
-        margin-bottom: 85px;
+        margin-bottom: 95px;
     }
     .home-button {
-        margin-bottom: 180px;
+        margin-bottom: 155px;
     }
-    #preview .container {
-        padding: 0;
+    #shape {
+        height: 600px;
     }
-    #preview p {
-        padding: 0;
-        margin: 0;
+    .news-section h5 {
+        font-size: 20px;
+        line-height: 27px;
+        width: 155%;
     }
-    /* ---- Team Members ---- */
-    .left-member {
-        width: 550px;
-        margin-left: 125px;
-    }
-    .right-member {
-        width: 550px;
-        margin-left: 125px;
-    }
-    .bio-member {
-        text-align: justify;
-    }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -78px
-    }
-    .references h5 {
-        font-size: 9px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 50px;
-        margin-left: 55px;
-    }
-    h5#edge {
-        padding-left: 55px;
-        padding-top: 10px;
-    }
-    .oreilly {
-        height: 52px;
-        margin-left: 64px;
-    }
-    h5#oreilly {
-        padding-left: 18px;
-        margin-left: 25px;
-        padding-top: 8px;
-        text-align: center;
-        width: 175px
-    }
-    .sciencepark {
-        height: 56px;
-        margin-left: 52px;
-        margin-top: -4px;
-    }
-    h5#science {
-        padding-left: 94px;
-        padding-top: 8px;
-    }
-    .fund {
-        height: 55px;
-        margin-left: 52px;
-        margin-top: -8px;
-    }
-    h5#fund {
-        margin-left: 37px;
-        padding-top: 13px;
-        text-align: center;
-    }
-    /* --- Action Call --- */
-    #demo {
-        margin-top: 15px;
-    }
-    #products {
-        margin-top: 15px;
+    p.news-text {
+        line-height: 21px;
+        font-size: 14px;
+        margin-bottom: 7px;
+        padding-right: 0;
+        width: 150%;
     }
     /* --- Conferences logo --- */
     section.conferences {
@@ -1136,7 +998,6 @@ div.footer a:hover {
     img.img-responsive {
         z-index: 2;
         opacity: 0.19;
-        height: 600px;
         margin-top: 20px;
     }
     h1 {
@@ -1144,7 +1005,7 @@ div.footer a:hover {
         font-family: Montserrat;
         font-size: 30px;
         font-weight: 700;
-        margin-top: -385px;
+        margin-top: -320px;
         line-height: normal;
         text-align: center;
         opacity: 0.999;
@@ -1160,89 +1021,28 @@ div.footer a:hover {
         opacity: 0.999;
     }
     .headline {
-        margin-bottom: 85px;
+        margin-bottom: 165px;
     }
     .home-button {
-        margin-bottom: 180px;
+        margin-bottom: 70px;
     }
-    /* ---- Quick Preview---- */
-    #preview .container {
-        padding: 0;
-        width: 95%;
+    #shape {
+        height: 580px;
     }
-    /* ---- Mainflux Team--- */
-    #mainflux-team p {
-        padding: 0 10px 0 10px;
+    .news-section h5 {
+        font-size: 20px;
+        line-height: 27px;
+        width: 155%;
     }
-    /* ---- Team Members ---- */
-    .left-member {
-        width: 550px;
-        margin-left: 125px;
+    p.news-text {
+        line-height: 21px;
+        font-size: 14px;
+        margin-bottom: 7px;
+        padding-right: 0;
+        width: 150%;
     }
-    .right-member {
-        width: 550px;
-        margin-left: 125px;
-    }
-    .bio-member {
-        text-align: justify;
-    }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -60px;
-    }
-    .references h5 {
-        font-size: 9px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 50px;
-        margin-left: 55px;
-    }
-    h5#edge {
-        padding-left: 1px;
-        padding-top: 10px;
-        margin-left: 53px;
-    }
-    .oreilly {
-        height: 52px;
-        margin-left: 64px;
-    }
-    h5#oreilly {
-        padding-left: 1px;
-        margin-left: 35px;
-        padding-top: 8px;
-        text-align: center;
-        width: 175px
-    }
-    .sciencepark {
-        height: 56px;
-        margin-left: 48px;
-        margin-top: -4px;
-    }
-    h5#science {
-        padding-left: 1px;
-        padding-top: 8px;
-        margin-left: 91px
-    }
-    .fund {
-        height: 55px;
-        margin-left: 32px;
-        margin-top: -8px;
-    }
-    h5#fund {
-        margin-left: 17px;
-        padding-top: 13px;
-        text-align: center;
-    }
-    /* --- Action Call --- */
-    #demo {
-        margin-top: 15px;
-    }
-    #products {
-        margin-top: 15px;
+    p.date {
+        padding-left: 2px;
     }
     /* --- Conferences logo --- */
     section.conferences {
@@ -1386,7 +1186,7 @@ div.footer a:hover {
         font-family: Montserrat;
         font-size: 30px;
         font-weight: 700;
-        margin-top: -385px;
+        margin-top: -335px;
         line-height: normal;
         text-align: center;
         opacity: 0.999;
@@ -1402,105 +1202,37 @@ div.footer a:hover {
         opacity: 0.999;
     }
     .headline {
-        margin-bottom: 85px;
+        margin-bottom: 105px;
     }
     .home-button {
-        margin-bottom: 180px;
+        margin-bottom: 160px;
     }
-    /* ---- Quick Preview---- */
-    #preview .container {
-        padding: 0;
-        width: 95%;
+    #shape {
+        height: 500px;
     }
-    #preview .left {
-        padding: 0;
+    /*---------- News -----------*/
+    #news h3 {
+        padding-left: 10px;
     }
-    #preview .right {
-        padding-right: 0;
+    .news-section h5 {
+        font-size: 20px;
+        line-height: 27px;
+        width: 185%;
+        padding-left: 10px;
     }
-    #preview p {
-        margin-right: 0;
-        margin-left: 14px;
-    }
-    /* ---- Mainflux Team--- */
-    #mainflux-team p {
-        padding: 0 10px 0 10px;
-    }
-    /* ---- Team Members ---- */
-    .left-member {
-        width: 550px;
-        margin-left: 105px;
-    }
-    .right-member {
-        width: 550px;
-        margin-left: 105px;
-    }
-    .bio-member {
-        text-align: justify;
-    }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -60px;
-    }
-    .references h5 {
-        font-size: 9px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 45px;
-        margin-left: 55px;
-    }
-    h5#edge {
-        padding-left: 1px;
-        padding-top: 10px;
-        margin-left: 50px;
-        width: 117px;
-    }
-    .oreilly {
-        height: 47px;
-        margin-left: 55px;
-    }
-    h5#oreilly {
-        padding-left: 1px;
-        margin-left: 24px;
-        padding-top: 8px;
-        text-align: center;
-        width: 175px
-    }
-    .sciencepark {
-        height: 51px;
-        margin-left: 40px;
-        margin-top: -4px;
-    }
-    h5#science {
-        padding-left: 1px;
-        padding-top: 8px;
-        margin-left: 76px;
-    }
-    .fund {
-        height: 50px;
-        margin-left: 28px;
-        margin-top: -8px;
-    }
-    h5#fund {
-        margin-left: 8px;
-        padding-top: 13px;
-        text-align: center;
-    }
-    /* ---- action call ---- */
-    #action-call .btn {
-        width: 195px;
+    p.news-text {
+        line-height: 21px;
         font-size: 14px;
-        margin-bottom: 45px;
+        margin-bottom: 7px;
+        width: 185%;
+        padding: 0 0 0 10px;
+        margin-bottom: 25px;
     }
-    #demo {
-        margin-top: 15px;
+    p#news-link {
+        padding-left: 12px;
     }
-    #action-call h6 {
-        font-size: 13px;
+    p.date {
+        padding-left: 12px;
     }
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
@@ -1558,15 +1290,6 @@ div.footer a:hover {
     }
     #consulting .row {
         width: 691px;
-    }
-    /*---------- News -----------*/
-    #news h5 {
-        padding-left: 10px;
-    }
-    #news p {
-        font-size: 14px;
-        margin-bottom: 35px;
-        padding: 0 12px 0 10px;
     }
     /* ---- FOOTER ---- */
     .footer-col {
@@ -1652,7 +1375,7 @@ div.footer a:hover {
         font-family: Montserrat;
         font-size: 30px;
         font-weight: 700;
-        margin-top: -385px;
+        margin-top: -295px;
         line-height: normal;
         text-align: center;
         opacity: 0.999;
@@ -1668,113 +1391,37 @@ div.footer a:hover {
         opacity: 0.999;
     }
     .headline {
-        margin-bottom: 85px;
+        margin-bottom: 75px;
     }
     .home-button {
-        margin-bottom: 180px;
+        margin-bottom: 125px;
     }
-    /* ---- Quick Preview---- */
-    #preview .container {
-        padding: 0;
-        width: 95%;
+    #shape {
+        height: 450px;
     }
-    #preview .left {
-        padding: 0;
-        width: 500px;
-        margin-left: 14px;
-        margin-bottom: 20px;
+    /*---------- News -----------*/
+    #news h3 {
+        padding-left: 20px;
     }
-    #preview .right {
-        padding-right: 0;
-        width: 500px;
+    .news-section h5 {
+        font-size: 20px;
+        line-height: 27px;
+        width: 202%;
+        padding-left: 20px;
     }
-    #preview p {
-        margin-right: 0;
-        margin-left: 14px;
-    }
-    /* ---- Mainflux Team--- */
-    #mainflux-team p {
-        padding: 0 10px 0 10px;
-    }
-    /* ---- Team Members ---- */
-    .left-member {
-        width: 500px;
-        margin-left: 55px;
-    }
-    .right-member {
-        width: 500px;
-        margin-left: 55px;
-    }
-    .bio-member {
-        text-align: justify;
-    }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -60px;
-    }
-    .references h5 {
-        font-size: 9px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 45px;
-        margin-left: 55px;
-    }
-    h5#edge {
-        padding-left: 1px;
-        padding-top: 10px;
-        margin-left: 50px;
-        width: 117px;
-        display: none;
-    }
-    .oreilly {
-        height: 47px;
-        margin-left: 45px;
-    }
-    h5#oreilly {
-        padding-left: 1px;
-        margin-left: 24px;
-        padding-top: 8px;
-        text-align: center;
-        width: 175px;
-        display: none;
-    }
-    .sciencepark {
-        height: 51px;
-        margin-left: 22px;
-        margin-top: -4px;
-    }
-    h5#science {
-        padding-left: 1px;
-        padding-top: 8px;
-        margin-left: 76px;
-        display: none;
-    }
-    .fund {
-        height: 50px;
-        margin-left: 14px;
-        margin-top: -8px;
-    }
-    h5#fund {
-        margin-left: 8px;
-        padding-top: 13px;
-        text-align: center;
-        display: none;
-    }
-    /* ---- action call ---- */
-    #action-call .btn {
-        width: 195px;
+    p.news-text {
+        line-height: 21px;
         font-size: 14px;
-        margin-bottom: 45px;
+        margin-bottom: 7px;
+        width: 202%;
+        padding: 0 0 0 20px;
+        margin-bottom: 10px;
     }
-    #demo {
-        margin-top: 15px;
+    p#news-link {
+        padding-left: 20px;
     }
-    #action-call h6 {
-        font-size: 12px;
+    p.date {
+        padding-left: 22px;
     }
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
@@ -1829,15 +1476,6 @@ div.footer a:hover {
     }
     #conferences h3 {
         margin-bottom: 25px;
-    }
-    /*---------- News -----------*/
-    #news h5 {
-        padding-left: 10px;
-    }
-    #news p {
-        font-size: 14px;
-        margin-bottom: 35px;
-        padding: 0 12px 0 10px;
     }
     /* ---- FOOTER ---- */
     .footer-col {
@@ -1904,7 +1542,6 @@ div.footer a:hover {
     img.img-responsive {
         z-index: 2;
         opacity: 0.19;
-        height: 400px;
         margin-top: 20px;
     }
     h1 {
@@ -1931,165 +1568,10 @@ div.footer a:hover {
         margin-bottom: 85px;
     }
     .home-button {
-        margin-bottom: 180px;
+        margin-bottom: 80px;
     }
-    /* ---- Quick Preview---- */
-    #preview .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #preview .row {
-        width: 99%;
-    }
-    #preview .left {
-        padding: 0;
-        width: 440px;
-        margin-left: 24px;
-        margin-bottom: 20px;
-    }
-    #preview .right {
-        padding-right: 0;
-        width: 440px;
-        margin-left: 24px;
-    }
-    #preview p {
-        margin-right: 0;
-        margin-left: 14px;
-    }
-    /* ---- Mainflux Team--- */
-    #mainflux-team p {
-        padding: 0 10px 0 10px;
-    }
-    /* ---- Team Members ---- */
-    .left-member {
-        width: 420px;
-        margin-left: 28px;
-        padding: 0;
-    }
-    .right-member {
-        width: 420px;
-        margin-left: 28px;
-        padding: 0;
-    }
-    .bio-member {
-        text-align: left;
-    }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -63px;
-    }
-    .references h5 {
-        font-size: 9px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 41px;
-        margin-left: 55px;
-    }
-    h5#edge {
-        padding-left: 1px;
-        padding-top: 10px;
-        margin-left: 50px;
-        width: 117px;
-        display: none;
-    }
-    .oreilly {
-        height: 43px;
-        margin-left: 41px;
-    }
-    h5#oreilly {
-        padding-left: 1px;
-        margin-left: 24px;
-        padding-top: 8px;
-        text-align: center;
-        width: 175px;
-        display: none;
-    }
-    .sciencepark {
-        height: 47px;
-        margin-left: 14px;
-        margin-top: -4px;
-    }
-    h5#science {
-        padding-left: 1px;
-        padding-top: 8px;
-        margin-left: 76px;
-        display: none;
-    }
-    .fund {
-        height: 46px;
-        margin-left: 0;
-        margin-top: -8px;
-    }
-    h5#fund {
-        margin-left: 8px;
-        padding-top: 13px;
-        text-align: center;
-        display: none;
-    }
-    /* ---- action call ---- */
-    #action-call .btn {
-        width: 195px;
-        font-size: 14px;
-        margin-bottom: 45px;
-    }
-    #demo {
-        margin-top: 15px;
-    }
-    #action-call h6 {
-        font-size: 12px;
-    }
-    /* ---- Consulting ---- */
-    #consulting p {
-        font-size: 13px;
-    }
-    #consulting #expertise {
-        font-size: 19px;
-        width: 459px;
-    }
-    #consulting h6 {
-        font-size: 8px;
-        text-align: center;
-    }
-    h4#expertise {
-        font-size: 20px;
-    }
-    #consulting img {
-        height: 50px;
-    }
-    #consulting .left {
-        width: 290px;
-        margin-left: 105px;
-    }
-    #consulting .right {
-        width: 347px;
-        margin-left: 105px;
-        margin-top: 35px;
-    }
-    li#sensors {
-        line-height: 18px;
-        margin-bottom: 2px;
-    }
-    li#inter {
-        line-height: 18px;
-        margin-top: 10px;
-    }
-    li#embed {
-        line-height: 18px;
-        margin-top: 10px;
-    }
-    h5#managed {
-        margin-top: -13px;
-    }
-    h5#system {
-        margin-top: -22px;
-    }
-    #consulting li {
-        font-size: 12px;
+    #shape {
+        height: 385px;
     }
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
@@ -2148,11 +1630,27 @@ div.footer a:hover {
     }
     /*---------- News -----------*/
     #news h3 {
+        padding-left: 20px;
+    }
+    .news-section h5 {
+        font-size: 18px;
+        line-height: 25px;
+        width: 202%;
+        padding-left: 20px;
+    }
+    p.news-text {
+        line-height: 21px;
+        font-size: 14px;
+        margin-bottom: 7px;
+        width: 202%;
+        padding: 0 0 0 20px;
         margin-bottom: 10px;
     }
-    #news p {
-        font-size: 13px;
-        margin-bottom: 20px;
+    p#news-link {
+        padding-left: 20px;
+    }
+    p.date {
+        padding-left: 22px;
     }
     /* ---- FOOTER ---- */
     .footer-col {
@@ -2214,7 +1712,6 @@ div.footer a:hover {
     img.img-responsive {
         z-index: 2;
         opacity: 0.6;
-        height: 390px;
         margin-top: 40px;
     }
     h1 {
@@ -2222,7 +1719,7 @@ div.footer a:hover {
         font-family: Montserrat;
         font-size: 30px;
         font-weight: 700;
-        margin-top: -305px;
+        margin-top: -285px;
         line-height: normal;
         text-align: center;
         opacity: 0.999;
@@ -2238,178 +1735,14 @@ div.footer a:hover {
         opacity: 0.999;
     }
     .headline {
-        margin-left: 0 0 85px 0;
+        margin: 0 0 90px 0;
         padding: 0 0 0 0;
     }
     .home-button {
-        margin-bottom: 170px;
+        margin-bottom: 110px;
     }
-    /* ---- Quick Preview---- */
-    #preview .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #preview .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #preview .left {
-        padding: 0;
-        width: 390px;
-        margin-left: 0px;
-        margin-bottom: 20px;
-        padding-left: 5px;
-    }
-    #preview .right {
-        padding-right: 0;
-        width: 390px;
-        margin-left: 0px;
-        padding-left: 5px;
-    }
-    #preview h3 {
-        font-size: 26px;
-    }
-    #preview p {
-        margin-right: 0;
-        margin-left: 14px;
-        font-size: 12px;
-    }
-    /* ---- Mainflux Team--- */
-    #mainflux-team h3 {
-        font-size: 26px;
-    }
-    #mainflux-team p {
-        padding: 0 10px 0 10px;
-        font-size: 12px;
-    }
-    /* ---- Team Members ---- */
-    #team-members .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members h3 {
-        font-size: 26px;
-    }
-    #team-members img {
-        height: 188px;
-    }
-    .left-member {
-        width: 389px;
-        margin-left: 8px;
-        padding: 0;
-    }
-    .right-member {
-        width: 389px;
-        margin-left: 8px;
-        padding: 0;
-    }
-    p.name {
-        font-size: 16px;
-        padding-left: 9px;
-    }
-    p.role {
-        font-size: 14px;
-        padding-left: 9px;
-    }
-    p.expertise {
-        font-size: 10px;
-        margin-left: 0;
-        padding-left: 9px;
-    }
-    .name-member i {
-        padding-left: 9px;
-    }
-    .bio-member p {
-        font-size: 12px;
-    }
-    .bio-member {
-        text-align: left;
-    }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -71px;
-    }
-    .references h5 {
-        font-size: 9px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 51px;
-        margin-left: 55px;
-    }
-    #edgex {
-        margin-right: 75px;
-    }
-    h5#edge {
-        padding-left: 1px;
-        padding-top: 10px;
-        margin-left: 56px;
-        width: 117px;
-    }
-    .oreilly {
-        height: 53px;
-        margin-left: 45px;
-    }
-    #reilly {
-        margin-right: 100px;
-    }
-    h5#oreilly {
-        padding-left: 1px;
-        margin-left: 45px;
-        padding-top: 8px;
-        text-align: center;
-        width: 175px;
-    }
-    .sciencepark {
-        height: 57px;
-        margin-left: 29px;
-        margin-top: 6px;
-    }
-    #park {
-        margin-right: 115px;
-    }
-    h5#science {
-        padding-left: 1px;
-        padding-top: 8px;
-        margin-left: 55px;
-    }
-    .fund {
-        height: 56px;
-        margin-left: 0;
-        margin-top: -8px;
-    }
-    h5#fund {
-        margin-left: 20px;
-        padding-top: 13px;
-        text-align: left;
-        width: 150px
-    }
-    /* ---- action call ---- */
-    #action-call .btn {
-        width: 195px;
-        font-size: 12px;
-        margin-bottom: 45px;
-    }
-    #demo {
-        margin-top: 15px;
-    }
-    #action-call h6 {
-        font-size: 12px;
-    }
-    /*--- Conferences BIG screens -------*/
-    section.big-conferences {
-        display: none;
+    #shape {
+        height: 380px;
     }
     /*-------- Conferences -------*/
     #open {
@@ -2465,16 +1798,27 @@ div.footer a:hover {
     }
     /*---------- News -----------*/
     #news h3 {
+        padding-left: 10px;
+    }
+    .news-section h5 {
+        font-size: 18px;
+        line-height: 25px;
+        width: 207%;
+        padding-left: 10px;
+    }
+    p.news-text {
+        line-height: 21px;
+        font-size: 14px;
+        margin-bottom: 16px;
+        width: 207%;
+        padding: 0 0 0 10px;
         margin-bottom: 10px;
-        font-size: 26px;
     }
-    #news p {
-        font-size: 13px;
-        margin-bottom: 20px;
+    p#news-link {
+        padding-left: 10px;
     }
-    #news h5,
-    p {
-        padding-left: 6px;
+    p.date {
+        padding-left: 10px;
     }
     /* ---- FOOTER ---- */
     .footer-col {
@@ -2566,7 +1910,7 @@ div.footer a:hover {
         font-family: Montserrat;
         font-size: 30px;
         font-weight: 700;
-        margin-top: -305px;
+        margin-top: -285px;
         line-height: normal;
         text-align: center;
         opacity: 0.999;
@@ -2582,174 +1926,38 @@ div.footer a:hover {
         opacity: 0.999;
     }
     .headline {
-        margin-left: 0 0 85px 0;
+        margin: 0 0 90px 0;
         padding: 0 0 0 0;
     }
     .home-button {
-        margin-bottom: 170px;
+        margin-bottom: 105px;
     }
-    /* ---- Quick Preview---- */
-    #preview .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
+    #shape {
+        height: 380px;
     }
-    #preview .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
+    /*---------- News -----------*/
+    #news h3 {
+        padding-left: 10px;
     }
-    #preview .left {
-        padding: 0;
-        width: 390px;
-        margin-left: 0px;
-        margin-bottom: 20px;
-        padding-left: 5px;
+    .news-section h5 {
+        font-size: 18px;
+        line-height: 25px;
+        width: 207%;
+        padding-left: 10px;
     }
-    #preview .right {
-        padding-right: 0;
-        width: 390px;
-        margin-left: 0px;
-        padding-left: 5px;
-    }
-    #preview h3 {
-        font-size: 26px;
-    }
-    #preview p {
-        margin-right: 0;
-        margin-left: 14px;
-        font-size: 12px;
-    }
-    /* ---- Mainflux Team--- */
-    #mainflux-team h3 {
-        font-size: 26px;
-    }
-    #mainflux-team p {
-        padding: 0 10px 0 10px;
-        font-size: 12px;
-    }
-    /* ---- Team Members ---- */
-    #team-members .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members h3 {
-        font-size: 26px;
-    }
-    #team-members img {
-        height: 186px;
-    }
-    .left-member {
-        width: 386px;
-        margin-left: 8px;
-        padding: 0;
-    }
-    .right-member {
-        width: 386px;
-        margin-left: 8px;
-        padding: 0;
-    }
-    p.name {
-        font-size: 16px;
-        padding-left: 9px;
-    }
-    p.role {
+    p.news-text {
+        line-height: 21px;
         font-size: 14px;
-        padding-left: 9px;
+        margin-bottom: 16px;
+        width: 207%;
+        padding: 0 0 0 10px;
+        margin-bottom: 10px;
     }
-    p.expertise {
-        font-size: 10px;
-        margin-left: 0;
-        padding-left: 9px;
+    p#news-link {
+        padding-left: 10px;
     }
-    .name-member i {
-        padding-left: 9px;
-    }
-    .bio-member p {
-        font-size: 12px;
-    }
-    .bio-member {
-        text-align: left;
-    }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -71px;
-    }
-    .references h5 {
-        font-size: 9px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 51px;
-        margin-left: 55px;
-    }
-    #edgex {
-        margin-right: 75px;
-    }
-    h5#edge {
-        padding-left: 1px;
-        padding-top: 10px;
-        margin-left: 56px;
-        width: 117px;
-    }
-    .oreilly {
-        height: 53px;
-        margin-left: 45px;
-    }
-    #reilly {
-        margin-right: 100px;
-    }
-    h5#oreilly {
-        padding-left: 1px;
-        margin-left: 45px;
-        padding-top: 8px;
-        text-align: center;
-        width: 175px;
-    }
-    .sciencepark {
-        height: 57px;
-        margin-left: 29px;
-        margin-top: 6px;
-    }
-    #park {
-        margin-right: 115px;
-    }
-    h5#science {
-        padding-left: 1px;
-        padding-top: 8px;
-        margin-left: 56px;
-    }
-    .fund {
-        height: 56px;
-        margin-left: 0;
-        margin-top: -8px;
-    }
-    h5#fund {
-        margin-left: 20px;
-        padding-top: 13px;
-        text-align: left;
-        width: 150px
-    }
-    /* ---- action call ---- */
-    #action-call .btn {
-        width: 195px;
-        font-size: 12px;
-        margin-bottom: 45px;
-    }
-    #demo {
-        margin-top: 15px;
-    }
-    #action-call h6 {
-        font-size: 12px;
+    p.date {
+        padding-left: 10px;
     }
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
@@ -2806,19 +2014,6 @@ div.footer a:hover {
     #conferences h3 {
         margin-bottom: 18px;
         font-size: 21px;
-    }
-    /*---------- News -----------*/
-    #news h3 {
-        margin-bottom: 10px;
-        font-size: 26px;
-    }
-    #news p {
-        font-size: 13px;
-        margin-bottom: 20px;
-    }
-    #news h5,
-    p {
-        padding-left: 6px;
     }
     /* ---- FOOTER ---- */
     .footer-col {
@@ -2898,15 +2093,14 @@ div.footer a:hover {
     img.img-responsive {
         z-index: 2;
         opacity: 0.6;
-        height: 360px;
         margin-top: 40px;
     }
     h1 {
         color: white;
         font-family: Montserrat;
-        font-size: 28px;
+        font-size: 30px;
         font-weight: 700;
-        margin-top: -305px;
+        margin-top: -275px;
         line-height: normal;
         text-align: center;
         opacity: 0.999;
@@ -2914,7 +2108,7 @@ div.footer a:hover {
     h3#home-sub {
         font-family: Montserrat;
         color: white;
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 200;
         line-height: 20px;
         letter-spacing: 0.7px;
@@ -2922,183 +2116,38 @@ div.footer a:hover {
         opacity: 0.999;
     }
     .headline {
-        margin-left: 0 0 85px 0;
+        margin: 0 0 90px 0;
         padding: 0 0 0 0;
     }
     .home-button {
-        margin-bottom: 170px;
+        margin-bottom: 90px;
     }
-    /* ---- Quick Preview---- */
-    #preview .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
+    #shape {
+        height: 360px;
     }
-    #preview .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
+    /*---------- News -----------*/
+    #news h3 {
+        padding-left: 10px;
     }
-    #preview .left {
-        padding: 0;
-        width: 360px;
-        margin-left: 0px;
-        margin-bottom: 20px;
-        padding-left: 5px;
+    .news-section h5 {
+        font-size: 17px;
+        line-height: 22px;
+        width: 207%;
+        padding-left: 10px;
     }
-    #preview .right {
-        padding-right: 0;
-        width: 360px;
-        margin-left: 0px;
-        padding-left: 5px;
+    p.news-text {
+        line-height: 21px;
+        font-size: 13px;
+        margin-bottom: 16px;
+        width: 207%;
+        padding: 0 0 0 10px;
+        margin-bottom: 10px;
     }
-    #preview h3 {
-        font-size: 26px;
+    p#news-link {
+        padding-left: 10px;
     }
-    #preview p {
-        margin-right: 0;
-        margin-left: 14px;
-        font-size: 12px;
-    }
-    /* ---- Mainflux Team--- */
-    #mainflux-team h3 {
-        font-size: 26px;
-    }
-    #mainflux-team p {
-        padding: 0 10px 0 10px;
-        font-size: 12px;
-    }
-    /* ---- Team Members ---- */
-    #team-members .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members h3 {
-        font-size: 26px;
-    }
-    #team-members img {
-        height: 150px;
-    }
-    .left-member {
-        width: 359px;
-        margin-left: 8px;
-        padding: 0;
-    }
-    .right-member {
-        width: 359px;
-        margin-left: 8px;
-        padding: 0;
-    }
-    .name-member {
-        padding: 0;
-        margin-left: -5px;
-    }
-    p.name {
-        font-size: 16px;
-        padding-left: 0px;
-    }
-    p.role {
-        font-size: 14px;
-        padding-left: 0px;
-        margin-top: -18px;
-    }
-    p.expertise {
-        font-size: 10px;
-        margin-left: 0;
-        padding-left: 0px;
-        margin-top: -8px;
-    }
-    .name-member i {
-        padding-left: 0px;
-        margin-top: -8px;
-        padding-top: -10px;
-    }
-    .bio-member p {
-        font-size: 12px;
-    }
-    .bio-member {
-        text-align: left;
-    }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -71px;
-    }
-    .references h5 {
-        font-size: 9px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 51px;
-        margin-left: 55px;
-    }
-    #edgex {
-        margin-right: 75px;
-    }
-    h5#edge {
-        padding-left: 1px;
-        padding-top: 10px;
-        margin-left: 56px;
-        width: 117px;
-    }
-    .oreilly {
-        height: 53px;
-        margin-left: 45px;
-    }
-    #reilly {
-        margin-right: 100px;
-    }
-    h5#oreilly {
-        padding-left: 1px;
-        margin-left: 45px;
-        padding-top: 8px;
-        text-align: center;
-        width: 175px;
-    }
-    .sciencepark {
-        height: 57px;
-        margin-left: 29px;
-        margin-top: 4px;
-    }
-    #park {
-        margin-right: 115px;
-    }
-    h5#science {
-        padding-left: 1px;
-        padding-top: 8px;
-        margin-left: 56px;
-    }
-    .fund {
-        height: 56px;
-        margin-left: 0;
-        margin-top: -8px;
-    }
-    h5#fund {
-        margin-left: 20px;
-        padding-top: 13px;
-        text-align: left;
-        width: 150px
-    }
-    /* ---- action call ---- */
-    #action-call .btn {
-        width: 195px;
-        font-size: 12px;
-        margin-bottom: 45px;
-        margin-left: -20px;
-    }
-    #demo {
-        margin-top: 15px;
-    }
-    #action-call h6 {
-        font-size: 12px;
+    p.date {
+        padding-left: 11px;
     }
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
@@ -3155,80 +2204,70 @@ div.footer a:hover {
     #conferences h3 {
         margin-bottom: 18px;
         font-size: 21px;
+         padding-left: 6px;
     }
-    /*---------- News -----------*/
-    #news h3 {
-        margin-bottom: 10px;
-        font-size: 26px;
-    }
-    #news p {
-        font-size: 13px;
-        margin-bottom: 20px;
-    }
-    #news h5 {
-        font-size: 16px;
-    }
-    #news h5,
-    p {
-        padding-left: 6px;
-    }
-    /* ---- FOOTER ---- */
-    .footer-col {
-        margin-bottom: 22px;
-        padding-bottom: 15px;
-        padding-left: 14px;
-        margin-left: 0;
-        width: 67%;
-    }
-    .footer-col p {
-        padding-left: 0;
-    }
-    div.input-group {
-        width: 85%;
-    }
-    #licence {
-        margin-top: 3.1rem;
-        width: 87%;
-    }
-    .apache {
-        margin-bottom: 0.9rem;
-    }
-    #licence p {
-        margin-left: 0;
-        font-size: 0.66937rem;
-    }
-    #social {
-        padding-left: 3.5vw;
-        padding-right: 0;
-        margin-right: 0;
-        width: 356px;
-    }
-    .footer-line {
-        display: none;
-    }
-    .footer i {
-        font-size: 17px;
-    }
-    #terms {
-        margin-left: 0;
-        margin-bottom: 0.3rem;
-        padding: 1px;
-    }
-    #terms p {
-        margin-left: 2.3vw;
-        font-size: 8px;
-    }
-    #terms a {
-        font-size: 11px;
-        line-height: 18px;
-    }
-    #mainflux-footer {
-        text-align: left;
-        padding: 9px 0 0 9px;
-    }
-    #mainflux-footer p {
-        font-size: 16px;
-    }
+   
+
+
+/* ---- FOOTER ---- */
+
+.footer-col {
+    margin-bottom: 22px;
+    padding-bottom: 15px;
+    padding-left: 14px;
+    margin-left: 0;
+    width: 67%;
+}
+.footer-col p {
+    padding-left: 0;
+}
+div.input-group {
+    width: 85%;
+}
+#licence {
+    margin-top: 3.1rem;
+    width: 87%;
+}
+.apache {
+    margin-bottom: 0.9rem;
+}
+#licence p {
+    margin-left: 0;
+    font-size: 0.66937rem;
+}
+#social {
+    padding-left: 3.5vw;
+    padding-right: 0;
+    margin-right: 0;
+    width: 356px;
+}
+.footer-line {
+    display: none;
+}
+.footer i {
+    font-size: 17px;
+}
+#terms {
+    margin-left: 0;
+    margin-bottom: 0.3rem;
+    padding: 1px;
+}
+#terms p {
+    margin-left: 2.3vw;
+    font-size: 8px;
+}
+#terms a {
+    font-size: 11px;
+    line-height: 18px;
+}
+#mainflux-footer {
+    text-align: left;
+    padding: 9px 0 0 9px;
+}
+#mainflux-footer p {
+    font-size: 16px;
+}
+
 }
 @media screen and (min-width:375px) and (max-width:383px) {
     .navbar-default .navbar-nav {
@@ -3250,15 +2289,14 @@ div.footer a:hover {
     img.img-responsive {
         z-index: 2;
         opacity: 0.6;
-        height: 330px;
         margin-top: 40px;
     }
     h1 {
         color: white;
         font-family: Montserrat;
-        font-size: 28px;
+        font-size: 30px;
         font-weight: 700;
-        margin-top: -255px;
+        margin-top: -275px;
         line-height: normal;
         text-align: center;
         opacity: 0.999;
@@ -3266,7 +2304,7 @@ div.footer a:hover {
     h3#home-sub {
         font-family: Montserrat;
         color: white;
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 200;
         line-height: 20px;
         letter-spacing: 0.7px;
@@ -3274,188 +2312,47 @@ div.footer a:hover {
         opacity: 0.999;
     }
     .headline {
-        margin-left: 0 0 85px 0;
+        margin: 0 0 90px 0;
         padding: 0 0 0 0;
     }
     .home-button {
-        margin-bottom: 120px;
+        margin-bottom: 90px;
     }
-    /* ---- Quick Preview---- */
-    #preview .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
+    #shape {
+        height: 300px;
     }
-    #preview .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
+    /*---------- News -----------*/
+    
+    #news h3 {
+        padding-left: 10px;
     }
-    #preview .left {
-        padding: 0;
-        width: 347px;
-        margin-left: 0px;
-        margin-bottom: 20px;
-        padding-left: 3px;
+    .news-section h5 {
+        font-size: 17px;
+        line-height: 22px;
+        width: 207%;
+        padding-left: 10px;
     }
-    #preview .right {
-        padding-right: 0;
-        width: 347px;
-        margin-left: 0px;
-        padding-left: 3px;
+    p.news-text {
+        line-height: 21px;
+        font-size: 13px;
+        margin-bottom: 16px;
+        width: 207%;
+        padding: 0 0 0 10px;
+        margin-bottom: 10px;
     }
-    #preview h3 {
-        font-size: 26px;
+    p#news-link {
+        padding-left: 10px;
     }
-    #preview p {
-        margin-right: 0;
-        margin-left: 14px;
-        font-size: 12px;
-    }
-    /* ---- Mainflux Team--- */
-    #mainflux-team h3 {
-        font-size: 26px;
-    }
-    #mainflux-team p {
-        padding: 0 5px 0 5px;
-        font-size: 12px;
-    }
-    /* ---- Team Members ---- */
-    #team-members .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members h3 {
-        font-size: 26px;
-    }
-    #team-members img {
-        height: 150px;
-    }
-    .left-member {
-        width: 349px;
-        margin-left: 8px;
-        padding: 0;
-    }
-    .right-member {
-        width: 349px;
-        margin-left: 8px;
-        padding: 0;
-    }
-    .name-member {
-        padding: 0;
-        margin-left: -5px;
-    }
-    p.name {
-        font-size: 16px;
-        padding-left: 0px;
-    }
-    p.role {
-        font-size: 14px;
-        padding-left: 0px;
-        margin-top: -18px;
-    }
-    p.expertise {
-        font-size: 10px;
-        margin-left: 0;
-        padding-left: 0px;
-        margin-top: -8px;
-    }
-    .name-member i {
-        padding-left: 0px;
-        margin-top: -8px;
-        padding-top: -10px;
-    }
-    .bio-member p {
-        font-size: 12px;
-    }
-    .bio-member {
-        text-align: left;
-    }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -71px;
-    }
-    .references h5 {
-        font-size: 9px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 51px;
-        margin-left: 55px;
-    }
-    #edgex {
-        margin-right: 75px;
-    }
-    h5#edge {
-        padding-left: 1px;
-        padding-top: 10px;
-        margin-left: 56px;
-        width: 117px;
-    }
-    .oreilly {
-        height: 53px;
-        margin-left: 45px;
-    }
-    #reilly {
-        margin-right: 100px;
-    }
-    h5#oreilly {
-        padding-left: 1px;
-        margin-left: 45px;
-        padding-top: 8px;
-        text-align: center;
-        width: 175px;
-    }
-    .sciencepark {
-        height: 57px;
-        margin-left: 29px;
-        margin-top: 4px;
-    }
-    #park {
-        margin-right: 115px;
-    }
-    h5#science {
-        padding-left: 1px;
-        padding-top: 8px;
-        margin-left: 56px;
-    }
-    .fund {
-        height: 56px;
-        margin-left: 0;
-        margin-top: -8px;
-    }
-    h5#fund {
-        margin-left: 20px;
-        padding-top: 13px;
-        text-align: left;
-        width: 150px
-    }
-    /* ---- action call ---- */
-    #action-call .btn {
-        width: 195px;
-        font-size: 12px;
-        margin-bottom: 45px;
-    }
-    #demo {
-        margin-top: 15px;
-    }
-    #action-call h6 {
-        font-size: 12px;
+    p.date {
+        padding-left: 11px;
     }
     /*--- Conferences BIG screens -------*/
+    
     section.big-conferences {
         display: none;
     }
     /*-------- Conferences -------*/
+    
     #open {
         height: 73px;
         margin-top: -12px;
@@ -3507,23 +2404,8 @@ div.footer a:hover {
         margin-bottom: 18px;
         font-size: 21px;
     }
-    /*---------- News -----------*/
-    #news h3 {
-        margin-bottom: 10px;
-        font-size: 26px;
-    }
-    #news p {
-        font-size: 13px;
-        margin-bottom: 20px;
-    }
-    #news h5 {
-        font-size: 16px;
-    }
-    #news h5,
-    p {
-        padding-left: 6px;
-    }
     /* ---- FOOTER ---- */
+    
     .footer-col {
         margin-bottom: 22px;
         padding-bottom: 15px;
@@ -3631,182 +2513,68 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 120px;
     }
-    /* ---- Quick Preview---- */
-    #preview .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #preview .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #preview .left {
-        padding: 0;
-        width: 337px;
-        margin-left: 0px;
-        margin-bottom: 20px;
-        padding-left: 1px;
-    }
-    #preview .right {
-        padding-right: 0;
-        width: 337px;
-        margin-left: 0px;
-        padding-left: 1px;
-    }
-    #preview h3 {
-        font-size: 26px;
-    }
-    #preview p {
-        margin-right: 0;
-        margin-left: 10px;
-        font-size: 12px;
-    }
-    /* ---- Mainflux Team--- */
-    #mainflux-team h3 {
-        font-size: 26px;
-    }
-    #mainflux-team p {
-        padding: 0 5px 0 5px;
-        font-size: 12px;
-    }
-    /* ---- Team Members ---- */
-    #team-members .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members h3 {
-        font-size: 26px;
-    }
-    #team-members img {
-        height: 142px;
-    }
-    .left-member {
-        width: 331px;
-        margin-left: 8px;
-        padding: 0;
-    }
-    .right-member {
-        width: 331px;
-        margin-left: 8px;
-        padding: 0;
-    }
-    .name-member {
-        padding: 0;
-        margin-left: -5px;
-    }
-    p.name {
-        font-size: 14px;
-        padding-left: 0px;
-    }
-    p.role {
-        font-size: 12px;
-        padding-left: 0px;
-        margin-top: -18px;
-    }
-    p.expertise {
-        font-size: 9px;
-        margin-left: 0;
-        padding-left: 0px;
-        margin-top: -12px;
-    }
-    .name-member i {
-        padding-left: 0px;
-        margin-top: -8px;
-        padding-top: -10px;
-    }
-    .bio-member p {
-        font-size: 12px;
-    }
-    .bio-member {
-        text-align: left;
-    }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -71px;
-    }
-    .references h5 {
-        font-size: 9px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 51px;
-        margin-left: 55px;
-    }
-    #edgex {
-        margin-right: 75px;
-    }
-    h5#edge {
-        padding-left: 1px;
-        padding-top: 10px;
-        margin-left: 56px;
-        width: 117px;
-    }
-    .oreilly {
-        height: 53px;
-        margin-left: 45px;
-    }
-    #reilly {
-        margin-right: 100px;
-    }
-    h5#oreilly {
-        padding-left: 1px;
-        margin-left: 45px;
-        padding-top: 8px;
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -245px;
+        line-height: normal;
         text-align: center;
-        width: 175px;
+        opacity: 0.999;
     }
-    .sciencepark {
-        height: 57px;
-        margin-left: 29px;
-        margin-top: 7px;
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 13px;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
     }
-    #park {
-        margin-right: 115px;
+    .headline {
+        margin: 0 0 70px 0;
+        padding: 0 0 0 0;
     }
-    h5#science {
-        padding-left: 1px;
-        padding-top: 8px;
-        margin-left: 56px;
+    .home-button {
+        margin-bottom: 78px;
     }
-    .fund {
-        height: 56px;
-        margin-left: 0;
-        margin-top: -8px;
+    #shape {
+        height: 320px;
     }
-    h5#fund {
-        margin-left: 20px;
-        padding-top: 13px;
-        text-align: left;
-        width: 150px
+    /*---------- News -----------*/
+    
+    #news h3 {
+        padding-left: 10px;
     }
-    /* ---- action call ---- */
-    #action-call .btn {
-        width: 195px;
-        font-size: 12px;
-        margin-bottom: 45px;
+    .news-section h5 {
+        font-size: 17px;
+        line-height: 22px;
+        width: 207%;
+        padding-left: 10px;
     }
-    #demo {
-        margin-top: 15px;
+    p.news-text {
+        line-height: 21px;
+        font-size: 13px;
+        margin-bottom: 16px;
+        width: 207%;
+        padding: 0 0 0 10px;
+        margin-bottom: 10px;
     }
-    #action-call h6 {
-        font-size: 12px;
+    p#news-link {
+        padding-left: 10px;
+    }
+    p.date {
+        padding-left: 11px;
     }
     /*--- Conferences BIG screens -------*/
+    
     section.big-conferences {
         display: none;
     }
     /*-------- Conferences -------*/
+    
     #open {
         height: 71px;
         margin-top: -12px;
@@ -3858,23 +2626,8 @@ div.footer a:hover {
         margin-bottom: 18px;
         font-size: 21px;
     }
-    /*---------- News -----------*/
-    #news h3 {
-        margin-bottom: 10px;
-        font-size: 26px;
-    }
-    #news p {
-        font-size: 13px;
-        margin-bottom: 20px;
-    }
-    #news h5 {
-        font-size: 16px;
-    }
-    #news h5,
-    p {
-        padding-left: 6px;
-    }
     /* ---- FOOTER ---- */
+    
     .footer-col {
         margin-bottom: 22px;
         padding-bottom: 15px;
@@ -3985,178 +2738,68 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 120px;
     }
-    /* ---- Quick Preview---- */
-    #preview .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #preview .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #preview .left {
-        padding: 0;
-        width: 300px;
-        margin-left: 0px;
-        margin-bottom: 20px;
-        padding-left: 1px;
-    }
-    #preview .right {
-        padding-right: 0;
-        width: 300px;
-        margin-left: 0px;
-        padding-left: 1px;
-    }
-    #preview h3 {
-        font-size: 26px;
-    }
-    #preview p {
-        margin-right: 0;
-        margin-left: 5px;
-        font-size: 12px;
-    }
-    /* ---- Mainflux Team--- */
-    #mainflux-team h3 {
-        font-size: 26px;
-    }
-    #mainflux-team p {
-        padding: 0 5px 0 5px;
-        font-size: 12px;
-    }
-    /* ---- Team Members ---- */
-    #team-members .container {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members .row {
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #team-members h3 {
-        font-size: 26px;
-    }
-    .img-member {
-        padding-left: 9px;
-        padding-right: 0;
-    }
-    #team-members img {
-        height: 140px;
-    }
-    .left-member {
-        width: 301px;
-        margin-left: 2px;
-        padding: 0;
-    }
-    .right-member {
-        width: 301px;
-        margin-left: 2px;
-        padding: 0;
-    }
-    .name-member {
-        padding: 0;
-        margin-left: -5px;
-    }
-    p.name {
-        font-size: 14px;
-        padding-left: 0px;
-    }
-    p.role {
-        font-size: 12px;
-        padding-left: 0px;
-        margin-top: -18px;
-    }
-    p.expertise {
-        font-size: 9px;
-        margin-left: 0;
-        padding-left: 0px;
-        margin-top: -12px;
-    }
-    .name-member i {
-        padding-left: 0px;
-        margin-top: -8px;
-        padding-top: -10px;
-    }
-    .bio-member {
-        padding: 0 3px 0 4px;
-        margin-left: 0;
-    }
-    .bio-member p {
-        font-size: 12px;
-    }
-    .bio-member {
-        text-align: left;
-    }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -71px;
-    }
-    .references h5 {
-        font-size: 9px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 51px;
-        margin-left: 55px;
-    }
-    #edgex {
-        margin-right: 75px;
-    }
-    h5#edge {
-        padding-left: 1px;
-        padding-top: 10px;
-        margin-left: 56px;
-        width: 117px;
-    }
-    .oreilly {
-        height: 53px;
-        margin-left: 45px;
-    }
-    #reilly {
-        margin-right: 100px;
-    }
-    h5#oreilly {
-        padding-left: 1px;
-        margin-left: 45px;
-        padding-top: 8px;
+    h1 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -245px;
+        line-height: normal;
         text-align: center;
-        width: 175px;
+        opacity: 0.999;
     }
-    .sciencepark {
-        height: 57px;
-        margin-left: 29px;
-        margin-top: 6px;
+    h3#home-sub {
+        font-family: Montserrat;
+        color: white;
+        font-size: 13px;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        text-align: center;
+        opacity: 0.999;
     }
-    #park {
-        margin-right: 115px;
+    .headline {
+        margin: 0 0 73px 0;
+        padding: 0 0 0 0;
     }
-    h5#science {
-        padding-left: 1px;
-        padding-top: 8px;
-        margin-left: 56px;
+    .home-button {
+        margin-bottom: 78px;
     }
-    .fund {
-        height: 56px;
-        margin-left: 0;
-        margin-top: -8px;
+    #shape {
+        height: 320px;
     }
-    h5#fund {
-        margin-left: 20px;
-        padding-top: 13px;
-        text-align: left;
-        width: 150px
+    /*---------- News -----------*/
+    
+    #news h3 {
+        padding-left: 10px;
+    }
+    .news-section h5 {
+        font-size: 16px;
+        line-height: 22px;
+        width: 211%;
+        padding-left: 10px;
+    }
+    p.news-text {
+        line-height: 21px;
+        font-size: 13px;
+        margin-bottom: 16px;
+        width: 212%;
+        padding: 0 0 0 10px;
+        margin-bottom: 10px;
+    }
+    p#news-link {
+        padding-left: 10px;
+    }
+    p.date {
+        padding-left: 10px;
     }
     /*--- Conferences BIG screens -------*/
+    
     section.big-conferences {
         display: none;
     }
     /*-------- Conferences -------*/
+    
     #open {
         height: 60px;
         margin-top: -7px;
@@ -4208,23 +2851,8 @@ div.footer a:hover {
         margin-bottom: 18px;
         font-size: 19px;
     }
-    /* ---- News ---- */
-    #news h3 {
-        margin-bottom: 10px;
-        font-size: 26px;
-    }
-    #news p {
-        font-size: 12px;
-        margin-bottom: 20px;
-    }
-    #news h5 {
-        font-size: 14px;
-    }
-    #news h5,
-    p {
-        padding-left: 6px;
-    }
     /* ---- FOOTER ---- */
+    
     .footer-col {
         margin-bottom: 22px;
         padding-bottom: 15px;
