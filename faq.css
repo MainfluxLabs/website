@@ -2272,13 +2272,12 @@ div.footer a:hover {
         margin-left: 0 0 85px 0;
         padding: 0 0 0 0;
     }
-     .home-button {
-        margin-bottom:60px;
+    .home-button {
+        margin-bottom: 60px;
     }
     #shape {
         height: 320px;
     }
-    
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
         display: none;
@@ -2456,13 +2455,12 @@ div.footer a:hover {
         margin-left: 0 0 85px 0;
         padding: 0;
     }
-     .home-button {
-        margin-bottom:60px;
+    .home-button {
+        margin-bottom: 60px;
     }
     #shape {
         height: 310px;
     }
-   
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
         display: none;
@@ -2643,13 +2641,12 @@ div.footer a:hover {
         margin-left: 0 0 85px 0;
         padding: 0;
     }
-     .home-button {
-        margin-bottom:65px;
+    .home-button {
+        margin-bottom: 65px;
     }
     #shape {
         height: 300px;
     }
-    
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
         display: none;
