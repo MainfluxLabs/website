@@ -327,7 +327,7 @@ p.introduction {
     padding-right: 16px;
     margin-top: 15px;
     text-align: justify;
-    line-height: 21px;
+    line-height: 23px;
 }
 h5 {
     font-family: Montserrat;
@@ -354,6 +354,7 @@ h6 {
     font-size: 16px;
     color: #0c3769;
     padding-right: 16px;
+    margin-left: 20px;
     margin-top: 15px;
     text-align: justify;
 }
@@ -650,6 +651,12 @@ div.footer a:hover {
     .job-section {
         margin-left: 2vw;
     }
+    p.introduction {
+        line-height: 24px;
+    }
+    .adbullets {
+        padding-right: 0;
+    }
     /* ---- FOOTER ---- */
     
     #licence p {
@@ -713,6 +720,15 @@ div.footer a:hover {
     }
     .job-section {
         margin-left: 2vw;
+    }
+    p.introduction {
+        line-height: 24px;
+        padding-right: 0px;
+    }
+    .adbullets {
+        padding-right: 0;
+        line-height: 23px;
+        text-align: left;
     }
     /* ---- FOOTER ---- */
     
@@ -809,8 +825,14 @@ div.footer a:hover {
     .job-section {
         margin-left: 3vw;
     }
+    p.introduction {
+        line-height: 24px;
+        padding-right: 0px;
+    }
     .adbullets {
-        line-height: 21px;
+        padding-right: 0;
+        line-height: 23px;
+        text-align: left;
     }
     /* ---- FOOTER ---- */
     
@@ -917,10 +939,17 @@ div.footer a:hover {
         margin-bottom: 205px;
     }
     .job-section {
-        margin-left: 4vw;
+        margin-left: 39px;
+        width: 93%;
+    }
+    p.introduction {
+        line-height: 24px;
+        padding-right: 0px;
     }
     .adbullets {
-        line-height: 21px;
+        padding-right: 0;
+        line-height: 23px;
+        text-align: left;
     }
     /* ---- FOOTER ---- */
     
@@ -1029,10 +1058,17 @@ div.footer a:hover {
         margin-bottom: 205px;
     }
     .job-section {
-        margin-left: 4vw;
+        margin-left: 39px;
+        width: 93%;
+    }
+    p.introduction {
+        line-height: 24px;
+        padding-right: 0px;
     }
     .adbullets {
-        line-height: 21px;
+        padding-right: 0;
+        line-height: 23px;
+        text-align: left;
     }
     /* ---- FOOTER ---- */
     
@@ -1046,7 +1082,7 @@ div.footer a:hover {
     }
     #licence {
         margin-top: 3.1rem;
-        width: 90%
+        width: 90%;
     }
     .apache {
         margin-bottom: 1.4rem;
@@ -1108,7 +1144,7 @@ div.footer a:hover {
         font-family: Montserrat;
         font-size: 30px;
         font-weight: 700;
-        margin-top: -255px;
+        margin-top: -285px;
         line-height: normal;
         text-align: center;
         opacity: 0.999;
@@ -1127,13 +1163,20 @@ div.footer a:hover {
         margin-bottom: 85px;
     }
     .home-button {
-        margin-bottom: 205px;
+        margin-bottom: 98px;
     }
     .job-section {
-        margin-left: 4vw;
+        margin-left: 29px;
+        width: 93%;
+    }
+    p.introduction {
+        line-height: 24px;
+        padding-right: 0px;
     }
     .adbullets {
-        line-height: 21px;
+        padding-right: 0;
+        line-height: 23px;
+        text-align: left;
     }
     /* ---- FOOTER ---- */
     
@@ -1204,7 +1247,7 @@ div.footer a:hover {
         font-family: Montserrat;
         font-size: 30px;
         font-weight: 700;
-        margin-top: -305px;
+        margin-top: -275px;
         line-height: normal;
         text-align: center;
         opacity: 0.999;
@@ -1224,17 +1267,25 @@ div.footer a:hover {
         padding: 0 0 0 0;
     }
     .home-button {
-        margin-bottom: 170px;
+        margin-bottom: 110px;
     }
     #elm {
         text-align: left;
     }
     .job-section {
-        margin-left: 4vw;
+        margin-left: 19px;
+        width: 94%;
+    }
+    p.introduction {
+        line-height: 24px;
+        padding-right: 0px;
+        width: 107%;
     }
     .adbullets {
-        line-height: 21px;
+        padding-right: 0;
+        line-height: 23px;
         text-align: left;
+        width: 100%;
     }
     /* ---- FOOTER ---- */
     
@@ -1254,6 +1305,7 @@ div.footer a:hover {
     #licence {
         margin-top: 3.1rem;
         width: 87%;
+        margin-left: 7px;
     }
     .apache {
         margin-bottom: 0.9rem;
@@ -1327,7 +1379,7 @@ div.footer a:hover {
         font-family: Montserrat;
         font-size: 30px;
         font-weight: 700;
-        margin-top: -305px;
+        margin-top: -275px;
         line-height: normal;
         text-align: center;
         opacity: 0.999;
@@ -1347,17 +1399,25 @@ div.footer a:hover {
         padding: 0 0 0 0;
     }
     .home-button {
-        margin-bottom: 170px;
+        margin-bottom: 100px;
     }
     #elm {
         text-align: left;
     }
     .job-section {
-        margin-left: 4vw;
+        margin-left: 19px;
+        width: 94%;
+    }
+    p.introduction {
+        line-height: 24px;
+        padding-right: 0px;
+        width: 105%;
     }
     .adbullets {
-        line-height: 21px;
+        padding-right: 0;
+        line-height: 23px;
         text-align: left;
+        width: 100%;
     }
     /* ---- FOOTER ---- */
     
@@ -1377,6 +1437,7 @@ div.footer a:hover {
     #licence {
         margin-top: 3.1rem;
         width: 87%;
+        margin-left: 7px;
     }
     .apache {
         margin-bottom: 0.9rem;
@@ -1439,14 +1500,14 @@ div.footer a:hover {
         z-index: 2;
         opacity: 0.6;
         height: 360px;
-        margin-top: 40px;
+        margin-top: 30px;
     }
     h1 {
         color: white;
         font-family: Montserrat;
         font-size: 28px;
         font-weight: 700;
-        margin-top: -305px;
+        margin-top: -265px;
         line-height: normal;
         text-align: center;
         opacity: 0.999;
@@ -1466,17 +1527,25 @@ div.footer a:hover {
         padding: 0 0 0 0;
     }
     .home-button {
-        margin-bottom: 170px;
+        margin-bottom: 100px;
     }
     #elm {
         text-align: left;
     }
     .job-section {
-        margin-left: 5vw;
+        margin-left: 19px;
+        width: 94%;
+    }
+    p.introduction {
+        line-height: 24px;
+        padding-right: 0px;
+        width: 104%;
     }
     .adbullets {
-        line-height: 21px;
+        padding-right: 0;
+        line-height: 23px;
         text-align: left;
+        width: 100%;
     }
     /* ---- FOOTER ---- */
     
@@ -1496,6 +1565,7 @@ div.footer a:hover {
     #licence {
         margin-top: 3.1rem;
         width: 87%;
+        margin-left: 7px;
     }
     .apache {
         margin-bottom: 0.9rem;
@@ -1558,7 +1628,7 @@ div.footer a:hover {
         z-index: 2;
         opacity: 0.6;
         height: 330px;
-        margin-top: 40px;
+        margin-top: 30px;
     }
     h1 {
         color: white;
@@ -1585,17 +1655,25 @@ div.footer a:hover {
         padding: 0 0 0 0;
     }
     .home-button {
-        margin-bottom: 120px;
+        margin-bottom: 90px;
     }
     #elm {
         text-align: left;
     }
     .job-section {
-        margin-left: 6vw;
+        margin-left: 19px;
+        width: 94%;
+    }
+    p.introduction {
+        line-height: 24px;
+        padding-right: 0px;
+        width: 104%;
     }
     .adbullets {
-        line-height: 21px;
+        padding-right: 0;
+        line-height: 23px;
         text-align: left;
+        width: 100%;
     }
     /* ---- FOOTER ---- */
     
@@ -1615,6 +1693,7 @@ div.footer a:hover {
     #licence {
         margin-top: 3.1rem;
         width: 87%;
+        margin-left: 7px;
     }
     .apache {
         margin-bottom: 0.9rem;
@@ -1684,7 +1763,7 @@ div.footer a:hover {
         font-family: Montserrat;
         font-size: 28px;
         font-weight: 700;
-        margin-top: -255px;
+        margin-top: -245px;
         line-height: normal;
         text-align: center;
         opacity: 0.999;
@@ -1704,7 +1783,7 @@ div.footer a:hover {
         padding: 0;
     }
     .home-button {
-        margin-bottom: 120px;
+        margin-bottom: 90px;
     }
     #elm {
         text-align: left;
@@ -1713,11 +1792,19 @@ div.footer a:hover {
         text-align: left;
     }
     .job-section {
-        margin-left: 6vw;
+        margin-left: 19px;
+        width: 94%;
+    }
+    p.introduction {
+        line-height: 24px;
+        padding-right: 0px;
+        width: 104%;
     }
     .adbullets {
-        line-height: 21px;
+        padding-right: 0;
+        line-height: 23px;
         text-align: left;
+        width: 100%;
     }
     /* ---- FOOTER ---- */
     
@@ -1737,6 +1824,7 @@ div.footer a:hover {
     #licence {
         margin-top: 3.1rem;
         width: 87%;
+        margin-left: 7px;
     }
     .apache {
         margin-bottom: 0.9rem;
@@ -1772,7 +1860,7 @@ div.footer a:hover {
     }
     #mainflux-footer {
         text-align: left;
-        padding: 9px 0 0 9px;
+        padding: 9px 0 0 10px;
     }
     #mainflux-footer p {
         font-size: 16px;
@@ -1802,14 +1890,14 @@ div.footer a:hover {
         z-index: 2;
         opacity: 0.6;
         height: 280px;
-        margin-top: 40px;
+        margin-top: 20px;
     }
     h1 {
         color: white;
         font-family: Montserrat;
         font-size: 28px;
         font-weight: 700;
-        margin-top: -255px;
+        margin-top: -225px;
         line-height: normal;
         text-align: center;
         opacity: 0.999;
@@ -1829,20 +1917,28 @@ div.footer a:hover {
         padding: 0;
     }
     .home-button {
-        margin-bottom: 120px;
+        margin-bottom: 65px;
     }
     #elm {
         text-align: left;
     }
-    .introduction {
+    .job-section {
+        margin-left: 19px;
+        width: 94%;
+    }
+    p#intro {
         text-align: left;
     }
-    .job-section {
-        margin-left: 6vw;
+    p.introduction {
+        line-height: 24px;
+        padding-right: 0px;
+        width: 104%;
     }
     .adbullets {
-        line-height: 21px;
+        padding-right: 0;
+        line-height: 23px;
         text-align: left;
+        width: 100%;
     }
     /*---- FOOTER ---- */
     
@@ -1862,6 +1958,7 @@ div.footer a:hover {
     #licence {
         margin-top: 3.1rem;
         width: 87%;
+        margin-left: 7px;
     }
     .apache {
         margin-bottom: 0.9rem;
@@ -1871,7 +1968,7 @@ div.footer a:hover {
         font-size: 0.66937rem;
     }
     #social {
-        padding-left: 1vw;
+        padding-left: 3.6vw;
         padding-right: 0;
         margin-right: 0;
         width: 292px;
