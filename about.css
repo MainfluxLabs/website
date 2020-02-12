@@ -778,51 +778,7 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 180px;
     }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-    }
-    .references h5 {
-        font-size: 10px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 50px;
-        margin-left: 55px;
-    }
-    h5#edge {
-        padding-left: 48px;
-        padding-top: 10px;
-    }
-    .oreilly {
-        height: 52px;
-        margin-left: 63px;
-    }
-    h5#oreilly {
-        padding-left: 37px;
-        padding-top: 8px;
-    }
-    .sciencepark {
-        height: 56px;
-        margin-left: 68px;
-        margin-top: -4px;
-    }
-    h5#science {
-        padding-left: 108px;
-        padding-top: 8px;
-    }
-    .fund {
-        height: 55px;
-        margin-left: 76px;
-        margin-top: -6px;
-    }
-    h5#fund {
-        margin-left: 14px;
-        padding-top: 11px;
-        text-align: center;
-    }
+    
     section.conferences {
         display: none;
     }
@@ -868,51 +824,7 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 180px;
     }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-    }
-    .references h5 {
-        font-size: 10px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 50px;
-        margin-left: 55px;
-    }
-    h5#edge {
-        padding-left: 48px;
-        padding-top: 10px;
-    }
-    .oreilly {
-        height: 52px;
-        margin-left: 63px;
-    }
-    h5#oreilly {
-        padding-left: 37px;
-        padding-top: 8px;
-    }
-    .sciencepark {
-        height: 56px;
-        margin-left: 68px;
-        margin-top: -4px;
-    }
-    h5#science {
-        padding-left: 108px;
-        padding-top: 8px;
-    }
-    .fund {
-        height: 55px;
-        margin-left: 76px;
-        margin-top: -6px;
-    }
-    h5#fund {
-        margin-left: 14px;
-        padding-top: 11px;
-        text-align: center;
-    }
+    
     /* --- Conferences logo --- */
     section.conferences {
         display: none;
@@ -969,52 +881,7 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 180px;
     }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -50px
-    }
-    .references h5 {
-        font-size: 10px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 50px;
-        margin-left: 55px;
-    }
-    h5#edge {
-        padding-left: 48px;
-        padding-top: 10px;
-    }
-    .oreilly {
-        height: 52px;
-        margin-left: 63px;
-    }
-    h5#oreilly {
-        padding-left: 37px;
-        padding-top: 8px;
-    }
-    .sciencepark {
-        height: 56px;
-        margin-left: 68px;
-        margin-top: -4px;
-    }
-    h5#science {
-        padding-left: 108px;
-        padding-top: 8px;
-    }
-    .fund {
-        height: 55px;
-        margin-left: 76px;
-        margin-top: -6px;
-    }
-    h5#fund {
-        margin-left: 14px;
-        padding-top: 11px;
-        text-align: center;
-    }
+    
     /* --- Conferences logo --- */
     section.conferences {
         display: none;
@@ -1365,57 +1232,7 @@ div.footer a:hover {
     .bio-member {
         text-align: justify;
     }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -60px;
-    }
-    .references h5 {
-        font-size: 9px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 50px;
-        margin-left: 55px;
-    }
-    h5#edge {
-        padding-left: 1px;
-        padding-top: 10px;
-        margin-left: 53px;
-    }
-    .oreilly {
-        height: 52px;
-        margin-left: 64px;
-    }
-    h5#oreilly {
-        padding-left: 1px;
-        margin-left: 35px;
-        padding-top: 8px;
-        text-align: center;
-        width: 175px
-    }
-    .sciencepark {
-        height: 56px;
-        margin-left: 48px;
-        margin-top: -4px;
-    }
-    h5#science {
-        padding-left: 1px;
-        padding-top: 8px;
-        margin-left: 91px
-    }
-    .fund {
-        height: 55px;
-        margin-left: 32px;
-        margin-top: -8px;
-    }
-    h5#fund {
-        margin-left: 17px;
-        padding-top: 13px;
-        text-align: center;
-    }
+    
     /* --- Action Call --- */
     #demo {
         margin-top: 15px;
@@ -1617,58 +1434,7 @@ div.footer a:hover {
     .bio-member {
         text-align: justify;
     }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -60px;
-    }
-    .references h5 {
-        font-size: 9px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 45px;
-        margin-left: 55px;
-    }
-    h5#edge {
-        padding-left: 1px;
-        padding-top: 10px;
-        margin-left: 50px;
-        width: 117px;
-    }
-    .oreilly {
-        height: 47px;
-        margin-left: 55px;
-    }
-    h5#oreilly {
-        padding-left: 1px;
-        margin-left: 24px;
-        padding-top: 8px;
-        text-align: center;
-        width: 175px
-    }
-    .sciencepark {
-        height: 51px;
-        margin-left: 40px;
-        margin-top: -4px;
-    }
-    h5#science {
-        padding-left: 1px;
-        padding-top: 8px;
-        margin-left: 76px;
-    }
-    .fund {
-        height: 50px;
-        margin-left: 28px;
-        margin-top: -8px;
-    }
-    h5#fund {
-        margin-left: 8px;
-        padding-top: 13px;
-        text-align: center;
-    }
+    
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
@@ -1887,61 +1653,9 @@ div.footer a:hover {
     .bio-member {
         text-align: justify;
     }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -60px;
-    }
-    .references h5 {
-        font-size: 9px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 45px;
-        margin-left: 55px;
-    }
-    h5#edge {
-        padding-left: 1px;
-        padding-top: 10px;
-        margin-left: 50px;
-        width: 117px;
-        display: none;
-    }
-    .oreilly {
-        height: 47px;
-        margin-left: 45px;
-    }
-    h5#oreilly {
-        padding-left: 1px;
-        margin-left: 24px;
-        padding-top: 8px;
-        text-align: center;
-        width: 175px;
-        display: none;
-    }
-    .sciencepark {
-        height: 51px;
-        margin-left: 22px;
-        margin-top: -4px;
-    }
-    h5#science {
-        padding-left: 1px;
-        padding-top: 8px;
-        margin-left: 76px;
-        display: none;
-    }
-    .fund {
-        height: 50px;
-        margin-left: 14px;
-        margin-top: -8px;
-    }
-    h5#fund {
-        margin-left: 8px;
-        padding-top: 13px;
-        text-align: center;
-        display: none;
+    
+    .team-section {
+        margin-bottom: 0;
     }
     /* ---- action call ---- */
     #action-call .btn {
@@ -2084,7 +1798,7 @@ div.footer a:hover {
         z-index: 2;
         opacity: 0.19;
         height: 400px;
-        margin-top: 20px;
+        margin-top: 40px;
     }
     h1 {
         color: white;
@@ -2110,7 +1824,7 @@ div.footer a:hover {
         margin-bottom: 85px;
     }
     .home-button {
-        margin-bottom: 180px;
+        margin-bottom: 80px;
     }
     /* ---- Quick Preview---- */
     #preview .container {
@@ -2154,62 +1868,10 @@ div.footer a:hover {
     .bio-member {
         text-align: left;
     }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -63px;
+    .team-section {
+        margin-bottom: 0;
     }
-    .references h5 {
-        font-size: 9px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 41px;
-        margin-left: 55px;
-    }
-    h5#edge {
-        padding-left: 1px;
-        padding-top: 10px;
-        margin-left: 50px;
-        width: 117px;
-        display: none;
-    }
-    .oreilly {
-        height: 43px;
-        margin-left: 41px;
-    }
-    h5#oreilly {
-        padding-left: 1px;
-        margin-left: 24px;
-        padding-top: 8px;
-        text-align: center;
-        width: 175px;
-        display: none;
-    }
-    .sciencepark {
-        height: 47px;
-        margin-left: 14px;
-        margin-top: -4px;
-    }
-    h5#science {
-        padding-left: 1px;
-        padding-top: 8px;
-        margin-left: 76px;
-        display: none;
-    }
-    .fund {
-        height: 46px;
-        margin-left: 0;
-        margin-top: -8px;
-    }
-    h5#fund {
-        margin-left: 8px;
-        padding-top: 13px;
-        text-align: center;
-        display: none;
-    }
+    
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
@@ -2222,54 +1884,7 @@ div.footer a:hover {
     #action-call h6 {
         font-size: 12px;
     }
-    /* ---- Consulting ---- */
-    #consulting p {
-        font-size: 13px;
-    }
-    #consulting #expertise {
-        font-size: 19px;
-        width: 459px;
-    }
-    #consulting h6 {
-        font-size: 8px;
-        text-align: center;
-    }
-    h4#expertise {
-        font-size: 20px;
-    }
-    #consulting img {
-        height: 50px;
-    }
-    #consulting .left {
-        width: 290px;
-        margin-left: 105px;
-    }
-    #consulting .right {
-        width: 347px;
-        margin-left: 105px;
-        margin-top: 35px;
-    }
-    li#sensors {
-        line-height: 18px;
-        margin-bottom: 2px;
-    }
-    li#inter {
-        line-height: 18px;
-        margin-top: 10px;
-    }
-    li#embed {
-        line-height: 18px;
-        margin-top: 10px;
-    }
-    h5#managed {
-        margin-top: -13px;
-    }
-    h5#system {
-        margin-top: -22px;
-    }
-    #consulting li {
-        font-size: 12px;
-    }
+
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
         display: none;
@@ -2421,7 +2036,7 @@ div.footer a:hover {
         padding: 0 0 0 0;
     }
     .home-button {
-        margin-bottom: 170px;
+        margin-bottom: 130px;
     }
     /* ---- Quick Preview---- */
     #preview .container {
@@ -2512,68 +2127,10 @@ div.footer a:hover {
     .bio-member {
         text-align: left;
     }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -71px;
+    .team-section {
+        margin-bottom: 0;
     }
-    .references h5 {
-        font-size: 9px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 51px;
-        margin-left: 55px;
-    }
-    #edgex {
-        margin-right: 75px;
-    }
-    h5#edge {
-        padding-left: 1px;
-        padding-top: 10px;
-        margin-left: 56px;
-        width: 117px;
-    }
-    .oreilly {
-        height: 53px;
-        margin-left: 45px;
-    }
-    #reilly {
-        margin-right: 100px;
-    }
-    h5#oreilly {
-        padding-left: 1px;
-        margin-left: 45px;
-        padding-top: 8px;
-        text-align: center;
-        width: 175px;
-    }
-    .sciencepark {
-        height: 57px;
-        margin-left: 29px;
-        margin-top: 6px;
-    }
-    #park {
-        margin-right: 115px;
-    }
-    h5#science {
-        padding-left: 1px;
-        padding-top: 8px;
-        margin-left: 55px;
-    }
-    .fund {
-        height: 56px;
-        margin-left: 0;
-        margin-top: -8px;
-    }
-    h5#fund {
-        margin-left: 20px;
-        padding-top: 13px;
-        text-align: left;
-        width: 150px
-    }
+    
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
@@ -2765,7 +2322,7 @@ div.footer a:hover {
         padding: 0 0 0 0;
     }
     .home-button {
-        margin-bottom: 170px;
+        margin-bottom: 130px;
     }
     /* ---- Quick Preview---- */
     #preview .container {
@@ -2856,68 +2413,10 @@ div.footer a:hover {
     .bio-member {
         text-align: left;
     }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -71px;
+    .team-section {
+        margin-bottom: 0;
     }
-    .references h5 {
-        font-size: 9px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 51px;
-        margin-left: 55px;
-    }
-    #edgex {
-        margin-right: 75px;
-    }
-    h5#edge {
-        padding-left: 1px;
-        padding-top: 10px;
-        margin-left: 56px;
-        width: 117px;
-    }
-    .oreilly {
-        height: 53px;
-        margin-left: 45px;
-    }
-    #reilly {
-        margin-right: 100px;
-    }
-    h5#oreilly {
-        padding-left: 1px;
-        margin-left: 45px;
-        padding-top: 8px;
-        text-align: center;
-        width: 175px;
-    }
-    .sciencepark {
-        height: 57px;
-        margin-left: 29px;
-        margin-top: 6px;
-    }
-    #park {
-        margin-right: 115px;
-    }
-    h5#science {
-        padding-left: 1px;
-        padding-top: 8px;
-        margin-left: 56px;
-    }
-    .fund {
-        height: 56px;
-        margin-left: 0;
-        margin-top: -8px;
-    }
-    h5#fund {
-        margin-left: 20px;
-        padding-top: 13px;
-        text-align: left;
-        width: 150px
-    }
+    
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
@@ -3105,7 +2604,7 @@ div.footer a:hover {
         padding: 0 0 0 0;
     }
     .home-button {
-        margin-bottom: 170px;
+        margin-bottom: 130px;
     }
     /* ---- Quick Preview---- */
     #preview .container {
@@ -3204,74 +2703,15 @@ div.footer a:hover {
     .bio-member {
         text-align: left;
     }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -71px;
+    .team-section {
+        margin-bottom: 0;
     }
-    .references h5 {
-        font-size: 9px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 51px;
-        margin-left: 55px;
-    }
-    #edgex {
-        margin-right: 75px;
-    }
-    h5#edge {
-        padding-left: 1px;
-        padding-top: 10px;
-        margin-left: 56px;
-        width: 117px;
-    }
-    .oreilly {
-        height: 53px;
-        margin-left: 45px;
-    }
-    #reilly {
-        margin-right: 100px;
-    }
-    h5#oreilly {
-        padding-left: 1px;
-        margin-left: 45px;
-        padding-top: 8px;
-        text-align: center;
-        width: 175px;
-    }
-    .sciencepark {
-        height: 57px;
-        margin-left: 29px;
-        margin-top: 4px;
-    }
-    #park {
-        margin-right: 115px;
-    }
-    h5#science {
-        padding-left: 1px;
-        padding-top: 8px;
-        margin-left: 56px;
-    }
-    .fund {
-        height: 56px;
-        margin-left: 0;
-        margin-top: -8px;
-    }
-    h5#fund {
-        margin-left: 20px;
-        padding-top: 13px;
-        text-align: left;
-        width: 150px
-    }
+   
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
         font-size: 12px;
         margin-bottom: 45px;
-        margin-left: -20px;
     }
     #demo {
         margin-top: 15px;
@@ -3457,7 +2897,7 @@ div.footer a:hover {
         padding: 0 0 0 0;
     }
     .home-button {
-        margin-bottom: 120px;
+        margin-bottom: 85px;
     }
     /* ---- Quick Preview---- */
     #preview .container {
@@ -3556,68 +2996,7 @@ div.footer a:hover {
     .bio-member {
         text-align: left;
     }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -71px;
-    }
-    .references h5 {
-        font-size: 9px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 51px;
-        margin-left: 55px;
-    }
-    #edgex {
-        margin-right: 75px;
-    }
-    h5#edge {
-        padding-left: 1px;
-        padding-top: 10px;
-        margin-left: 56px;
-        width: 117px;
-    }
-    .oreilly {
-        height: 53px;
-        margin-left: 45px;
-    }
-    #reilly {
-        margin-right: 100px;
-    }
-    h5#oreilly {
-        padding-left: 1px;
-        margin-left: 45px;
-        padding-top: 8px;
-        text-align: center;
-        width: 175px;
-    }
-    .sciencepark {
-        height: 57px;
-        margin-left: 29px;
-        margin-top: 4px;
-    }
-    #park {
-        margin-right: 115px;
-    }
-    h5#science {
-        padding-left: 1px;
-        padding-top: 8px;
-        margin-left: 56px;
-    }
-    .fund {
-        height: 56px;
-        margin-left: 0;
-        margin-top: -8px;
-    }
-    h5#fund {
-        margin-left: 20px;
-        padding-top: 13px;
-        text-align: left;
-        width: 150px
-    }
+    
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
@@ -3808,7 +3187,7 @@ div.footer a:hover {
         padding: 0;
     }
     .home-button {
-        margin-bottom: 120px;
+        margin-bottom: 85px;
     }
     /* ---- Quick Preview---- */
     #preview .container {
@@ -3907,68 +3286,10 @@ div.footer a:hover {
     .bio-member {
         text-align: left;
     }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -71px;
+    .team-section {
+        margin-bottom: 0;
     }
-    .references h5 {
-        font-size: 9px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 51px;
-        margin-left: 55px;
-    }
-    #edgex {
-        margin-right: 75px;
-    }
-    h5#edge {
-        padding-left: 1px;
-        padding-top: 10px;
-        margin-left: 56px;
-        width: 117px;
-    }
-    .oreilly {
-        height: 53px;
-        margin-left: 45px;
-    }
-    #reilly {
-        margin-right: 100px;
-    }
-    h5#oreilly {
-        padding-left: 1px;
-        margin-left: 45px;
-        padding-top: 8px;
-        text-align: center;
-        width: 175px;
-    }
-    .sciencepark {
-        height: 57px;
-        margin-left: 29px;
-        margin-top: 7px;
-    }
-    #park {
-        margin-right: 115px;
-    }
-    h5#science {
-        padding-left: 1px;
-        padding-top: 8px;
-        margin-left: 56px;
-    }
-    .fund {
-        height: 56px;
-        margin-left: 0;
-        margin-top: -8px;
-    }
-    h5#fund {
-        margin-left: 20px;
-        padding-top: 13px;
-        text-align: left;
-        width: 150px
-    }
+    
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
@@ -4269,74 +3590,15 @@ div.footer a:hover {
     .bio-member {
         text-align: left;
     }
-    /* ---- References ---- */
-    .references {
-        margin-bottom: 22px;
-        margin-left: -71px;
+    .team-section {
+        margin-bottom: 0;
     }
-    .references h5 {
-        font-size: 9px;
-        font-weight: 600;
-        margin-bottom: 14px;
-        color: #006599;
-    }
-    .edgex {
-        height: 51px;
-        margin-left: 55px;
-    }
-    #edgex {
-        margin-right: 75px;
-    }
-    h5#edge {
-        padding-left: 1px;
-        padding-top: 10px;
-        margin-left: 56px;
-        width: 117px;
-    }
-    .oreilly {
-        height: 53px;
-        margin-left: 45px;
-    }
-    #reilly {
-        margin-right: 100px;
-    }
-    h5#oreilly {
-        padding-left: 1px;
-        margin-left: 45px;
-        padding-top: 8px;
-        text-align: center;
-        width: 175px;
-    }
-    .sciencepark {
-        height: 57px;
-        margin-left: 29px;
-        margin-top: 6px;
-    }
-    #park {
-        margin-right: 115px;
-    }
-    h5#science {
-        padding-left: 1px;
-        padding-top: 8px;
-        margin-left: 56px;
-    }
-    .fund {
-        height: 56px;
-        margin-left: 0;
-        margin-top: -8px;
-    }
-    h5#fund {
-        margin-left: 20px;
-        padding-top: 13px;
-        text-align: left;
-        width: 150px
-    }
+    
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
         font-size: 12px;
         margin-bottom: 45px;
-        margin-left: 35px;
     }
     #demo {
         margin-top: 15px;
