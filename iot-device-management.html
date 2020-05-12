@@ -279,17 +279,17 @@ Edgeflux is IoT device management solution for remote onboarding, monitoring and
                     <br>
 
                     <h6>Gateway Compatibility</h6>
-                    <p>Edgeflux is hardware agnostic and it can be used with any gateway. What is only needed is the installation of the small IoT agent daemon - Edged, on the gateway.
-                        <br> Edged securely connects to Edgeflux and acts as a bridge between remote IoT gateway and Edgeflux removing the need for VPN. It is written in Go and open control MQTT channels towards Edgeflux in the cloud so it can be managed from the Edgeflux app.
+                    <p>Edgeflux is hardware agnostic and it can be used with any gateway. What is only needed is the installation of the small IoT <a href="https://github.com/Mainflux/agent" target="_blank">Agent daemon</a> on the gateway.
+                        <br>Agent daemon securely connects to Edgeflux and acts as a bridge between remote IoT gateway and Edgeflux removing the need for VPN. It is written in Go and open control MQTT channels towards Edgeflux in the cloud so it can be managed from the Edgeflux app.
                     </p>
                     <br>
 
-                    <img id="deamon" title="Egded deamon diagram" src="images/edged-deamon-iot-device-management.jpg" alt=" Diagram of edged deamon which has to be deployed in to the  IoT gateway and serves as bridge between remote IoT gateway and Edgeflux ">
+                    <img id="deamon" title="Agent daemon diagram" src="images/agent-daemon-iot-device-management.jpg" alt=" Diagram of Agent daemon which has to be deployed in to the  IoT gateway and serves as bridge between remote IoT gateway and Edgeflux">
 
                     <br>
                     <br>
 
-                    <p>Once Mainflux Labs Edged daemon is deployed to the remote gateway it connects to Edgeflux Bootstrap service enabling application lifecycle management. Edged also connects to Edgeflux enabling control plane communication.
+                    <p>Once Mainflux Agent daemon is deployed to the remote gateway it connects to Edgeflux Bootstrap service enabling application lifecycle management. Agent daemon also connects to Edgeflux enabling control plane communication. <a href="https://mainflux.readthedocs.io/en/latest/agent/#run-agent"target="_blank">Read more.</a>
                         <br> All connections are secure (TLS and/or mTLS) and initiated by the remote gateway so there are no open ingress ports. VPN is not required for the system to operate securely, thanks to the innovative implementation of remote terminal and browser via mTLS-encrypted MQTT channels.
                     </p>
                     <br>
@@ -348,7 +348,7 @@ Edgeflux is IoT device management solution for remote onboarding, monitoring and
 
 
                         <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Remote Terminal </li>
-                        <p>The remote terminal can be implemented as a Mainflux app over MQTT. Part of this app is the MQTT client on the gateway, embedded in Edgeflux daemon. Another part is the UI app on the top of the Mainflux presenting the actual terminal. </p>
+                        <p>The remote terminal can be implemented as a Mainflux app over MQTT. Part of this app is the MQTT client on the gateway, embedded in Edgeflux Agent daemon. Another part is the UI app on the top of the Mainflux presenting the actual terminal. </p>
                         <br>
 
 
@@ -396,7 +396,7 @@ Edgeflux is IoT device management solution for remote onboarding, monitoring and
                     <h4>MAINFLUX DASHBOARDS - DASHFLUX</h4>
 
                     <p class="section-text">
-                        Dashflux is a rich UI for the control and management of Mainflux Core services, LoRa adapter, gateways (through the edged service running in the gateways)
+                        Dashflux is a rich UI for the control and management of Mainflux Core services, LoRa adapter, gateways (through the Agent deamon service running in the gateways)
                         <br>and devices connected to it via Mainflux IoT Platform. The UI is separated into 5 parts: - Dashboard - Things - LoRa - Edge - Admin.
 
                         <br>
