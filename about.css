@@ -375,6 +375,9 @@ p#company {
     text-align: justify;
     margin-bottom: 55px;
 }
+.old-mirko {
+    display: none;
+}
 
 /* ---- Action call contact us --- */
 
@@ -778,7 +781,6 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 180px;
     }
-    
     section.conferences {
         display: none;
     }
@@ -824,7 +826,6 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 180px;
     }
-    
     /* --- Conferences logo --- */
     section.conferences {
         display: none;
@@ -881,7 +882,6 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 180px;
     }
-    
     /* --- Conferences logo --- */
     section.conferences {
         display: none;
@@ -1232,7 +1232,6 @@ div.footer a:hover {
     .bio-member {
         text-align: justify;
     }
-    
     /* --- Action Call --- */
     #demo {
         margin-top: 15px;
@@ -1434,7 +1433,6 @@ div.footer a:hover {
     .bio-member {
         text-align: justify;
     }
-    
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
@@ -1653,7 +1651,6 @@ div.footer a:hover {
     .bio-member {
         text-align: justify;
     }
-    
     .team-section {
         margin-bottom: 0;
     }
@@ -1871,7 +1868,6 @@ div.footer a:hover {
     .team-section {
         margin-bottom: 0;
     }
-    
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
@@ -1884,7 +1880,6 @@ div.footer a:hover {
     #action-call h6 {
         font-size: 12px;
     }
-
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
         display: none;
@@ -2130,7 +2125,6 @@ div.footer a:hover {
     .team-section {
         margin-bottom: 0;
     }
-    
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
@@ -2416,7 +2410,6 @@ div.footer a:hover {
     .team-section {
         margin-bottom: 0;
     }
-    
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
@@ -2706,7 +2699,6 @@ div.footer a:hover {
     .team-section {
         margin-bottom: 0;
     }
-   
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
@@ -2996,7 +2988,6 @@ div.footer a:hover {
     .bio-member {
         text-align: left;
     }
-    
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
@@ -3289,7 +3280,6 @@ div.footer a:hover {
     .team-section {
         margin-bottom: 0;
     }
-    
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
@@ -3593,7 +3583,6 @@ div.footer a:hover {
     .team-section {
         margin-bottom: 0;
     }
-    
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
