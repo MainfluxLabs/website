@@ -176,6 +176,9 @@ Edgeflux is IoT device management solution for remote onboarding, monitoring and
         </div>
 
 
+
+        <!-- --- AINFLUX IOT GATEWAY AND DEVICE MANAGEMENT --- -->
+
     </section>
 
     <section class="what-is-edge-flux">
@@ -293,13 +296,13 @@ Edgeflux is IoT device management solution for remote onboarding, monitoring and
                         <br>On the north side, Mainflux is connected to UI, and serves as a middleware (messaging bridge) between gateway management and data acquisition apps in the cloud and thousands of remote gateways in the field.
                     </p>
 
-                    <img id="stack" title="Diagram of complete end to end IoT solution with IoT platform, edge comuting gateways and IoT device mangament" src="images/IoT-gateway-management.jpg" alt="IoT device managament">
+                    <img id="stack" title="Diagram of complete end to end IoT solution with IoT platform, edge computing gateways and IoT device mangament" src="images/IoT-gateway-management.jpg" alt="IoT device managament">
 
                     <br>
                     <br>
                     <br>
 
-                    <p>Mainflux has several important roles: </p>
+                    <p id="roles">Mainflux has several important roles: </p>
                     <br>
                     <p>• Control plane communication - commands for gateway management</p>
 
@@ -312,7 +315,7 @@ Edgeflux is IoT device management solution for remote onboarding, monitoring and
                     <br>
 
 
-                    <p>Mainflux UI gives visualisation and monitoring of the gateways:</p>
+                    <p id="visual">Mainflux UI gives visualisation and monitoring of the gateways:</p>
                     <br>
                     <p>• Metrics from each of the gateway (CPU, memory, networking)</p>
 
@@ -324,7 +327,7 @@ Edgeflux is IoT device management solution for remote onboarding, monitoring and
                     <br>
 
 
-                    <p>One of the most important features of remote gateway management are Secure Remote Terminal and Secure Remote Browser.</p>
+                    <p id="most">One of the most important features of remote gateway management are Secure Remote Terminal and Secure Remote Browser.</p>
                     <br>
                     <br>
 
@@ -343,51 +346,56 @@ Edgeflux is IoT device management solution for remote onboarding, monitoring and
                     <p>This innovation allows very lightweight, simple and secure logging into each of remote gateways, executing commands interactively, opening and editing files, debugging and so on.</p>
 
                     <br>
-                  
-<br>
+
+                    <br>
                     <img id="terminal" title="Agent daemon diagram" src="images/Remote- Terminal-and- Browser.jpg" alt=" Diagram of Agent daemon which has to be deployed in to the  IoT gateway and serves as bridge between remote IoT gateway and Edgeflux">
 
 
                     <br>
                     <br>
-  <br>
+                    <br>
 
                     <h6>Secure Remote Browser</h6>
                     <br>
-                    <p>Similar to Secure Remote Terminal, Secure Remote Browser is HTTP-to-MQTT proxy, that bundles HTTP requests and responses into MQTT messages. <br>These HTTP req/resp are executed on a gateway itself, as often on the gateway there is a local web browser that serves configuration or other web pages.  <br> Typically these web servers on gateways are accessed via VPN, which again means that gateway needs to keep port 80 open as well.
-                       
-                    <br>
-                       
-                    <br>Mainflux Edge avoids heavy VPN infrastructure, and uses lightweight technology to wrap HTML content into secure MQTT messages and send them <br> to the cloud, where this content is examined in the browser and acts like the browser actually accessed the server on the gateway itself.</p>
+                    <p>Similar to Secure Remote Terminal, Secure Remote Browser is HTTP-to-MQTT proxy, that bundles HTTP requests and responses into MQTT messages.
+                        <br>These HTTP req/resp are executed on a gateway itself, as often on the gateway there is a local web browser that serves configuration or other web pages.
+                        <br> Typically these web servers on gateways are accessed via VPN, which again means that gateway needs to keep port 80 open as well.
+
+                        <br>
+
+                        <br>Mainflux Edge avoids heavy VPN infrastructure, and uses lightweight technology to wrap HTML content into secure MQTT messages and send them
+                        <br> to the cloud, where this content is examined in the browser and acts like the browser actually accessed the server on the gateway itself.</p>
 
                     <br>
-                    <p>Again - benefits are simplified infrastructure and higher security, as MQTT connections are client-initiated, so gateways can close port 80 <br>(and all other ports) for external access.</p>
+                    <p>Again - benefits are simplified infrastructure and higher security, as MQTT connections are client-initiated, so gateways can close port 80
+                        <br>(and all other ports) for external access.</p>
                     <br>
-                  
+
                     <br>
-                    
-                    
-                    
-                    
-                    
+
+
                     <h6>Mainflux IoT Agent - Linux Daemon Agent – Gateway Remote Management Enabler</h6>
                     <br>
-                    <p>Mainflux IoT Agent is a Linux daemon agent that runs on the remote gateway and connects to Mainflux cloud in order to enable remote management,  <br> monitoring and alerting and the Control Plane of the gateway. It is subscribed via MQTT to Mainflux IoT Core Platform on the CMD channel.  <br>It gets commands from Mainflux, executes them on the gateway and returns responses to Mainflux.
-                       
-                    <br>
-                       
-                    <br>It configures and manages all other services on the gateway, as well as aforementioned remote terminal and remote browser.</p>
+                    <p>Mainflux IoT Agent is a Linux daemon agent that runs on the remote gateway and connects to Mainflux cloud in order to enable remote management,
+                        <br> monitoring and alerting and the Control Plane of the gateway. It is subscribed via MQTT to Mainflux IoT Core Platform on the CMD channel.
+                        <br>It gets commands from Mainflux, executes them on the gateway and returns responses to Mainflux.
 
-                    <br><br>
+                        <br>
+
+                        <br>It configures and manages all other services on the gateway, as well as aforementioned remote terminal and remote browser.</p>
+
                     <br>
-<img id="deamon" title="Agent daemon diagram" src="images/IoT Agent-Linux Daemon-Agent– Gateway-Remote -Management-Enabler.jpg" alt="Diagram of Agent daemon which has to be deployed in to the  IoT gateway and serves as bridge between remote IoT gateway and Edgeflux">
-                    
                     <br>
-                    <br><br>
+                    <br>
+                    <img id="deamon" title="Agent daemon diagram" src="images/IoT Agent-Linux Daemon-Agent– Gateway-Remote -Management-Enabler.jpg" alt="Diagram of Agent daemon which has to be deployed in to the  IoT gateway and serves as bridge between remote IoT gateway and Edgeflux">
+
+                    <br>
+                    <br>
+                    <br>
                     <h6>Export Service – Gateway Data Acquisition With Buffering</h6>
                     <br>
-                    <p>Export service is used to send data from gateway to Mainflux cloud.
-One of the common problems with IoT gateways are intermittent connections due poor network reliability (especially with moving objects). Export service is an intelligent service: it constantly monitors the network availability and in the case of disconnection it buffers data locally, so none of the data points are lost. When the network comes back on, Export service sends a buffered data stream  <br> to the cloud while preserving order of messages.</p>
+                    <p>Export service is used to send data from gateway to Mainflux cloud. One of the common problems with IoT gateways are intermittent connections due poor network reliability (especially with moving objects). Export service is an intelligent service: it constantly monitors the network availability and in the case of disconnection it buffers data locally, so none of the data points are lost. When the network comes back on, Export service sends a buffered data stream
+                        <br> to the cloud while preserving order of messages.</p>
 
                     <br>
                     <br>
@@ -444,7 +452,7 @@ One of the common problems with IoT gateways are intermittent connections due po
                         <p>The remote terminal can be implemented as a Mainflux app over MQTT. Part of this app is the MQTT client on the gateway, embedded in Edgeflux Agent daemon. Another part is the UI app on the top of the Mainflux presenting the actual terminal. </p>
                         <br>
 
-                       
+
                         <li><i class="fa-li fa fa-play" aria-hidden="true"></i> Data Storage and Graphs </li>
 
 
@@ -479,8 +487,7 @@ One of the common problems with IoT gateways are intermittent connections due po
                     <h4>MAINFLUX DASHBOARDS - DASHFLUX</h4>
 
                     <p class="section-text">
-                        Dashflux is a rich UI for the control and management of Mainflux Core services, LoRa adapter, gateways (through the Agent deamon service running in the gateways)
-                        <br>and devices connected to it via Mainflux IoT Platform. The UI is separated into 5 parts: - Dashboard - Things - LoRa - Edge - Admin.
+                        Dashflux is a rich UI for the control and management of Mainflux Core services, LoRa adapter, gateways (through the Agent deamon service running in the gateways) and devices connected to it via Mainflux IoT Platform. The UI is separated into 5 parts: - Dashboard - Things - LoRa - Edge - Admin.
 
                         <br>
 
@@ -531,7 +538,6 @@ One of the common problems with IoT gateways are intermittent connections due po
                         <p><a href="careers.html">Careers</a></p>
 
                     </div>
-
 
 
                     <div class="col-md-2 footer-col">

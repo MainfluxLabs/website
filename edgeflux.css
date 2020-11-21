@@ -319,6 +319,14 @@ img#stack {
 }
 .bullets {
     padding-left: 40px;
+    line-height: 25px;
+}
+.bullets h6 {
+    line-height: 30px;
+    margin-top: -16px;
+}
+.bullets p {
+    line-height: inherit;
 }
 
 /* ----- How it Works ----- */
@@ -624,7 +632,7 @@ div.footer-col {
         margin-left: 52px;
         margin-bottom: 52px;
     }
-  img#stack {
+    img#stack {
         height: 170px;
         margin-top: 55px;
         margin-left: 200px;
@@ -656,7 +664,7 @@ div.footer-col {
         padding-left: 0;
     }
     #edgeflux-head {
-        margin: 220px 0 0 60px;
+        margin: 130px 0 0 60px;
     }
     h1 {
         margin: 1.5vh 0 0 60px;
@@ -674,7 +682,7 @@ div.footer-col {
         margin-left: 32px;
         margin-bottom: 25px;
     }
-   img#stack {
+    img#stack {
         height: 200px;
         margin-top: 55px;
         margin-left: 200px;
@@ -687,15 +695,13 @@ div.footer-col {
         height: 340px;
         margin-left: 190px;
     }
-    /* ---- How it works ---- */
-  
     /* ---- FOOTER ---- */
     .footer-line {
         width: 82vw;
         margin-left: 8.5vw;
     }
     #social {
-        padding-left: 16.4vw;
+        padding-left: 15.1vw;
     }
     .footer {
         padding-bottom: 20px;
@@ -710,10 +716,10 @@ div.footer-col {
     #edgeflux-head {
         font-size: 30px;
         margin-left: 17px;
-        margin-top: 180px;
+        margin-top: 90px;
     }
     h1 {
-        font-size: 22px;
+        font-size: 20px;
         margin-left: 17px;
     }
     h2#home-sub {
@@ -731,24 +737,56 @@ div.footer-col {
         margin-left: 2px;
         margin-bottom: 65px;
     }
-   img#stack {
+    img#stack {
         height: 170px;
-        margin-top: 55px;
+        margin-top: 30px;
         margin-left: 170px;
+        margin-bottom: 25px;
+    }
+    p#roles {
+        margin-bottom: 10px;
+    }
+    p#visual {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    p#most {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .how br {
+        display: none;
+    }
+    .how h6 {
+        margin-top: 35px;
+        margin-bottom: 15px;
     }
     img#terminal {
         height: 240px;
         margin-left: 230px;
+        margin-top: 25px;
     }
     img#deamon {
         height: 300px;
         margin-left: 190px;
+        margin-top: 25px;
     }
     div#features-edgeflux {
         margin-left: 98px;
     }
-    /* ---- How it works ---- */
-   
+    /* ---- dashboards ---- */
+    img#dashboard-1 {
+        height: 470px;
+    }
+    img#dashboard-2 {
+        height: 470px;
+    }
+    img#dashboard-3 {
+        height: 470px;
+    }
+    img#dashboard-4 {
+        height: 473px;
+    }
     /* ---- FOOTER ---- */
     div.footer {
         padding-bottom: 45px;
@@ -776,35 +814,36 @@ div.footer-col {
         padding-right: 0;
     }
     #edgeflux-head {
-        font-size: 28px;
-        margin-left: 11px;
-        margin-top: 160px;
+        font-size: 26px;
+        margin-left: 20px;
+        margin-top: 110px;
+        width: 116%;
     }
     h1 {
-        font-size: 20px;
-        margin-left: 10px;
+        font-size: 19px;
+        margin-left: 20px;
         line-height: normal;
         margin-bottom: 15px;
     }
     h2#home-sub {
         font-size: 12px;
-        margin-left: 10px;
+        margin-left: 20px;
         line-height: 20px;
     }
     .home-butt {
-        margin-left: -7px;
+        margin-left: 6px;
         padding-left: 0;
     }
     img#shape {
-        height: 350px;
+        height: 340px;
         margin-top: 60px;
-        margin-left: -9px;
+        margin-left: 15px;
         margin-bottom: 95px;
     }
     #headline br {
         display: none;
     }
-   img#stack {
+    img#stack {
         height: 170px;
         margin-top: 55px;
         margin-left: 17px;
@@ -845,11 +884,9 @@ div.footer-col {
         margin-left: auto;
         margin-right: auto;
     }
-    /* ---- How it works ---- */
-   
     /* ---- FOOTER ---- */
     .footer {
-        width: 780px;
+        width: auto;
     }
     .footer-col {
         margin-bottom: 22px;
@@ -905,12 +942,13 @@ div.footer-col {
         padding-right: 0;
     }
     #edgeflux-head {
-        font-size: 30px;
+        font-size: 26px;
         margin-left: 10px;
-        margin-top: 150px;
+        margin-top: 110px;
+        width: 129%;
     }
     h1 {
-        font-size: 20px;
+        font-size: 19px;
         margin-left: 10px;
         line-height: 28px;
         margin-bottom: 15px;
@@ -928,7 +966,7 @@ div.footer-col {
     img#shape {
         height: 310px;
         margin-top: 60px;
-        margin-left: 5px;
+        margin-left: 30px;
         margin-bottom: 95px;
     }
     #headline br {
@@ -980,7 +1018,6 @@ div.footer-col {
         margin-right: auto;
     }
     /* ---- How it works ---- */
-    
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -1049,36 +1086,46 @@ div.footer-col {
         padding-right: 0;
     }
     #edgeflux-head {
-        font-size: 29px;
-        margin-left: 10px;
+        font-size: 26px;
+        margin-left: 14px;
         margin-top: 140px;
+        width: 125%;
     }
     h1 {
-        font-size: 20px;
-        margin-left: 10px;
+        font-size: 19px;
+        margin-left: 14px;
         line-height: 26px;
         margin-bottom: 15px;
+        width: 125%;
     }
     h2#home-sub {
-        font-size: 13px;
-        margin-left: 10px;
+        font-size: 14px;
+        margin-left: 12px;
         line-height: 19px;
+        width: 125%;
     }
     .home-butt {
-        margin-left: -7px;
+        margin-left: -4px;
         padding-left: 0;
         margin-bottom: 40px;
     }
     img#shape {
         height: 310px;
         margin-top: 60px;
-        margin-left: -15px;
+        margin-left: 15px;
         margin-bottom: 95px;
     }
     #headline br {
         display: none;
     }
-     img#stack {
+    .main-text {
+        margin-left: 1px;
+    }
+    .how {
+        margin-left: 15px;
+        padding-right: 15px;
+    }
+    img#stack {
         height: 170px;
         margin-top: 55px;
         margin-left: 12px;
@@ -1103,28 +1150,32 @@ div.footer-col {
         line-height: 23px;
         padding-right: 1px;
     }
+    .dashboards {
+        margin-left: 15px;
+    }
+    .dashboards .section-text {
+        line-height: 22px;
+    }
     img#dashboard-1 {
-        height: 367px;
+        height: 362px;
         margin-left: 0;
     }
     img#dashboard-2 {
-        height: 370px;
+        height: 364px;
         margin-left: 0;
     }
     img#dashboard-3 {
-        height: 370px;
+        height: 363px;
         margin-left: 0;
     }
     img#dashboard-4 {
-        height: 372px;
+        height: 364px;
         margin-top: 42px;
         margin-left: 2px;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-    /* ---- How it works ---- */
-   
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -1206,13 +1257,13 @@ div.footer-col {
         margin-left: 10px;
         line-height: 24px;
         margin-bottom: 15px;
-        width: 109%;
+        width: 129%;
     }
     h2#home-sub {
         font-size: 12px;
         margin-left: 10px;
         line-height: 19px;
-        width: 111%;
+        width: 125%;
     }
     .home-butt {
         margin-left: -6px;
@@ -1223,29 +1274,40 @@ div.footer-col {
     img#shape {
         height: 220px;
         margin-top: 60px;
-        margin-left: -5px;
+        margin-left: 34px;
         margin-bottom: 95px;
     }
     #headline br {
         display: none;
     }
-   img#stack {
-        height: 150px;
+    img#stack {
+        height: 143px;
         margin-top: 55px;
         margin-left: 1px;
     }
     img#terminal {
         height: 230px;
-        margin-left: 55px;
+        margin-left: 5px;
     }
     img#deamon {
-        height: 255px;
-        margin-left: 5px;
+        height: 230px;
+        margin-left: ;
     }
     section.what-is-edge-flux {
         margin-left: 12px;
         padding-right: 0;
-        width: 90%;
+    }
+    .bullets {
+        margin-left: inherit;
+        padding-left: 30px;
+    }
+    #how {
+        margin-left: inherit;
+        padding-left: 10px;
+    }
+    .main-text h6 {
+        padding-left: 10px;
+        line-height: 25px;
     }
     #features-edgeflux h4 {
         margin-left: 12px;
@@ -1263,23 +1325,23 @@ div.footer-col {
         margin-left: 12px;
     }
     img#dashboard-1 {
-        height: 294px;
-        margin-left: 0;
+        height: 290px;
+        margin-left: 15px;
     }
     img#dashboard-2 {
-        height: 297px;
-        margin-left: 0;
+        height: 294px;
+        margin-left: 15px;
     }
     img#dashboard-3 {
-        height: 299px;
-        margin-left: 0;
+        height: 296px;
+        margin-left: 15px;
     }
     img#dashboard-4 {
-        height: 300px;
+        height: 297px;
         margin-top: 42px;
         margin-left: 2px;
         display: block;
-        margin-left: auto;
+        margin-left: 15px;
         margin-right: auto;
     }
     .fa-ul p {
@@ -1287,7 +1349,6 @@ div.footer-col {
         padding-right: 1px;
     }
     /* ---- How it works ---- */
-  
     .how p {
         margin-left: 12px;
         width: 90%;
@@ -1368,6 +1429,7 @@ div.footer-col {
     .home-butt {
         margin-left: 0;
         padding-left: 0;
+        margin-bottom: 40px;
     }
     .button-div {
         margin-left: 56%;
@@ -1379,18 +1441,40 @@ div.footer-col {
         margin-bottom: 30px;
         opacity: 0.2;
     }
-   img#stack {
-        height: 140px;
+    #what {
+        text-align: center;
+        margin-left: -15px;
+        padding-left: 0;
+    }
+    #intro {
+        padding-left: 4px;
+        padding-right: 20px;
+    }
+    img#stack {
+        height: 110px;
         margin-top: 55px;
-        margin-left: 21px;
+        margin-left: 16px;
     }
     img#terminal {
-        height: 210px;
-        margin-left: 55px;
+        height: 185px;
+        margin-left: 12px;
     }
     img#deamon {
-        height: 229px;
-        margin-left: 5px;
+        height: 180px;
+        margin-left: 15px;
+    }
+    .what-is-edge-flux {
+        margin-left: 12px;
+        padding-right: 0;
+    }
+    .bullets {
+        margin-left: 0;
+        padding-left: 0px;
+        margin-left: -12px;
+    }
+    #how {
+        margin-left: inherit;
+        padding-left: 20px;
     }
     div.main-text {
         margin-left: 0;
@@ -1402,14 +1486,16 @@ div.footer-col {
         padding-left: 18px;
     }
     .main-text h6 {
-        padding-left: 18px;
+        padding-left: 11px;
         margin-bottom: 4px;
+        line-height: 25px;
     }
     .main-text p {
         margin-left: 0;
-        padding-right: 18px;
-        padding-left: 18px;
+        padding-right: 2px;
+        padding-left: 12px;
         margin-right: 0;
+        text-align: justify;
     }
     #features-edgeflux h4 {
         margin-left: 4px;
@@ -1424,26 +1510,26 @@ div.footer-col {
     }
     .dashboards p {
         padding-left: 6px;
+        width: 120%;
+        line-height: 20px;
     }
     img#dashboard-1 {
-        height: 240px;
-        margin-left: 0;
+        height: 230px;
+        margin-left: 12px;
     }
     img#dashboard-2 {
-        height: 241px;
-        margin-left: 0;
+        height: 231px;
+        margin-left: 12px;
     }
     img#dashboard-3 {
-        height: 241px;
-        margin-left: 0;
+        height: 231px;
+        margin-left: 12px;
     }
     img#dashboard-4 {
-        height: 242px;
+        height: 232px;
         margin-top: 42px;
-        margin-left: 2px;
+        margin-left: 12px;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
     .fa-ul p {
         line-height: 23px;
@@ -1453,7 +1539,6 @@ div.footer-col {
     .how h6 {
         margin-left: 12px;
     }
-   
     .how p {
         margin-left: 12px;
         width: 90%;
@@ -1546,7 +1631,7 @@ div.footer-col {
         margin-bottom: 10px;
         opacity: 0.15;
     }
-  img#stack {
+    img#stack {
         height: 140px;
         margin-top: 55px;
         margin-left: 21px;
@@ -1623,7 +1708,6 @@ div.footer-col {
     .how h6 {
         margin-left: 12px;
     }
-  
     .how p {
         margin-left: 12px;
     }
@@ -1716,6 +1800,7 @@ div.footer-col {
     .home-butt {
         margin-left: 0;
         padding-left: 0;
+        margin-bottom: 40px;
     }
     .button-div {
         margin-left: 50%;
@@ -1727,18 +1812,18 @@ div.footer-col {
         margin-bottom: 10px;
         opacity: 0.15;
     }
- img#stack {
-        height: 135px;
+    img#stack {
+        height: 95px;
         margin-top: 55px;
-        margin-left: 11px;
+        margin-left: 16px;
     }
     img#terminal {
-        height: 210px;
-        margin-left: 35px;
+        height: 160px;
+        margin-left: 12px;
     }
     img#deamon {
-        height: 219px;
-        margin-left: 5px;
+        height: 145px;
+        margin-left: 15px;
     }
     div.main-text {
         margin-left: 0;
@@ -1763,6 +1848,13 @@ div.footer-col {
         margin-left: 2px;
         padding-right: 0;
     }
+    #intro {
+        padding-right: 12px;
+    }
+    .bullets {
+        margin-left: 0;
+        padding-left: 1px;
+    }
     #features-edgeflux ul {
         margin-left: 27px;
         padding-right: 0;
@@ -1772,26 +1864,27 @@ div.footer-col {
     }
     .dashboards p {
         padding-left: 6px;
+        width: 120%;
+        line-height: 23px;
+        text-align: justify;
     }
     img#dashboard-1 {
-        height: 200px;
-        margin-left: 0;
+        height: 199px;
+        margin-left: 4px;
     }
     img#dashboard-2 {
         height: 201px;
-        margin-left: 0;
+        margin-left: 4px;
     }
     img#dashboard-3 {
         height: 201px;
-        margin-left: 0;
+        margin-left: 4px;
     }
     img#dashboard-4 {
         height: 201px;
         margin-top: 42px;
-        margin-left: 2px;
+        margin-left: 4px;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
     .fa-ul p {
         line-height: 23px;
@@ -1803,8 +1896,8 @@ div.footer-col {
     }
     .how h6 {
         margin-left: 2px;
+        line-height: 25px;
     }
-  
     .how p {
         margin-left: 2px;
     }
@@ -1895,6 +1988,7 @@ div.footer-col {
     .home-butt {
         margin-left: 0;
         padding-left: 0;
+        margin-bottom: 40px;
     }
     .button-div {
         margin-left: 43%;
@@ -1907,17 +2001,17 @@ div.footer-col {
         opacity: 0.15;
     }
     img#stack {
-        height: 125px;
+        height: 88px;
         margin-top: 55px;
-        margin-left: 30px;
+        margin-left: 16px;
     }
     img#terminal {
-        height: 210px;
-        margin-left: 30px;
+        height: 150px;
+        margin-left: 12px;
     }
     img#deamon {
-        height: 219px;
-        margin-left: 5px;
+        height: 139px;
+        margin-left: 15px;
     }
     div.main-text {
         margin-left: 0;
@@ -1931,12 +2025,22 @@ div.footer-col {
     .main-text h6 {
         padding-left: 18px;
         margin-bottom: 4px;
+        line-height: 23px;
+        padding-right: 19px
     }
     .main-text p {
         margin-left: 0;
-        padding-right: 18px;
+        padding-right: 19px;
         padding-left: 18px;
         margin-right: 0;
+        text-align: justify;
+    }
+    #intro {
+        padding-right: 12px;
+    }
+    .bullets {
+        margin-left: 0;
+        padding-left: 1px;
     }
     #features-edgeflux h4 {
         padding-left: 105px;
@@ -1955,26 +2059,27 @@ div.footer-col {
     }
     .dashboards p {
         padding-left: 6px;
+        width: 120%;
+        line-height: 23px;
+        text-align: justify;
     }
     img#dashboard-1 {
-        height: 190px;
-        margin-left: 0;
+        height: 185px;
+        margin-left: 5px;
     }
     img#dashboard-2 {
-        height: 190px;
-        margin-left: 0;
+        height: 185px;
+        margin-left: 5px;
     }
     img#dashboard-3 {
-        height: 190px;
-        margin-left: 0;
+        height: 185px;
+        margin-left: 5px;
     }
     img#dashboard-4 {
-        height: 190px;
+        height: 185px;
         margin-top: 42px;
-        margin-left: 2px;
+        margin-left: 5px;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
     .fa-ul p {
         line-height: 23px;
@@ -1987,7 +2092,6 @@ div.footer-col {
     .how h6 {
         margin-left: 2px;
     }
-   
     .how p {
         margin-left: 2px;
     }
@@ -2078,6 +2182,7 @@ div.footer-col {
     .home-butt {
         margin-left: 0;
         padding-left: 0;
+        margin-bottom: 40px;
     }
     .button-div {
         margin-left: 41%;
@@ -2090,17 +2195,17 @@ div.footer-col {
         opacity: 0.15;
     }
     img#stack {
-        height: 125px;
+        height: 88px;
         margin-top: 55px;
-        margin-left: 30px;
+        margin-left: 16px;
     }
     img#terminal {
-        height: 210px;
-        margin-left: 30px;
+        height: 150px;
+        margin-left: 12px;
     }
     img#deamon {
-        height: 219px;
-        margin-left: 5px;
+        height: 139px;
+        margin-left: 15px;
     }
     div.main-text {
         margin-left: 0;
@@ -2114,12 +2219,23 @@ div.footer-col {
     .main-text h6 {
         padding-left: 18px;
         margin-bottom: 4px;
+        line-height: 23px;
+        padding-right: 19px
     }
     .main-text p {
         margin-left: 0;
-        padding-right: 10px;
+        padding-right: 22px;
         padding-left: 18px;
         margin-right: 0;
+        text-align: justify;
+    }
+    #intro {
+        padding-right: 2px;
+        padding-left: 10px
+    }
+    .bullets {
+        margin-left: 0;
+        padding-left: 1px;
     }
     #features-edgeflux h4 {
         padding-left: 97px;
@@ -2133,29 +2249,28 @@ div.footer-col {
         padding-left: 6px;
     }
     .dashboards p {
-        padding-left: 7px;
-        padding-right: 0px;
-        line-height: 19px;
+        padding-left: 6px;
+        width: 120%;
+        line-height: 23px;
+        text-align: justify;
     }
     img#dashboard-1 {
-        height: 180px;
-        margin-left: 0;
+        height: 185px;
+        margin-left: 5px;
     }
     img#dashboard-2 {
-        height: 180px;
-        margin-left: 0;
+        height: 185px;
+        margin-left: 5px;
     }
     img#dashboard-3 {
-        height: 180px;
-        margin-left: 0;
+        height: 185px;
+        margin-left: 5px;
     }
     img#dashboard-4 {
-        height: 180px;
+        height: 185px;
         margin-top: 42px;
-        margin-left: 2px;
+        margin-left: 5px;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
     .fa-ul p {
         line-height: 23px;
@@ -2169,7 +2284,6 @@ div.footer-col {
     .how h6 {
         margin-left: 2px;
     }
-   
     .how p {
         margin-left: 2px;
     }
@@ -2261,6 +2375,7 @@ div.footer-col {
     .home-butt {
         margin-left: 0;
         padding-left: 0;
+        margin-bottom: 40px;
     }
     .button-div {
         margin-left: 39%;
@@ -2272,18 +2387,18 @@ div.footer-col {
         margin-bottom: 10px;
         opacity: 0.15;
     }
-   img#stack {
-        height: 125px;
-        margin-top: 55px;
-        margin-left: 30px;
+    img#stack {
+        height: 83px;
+        margin-top: 35px;
+        margin-left: 16px;
     }
     img#terminal {
-        height: 210px;
-        margin-left: 30px;
+        height: 138px;
+        margin-left: 12px;
     }
     img#deamon {
-        height: 219px;
-        margin-left: 5px;
+        height: 139px;
+        margin-left: 10px;
     }
     div.main-text {
         margin-left: 0;
@@ -2291,19 +2406,26 @@ div.footer-col {
         padding-left: 0;
         margin-right: 0;
     }
-    .main-text h4 {
-        padding-left: 18px;
-        font-size: 24px;
-    }
     .main-text h6 {
         padding-left: 18px;
         margin-bottom: 4px;
+        line-height: 23px;
+        padding-right: 19px
     }
     .main-text p {
         margin-left: 0;
-        padding-right: 8px;
+        padding-right: 20px;
         padding-left: 18px;
         margin-right: 0;
+        text-align: justify;
+    }
+    #intro {
+        padding-right: 2px;
+        padding-left: 10px;
+    }
+    .bullets {
+        margin-left: -9px;
+        padding-left: 0px;
     }
     #features-edgeflux h4 {
         margin-left: 1px;
@@ -2315,33 +2437,33 @@ div.footer-col {
         padding-right: 0;
     }
     .dashboards h4 {
-        padding-left: 6px;
+        padding-left: 7px;
         font-size: 24px;
+        width: 123.5%;
     }
     .dashboards p {
         padding-left: 6px;
-        padding-right: 0;
-        line-height: 20px;
+        width: 120%;
+        line-height: 23px;
+        text-align: justify;
     }
     img#dashboard-1 {
-        height: 168px;
-        margin-left: 0;
+        height: 170px;
+        margin-left: 5px;
     }
     img#dashboard-2 {
-        height: 170px;
-        margin-left: 0;
+        height: 172px;
+        margin-left: 5px;
     }
     img#dashboard-3 {
-        height: 170px;
-        margin-left: 0;
+        height: 174px;
+        margin-left: 5px;
     }
     img#dashboard-4 {
-        height: 172px;
+        height: 176px;
         margin-top: 42px;
-        margin-left: 2px;
+        margin-left: 3px;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
     .fa-ul p {
         line-height: 23px;
@@ -2350,12 +2472,11 @@ div.footer-col {
     }
     /* ---- How it works ---- */
     h4#how {
-        margin-left: 2px;
+        margin-left: 18px;
     }
     .how h6 {
         margin-left: 2px;
     }
-   
     .how p {
         margin-left: 2px;
     }
@@ -2452,6 +2573,7 @@ div.footer-col {
     .home-butt {
         margin-left: 0;
         padding-left: 0;
+        margin-bottom: 40px;
     }
     .button-div {
         margin-left: 29%;
@@ -2463,18 +2585,21 @@ div.footer-col {
         margin-bottom: 90px;
         opacity: 0.2;
     }
+    #what {
+        padding-left: 7px;
+    }
     img#stack {
-        height: 125px;
-        margin-top: 55px;
-        margin-left: 30px;
+        height: 74px;
+        margin-top: 35px;
+        margin-left: 16px;
     }
     img#terminal {
-        height: 210px;
-        margin-left: 30px;
+        height: 120px;
+        margin-left: 12px;
     }
     img#deamon {
-        height: 219px;
-        margin-left: 5px;
+        height: 120px;
+        margin-left: 10px;
     }
     div.main-text {
         margin-left: 0;
@@ -2489,12 +2614,24 @@ div.footer-col {
     .main-text h6 {
         padding-left: 18px;
         margin-bottom: 4px;
+        line-height: 23px;
+        padding-right: 19px
     }
     .main-text p {
         margin-left: 0;
-        padding-right: 8px;
+        padding-right: 17px;
         padding-left: 18px;
         margin-right: 0;
+        text-align: justify;
+    }
+    #intro {
+        padding-right: 2px;
+        padding-left: 10px;
+        margin-right: -1px;
+    }
+    .bullets {
+        margin-left: -9px;
+        padding-left: 0px;
     }
     #features-edgeflux h4 {
         margin-left: 1px;
@@ -2506,34 +2643,33 @@ div.footer-col {
         padding-right: 0;
     }
     .dashboards h4 {
-        padding-left: 6px;
+        padding-left: 7px;
         font-size: 24px;
+        width: 111.5%;
     }
     .dashboards p {
         padding-left: 6px;
-        padding-right: 0;
-        line-height: 20px;
-        width: 111%;
+        width: 120%;
+        line-height: 23px;
+        text-align: justify;
     }
     img#dashboard-1 {
-        height: 158px;
-        margin-left: 0;
+        height: 160px;
+        margin-left: 5px;
     }
     img#dashboard-2 {
-        height: 159px;
-        margin-left: 0;
+        height: 160px;
+        margin-left: 5px;
     }
     img#dashboard-3 {
-        height: 158px;
-        margin-left: 0;
+        height: 160px;
+        margin-left: 5px;
     }
     img#dashboard-4 {
-        height: 160px;
+        height: 163px;
         margin-top: 42px;
-        margin-left: 2px;
+        margin-left: 3px;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
     .fa-ul p {
         line-height: 23px;
@@ -2547,7 +2683,6 @@ div.footer-col {
     .how h6 {
         margin-left: 2px;
     }
-  
     .how p {
         margin-left: 2px;
     }
