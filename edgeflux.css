@@ -1623,6 +1623,7 @@ div.footer-col {
     }
     .button-div {
         margin-left: 50%;
+        margin-bottom: 35px;
     }
     img#shape {
         height: 400px;
@@ -1631,17 +1632,36 @@ div.footer-col {
         margin-bottom: 10px;
         opacity: 0.15;
     }
+    #what {
+        font-size: 23px;
+        text-align: center;
+    }
+    #intro {
+        padding-right: 0;
+        padding-left: 6px;
+        padding-right: 4px;
+    }
+    .bullets {
+        padding-left: 0;
+    }
+    #how {
+        font-size: 23px;
+        text-align: center;
+    }
+    .main-text h6 {
+        line-height: 23px;
+    }
     img#stack {
-        height: 140px;
+        height: 98px;
         margin-top: 55px;
-        margin-left: 21px;
+        margin-left: 9px;
     }
     img#terminal {
-        height: 210px;
-        margin-left: 55px;
+        height: 160px;
+        margin-left: 15px;
     }
     img#deamon {
-        height: 229px;
+        height: 160px;
         margin-left: 5px;
     }
     div.main-text {
@@ -1654,48 +1674,52 @@ div.footer-col {
         padding-left: 18px;
     }
     .main-text h6 {
-        padding-left: 18px;
+        padding-left: 6px;
         margin-bottom: 4px;
+        padding-right: 6px;
     }
     .main-text p {
         margin-left: 0;
-        padding-right: 18px;
-        padding-left: 18px;
-        margin-right: 0;
+        padding-right: 6px;
+        padding-left: 6px;
+        margin-right: 6px;
     }
     #features-edgeflux h4 {
-        margin-left: 12px;
+        margin-left: 6px;
         padding-right: 0;
+        font-size: 23px;
+        text-align: center;
     }
     #features-edgeflux ul {
         margin-left: 35px;
         padding-right: 0;
     }
+    #features-edgeflux p {
+        width: 108%;
+    }
     .dashboards h4 {
-        padding-left: 6px;
+        padding-left: 22px;
+        font-size: 23px;
+        text-align: center;
+        width: 109%;
     }
     .dashboards p {
         padding-left: 6px;
+        width: 119%;
+        line-height: 22px;
+        text-align: justify;
     }
     img#dashboard-1 {
-        height: 200px;
-        margin-left: 0;
+        height: 201px;
+        margin-left: 4px;
     }
     img#dashboard-2 {
         height: 201px;
-        margin-left: 0;
+        margin-left: 4px;
     }
     img#dashboard-3 {
         height: 201px;
-        margin-left: 0;
-    }
-    img#dashboard-4 {
-        height: 201px;
-        margin-top: 42px;
-        margin-left: 2px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 4px;
     }
     .fa-ul p {
         line-height: 23px;
@@ -1805,6 +1829,22 @@ div.footer-col {
     .button-div {
         margin-left: 50%;
     }
+    #what {
+        font-size: 23px;
+        text-align: center;
+    }
+    #intro {
+        padding-right: 0;
+        padding-left: 6px;
+        padding-right: 4px;
+    }
+    #how {
+        font-size: 23px;
+        text-align: center;
+    }
+    .main-text h6 {
+        line-height: 23px;
+    }
     img#shape {
         height: 400px;
         margin-top: 40px;
@@ -1822,7 +1862,7 @@ div.footer-col {
         margin-left: 12px;
     }
     img#deamon {
-        height: 145px;
+        height: 158px;
         margin-left: 15px;
     }
     div.main-text {
@@ -1847,6 +1887,8 @@ div.footer-col {
     #features-edgeflux h4 {
         margin-left: 2px;
         padding-right: 0;
+        font-size: 23px;
+        text-align: center;
     }
     #intro {
         padding-right: 12px;
@@ -1860,12 +1902,15 @@ div.footer-col {
         padding-right: 0;
     }
     .dashboards h4 {
-        padding-left: 6px;
+        padding-left: 22px;
+        font-size: 23px;
+        text-align: center;
+        width: 109%;
     }
     .dashboards p {
         padding-left: 6px;
-        width: 120%;
-        line-height: 23px;
+        width: 119%;
+        line-height: 22px;
         text-align: justify;
     }
     img#dashboard-1 {
@@ -2000,6 +2045,14 @@ div.footer-col {
         margin-bottom: 10px;
         opacity: 0.15;
     }
+    #what {
+        font-size: 23px;
+        text-align: center;
+    }
+    #how {
+        font-size: 23px;
+        text-align: center;
+    }
     img#stack {
         height: 88px;
         margin-top: 55px;
@@ -2055,7 +2108,10 @@ div.footer-col {
         margin-left: 0;
     }
     .dashboards h4 {
-        padding-left: 6px;
+        padding-left: 12px;
+        font-size: 23px;
+        text-align: center;
+        width: 119%;
     }
     .dashboards p {
         padding-left: 6px;
@@ -2187,6 +2243,14 @@ div.footer-col {
     .button-div {
         margin-left: 41%;
     }
+    #what {
+        font-size: 23px;
+        text-align: center;
+    }
+    #how {
+        font-size: 23px;
+        text-align: center;
+    }
     img#shape {
         height: 400px;
         margin-top: 40px;
@@ -2238,15 +2302,20 @@ div.footer-col {
         padding-left: 1px;
     }
     #features-edgeflux h4 {
-        padding-left: 97px;
+        margin-left: 36px;
         padding-right: 0;
+        font-size: 23px;
+        text-align: center;
     }
     #features-edgeflux ul {
         margin-left: 25px;
         padding-right: 0;
     }
     .dashboards h4 {
-        padding-left: 6px;
+        padding-left: 32px;
+        font-size: 23px;
+        text-align: center;
+        width: 109%;
     }
     .dashboards p {
         padding-left: 6px;
@@ -2380,6 +2449,15 @@ div.footer-col {
     .button-div {
         margin-left: 39%;
     }
+    #what {
+        font-size: 23px;
+        text-align: center;
+        padding-left: 11px;
+    }
+    #how {
+        font-size: 23px;
+        text-align: center;
+    }
     img#shape {
         height: 400px;
         margin-top: 40px;
@@ -2428,9 +2506,12 @@ div.footer-col {
         padding-left: 0px;
     }
     #features-edgeflux h4 {
-        margin-left: 1px;
+        margin-left: 17px;
         padding-right: 0;
         font-size: 24px;
+        font-size: 23px;
+        text-align: center;
+        width: 101%;
     }
     #features-edgeflux ul {
         margin-left: 25px;
@@ -2586,7 +2667,14 @@ div.footer-col {
         opacity: 0.2;
     }
     #what {
-        padding-left: 7px;
+        padding-left: 2px;
+        font-size: 23px;
+        text-align: center;
+    }
+    #how {
+        font-size: 23px;
+        text-align: center;
+        padding-left: 0;
     }
     img#stack {
         height: 74px;
@@ -2636,16 +2724,19 @@ div.footer-col {
     #features-edgeflux h4 {
         margin-left: 1px;
         padding-right: 0;
-        font-size: 24px;
+        font-size: 23px;
+        text-align: center;
+        width: 109%;
     }
     #features-edgeflux ul {
         margin-left: 25px;
         padding-right: 0;
     }
     .dashboards h4 {
-        padding-left: 7px;
-        font-size: 24px;
-        width: 111.5%;
+        padding-left: 1px;
+        font-size: 23px;
+        width: 125%;
+        text-align: center;
     }
     .dashboards p {
         padding-left: 6px;
@@ -2654,16 +2745,16 @@ div.footer-col {
         text-align: justify;
     }
     img#dashboard-1 {
-        height: 160px;
-        margin-left: 5px;
+        height: 155px;
+        margin-left: 1px;
     }
     img#dashboard-2 {
-        height: 160px;
-        margin-left: 5px;
+        height: 155px;
+        margin-left: 1px;
     }
     img#dashboard-3 {
-        height: 160px;
-        margin-left: 5px;
+        height: 155px;
+        margin-left: 1px;
     }
     img#dashboard-4 {
         height: 163px;

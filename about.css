@@ -723,6 +723,12 @@ div.footer a:hover {
     #social {
         padding-left: 24.7vw;
     }
+    
+    
+     .home-button {
+        margin-bottom: 210px;
+    }
+    
 }
 @media screen and (min-width:1600px) and (max-width:1919px) {
     section.conferences {
