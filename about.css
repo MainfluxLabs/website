@@ -488,6 +488,11 @@ p.int-sec {
     display: none;
 }
 
+
+.fifth-part { 
+display: none;
+}
+
 /* --- 3 Buttons --- */
 
 .action-call h6 {
