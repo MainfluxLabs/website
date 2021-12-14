@@ -111,12 +111,9 @@ body {
 .navbar-default {
     border: none;
     margin-bottom: 0;
-    background-color: #0b1e3b;
+    background-color: white;
     border-radius: 0;
-    background: rgb(1, 4, 28);
-    background: rgb(3, 18, 42);
-    background: rgb(3, 18, 42);
-    background: linear-gradient(90deg, rgba(3, 18, 42, 1) 27%, rgba(13, 46, 96, 1) 100%);
+    background: white;
 }
 .navbar-default .navbar-brand {
     color: #006599;
@@ -125,18 +122,18 @@ body {
     transform: scaleY(0.95);
 }
 #brand {
-    color: white;
+    color: rgb(3, 18, 42);
     margin-left: 22px;
 }
 .navbar-default .navbar-nav>li>a {
-    color: white;
+    color: rgb(102, 106, 107);
     font-family: Raleway;
     font-weight: 500;
     transform: scaleY(0.96);
     font-size: 12px;
 }
 .navbar-default .navbar-nav>li>a:visited {
-    color: white;
+    color: rgb(102, 106, 107);
 }
 .navbar-default .navbar-nav>li>a:hover {
     color: #2891c7;
@@ -214,23 +211,17 @@ a#active {
     background-image: linear-gradient(to right top, #01041c, #02071e, #030a21, #040d23, #040f26, #05132c, #041631, #041937, #051e41, #07234b, #0a2955, #0d2e60);
     z-index: 1;
 }
-#shape {
-    z-index: 2;
-    opacity: 0.4;
-    height: 600px;
-    margin-top: 20px;
-}
 h1 {
     color: white;
     font-family: Montserrat;
     font-size: 30px;
     font-weight: 700;
-    margin-top: -385px;
+    margin-top: 100px;
     line-height: normal;
     text-align: center;
     opacity: 0.999;
 }
-h3#home-sub {
+h2#home-sub {
     font-family: Montserrat;
     color: white;
     font-size: 0.9rem;
@@ -272,8 +263,16 @@ h3.section-subheadline {
     text-align: center;
 }
 
-/* ---- Tutorials  ---- */
+/* ---- INTRO  ---- */
 
+p.intro {
+    text-align: justify;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: rgb(109, 109, 109);
+    line-height: 22px;
+    font-size: 14px;
+}
 h3.section-subheadline {
     font-size: 30px;
     font-family: Montserrat;
@@ -294,7 +293,7 @@ h4 {
     font-weight: 600;
     color: rgb(0, 52, 102);
     line-height: normal;
-    margin-bottom: 3vh;
+    margin-bottom: 4px;
 }
 h5 {
     font-size: 18px;
@@ -302,7 +301,8 @@ h5 {
     font-weight: 600;
     color: rgb(0, 52, 102);
     line-height: normal;
-    margin-bottom: 1vh;
+    margin-bottom: 11px;
+    letter-spacing: -0.6px;
 }
 p.section-text {
     font-family: Montserrat;
@@ -314,12 +314,21 @@ p.section-text {
 
 /*---------- Tutorials main -----------*/
 
+.container {
+    background: white;
+}
 div.article {
     background-color: rgb(244, 245, 245);
     padding: 17px;
-    border-radius: 4px;
+    border-radius: 5px;
     overflow: hidden;
-    height: 230px;
+    height: 310px;
+}
+div.left {
+    border-right: solid 35px white;
+}
+div.right {
+    border-left: solid 35px white;
 }
 .article-date-category p {
     font-family: Montserrat;
@@ -335,19 +344,58 @@ p#category {
     float: right;
     margin-top: -26px;
 }
+.article h4 {
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
 .article h5 {
-    margin-top: 30px;
-    padding-bottom: 8px;
+    padding-bottom: 1px;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(0, 52, 102);
+}
+.cover {
+    padding-right: 0px;
+}
+#read {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(10, 71, 129);
+    padding-top: 16px;
+    letter-spacing: -0.6px;
+}
+.read-link {
+    color: rgb(10, 71, 129);
+}
+a.read-link:hover {
+    text-decoration: underline;
+    color: #0982af;
+    font-weight: 600;
+}
+#sign {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(128, 128, 128);
+    text-align: right;
+    padding-top: 6px;
+    line-height: normal;
+    padding-right: 5px;
 }
 p.tutorials-text {
     text-align: justify;
     font-family: Montserrat;
     font-weight: 400;
-    color: rgb(102, 106, 107);
+    color: rgb(109, 109, 109);
     line-height: normal;
-    font-size: 13px;
-    padding-right: 1.8vw;
+    font-size: 12px;
+    padding-right: 5px;
     margin-bottom: 3px;
+    padding-left: 5px;
+    margin-left: 0px;
 }
 
 /* ---- Action call contact us --- */
@@ -602,10 +650,7 @@ div.footer a:hover {
 }
 @media screen and (min-width:1366px) and (max-width:1399px) {
     img.img-responsive {
-        z-index: 2;
-        opacity: 0.19;
-        height: 600px;
-        margin-top: 20px;
+        margin-top: 1px;
     }
     h1 {
         color: white;
@@ -648,10 +693,7 @@ div.footer a:hover {
 }
 @media screen and (min-width:1280px) and (max-width:1365px) {
     img.img-responsive {
-        z-index: 2;
-        opacity: 0.19;
-        height: 600px;
-        margin-top: 20px;
+       margin-top: 1px;
     }
     h1 {
         color: white;
@@ -704,10 +746,7 @@ div.footer a:hover {
         margin-left: 7px;
     }
     img.img-responsive {
-        z-index: 2;
-        opacity: 0.19;
-        height: 600px;
-        margin-top: 20px;
+    margin-top: 1px;
     }
     h1 {
         color: white;
@@ -818,10 +857,7 @@ div.footer a:hover {
         margin-left: 7px;
     }
     img.img-responsive {
-        z-index: 2;
-        opacity: 0.19;
-        height: 600px;
-        margin-top: 20px;
+    margin-top: 1px;
     }
     h1 {
         color: white;
@@ -866,8 +902,7 @@ div.footer a:hover {
         margin-bottom: 25px;
     }
     .article h5 {
-        margin-top: 30px;
-        padding-bottom: 8px;
+        margin-top: 10px;
     }
     p.tutorials-text {
         text-align: justify;
@@ -1047,10 +1082,7 @@ div.footer a:hover {
         padding-left: 7px;
     }
     img.img-responsive {
-        z-index: 2;
-        opacity: 0.19;
-        height: 600px;
-        margin-top: 20px;
+    margin-top: 1px;
     }
     h1 {
         color: white;
@@ -1282,10 +1314,7 @@ div.footer a:hover {
         padding-left: 7px;
     }
     img.img-responsive {
-        z-index: 2;
-        opacity: 0.19;
-        height: 600px;
-        margin-top: 20px;
+    margin-top: 1px;
     }
     h1 {
         color: white;
@@ -1548,10 +1577,7 @@ div.footer a:hover {
         padding-left: 7px;
     }
     img.img-responsive {
-        z-index: 2;
-        opacity: 0.19;
-        height: 500px;
-        margin-top: 20px;
+      margin-top: 1px;
     }
     h1 {
         color: white;
@@ -1736,10 +1762,7 @@ div.footer a:hover {
         padding-left: 7px;
     }
     img.img-responsive {
-        z-index: 2;
-        opacity: 0.19;
-        height: 400px;
-        margin-top: 20px;
+     margin-top: 1px;
     }
     h1 {
         color: white;
@@ -1967,10 +1990,7 @@ div.footer a:hover {
         padding-left: 7px;
     }
     img.img-responsive {
-        z-index: 2;
-        opacity: 0.6;
-        height: 390px;
-        margin-top: 40px;
+      margin-top: 1px;
     }
     h1 {
         color: white;
@@ -2175,10 +2195,7 @@ div.footer a:hover {
         padding-left: 7px;
     }
     img.img-responsive {
-        z-index: 2;
-        opacity: 0.6;
-        height: 390px;
-        margin-top: 40px;
+      margin-top: 1px;
     }
     h1 {
         color: white;
@@ -2383,10 +2400,7 @@ div.footer a:hover {
         padding-left: 7px;
     }
     img.img-responsive {
-        z-index: 2;
-        opacity: 0.6;
-        height: 360px;
-        margin-top: 40px;
+     margin-top: 1px;
     }
     h1 {
         color: white;
@@ -2594,10 +2608,7 @@ div.footer a:hover {
         padding-left: 7px;
     }
     img.img-responsive {
-        z-index: 2;
-        opacity: 0.6;
-        height: 330px;
-        margin-top: 40px;
+        margin-top: 1px;
     }
     h1 {
         color: white;
