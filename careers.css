@@ -235,9 +235,9 @@ h6 {
 h1 {
     color: white;
     font-family: Montserrat;
-    font-size: 30px;
+    font-size: 65px;
     font-weight: 700;
-    margin-top: -385px;
+    margin-top: -400px;
     line-height: normal;
     text-align: center;
     opacity: 0.999;
@@ -245,7 +245,7 @@ h1 {
 h3#home-sub {
     font-family: Montserrat;
     color: white;
-    font-size: 0.9rem;
+    font-size: 0.98rem;
     font-weight: 200;
     line-height: 20px;
     letter-spacing: 0.7px;
@@ -287,7 +287,104 @@ h3.section-subheadline {
 /*----------------------------------*/
 
 
-/* ---------- Main Content ----------- */
+/* ---- IoT Platform ---- */
+
+h3 {
+    font-size: 24px;
+}
+#iot-platform {
+    margin-left: 0px;
+    width: 98%;
+}
+#iot-platform p {
+    font-size: 14px;
+    padding-left: 8px;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: justify;
+    line-height: 23px;
+}
+.section-main-text2 {
+    margin-left: 35px;
+    width: 100%;
+}
+
+/* ---- IoT Platform Section ---- */
+
+h4#references {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-left: 8px;
+    text-align: left;
+    color: rgb(0, 52, 102);
+}
+p {
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: rgb(102, 103, 107);
+    line-height: 26px;
+    padding-right:
+}
+img#stack {
+    height: 355px;
+    margin-top: 64px;
+    margin-left: 27px;
+}
+img#stack2 {
+    height: 340px;
+    margin-top: 64px;
+    padding-left: 0;
+}
+
+/* ---  3 icons --- */
+
+.test2 {
+    width: 100%;
+}
+.first {
+    margin-left: 0;
+    padding: 0 2% 0 4%;
+}
+.second {
+    margin-left: 0;
+    padding: 0 2% 0 2%;
+}
+.third {
+    margin-left: 0;
+    padding: 0 4% 0 2%;
+}
+h6.icons {
+    color: #061856;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(0, 52, 102);
+}
+p#icon-text {
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: justify;
+    padding: 0 6% 0 6%;
+}
+img#eucoop {
+    height: 80px;
+    margin: auto;
+}
+img#visibility {
+    height: 80px;
+    margin: auto;
+}
+img#techn {
+    height: 80px;
+    margin: auto;
+}
+
+/* ---------- CURRENT OPENINNGS ----------- */
 
 h3 {
     font-family: Montserrat;
@@ -327,7 +424,7 @@ p.introduction {
     padding-right: 16px;
     margin-top: 15px;
     text-align: justify;
-    line-height: 23px;
+    line-height: 25px;
 }
 h5 {
     font-family: Montserrat;
@@ -353,14 +450,24 @@ h6 {
     font-weight: 300;
     font-size: 16px;
     color: #0c3769;
-    padding-right: 16px;
+    padding-right: 46px;
     margin-left: 20px;
     margin-top: 15px;
     text-align: justify;
+    line-height: 28px;
 }
 a#email {
     color: #0c3769;
     font-weight: 400;
+}
+
+/* ----- INTERNSHIP ----- */
+
+.internship {
+    width: 32%;
+    height: 3px;
+    background-color: #00a7e0;
+    color: #00a7e0;
 }
 
 /* ----- FOOTER ----- */
@@ -657,6 +764,60 @@ div.footer a:hover {
     .adbullets {
         padding-right: 0;
     }
+    img#stack {
+        height: 285px;
+        margin-top: 62px;
+        margin-left: 1px;
+    }
+    img#stack2 {
+        height: 285px;
+        margin-top: 64px;
+        padding-left: 0;
+    }
+    /* ---  3 icons --- */
+    
+    .test2 {
+        width: 100%;
+    }
+    .first {
+        margin-left: 0;
+        padding: 0 2% 0 4%;
+    }
+    .second {
+        margin-left: 0;
+        padding: 0 2% 0 2%;
+    }
+    .third {
+        margin-left: 0;
+        padding: 0 4% 0 2%;
+    }
+    h6.icons {
+        color: #061856;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        color: rgb(0, 52, 102);
+    }
+    p#icon-text {
+        font-size: 16px;
+        font-family: Montserrat;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: justify;
+        padding: 0 4% 0 4%;
+    }
+    img#eucoop {
+        height: 80px;
+        margin: auto;
+    }
+    img#visibility {
+        height: 80px;
+        margin: auto;
+    }
+    img#techn {
+        height: 80px;
+        margin: auto;
+    }
     /* ---- FOOTER ---- */
     
     #licence p {
@@ -695,7 +856,7 @@ div.footer a:hover {
     h1 {
         color: white;
         font-family: Montserrat;
-        font-size: 30px;
+        font-size: 45px;
         font-weight: 700;
         margin-top: -385px;
         line-height: normal;
@@ -729,6 +890,69 @@ div.footer a:hover {
         padding-right: 0;
         line-height: 23px;
         text-align: left;
+    }
+    h4#references {
+        font-size: 26px;
+        text-align: center;
+    }
+    .section-main-text2 {
+        margin-left: -0.19%;
+    }
+    img#stack {
+        display: none;
+    }
+    img#stack2 {
+        display: none;
+    }
+    /* ---  3 icons --- */
+    
+    .test2 {
+        width: 100%;
+        margin-top: -5%;
+    }
+    .first {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+        margin-bottom: 8%;
+    }
+    .second {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+        margin-bottom: 8%;
+    }
+    .third {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+    }
+    h6.icons {
+        color: #061856;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        color: rgb(0, 52, 102);
+    }
+    p#icon-text {
+        font-size: 16px;
+        font-family: Montserrat;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+        padding: 0 1% 0 1%;
+    }
+    img#eucoop {
+        height: 80px;
+        margin: auto;
+    }
+    img#visibility {
+        height: 80px;
+        margin: auto;
+    }
+    img#techn {
+        height: 80px;
+        margin: auto;
     }
     /* ---- FOOTER ---- */
     
@@ -799,7 +1023,7 @@ div.footer a:hover {
     h1 {
         color: white;
         font-family: Montserrat;
-        font-size: 30px;
+        font-size: 40px;
         font-weight: 700;
         margin-top: -385px;
         line-height: normal;
@@ -833,6 +1057,73 @@ div.footer a:hover {
         padding-right: 0;
         line-height: 23px;
         text-align: left;
+    }
+    h4#references {
+        font-size: 26px;
+        text-align: center;
+    }
+    .section-main-text {
+        padding: 0 3% 0 3%;
+    }
+    .section-main-text2 {
+        margin-left: -0.19%;
+        padding: 0 3% 0 3%;
+    }
+    img#stack {
+        display: none;
+    }
+    img#stack2 {
+        display: none;
+    }
+    /* ---  3 icons --- */
+    
+    .test2 {
+        width: 100%;
+        margin-top: -5%;
+    }
+    .first {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+        margin-bottom: 8%;
+    }
+    .second {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+        margin-bottom: 8%;
+    }
+    .third {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+    }
+    h6.icons {
+        color: #061856;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        color: rgb(0, 52, 102);
+    }
+    p#icon-text {
+        font-size: 16px;
+        font-family: Montserrat;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+        padding: 0 1% 0 1%;
+    }
+    img#eucoop {
+        height: 80px;
+        margin: auto;
+    }
+    img#visibility {
+        height: 80px;
+        margin: auto;
+    }
+    img#techn {
+        height: 80px;
+        margin: auto;
     }
     /* ---- FOOTER ---- */
     
@@ -944,12 +1235,79 @@ div.footer a:hover {
     }
     p.introduction {
         line-height: 24px;
-        padding-right: 0px;
+        padding: 0;
     }
     .adbullets {
         padding-right: 0;
         line-height: 23px;
         text-align: left;
+    }
+    h4#references {
+        font-size: 26px;
+        text-align: center;
+    }
+    .section-main-text {
+        padding: 0 3% 0 3%;
+    }
+    .section-main-text2 {
+        margin-left: -0.19%;
+        padding: 0 3% 0 3%;
+    }
+    img#stack {
+        display: none;
+    }
+    img#stack2 {
+        display: none;
+    }
+    /* ---  3 icons --- */
+    
+    .test2 {
+        width: 100%;
+        margin-top: -5%;
+    }
+    .first {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+        margin-bottom: 8%;
+    }
+    .second {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+        margin-bottom: 8%;
+    }
+    .third {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+    }
+    h6.icons {
+        color: #061856;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        color: rgb(0, 52, 102);
+    }
+    p#icon-text {
+        font-size: 16px;
+        font-family: Montserrat;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+        padding: 0 1% 0 1%;
+    }
+    img#eucoop {
+        height: 80px;
+        margin: auto;
+    }
+    img#visibility {
+        height: 80px;
+        margin: auto;
+    }
+    img#techn {
+        height: 80px;
+        margin: auto;
     }
     /* ---- FOOTER ---- */
     
@@ -1034,7 +1392,7 @@ div.footer a:hover {
     h1 {
         color: white;
         font-family: Montserrat;
-        font-size: 30px;
+        font-size: 40px;
         font-weight: 700;
         margin-top: -385px;
         line-height: normal;
@@ -1050,6 +1408,7 @@ div.footer a:hover {
         letter-spacing: 0.7px;
         text-align: center;
         opacity: 0.999;
+        padding: 0 8% 0 8%;
     }
     .headline {
         margin-bottom: 85px;
@@ -1063,12 +1422,84 @@ div.footer a:hover {
     }
     p.introduction {
         line-height: 24px;
-        padding-right: 0px;
+        padding: 0;
     }
     .adbullets {
         padding-right: 0;
         line-height: 23px;
         text-align: left;
+    }
+    h4#references {
+        font-size: 25px;
+        text-align: center;
+    }
+    .section-main-text {
+        padding: 0 3% 0 3%;
+    }
+    .section-main-text2 {
+        margin-left: -0.19%;
+        padding: 0 3% 0 3%;
+    }
+    img#stack {
+        display: none;
+    }
+    img#stack2 {
+        display: none;
+    }
+    /* ---  3 icons --- */
+    
+    .test2 {
+        width: 100%;
+        margin-top: -5%;
+    }
+    .first {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+        margin-bottom: 8%;
+    }
+    .second {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+        margin-bottom: 8%;
+    }
+    .third {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+    }
+    h6.icons {
+        color: #061856;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        color: rgb(0, 52, 102);
+    }
+    p#icon-text {
+        font-size: 16px;
+        font-family: Montserrat;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+        padding: 0 1% 0 1%;
+    }
+    img#eucoop {
+        height: 80px;
+        margin: auto;
+    }
+    img#visibility {
+        height: 80px;
+        margin: auto;
+    }
+    img#techn {
+        height: 80px;
+        margin: auto;
+    }
+    #main {
+        margin: 0;
+        padding: 0;
+        margin-left: -3%
     }
     /* ---- FOOTER ---- */
     
@@ -1142,7 +1573,7 @@ div.footer a:hover {
     h1 {
         color: white;
         font-family: Montserrat;
-        font-size: 30px;
+        font-size: 40px;
         font-weight: 700;
         margin-top: -285px;
         line-height: normal;
@@ -1177,6 +1608,81 @@ div.footer a:hover {
         padding-right: 0;
         line-height: 23px;
         text-align: left;
+    }
+    h4#references {
+        font-size: 24px;
+        text-align: center;
+    }
+    .section-main-text {
+        padding: 0 3% 0 3%;
+    }
+    .section-main-text2 {
+        margin-left: -0.19%;
+        padding: 0 3% 0 3%;
+    }
+    img#stack {
+        display: none;
+    }
+    img#stack2 {
+        display: none;
+    }
+    /* ---  3 icons --- */
+    
+    .test2 {
+        width: 100%;
+        margin-top: -5%;
+    }
+    .first {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+        margin-bottom: 8%;
+    }
+    .second {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+        margin-bottom: 8%;
+    }
+    .third {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+    }
+    h6.icons {
+        color: #061856;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        color: rgb(0, 52, 102);
+    }
+    p#icon-text {
+        font-size: 16px;
+        font-family: Montserrat;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+        padding: 0 1% 0 1%;
+    }
+    img#eucoop {
+        height: 80px;
+        margin: auto;
+    }
+    img#visibility {
+        height: 80px;
+        margin: auto;
+    }
+    img#techn {
+        height: 80px;
+        margin: auto;
+    }
+    #main {
+        margin: 0;
+        padding: 0;
+        margin-left: -3%
+    }
+    #main h5 {
+        text-align: center;
     }
     /* ---- FOOTER ---- */
     
@@ -1245,7 +1751,7 @@ div.footer a:hover {
     h1 {
         color: white;
         font-family: Montserrat;
-        font-size: 30px;
+        font-size: 40px;
         font-weight: 700;
         margin-top: -275px;
         line-height: normal;
@@ -1261,6 +1767,7 @@ div.footer a:hover {
         letter-spacing: 0.7px;
         text-align: center;
         opacity: 0.999;
+        padding: 0 10% 0 10%;
     }
     .headline {
         margin-left: 0 0 85px 0;
@@ -1286,6 +1793,81 @@ div.footer a:hover {
         line-height: 23px;
         text-align: left;
         width: 100%;
+    }
+    h4#references {
+        font-size: 22px;
+        text-align: center;
+    }
+    .section-main-text {
+        padding: 0 3% 0 3%;
+    }
+    .section-main-text2 {
+        margin-left: -0.19%;
+        padding: 0 3% 0 3%;
+    }
+    img#stack {
+        display: none;
+    }
+    img#stack2 {
+        display: none;
+    }
+    /* ---  3 icons --- */
+    
+    .test2 {
+        width: 100%;
+        margin-top: -5%;
+    }
+    .first {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+        margin-bottom: 8%;
+    }
+    .second {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+        margin-bottom: 8%;
+    }
+    .third {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+    }
+    h6.icons {
+        color: #061856;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        color: rgb(0, 52, 102);
+    }
+    p#icon-text {
+        font-size: 16px;
+        font-family: Montserrat;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+        padding: 0 1% 0 1%;
+    }
+    img#eucoop {
+        height: 80px;
+        margin: auto;
+    }
+    img#visibility {
+        height: 80px;
+        margin: auto;
+    }
+    img#techn {
+        height: 80px;
+        margin: auto;
+    }
+    #main {
+        margin: 0;
+        padding: 0;
+        margin-left: -3%
+    }
+    #main h5 {
+        text-align: center;
     }
     /* ---- FOOTER ---- */
     
@@ -1377,7 +1959,7 @@ div.footer a:hover {
     h1 {
         color: white;
         font-family: Montserrat;
-        font-size: 30px;
+        font-size: 40px;
         font-weight: 700;
         margin-top: -275px;
         line-height: normal;
@@ -1393,6 +1975,7 @@ div.footer a:hover {
         letter-spacing: 0.7px;
         text-align: center;
         opacity: 0.999;
+        padding: 0 10% 0 10%;
     }
     .headline {
         margin-left: 0 0 85px 0;
@@ -1418,6 +2001,81 @@ div.footer a:hover {
         line-height: 23px;
         text-align: left;
         width: 100%;
+    }
+    h4#references {
+        font-size: 22px;
+        text-align: center;
+    }
+    .section-main-text {
+        padding: 0 3% 0 3%;
+    }
+    .section-main-text2 {
+        margin-left: -0.19%;
+        padding: 0 3% 0 3%;
+    }
+    img#stack {
+        display: none;
+    }
+    img#stack2 {
+        display: none;
+    }
+    /* ---  3 icons --- */
+    
+    .test2 {
+        width: 100%;
+        margin-top: -5%;
+    }
+    .first {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+        margin-bottom: 8%;
+    }
+    .second {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+        margin-bottom: 8%;
+    }
+    .third {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+    }
+    h6.icons {
+        color: #061856;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        color: rgb(0, 52, 102);
+    }
+    p#icon-text {
+        font-size: 16px;
+        font-family: Montserrat;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+        padding: 0 1% 0 1%;
+    }
+    img#eucoop {
+        height: 80px;
+        margin: auto;
+    }
+    img#visibility {
+        height: 80px;
+        margin: auto;
+    }
+    img#techn {
+        height: 80px;
+        margin: auto;
+    }
+    #main {
+        margin: 0;
+        padding: 0;
+        margin-left: -3%
+    }
+    #main h5 {
+        text-align: center;
     }
     /* ---- FOOTER ---- */
     
@@ -1505,7 +2163,7 @@ div.footer a:hover {
     h1 {
         color: white;
         font-family: Montserrat;
-        font-size: 28px;
+        font-size: 35px;
         font-weight: 700;
         margin-top: -265px;
         line-height: normal;
@@ -1521,6 +2179,7 @@ div.footer a:hover {
         letter-spacing: 0.7px;
         text-align: center;
         opacity: 0.999;
+        padding: 0 10% 0 10%;
     }
     .headline {
         margin-left: 0 0 85px 0;
@@ -1546,6 +2205,81 @@ div.footer a:hover {
         line-height: 23px;
         text-align: left;
         width: 100%;
+    }
+    h4#references {
+        font-size: 20px;
+        text-align: center;
+    }
+    .section-main-text {
+        padding: 0 3% 0 3%;
+    }
+    .section-main-text2 {
+        margin-left: -0.19%;
+        padding: 0 3% 0 3%;
+    }
+    img#stack {
+        display: none;
+    }
+    img#stack2 {
+        display: none;
+    }
+    /* ---  3 icons --- */
+    
+    .test2 {
+        width: 100%;
+        margin-top: -5%;
+    }
+    .first {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+        margin-bottom: 8%;
+    }
+    .second {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+        margin-bottom: 8%;
+    }
+    .third {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+    }
+    h6.icons {
+        color: #061856;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        color: rgb(0, 52, 102);
+    }
+    p#icon-text {
+        font-size: 16px;
+        font-family: Montserrat;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+        padding: 0 1% 0 1%;
+    }
+    img#eucoop {
+        height: 80px;
+        margin: auto;
+    }
+    img#visibility {
+        height: 80px;
+        margin: auto;
+    }
+    img#techn {
+        height: 80px;
+        margin: auto;
+    }
+    #main {
+        margin: 0;
+        padding: 0;
+        margin-left: -3%
+    }
+    #main h5 {
+        text-align: center;
     }
     /* ---- FOOTER ---- */
     
@@ -1633,7 +2367,7 @@ div.footer a:hover {
     h1 {
         color: white;
         font-family: Montserrat;
-        font-size: 28px;
+        font-size: 35px;
         font-weight: 700;
         margin-top: -255px;
         line-height: normal;
@@ -1649,6 +2383,7 @@ div.footer a:hover {
         letter-spacing: 0.7px;
         text-align: center;
         opacity: 0.999;
+        padding: 0 10% 0 10%;
     }
     .headline {
         margin-left: 0 0 85px 0;
@@ -1674,6 +2409,81 @@ div.footer a:hover {
         line-height: 23px;
         text-align: left;
         width: 100%;
+    }
+    h4#references {
+        font-size: 20px;
+        text-align: center;
+    }
+    .section-main-text {
+        padding: 0 3% 0 3%;
+    }
+    .section-main-text2 {
+        margin-left: -0.19%;
+        padding: 0 3% 0 3%;
+    }
+    img#stack {
+        display: none;
+    }
+    img#stack2 {
+        display: none;
+    }
+    /* ---  3 icons --- */
+    
+    .test2 {
+        width: 100%;
+        margin-top: -5%;
+    }
+    .first {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+        margin-bottom: 8%;
+    }
+    .second {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+        margin-bottom: 8%;
+    }
+    .third {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+    }
+    h6.icons {
+        color: #061856;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        color: rgb(0, 52, 102);
+    }
+    p#icon-text {
+        font-size: 16px;
+        font-family: Montserrat;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+        padding: 0 1% 0 1%;
+    }
+    img#eucoop {
+        height: 80px;
+        margin: auto;
+    }
+    img#visibility {
+        height: 80px;
+        margin: auto;
+    }
+    img#techn {
+        height: 80px;
+        margin: auto;
+    }
+    #main {
+        margin: 0;
+        padding: 0;
+        margin-left: -3%
+    }
+    #main h5 {
+        text-align: center;
     }
     /* ---- FOOTER ---- */
     
@@ -1761,7 +2571,7 @@ div.footer a:hover {
     h1 {
         color: white;
         font-family: Montserrat;
-        font-size: 28px;
+        font-size: 35px;
         font-weight: 700;
         margin-top: -245px;
         line-height: normal;
@@ -1777,6 +2587,7 @@ div.footer a:hover {
         letter-spacing: 0.7px;
         text-align: center;
         opacity: 0.999;
+        padding: 0 10% 0 10%;
     }
     .headline {
         margin-left: 0 0 85px 0;
@@ -1805,6 +2616,81 @@ div.footer a:hover {
         line-height: 23px;
         text-align: left;
         width: 100%;
+    }
+    h4#references {
+        font-size: 18px;
+        text-align: center;
+    }
+    .section-main-text {
+        padding: 0 3% 0 3%;
+    }
+    .section-main-text2 {
+        margin-left: -0.19%;
+        padding: 0 3% 0 3%;
+    }
+    img#stack {
+        display: none;
+    }
+    img#stack2 {
+        display: none;
+    }
+    /* ---  3 icons --- */
+    
+    .test2 {
+        width: 100%;
+        margin-top: -5%;
+    }
+    .first {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+        margin-bottom: 8%;
+    }
+    .second {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+        margin-bottom: 8%;
+    }
+    .third {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+    }
+    h6.icons {
+        color: #061856;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        color: rgb(0, 52, 102);
+    }
+    p#icon-text {
+        font-size: 16px;
+        font-family: Montserrat;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+        padding: 0 1% 0 1%;
+    }
+    img#eucoop {
+        height: 80px;
+        margin: auto;
+    }
+    img#visibility {
+        height: 80px;
+        margin: auto;
+    }
+    img#techn {
+        height: 80px;
+        margin: auto;
+    }
+    #main {
+        margin: 0;
+        padding: 0;
+        margin-left: -3%
+    }
+    #main h5 {
+        text-align: center;
     }
     /* ---- FOOTER ---- */
     
@@ -1895,7 +2781,7 @@ div.footer a:hover {
     h1 {
         color: white;
         font-family: Montserrat;
-        font-size: 28px;
+        font-size: 35px;
         font-weight: 700;
         margin-top: -225px;
         line-height: normal;
@@ -1911,6 +2797,7 @@ div.footer a:hover {
         letter-spacing: 0.7px;
         text-align: center;
         opacity: 0.999;
+        padding: 0 10% 0 10%;
     }
     .headline {
         margin-left: 0 0 85px 0;
@@ -1939,6 +2826,81 @@ div.footer a:hover {
         line-height: 23px;
         text-align: left;
         width: 100%;
+    }
+    h4#references {
+        font-size: 18px;
+        text-align: center;
+    }
+    .section-main-text {
+        padding: 0 3% 0 3%;
+    }
+    .section-main-text2 {
+        margin-left: -0.19%;
+        padding: 0 3% 0 3%;
+    }
+    img#stack {
+        display: none;
+    }
+    img#stack2 {
+        display: none;
+    }
+    /* ---  3 icons --- */
+    
+    .test2 {
+        width: 100%;
+        margin-top: -5%;
+    }
+    .first {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+        margin-bottom: 8%;
+    }
+    .second {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+        margin-bottom: 8%;
+    }
+    .third {
+        margin-left: 0%;
+        padding: 0 5% 0 5%;
+        width: auto;
+    }
+    h6.icons {
+        color: #061856;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        color: rgb(0, 52, 102);
+    }
+    p#icon-text {
+        font-size: 16px;
+        font-family: Montserrat;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+        padding: 0 1% 0 1%;
+    }
+    img#eucoop {
+        height: 80px;
+        margin: auto;
+    }
+    img#visibility {
+        height: 80px;
+        margin: auto;
+    }
+    img#techn {
+        height: 80px;
+        margin: auto;
+    }
+    #main {
+        margin: 0;
+        padding: 0;
+        margin-left: -3%
+    }
+    #main h5 {
+        text-align: center;
     }
     /*---- FOOTER ---- */
     
