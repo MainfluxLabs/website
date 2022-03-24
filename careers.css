@@ -319,6 +319,7 @@ h4#references {
     padding-left: 8px;
     text-align: left;
     color: rgb(0, 52, 102);
+    line-height: 29px;
 }
 p {
     font-size: 14px;
@@ -585,15 +586,84 @@ div.footer a:hover {
 
 /* ---- Extra Large Desktops ---- */
 
-@media screen and (min-width:1920px) and (max-width:2560px) {}
-.footer-line {
-    width: 85vw;
-    margin-left: 5.9vw;
-}
-#social {
-    padding-left: 24.7vw;
-}
-
+@media screen and (min-width:1920px) and (max-width:2560px) {
+    /* ---- IoT Platform ---- */
+    h3 {
+        font-size: 24px;
+    }
+    #iot-platform {
+        margin-left: 0px;
+        width: 98%;
+    }
+    #iot-platform p {
+        font-size: 14px;
+        padding-left: 8px;
+        font-weight: 300;
+        font-size: 16px;
+        margin-top: 15px;
+        text-align: justify;
+        line-height: 23px;
+    }
+    .section-main-text1 {
+        width: 109%;
+        margin-left: -8%;
+    }
+    .section-main-text2 {
+        margin-left: 8%;
+        width: 109%;
+    }
+    img#stack {
+        height: 355px;
+        margin-top: 64px;
+        margin-left: 8%;
+    }
+    img#stack2 {
+        height: 355px;
+        margin-top: 64px;
+        padding-left: 0;
+        margin-left: -7%;
+    }
+    h4#references {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        padding-left: 8px;
+        text-align: left;
+        color: rgb(0, 52, 102);
+        line-height: 29px;
+    }
+    p {
+        font-size: 14px;
+        font-family: Montserrat;
+        font-weight: 400;
+        color: rgb(102, 103, 107);
+        line-height: 26px;
+        padding-right:
+    }
+    /* ---  3 icons --- */
+    .test2 {
+        width: 85%;
+    }
+    .first {
+        margin-left: 0;
+        padding: 0 1% 0 4%;
+    }
+    .second {
+        margin-left: 0;
+        padding: 0 1% 0 2%;
+    }
+    .third {
+        margin-left: 0;
+        padding: 0 3% 0 2%;
+    }
+    /* ---  footer --- */
+    .footer-line {
+        width: 85vw;
+        margin-left: 5.9vw;
+    }
+    #social {
+        padding-left: 24.7vw;
+    }
 }
 @media screen and (min-width:1600px) and (max-width:1919px) {
     section.conferences {
@@ -602,8 +672,69 @@ div.footer a:hover {
     #logoconf {
         margin-left: -82px;
     }
+    .section-main-text1 {
+        width: 109%;
+        margin-left: -8%;
+    }
+    .section-main-text2 {
+        margin-left: 8%;
+        width: 109%;
+    }
+    img#stack {
+        height: 355px;
+        margin-top: 64px;
+        margin-left: 8%;
+    }
+    img#stack2 {
+        height: 355px;
+        margin-top: 64px;
+        padding-left: 0;
+        margin-left: -7%;
+    }
+    /* ---  3 icons --- */
+    .test2 {
+        width: 100%;
+    }
+    .first {
+        margin-left: 0;
+        padding: 0 1% 0 5%;
+    }
+    .second {
+        margin-left: 0;
+        padding: 0 2% 0 3%;
+    }
+    .third {
+        margin-left: 0;
+        padding: 0 4% 0 3%;
+    }
+    h6.icons {
+        color: #061856;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        color: rgb(0, 52, 102);
+    }
+    p#icon-text {
+        font-size: 16px;
+        font-family: Montserrat;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: justify;
+        padding: 0 6% 0 6%;
+    }
+    img#eucoop {
+        height: 80px;
+        margin: auto;
+    }
+    img#visibility {
+        height: 80px;
+        margin: auto;
+    }
+    img#techn {
+        height: 80px;
+        margin: auto;
+    }
     /* ---- FOOTER ---- */
-    
     .footer-line {
         width: 84vw;
         margin-left: 6.9vw;
@@ -618,6 +749,41 @@ div.footer a:hover {
     }
     #logoconf {
         margin-left: -82px;
+    }
+    .section-main-text1 {
+        width: 109%;
+        margin-left: -8%;
+    }
+    .section-main-text2 {
+        margin-left: 8%;
+        width: 109%;
+    }
+    img#stack {
+        height: 355px;
+        margin-top: 64px;
+        margin-left: 8%;
+    }
+    img#stack2 {
+        height: 355px;
+        margin-top: 64px;
+        padding-left: 0;
+        margin-left: -7%;
+    }
+    /* ---  3 icons --- */
+    .test2 {
+        width: 100%;
+    }
+    .first {
+        margin-left: 0;
+        padding: 0 1% 0 5%;
+    }
+    .second {
+        margin-left: 0;
+        padding: 0 2% 0 3%;
+    }
+    .third {
+        margin-left: 0;
+        padding: 0 4% 0 3%;
     }
 }
 @media screen and (min-width:1366px) and (max-width:1399px) {
@@ -653,6 +819,22 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 205px;
     }
+    /* ---  3 icons --- */
+    .test2 {
+        width: 100%;
+    }
+    .first {
+        margin-left: 0;
+        padding: 0 1% 0 5%;
+    }
+    .second {
+        margin-left: 0;
+        padding: 0 2% 0 3%;
+    }
+    .third {
+        margin-left: 0;
+        padding: 0 4% 0 3%;
+    }
     #soc-icons i {
         font-size: 1.5rem;
         color: #0c3769;
@@ -663,7 +845,6 @@ div.footer a:hover {
         display: none;
     }
     /* ---- FOOTER ---- */
-    
     .footer-line {
         width: 82vw;
         margin-left: 8.1vw;
@@ -705,8 +886,26 @@ div.footer a:hover {
     .home-button {
         margin-bottom: 205px;
     }
+    .section-main-text1 {
+        width: 109%;
+        margin-left: -8%;
+    }
+    .section-main-text2 {
+        margin-left: 8%;
+        width: 109%;
+    }
+    img#stack {
+        height: 355px;
+        margin-top: 64px;
+        margin-left: 8%;
+    }
+    img#stack2 {
+        height: 355px;
+        margin-top: 64px;
+        padding-left: 0;
+        margin-left: -7%;
+    }
     /* ---- FOOTER ---- */
-    
     .footer-col {
         margin-left: 50px;
         width: auto;
@@ -732,7 +931,7 @@ div.footer a:hover {
     h1 {
         color: white;
         font-family: Montserrat;
-        font-size: 30px;
+        font-size: 48px;
         font-weight: 700;
         margin-top: -385px;
         line-height: normal;
@@ -775,7 +974,6 @@ div.footer a:hover {
         padding-left: 0;
     }
     /* ---  3 icons --- */
-    
     .test2 {
         width: 100%;
     }
@@ -819,7 +1017,6 @@ div.footer a:hover {
         margin: auto;
     }
     /* ---- FOOTER ---- */
-    
     #licence p {
         margin-left: 9vw;
     }
@@ -897,6 +1094,7 @@ div.footer a:hover {
     }
     .section-main-text2 {
         margin-left: -0.19%;
+        margin-top: -7%;
     }
     img#stack {
         display: none;
@@ -905,10 +1103,9 @@ div.footer a:hover {
         display: none;
     }
     /* ---  3 icons --- */
-    
     .test2 {
         width: 100%;
-        margin-top: -5%;
+        margin-top: -12%;
     }
     .first {
         margin-left: 0%;
@@ -955,7 +1152,6 @@ div.footer a:hover {
         margin: auto;
     }
     /* ---- FOOTER ---- */
-    
     .footer-col {
         margin-bottom: 22px;
         padding-bottom: 15px;
@@ -1023,7 +1219,7 @@ div.footer a:hover {
     h1 {
         color: white;
         font-family: Montserrat;
-        font-size: 40px;
+        font-size: 45px;
         font-weight: 700;
         margin-top: -385px;
         line-height: normal;
@@ -1068,6 +1264,7 @@ div.footer a:hover {
     .section-main-text2 {
         margin-left: -0.19%;
         padding: 0 3% 0 3%;
+        margin-top: -7%;
     }
     img#stack {
         display: none;
@@ -1076,10 +1273,9 @@ div.footer a:hover {
         display: none;
     }
     /* ---  3 icons --- */
-    
     .test2 {
         width: 100%;
-        margin-top: -5%;
+        margin-top: -16%;
     }
     .first {
         margin-left: 0%;
@@ -1125,8 +1321,10 @@ div.footer a:hover {
         height: 80px;
         margin: auto;
     }
+    br.brs {
+        display: none;
+    }
     /* ---- FOOTER ---- */
-    
     .footer-col {
         margin-bottom: 22px;
         padding-bottom: 15px;
@@ -1206,7 +1404,7 @@ div.footer a:hover {
     h1 {
         color: white;
         font-family: Montserrat;
-        font-size: 30px;
+        font-size: 48px;
         font-weight: 700;
         margin-top: -385px;
         line-height: normal;
@@ -1252,6 +1450,7 @@ div.footer a:hover {
     .section-main-text2 {
         margin-left: -0.19%;
         padding: 0 3% 0 3%;
+        margin-top: -7%;
     }
     img#stack {
         display: none;
@@ -1260,10 +1459,9 @@ div.footer a:hover {
         display: none;
     }
     /* ---  3 icons --- */
-    
     .test2 {
         width: 100%;
-        margin-top: -5%;
+        margin-top: -17%;
     }
     .first {
         margin-left: 0%;
@@ -1309,8 +1507,10 @@ div.footer a:hover {
         height: 80px;
         margin: auto;
     }
+    br.brs {
+        display: none;
+    }
     /* ---- FOOTER ---- */
-    
     .footer-col {
         margin-bottom: 22px;
         padding-bottom: 15px;
@@ -1408,7 +1608,7 @@ div.footer a:hover {
         letter-spacing: 0.7px;
         text-align: center;
         opacity: 0.999;
-        padding: 0 8% 0 8%;
+        padding: 0 8% 0 9%;
     }
     .headline {
         margin-bottom: 85px;
@@ -1439,6 +1639,7 @@ div.footer a:hover {
     .section-main-text2 {
         margin-left: -0.19%;
         padding: 0 3% 0 3%;
+        margin-top: -10%;
     }
     img#stack {
         display: none;
@@ -1447,10 +1648,9 @@ div.footer a:hover {
         display: none;
     }
     /* ---  3 icons --- */
-    
     .test2 {
         width: 100%;
-        margin-top: -5%;
+        margin-top: -20%;
     }
     .first {
         margin-left: 0%;
@@ -1501,8 +1701,10 @@ div.footer a:hover {
         padding: 0;
         margin-left: -3%
     }
+    br.brs {
+        display: none;
+    }
     /* ---- FOOTER ---- */
-    
     .footer-col {
         margin-bottom: 22px;
         padding-bottom: 15px;
@@ -1589,6 +1791,7 @@ div.footer a:hover {
         letter-spacing: 0.7px;
         text-align: center;
         opacity: 0.999;
+        padding: 0 8% 0 9%;
     }
     .headline {
         margin-bottom: 85px;
@@ -1619,6 +1822,7 @@ div.footer a:hover {
     .section-main-text2 {
         margin-left: -0.19%;
         padding: 0 3% 0 3%;
+        margin-top: -15%;
     }
     img#stack {
         display: none;
@@ -1627,10 +1831,9 @@ div.footer a:hover {
         display: none;
     }
     /* ---  3 icons --- */
-    
     .test2 {
         width: 100%;
-        margin-top: -5%;
+        margin-top: -25%;
     }
     .first {
         margin-left: 0%;
@@ -1684,8 +1887,10 @@ div.footer a:hover {
     #main h5 {
         text-align: center;
     }
+    br.brs {
+        display: none;
+    }
     /* ---- FOOTER ---- */
-    
     .footer-col {
         margin-bottom: 22px;
         padding-bottom: 15px;
@@ -1804,6 +2009,7 @@ div.footer a:hover {
     .section-main-text2 {
         margin-left: -0.19%;
         padding: 0 3% 0 3%;
+        margin-top: -19%;
     }
     img#stack {
         display: none;
@@ -1812,10 +2018,9 @@ div.footer a:hover {
         display: none;
     }
     /* ---  3 icons --- */
-    
     .test2 {
         width: 100%;
-        margin-top: -5%;
+        margin-top: -30%;
     }
     .first {
         margin-left: 0%;
@@ -1869,8 +2074,10 @@ div.footer a:hover {
     #main h5 {
         text-align: center;
     }
+    br.brs {
+        display: none;
+    }
     /* ---- FOOTER ---- */
-    
     .footer-col {
         margin-bottom: 22px;
         padding-bottom: 15px;
@@ -1975,7 +2182,7 @@ div.footer a:hover {
         letter-spacing: 0.7px;
         text-align: center;
         opacity: 0.999;
-        padding: 0 10% 0 10%;
+        padding: 0 10% 0 11%;
     }
     .headline {
         margin-left: 0 0 85px 0;
@@ -2012,6 +2219,7 @@ div.footer a:hover {
     .section-main-text2 {
         margin-left: -0.19%;
         padding: 0 3% 0 3%;
+        margin-top: -20%;
     }
     img#stack {
         display: none;
@@ -2020,10 +2228,9 @@ div.footer a:hover {
         display: none;
     }
     /* ---  3 icons --- */
-    
     .test2 {
         width: 100%;
-        margin-top: -5%;
+        margin-top: -31%;
     }
     .first {
         margin-left: 0%;
@@ -2077,8 +2284,10 @@ div.footer a:hover {
     #main h5 {
         text-align: center;
     }
+    br.brs {
+        display: none;
+    }
     /* ---- FOOTER ---- */
-    
     .footer-col {
         margin-bottom: 22px;
         padding-bottom: 15px;
@@ -2216,6 +2425,7 @@ div.footer a:hover {
     .section-main-text2 {
         margin-left: -0.19%;
         padding: 0 3% 0 3%;
+        margin-top: -21%;
     }
     img#stack {
         display: none;
@@ -2224,10 +2434,9 @@ div.footer a:hover {
         display: none;
     }
     /* ---  3 icons --- */
-    
     .test2 {
         width: 100%;
-        margin-top: -5%;
+        margin-top: -33%;
     }
     .first {
         margin-left: 0%;
@@ -2281,8 +2490,10 @@ div.footer a:hover {
     #main h5 {
         text-align: center;
     }
+    br.brs {
+        display: none;
+    }
     /* ---- FOOTER ---- */
-    
     .footer-col {
         margin-bottom: 22px;
         padding-bottom: 15px;
@@ -2420,6 +2631,7 @@ div.footer a:hover {
     .section-main-text2 {
         margin-left: -0.19%;
         padding: 0 3% 0 3%;
+        margin-top: -24%;
     }
     img#stack {
         display: none;
@@ -2428,10 +2640,9 @@ div.footer a:hover {
         display: none;
     }
     /* ---  3 icons --- */
-    
     .test2 {
         width: 100%;
-        margin-top: -5%;
+        margin-top: -35%;
     }
     .first {
         margin-left: 0%;
@@ -2485,8 +2696,10 @@ div.footer a:hover {
     #main h5 {
         text-align: center;
     }
+    br.brs {
+        display: none;
+    }
     /* ---- FOOTER ---- */
-    
     .footer-col {
         margin-bottom: 22px;
         padding-bottom: 15px;
@@ -2627,6 +2840,7 @@ div.footer a:hover {
     .section-main-text2 {
         margin-left: -0.19%;
         padding: 0 3% 0 3%;
+        margin-top: -24%;
     }
     img#stack {
         display: none;
@@ -2635,10 +2849,9 @@ div.footer a:hover {
         display: none;
     }
     /* ---  3 icons --- */
-    
     .test2 {
         width: 100%;
-        margin-top: -5%;
+        margin-top: -37%;
     }
     .first {
         margin-left: 0%;
@@ -2692,8 +2905,10 @@ div.footer a:hover {
     #main h5 {
         text-align: center;
     }
+    br.brs {
+        display: none;
+    }
     /* ---- FOOTER ---- */
-    
     .footer-col {
         margin-bottom: 22px;
         padding-bottom: 15px;
@@ -2837,6 +3052,7 @@ div.footer a:hover {
     .section-main-text2 {
         margin-left: -0.19%;
         padding: 0 3% 0 3%;
+        margin-top: -24%
     }
     img#stack {
         display: none;
@@ -2845,10 +3061,9 @@ div.footer a:hover {
         display: none;
     }
     /* ---  3 icons --- */
-    
     .test2 {
         width: 100%;
-        margin-top: -5%;
+        margin-top: -35%;
     }
     .first {
         margin-left: 0%;
@@ -2902,8 +3117,10 @@ div.footer a:hover {
     #main h5 {
         text-align: center;
     }
+    br.brs {
+        display: none;
+    }
     /*---- FOOTER ---- */
-    
     .footer-col {
         margin-bottom: 22px;
         padding-bottom: 15px;
