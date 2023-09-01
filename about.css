@@ -346,7 +346,7 @@ hr#quick-preview {
     margin-bottom: 50px;
 }
 
-/* ---- Mainflux Company ---
+
 p#company {
     text-align: left;
     font-family: Montserrat;
@@ -489,8 +489,12 @@ p.int-sec {
 }
 
 
-.fifth-part { 
+.fifth-part {
 display: none;
+}
+
+.dusan {
+  display: none;
 }
 
 /* --- 3 Buttons --- */
@@ -728,12 +732,12 @@ div.footer a:hover {
     #social {
         padding-left: 24.7vw;
     }
-    
-    
+
+
      .home-button {
         margin-bottom: 210px;
     }
-    
+
 }
 @media screen and (min-width:1600px) and (max-width:1919px) {
     section.conferences {

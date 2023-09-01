@@ -471,6 +471,16 @@ a#email {
     color: #00a7e0;
 }
 
+.introduction {
+    display: none;
+}
+.about {
+   display: none;
+
+}
+/* ----- ABOUT ----- */
+
+
 /* ----- FOOTER ----- */
 
 div.footer {
