@@ -102,6 +102,7 @@ section {
     display: block;
     margin-bottom: 40px;
 }
+
 body {
     line-height: 1;
 }
@@ -118,68 +119,85 @@ body {
     background: rgb(3, 18, 42);
     background: linear-gradient(90deg, rgba(3, 18, 42, 1) 27%, rgba(13, 46, 96, 1) 100%);
 }
+
 .navbar-default .navbar-brand {
     color: #006599;
     font-family: Montserrat;
     font-weight: 800;
     transform: scaleY(0.95);
 }
+
 #brand {
     color: #006599;
     margin-left: 22px;
 }
-.navbar-default .navbar-nav>li>a {
+
+.navbar-default .navbar-nav > li > a {
     color: white;
     font-family: Raleway;
     font-weight: 500;
     transform: scaleY(0.96);
     font-size: 14px;
 }
-.navbar-default .navbar-nav>li>a:visited {
+
+.navbar-default .navbar-nav > li > a:visited {
     color: white;
 }
-.navbar-default .navbar-nav>li>a:hover {
+
+.navbar-default .navbar-nav > li > a:hover {
     color: #2891c7;
 }
-.navbar-default .navbar-nav>li>a:active {
+
+.navbar-default .navbar-nav > li > a:active {
     color: #2891c7;
 }
+
 a#active {
     color: #2891c7;
 }
+
 .navbar-default .navbar-brand {
     color: white;
 }
+
 #brand {
     color: white;
     margin-left: 2px;
 }
+
 .navbar-default .navbar-brand:hover {
     color: white;
 }
+
 .navbar-toggle {
     border: none;
 }
+
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
     background-color: #e5ebf4;
 }
+
 .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
 }
+
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #006599;
     ;
 }
+
 .navbar-collapse {
     border: none;
 }
+
 ..dropdown {
     position: relative;
     display: inline-block;
     font-family: Montserrat;
     font-size: 14px;
 }
+
 .dropdown-menu {
     display: none;
     position: absolute;
@@ -192,29 +210,35 @@ a#active {
     font-family: Montserrat;
     font-size: 14px;
 }
+
 .dropdown-menu a:hover {
     background-color: white;
     color: white;
     font-family: Montserrat;
     font-size: 14px;
 }
+
 .dropdown:hover .dropdown-menu {
     display: block;
     background-color: #006599;
     color: white;
 }
+
 .dropdown:hover {
     background-color: #006599;
     color: white;
 }
-.dropdown-menu>li>a {
+
+.dropdown-menu > li > a {
     color: white;
     font-size: 14px;
 }
+
 ol,
 ul {
     list-style: none;
 }
+
 h6 {
     font-size: 12px;
     font-family: Montserrat;
@@ -230,12 +254,14 @@ h6 {
     background-image: linear-gradient(to right top, #01041c, #02071e, #030a21, #040d23, #040f26, #05132c, #041631, #041937, #051e41, #07234b, #0a2955, #0d2e60);
     z-index: 1;
 }
+
 img.img-responsive {
     z-index: 2;
     opacity: 0.19;
     height: 600px;
     margin-top: 20px;
 }
+
 h1 {
     color: white;
     font-family: Montserrat;
@@ -246,6 +272,7 @@ h1 {
     text-align: center;
     opacity: 0.999;
 }
+
 h3#home-sub {
     font-family: Montserrat;
     color: white;
@@ -256,17 +283,21 @@ h3#home-sub {
     text-align: center;
     opacity: 0.999;
 }
+
 .headline {
     margin-bottom: 85px;
 }
+
 .home-button {
     margin-bottom: 180px;
 }
+
 .btn {
     font-family: Montserrat;
     font-size: 12px;
     width: 190px;
 }
+
 #contactus-home {
     border: 3px solid #006599;
     background-color: transparent;
@@ -275,6 +306,7 @@ h3#home-sub {
     width: 175px;
     border-radius: 3px;
 }
+
 #contactus-home:hover {
     background-color: #035e8d;
     color: white;
@@ -290,12 +322,14 @@ h3.section-subheadline {
     margin-bottom: 20px;
     text-align: center;
 }
+
 hr.subhead-hr {
     width: 12%;
     height: 3px;
     background-color: rgb(0, 167, 224);
     color: rgb(0, 167, 224);
 }
+
 h4 {
     font-size: 25px;
     font-family: Montserrat;
@@ -304,6 +338,7 @@ h4 {
     line-height: normal;
     margin-bottom: 3vh;
 }
+
 h5 {
     font-size: 18px;
     font-family: Montserrat;
@@ -312,6 +347,7 @@ h5 {
     line-height: normal;
     margin-bottom: 1vh;
 }
+
 p.section-text {
     font-family: Montserrat;
     font-weight: 400;
@@ -332,12 +368,14 @@ p.section-text {
     padding-right: 15px;
     margin-top: -1px;
 }
+
 #preview p {
     display: flex;
     padding-right: 12px;
     line-height: 21px;
     color: rgb(102, 106, 107);
 }
+
 hr#quick-preview {
     width: 12%;
     height: 3px;
@@ -355,9 +393,8 @@ p#company {
     line-height: 21px;
     font-size: 15px;
 }
+
 ---------------------------- */
-
-
 /* ---- Mainflux team ---- */
 
 #mainflux-team {
@@ -365,6 +402,7 @@ p#company {
     padding-bottom: 25px;
     padding-top: 8px;
 }
+
 .mainflux-team p {
     text-align: left;
     font-family: Montserrat;
@@ -375,6 +413,7 @@ p#company {
     text-align: justify;
     margin-bottom: 55px;
 }
+
 .old-mirko {
     display: none;
 }
@@ -390,6 +429,7 @@ p#company {
     border-radius: 4px;
     font-size: 14px;
 }
+
 #team-contact-us:hover {
     border: 3px solid #035e8d;
     background-color: #035e8d;
@@ -402,13 +442,16 @@ p#company {
     border-bottom: 1px solid rgb(230, 230, 230, 0.7);
     margin-bottom: 50px;
 }
+
 .bio-member {
     margin-bottom: 40px;
 }
+
 .img-member img {
     height: 202px;
     margin-bottom: 2px;
 }
+
 p.expertise {
     font-weight: 500;
     font-family: Montserrat;
@@ -416,39 +459,47 @@ p.expertise {
     color: rgb(0, 52, 102);
     line-height: normal;
 }
+
 .img-member {
     padding-right: 0;
 }
+
 .name-member {
     padding-left: 0;
 }
+
 p.name {
     font-weight: 700;
     font-family: Montserrat;
     font-size: 19px;
     color: rgb(0, 52, 102);
 }
+
 p.role {
     font-weight: 600;
     font-family: Montserrat;
     font-size: 18px;
     color: rgb(0, 52, 102);
 }
+
 i.fa-linkedin {
     font-size: 22px;
     color: rgb(0, 52, 102);
     margin-left: 3px;
 }
+
 i.fa-github {
     font-size: 21px;
     color: rgb(0, 52, 102);
     margin-left: 6px;
 }
+
 i.fa-twitter {
     font-size: 20px;
     color: rgb(0, 52, 102);
     margin-left: 9px;
 }
+
 .bio-member p {
     font-family: Montserrat;
     font-weight: 400;
@@ -457,19 +508,23 @@ i.fa-twitter {
     font-size: 13px;
     padding-right: 2.5vw;
 }
+
 hr.subsub-hr {
     width: 12%;
     height: 3px;
     background-color: rgb(0, 167, 224);
     color: rgb(0, 167, 224);
 }
+
 .stack-row {
     margin-top: 3vh;
     margin-bottom: 6vh;
 }
+
 h4.int-sec {
     text-align: center;
 }
+
 p.int-sec {
     text-align: justify;
     font-family: Montserrat;
@@ -478,23 +533,26 @@ p.int-sec {
     line-height: normal;
     font-size: 16px;
 }
+
 .right p {
     padding-right: 2.5vw;
 }
+
 .stack-row p {
     padding-right: 2.5vw;
 }
+
 .fourth-part {
     display: none;
 }
 
 
 .fifth-part {
-display: none;
+    display: none;
 }
 
 .dusan {
-  display: none;
+    display: none;
 
 }
 
@@ -509,6 +567,7 @@ display: none;
     line-height: normal;
     font-size: 12px;
 }
+
 #action-call .btn {
     border: 3px solid #006599;
     background-color: transparent;
@@ -518,6 +577,7 @@ display: none;
     border-radius: 3px;
     font-size: 14px;
 }
+
 #action-call .btn:hover {
     background-color: #061856;
     color: white;
@@ -530,49 +590,59 @@ display: none;
     background-color: #071440;
     border-bottom: 8px solid #006599;
 }
+
 #logoconf {
     margin-bottom: 26px;
 }
+
 #conferences h3 {
     color: white;
     font-size: 25px;
     margin-top: 35px;
     margin-bottom: 36px;
 }
+
 #open {
     height: 100px;
     margin-top: -32px;
     margin-left: -12px;
 }
+
 #relly {
     height: 44px;
     margin-left: 147px;
     margin-top: 10px;
 }
+
 #barcelona {
     height: 38px;
     margin-left: 166px;
     margin-top: 18px;
 }
+
 #fosdem {
     height: 49px;
     margin-left: 180px;
     margin-top: 6px;
 }
+
 #emotion {
     height: 64px;
     margin-left: 164px;
 }
+
 #golab {
     height: 30px;
     margin-left: 236px;
     margin-top: 15px;
 }
+
 #ons {
     height: 50px;
     margin-left: 237px;
     margin-top: 15px;
 }
+
 #itnext {
     height: 68px;
     margin-left: 224px;
@@ -583,6 +653,7 @@ display: none;
 .news h5 {
     font-size: 16px;
 }
+
 p.news-text {
     font-family: Montserrat;
     font-weight: 400;
@@ -592,11 +663,13 @@ p.news-text {
     text-align: justify;
     margin-top: 8px;
 }
+
 a.news-link {
     font-weight: 500;
     font-family: Montserrat;
     font-size: 13px;
 }
+
 a.news-link:hover {
     text-decoration: none;
     color: #061856;
@@ -609,6 +682,7 @@ div.footer {
     background: #071440;
     padding-top: 35px;
 }
+
 div.footer h6 {
     font-family: Montserrat;
     font-weight: 600;
@@ -616,21 +690,25 @@ div.footer h6 {
     color: white;
     text-align: left;
 }
+
 div.footer a {
     font-family: Montserrat;
     font-weight: normal;
     font-size: 0.8rem;
     color: rgba(255, 255, 255, .78);
 }
+
 div.footer a:hover {
     text-decoration: none;
     color: #357dfc;
 }
+
 .footer-col {
     margin-left: 28px;
     width: auto;
     margin-right: 30px
 }
+
 .input-group .form-control {
     background: transparent;
     border-color: rgba(255, 255, 255, .39);
@@ -638,6 +716,7 @@ div.footer a:hover {
     height: 40px;
     color: white;
 }
+
 .input-group-addon {
     border-radius: 1px;
     border-color: rgba(255, 255, 255, .39);
@@ -647,6 +726,7 @@ div.footer a:hover {
     background: transparent;
     padding: 11px 25px;
 }
+
 .input-group-btn-newsletter button {
     border-radius: 1px !important;
     border-color: rgba(255, 255, 255, .39) !important;
@@ -658,27 +738,33 @@ div.footer a:hover {
     margin-top: 0px;
     width: 100%;
 }
+
 .footer p {
     color: white;
 }
+
 .footer i {
     font-size: 19.7px;
     color: white;
     padding-right: 16px;
     margin-bottom: 12px;
 }
+
 #licence {
     margin-top: 8rem;
 }
+
 #licence p {
     font-family: Montserrat;
     font-weight: lighter;
     font-size: 0.7rem;
     margin-left: 7.17rem
 }
+
 #social {
     padding-left: 18vw;
 }
+
 .footer-line {
     height: 1px;
     width: 83vw;
@@ -686,19 +772,23 @@ div.footer a:hover {
     margin-left: 7.7vw;
     margin-bottom: 11px;
 }
+
 #terms {
     margin-left: 0.78vw;
     padding: 1px;
 }
+
 #terms a {
     font-size: 0.8rem;
 }
+
 #mainflux-footer {
     text-align: right;
     padding-right: 1px;
     padding-top: 0;
     margin-top: -5px;
 }
+
 #mainflux-footer p {
     font-family: Montserrat;
     font-weight: 800;
@@ -724,47 +814,57 @@ div.footer a:hover {
     section.conferences {
         display: none;
     }
+
     #logoconf {
         margin-left: -32px;
     }
+
     .footer-line {
         width: 85vw;
         margin-left: 5.9vw;
     }
+
     #social {
         padding-left: 24.7vw;
     }
 
 
-     .home-button {
+    .home-button {
         margin-bottom: 210px;
     }
 
 }
+
 @media screen and (min-width:1600px) and (max-width:1919px) {
     section.conferences {
         display: none;
     }
+
     #logoconf {
         margin-left: -82px;
     }
+
     /* ---- FOOTER ---- */
     .footer-line {
         width: 84vw;
         margin-left: 6.9vw;
     }
+
     #social {
         padding-left: 21.7vw;
     }
 }
+
 @media screen and (min-width:1440px) and (max-width:1559px) {
     section.conferences {
         display: none;
     }
+
     #logoconf {
         margin-left: -82px;
     }
 }
+
 @media screen and (min-width:1366px) and (max-width:1399px) {
     img.img-responsive {
         z-index: 2;
@@ -772,6 +872,7 @@ div.footer a:hover {
         height: 600px;
         margin-top: 20px;
     }
+
     h1 {
         color: white;
         font-family: Montserrat;
@@ -782,6 +883,7 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     h3#home-sub {
         font-family: Montserrat;
         color: white;
@@ -792,24 +894,30 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     .headline {
         margin-bottom: 85px;
     }
+
     .home-button {
         margin-bottom: 210px;
     }
+
     section.conferences {
         display: none;
     }
+
     /* ---- FOOTER ---- */
     .footer-line {
         width: 82vw;
         margin-left: 8.1vw;
     }
+
     #social {
         padding-left: 17.7vw;
     }
 }
+
 @media screen and (min-width:1280px) and (max-width:1365px) {
     img.img-responsive {
         z-index: 2;
@@ -817,6 +925,7 @@ div.footer a:hover {
         height: 600px;
         margin-top: 20px;
     }
+
     h1 {
         color: white;
         font-family: Montserrat;
@@ -827,6 +936,7 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     h3#home-sub {
         font-family: Montserrat;
         color: white;
@@ -837,42 +947,52 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     .headline {
         margin-bottom: 85px;
     }
+
     .home-button {
         margin-bottom: 180px;
     }
+
     /* --- Conferences logo --- */
     section.conferences {
         display: none;
     }
+
     #logoconf {
         margin-left: -82px;
     }
+
     /* ---- FOOTER ---- */
     .footer-col {
         margin-left: 50px;
         width: auto;
     }
+
     .footer-line {
         width: 82vw;
         margin-left: 8.5vw;
     }
+
     #social {
         padding-left: 16.4vw;
     }
 }
+
 @media screen and (min-width:1024px) and (max-width:1279px) {
     #brand {
         margin-left: 7px;
     }
+
     img.img-responsive {
         z-index: 2;
         opacity: 0.19;
         height: 600px;
         margin-top: 20px;
     }
+
     h1 {
         color: white;
         font-family: Montserrat;
@@ -883,6 +1003,7 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     h3#home-sub {
         font-family: Montserrat;
         color: white;
@@ -893,80 +1014,98 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     .headline {
         margin-bottom: 85px;
     }
+
     .home-button {
         margin-bottom: 180px;
     }
+
     /* --- Conferences logo --- */
     section.conferences {
         display: none;
     }
+
     #logoconf {
         margin-left: 16px;
     }
+
     #conferences h3 {
         color: white;
         font-size: 25px;
         margin-top: 35px;
         margin-bottom: 36px;
     }
+
     #open {
         height: 91px;
         margin-top: -32px;
         margin-left: -12px;
     }
+
     #relly {
         height: 35px;
         margin-left: 147px;
         margin-top: 10px;
     }
+
     #barcelona {
         height: 28px;
         margin-left: 166px;
         margin-top: 18px;
     }
+
     #fosdem {
         height: 39px;
         margin-left: 180px;
         margin-top: 6px;
     }
+
     #emotion {
         height: 54px;
         margin-left: 169px;
     }
+
     #golab {
         height: 24px;
         margin-left: 236px;
         margin-top: 15px;
     }
+
     #ons {
         height: 42px;
         margin-left: 237px;
         margin-top: 15px;
     }
+
     #itnext {
         height: 58px;
         margin-left: 224px;
     }
+
     /* ---- FOOTER ---- */
     #licence p {
         margin-left: 9vw;
     }
+
     .footer-line {
         width: 82vw;
         margin-left: 8.5vw;
     }
+
     #social {
         padding-left: 7vw;
     }
 }
+
 @media screen and (min-width:800px) and (max-width:1023px) {
     .navbar-default .navbar-nav {
         margin-right: 2px;
     }
-    .navbar-default .navbar-nav>li>a {
+
+    .navbar-default .navbar-nav > li > a {
         color: white;
         font-family: Raleway;
         font-weight: 500;
@@ -975,15 +1114,18 @@ div.footer a:hover {
         padding: 8px;
         font-size: 12px;
     }
+
     #brand {
         margin-left: 7px;
     }
+
     img.img-responsive {
         z-index: 2;
         opacity: 0.19;
         height: 600px;
         margin-top: 20px;
     }
+
     h1 {
         color: white;
         font-family: Montserrat;
@@ -994,6 +1136,7 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     h3#home-sub {
         font-family: Montserrat;
         color: white;
@@ -1004,54 +1147,67 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     .headline {
         margin-bottom: 85px;
     }
+
     .home-button {
         margin-bottom: 180px;
     }
+
     #preview .container {
         padding: 0;
     }
+
     #preview p {
         padding: 0;
         margin: 0;
     }
+
     /* ---- Team Members ---- */
     .left-member {
         width: 550px;
         margin-left: 125px;
     }
+
     .right-member {
         width: 550px;
         margin-left: 125px;
     }
+
     .bio-member {
         text-align: justify;
     }
+
     /* ---- References ---- */
     .references {
         margin-bottom: 22px;
         margin-left: -78px
     }
+
     .references h5 {
         font-size: 9px;
         font-weight: 600;
         margin-bottom: 14px;
         color: #006599;
     }
+
     .edgex {
         height: 50px;
         margin-left: 55px;
     }
+
     h5#edge {
         padding-left: 55px;
         padding-top: 10px;
     }
+
     .oreilly {
         height: 52px;
         margin-left: 64px;
     }
+
     h5#oreilly {
         padding-left: 18px;
         margin-left: 25px;
@@ -1059,131 +1215,161 @@ div.footer a:hover {
         text-align: center;
         width: 175px
     }
+
     .sciencepark {
         height: 56px;
         margin-left: 52px;
         margin-top: -4px;
     }
+
     h5#science {
         padding-left: 94px;
         padding-top: 8px;
     }
+
     .fund {
         height: 55px;
         margin-left: 52px;
         margin-top: -8px;
     }
+
     h5#fund {
         margin-left: 37px;
         padding-top: 13px;
         text-align: center;
     }
+
     /* --- Action Call --- */
     #demo {
         margin-top: 15px;
     }
+
     #products {
         margin-top: 15px;
     }
+
     /* --- Conferences logo --- */
     section.conferences {
         display: none;
     }
+
     #logoconf {
         margin-left: 3px;
         width: 760px;
     }
+
     #conferences h3 {
         color: white;
         font-size: 23px;
         margin-top: 35px;
         margin-bottom: 32px;
     }
+
     #open {
         height: 72px;
         margin-top: -21px;
         margin-left: -12px;
     }
+
     #relly {
         height: 32px;
         margin-left: 110px;
         margin-top: 10px;
     }
+
     #barcelona {
         height: 24px;
         margin-left: 128px;
         margin-top: 18px;
     }
+
     #fosdem {
         height: 35px;
         margin-left: 137px;
         margin-top: 6px;
     }
+
     #emotion {
         height: 49px;
         margin-left: 128px;
     }
+
     #golab {
         height: 20px;
         margin-left: 195px;
         margin-top: 15px;
     }
+
     #ons {
         height: 38px;
         margin-left: 192px;
         margin-top: 15px;
     }
+
     #itnext {
         height: 53px;
         margin-left: 178px;
     }
+
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
         padding-bottom: 15px;
         margin-left: 10px;
     }
+
     div.input-group {
         width: 55%;
     }
+
     .footer-line {
         display: none;
     }
+
     #licence {
         margin-top: 3.1rem;
         width: 90%
     }
+
     .apache {
         margin-bottom: 1.4rem;
         margin-left: 2px;
     }
+
     #licence p {
         margin-left: 0;
     }
+
     #social {
         padding-left: 2.3vw;
     }
+
     .footer-line {
         display: none;
     }
+
     #terms {
         margin-bottom: 0.3rem;
         margin-left: -2px;
     }
+
     #terms p {
         margin-left: 2.3vw;
         margin-bottom: 12px;
     }
+
     #mainflux-footer {
         text-align: left;
         margin-left: 2px;
     }
 }
+
 @media screen and (min-width:768px) and (max-width:799px) {
     .navbar-default .navbar-nav {
         margin-right: 2px;
     }
-    .navbar-default .navbar-nav>li>a {
+
+    .navbar-default .navbar-nav > li > a {
         color: white;
         font-family: Raleway;
         font-weight: 500;
@@ -1192,16 +1378,19 @@ div.footer a:hover {
         padding: 8px;
         font-size: 12px;
     }
+
     #brand {
         margin-left: 1px;
         padding-left: 7px;
     }
+
     img.img-responsive {
         z-index: 2;
         opacity: 0.19;
         height: 600px;
         margin-top: 20px;
     }
+
     h1 {
         color: white;
         font-family: Montserrat;
@@ -1212,6 +1401,7 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     h3#home-sub {
         font-family: Montserrat;
         color: white;
@@ -1222,159 +1412,197 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     .headline {
         margin-bottom: 85px;
     }
+
     .home-button {
         margin-bottom: 180px;
     }
+
     /* ---- Quick Preview---- */
     #preview .container {
         padding: 0;
         width: 95%;
     }
+
     /* ---- Mainflux Team--- */
     #mainflux-team p {
         padding: 0 10px 0 10px;
     }
+
     /* ---- Team Members ---- */
     .left-member {
         width: 550px;
         margin-left: 125px;
     }
+
     .right-member {
         width: 550px;
         margin-left: 125px;
     }
+
     .bio-member {
         text-align: justify;
     }
+
     /* --- Action Call --- */
     #demo {
         margin-top: 15px;
     }
+
     #products {
         margin-top: 15px;
     }
+
     /* --- Conferences logo --- */
     section.conferences {
         display: none;
     }
+
     #logoconf {
         margin-left: 0;
         width: 710px;
     }
+
     #conferences h3 {
         color: white;
         font-size: 22px;
         margin-top: 35px;
         margin-bottom: 32px;
     }
+
     #open {
         height: 72px;
         margin-top: -21px;
         margin-left: -12px;
     }
+
     #relly {
         height: 32px;
         margin-left: 105px;
         margin-top: 10px;
     }
+
     #barcelona {
         height: 24px;
         margin-left: 121px;
         margin-top: 18px;
     }
+
     #fosdem {
         height: 35px;
         margin-left: 123px;
         margin-top: 6px;
     }
+
     #emotion {
         height: 44px;
         margin-left: 115px;
         margin-top: 4px;
     }
+
     #golab {
         height: 20px;
         margin-left: 173px;
         margin-top: 15px;
     }
+
     #ons {
         height: 38px;
         margin-left: 175px;
         margin-top: 15px;
     }
+
     #itnext {
         height: 53px;
         margin-left: 159px;
     }
+
     /* ---- News ---- */
     #column h5 {
         font-size: 16px:
     }
+
     #news p {
         font-size: 14px;
     }
+
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
         padding-bottom: 15px;
         margin-left: 10px;
     }
+
     div.input-group {
         width: 55%;
     }
+
     #licence {
         margin-top: 3.1rem;
     }
+
     .apache {
         margin-bottom: 0.4rem;
         width: auto;
     }
+
     #licence p {
         margin-left: 0;
     }
+
     .footer-line {
         display: none;
     }
+
     #licence {
         margin-top: 3.1rem;
         width: 90%;
     }
+
     .apache {
         margin-bottom: 1.4rem;
         margin-left: 7px;
     }
+
     #licence p {
         margin-left: 0;
     }
+
     #social {
         padding-left: 2.4vw;
     }
+
     .footer-line {
         display: none;
     }
+
     #terms {
         margin-left: 0;
         margin-bottom: 0.3rem;
         padding: 1px;
         margin-left: 7px;
     }
+
     #terms p {
         margin-left: 2.3vw;
         margin-bottom: 12px;
     }
+
     #mainflux-footer {
         text-align: left;
         margin-left: 7px;
     }
 }
+
 @media screen and (min-width:720px) and (max-width:767px) {
     .navbar-default .navbar-nav {
         margin-right: 2px;
     }
-    .navbar-default .navbar-nav>li>a {
+
+    .navbar-default .navbar-nav > li > a {
         color: white;
         font-family: Raleway;
         font-weight: 500;
@@ -1383,16 +1611,19 @@ div.footer a:hover {
         padding: 8px;
         font-size: 14px;
     }
+
     #brand {
         margin-left: 11px;
         padding-left: 7px;
     }
+
     img.img-responsive {
         z-index: 2;
         opacity: 0.19;
         height: 600px;
         margin-top: 20px;
     }
+
     h1 {
         color: white;
         font-family: Montserrat;
@@ -1403,6 +1634,7 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     h3#home-sub {
         font-family: Montserrat;
         color: white;
@@ -1413,121 +1645,150 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     .headline {
         margin-bottom: 85px;
     }
+
     .home-button {
         margin-bottom: 180px;
     }
+
     /* ---- Quick Preview---- */
     #preview .container {
         padding: 0;
         width: 95%;
     }
+
     #preview .left {
         padding: 0;
     }
+
     #preview .right {
         padding-right: 0;
     }
+
     #preview p {
         margin-right: 0;
         margin-left: 14px;
     }
+
     /* ---- Mainflux Team--- */
     #mainflux-team p {
         padding: 0 10px 0 10px;
     }
+
     /* ---- Team Members ---- */
     .left-member {
         width: 550px;
         margin-left: 105px;
     }
+
     .right-member {
         width: 550px;
         margin-left: 105px;
     }
+
     .bio-member {
         text-align: justify;
     }
+
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
         font-size: 14px;
         margin-bottom: 45px;
     }
+
     #demo {
         margin-top: 15px;
     }
+
     #action-call h6 {
         font-size: 13px;
     }
+
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
         display: none;
     }
+
     /*---------- Conferences -----------*/
     #open {
         height: 100px;
         margin-top: -32px;
         margin-left: 12px;
     }
+
     #relly {
         height: 47px;
         margin-left: 117px;
         margin-top: 9px;
     }
+
     #barcelona {
         height: 41px;
         margin-left: 87px;
         margin-top: 17px;
     }
+
     #fosdem {
         height: 54px;
         margin-left: 59px;
         margin-top: 5px;
     }
+
     #emotion {
         height: 66px;
         margin-left: 16px;
         margin-top: 1px;
     }
+
     #golab {
         height: 34px;
         margin-left: 46px;
         margin-top: 15px;
     }
+
     #ons {
         height: 59px;
         margin-left: 14px;
         margin-top: 13px;
     }
+
     #itnext {
         height: 75px;
         margin-left: -39px;
         margin-top: -2px;
     }
+
     #logoconf {
         margin-bottom: auto;
     }
+
     #second-conf {
         margin-bottom: 25px;
     }
+
     #conferences h3 {
         margin-bottom: 29px;
     }
+
     #consulting .row {
         width: 691px;
     }
+
     /*---------- News -----------*/
     #news h5 {
         padding-left: 10px;
     }
+
     #news p {
         font-size: 14px;
         margin-bottom: 35px;
         padding: 0 12px 0 10px;
     }
+
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -1535,60 +1796,75 @@ div.footer a:hover {
         padding-left: 20px;
         margin-left: 0
     }
+
     div.input-group {
         width: 85%;
     }
+
     #licence {
         margin-top: 3.1rem;
         width: 90%;
     }
+
     .apache {
         margin-bottom: 1.4rem;
         margin-left: 5px;
     }
+
     #licence p {
         margin-left: 0;
     }
+
     #social {
         padding-left: 1.9vw;
     }
+
     .footer-line {
         display: none;
     }
+
     #terms {
         margin-bottom: 0.3rem;
         padding: 1px;
         margin-left: 5px;
     }
+
     #terms p {
         margin-left: 1.7vw;
         margin-bottom: 12px;
     }
+
     #mainflux-footer {
         text-align: left;
         margin-left: 3px;
     }
 }
+
 @media (max-width: 767px) {
-    .navbar-default .navbar-nav>.open>a,
-    .navbar-default .navbar-nav>.open>a:focus,
-    .navbar-default .navbar-nav>.open>a:hover {
+
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:focus,
+    .navbar-default .navbar-nav > .open > a:hover {
         color: white;
         background-color: #006599;
     }
-    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
         color: white;
         background-color: #006599;
     }
-    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
         color: #061856;
     }
 }
+
 @media screen and (min-width:600px) and (max-width:719px) {
     .navbar-default .navbar-nav {
         margin-right: 2px;
     }
-    .navbar-default .navbar-nav>li>a {
+
+    .navbar-default .navbar-nav > li > a {
         color: white;
         font-family: Raleway;
         font-weight: 500;
@@ -1597,16 +1873,19 @@ div.footer a:hover {
         padding: 8px;
         font-size: 14px;
     }
+
     #brand {
         margin-left: 11px;
         padding-left: 7px;
     }
+
     img.img-responsive {
         z-index: 2;
         opacity: 0.19;
         height: 500px;
         margin-top: 20px;
     }
+
     h1 {
         color: white;
         font-family: Montserrat;
@@ -1617,6 +1896,7 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     h3#home-sub {
         font-family: Montserrat;
         color: white;
@@ -1627,171 +1907,211 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     .headline {
         margin-bottom: 85px;
     }
+
     .home-button {
         margin-bottom: 180px;
     }
+
     /* ---- Quick Preview---- */
     #preview .container {
         padding: 0;
         width: 95%;
     }
+
     #preview .left {
         padding: 0;
         width: 500px;
         margin-left: 14px;
         margin-bottom: 20px;
     }
+
     #preview .right {
         padding-right: 0;
         width: 500px;
     }
+
     #preview p {
         margin-right: 0;
         margin-left: 14px;
     }
+
     /* ---- Mainflux Team--- */
     #mainflux-team p {
         padding: 0 10px 0 10px;
     }
+
     /* ---- Team Members ---- */
     .left-member {
         width: 500px;
         margin-left: 55px;
     }
+
     .right-member {
         width: 500px;
         margin-left: 55px;
     }
+
     .bio-member {
         text-align: justify;
     }
+
     .team-section {
         margin-bottom: 0;
     }
+
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
         font-size: 14px;
         margin-bottom: 45px;
     }
+
     #demo {
         margin-top: 15px;
     }
+
     #action-call h6 {
         font-size: 12px;
     }
+
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
         display: none;
     }
+
     /*-------- Conferences -------*/
     #open {
         height: 100px;
         margin-top: -32px;
         margin-left: 1px;
     }
+
     #relly {
         height: 47px;
         margin-left: 113px;
         margin-top: 9px;
     }
+
     #barcelona {
         height: 41px;
         margin-left: 86px;
         margin-top: 17px;
     }
+
     #fosdem {
         height: 54px;
         margin-left: 55px;
         margin-top: 5px;
     }
+
     #emotion {
         height: 66px;
         margin-left: 1px;
         margin-top: 1px;
     }
+
     #golab {
         height: 32px;
         margin-left: 36px;
         margin-top: 16px;
     }
+
     #ons {
         height: 57px;
         margin-left: -2px;
         margin-top: 15px;
     }
+
     #itnext {
         height: 75px;
         margin-left: -59px;
         margin-top: -3px;
     }
+
     #logoconf {
         margin-bottom: auto;
     }
+
     #second-conf {
         margin-bottom: 25px;
     }
+
     #conferences h3 {
         margin-bottom: 25px;
     }
+
     /*---------- News -----------*/
     #news h5 {
         padding-left: 10px;
     }
+
     #news p {
         font-size: 14px;
         margin-bottom: 35px;
         padding: 0 12px 0 10px;
     }
+
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
         padding-bottom: 15px;
         margin-left: 12px
     }
+
     div.input-group {
         width: 85%;
     }
+
     #licence {
         margin-top: 3.1rem;
         width: 90%
     }
+
     .apache {
         margin-bottom: 1.4rem;
         margin-left: 7px;
     }
+
     #licence p {
         margin-left: 0;
     }
+
     #social {
         padding-left: 3.4vw;
     }
+
     .footer-line {
         display: none;
     }
+
     #terms {
         margin-left: 0;
         margin-bottom: 0.3rem;
         padding: 1px;
         margin-left: 7px;
     }
+
     #terms p {
         margin-left: 2.3vw;
         margin-bottom: 12px;
     }
+
     #mainflux-footer {
         text-align: left;
         margin-left: 7px;
     }
 }
+
 @media screen and (min-width:480px) and (max-width:599px) {
     .navbar-default .navbar-nav {
         margin-right: 2px;
     }
-    .navbar-default .navbar-nav>li>a {
+
+    .navbar-default .navbar-nav > li > a {
         color: white;
         font-family: Raleway;
         font-weight: 500;
@@ -1800,20 +2120,24 @@ div.footer a:hover {
         padding: 8px;
         font-size: 14px;
     }
+
     #brand {
         margin-left: 1px;
         padding-left: 12px;
     }
+
     #brand {
         margin-left: 11px;
         padding-left: 7px;
     }
+
     img.img-responsive {
         z-index: 2;
         opacity: 0.19;
         height: 400px;
         margin-top: 40px;
     }
+
     h1 {
         color: white;
         font-family: Montserrat;
@@ -1824,6 +2148,7 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     h3#home-sub {
         font-family: Montserrat;
         color: white;
@@ -1834,132 +2159,162 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     .headline {
         margin-bottom: 85px;
     }
+
     .home-button {
         margin-bottom: 80px;
     }
+
     /* ---- Quick Preview---- */
     #preview .container {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #preview .row {
         width: 99%;
     }
+
     #preview .left {
         padding: 0;
         width: 440px;
         margin-left: 24px;
         margin-bottom: 20px;
     }
+
     #preview .right {
         padding-right: 0;
         width: 440px;
         margin-left: 24px;
     }
+
     #preview p {
         margin-right: 0;
         margin-left: 14px;
     }
+
     /* ---- Mainflux Team--- */
     #mainflux-team p {
         padding: 0 10px 0 10px;
     }
+
     /* ---- Team Members ---- */
     .left-member {
         width: 420px;
         margin-left: 28px;
         padding: 0;
     }
+
     .right-member {
         width: 420px;
         margin-left: 28px;
         padding: 0;
     }
+
     .bio-member {
         text-align: left;
     }
+
     .team-section {
         margin-bottom: 0;
     }
+
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
         font-size: 14px;
         margin-bottom: 45px;
     }
+
     #demo {
         margin-top: 15px;
     }
+
     #action-call h6 {
         font-size: 12px;
     }
+
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
         display: none;
     }
+
     /*-------- Conferences -------*/
     #open {
         height: 73px;
         margin-top: -12px;
         margin-left: 1px;
     }
+
     #relly {
         height: 35px;
         margin-left: 80px;
         margin-top: 17px;
     }
+
     #barcelona {
         height: 28px;
         margin-left: 56px;
         margin-top: 17px;
     }
+
     #fosdem {
         height: 40px;
         margin-left: 35px;
         margin-top: 5px;
     }
+
     #emotion {
         height: 56px;
         margin-left: 1px;
         margin-top: 1px;
     }
+
     #golab {
         height: 22px;
         margin-left: 31px;
         margin-top: 16px;
     }
+
     #ons {
         height: 44px;
         margin-left: -12px;
         margin-top: 15px;
     }
+
     #itnext {
         height: 61px;
         margin-left: -59px;
         margin-top: -3px;
     }
+
     #logoconf {
         margin-bottom: auto;
     }
+
     #second-conf {
         margin-bottom: 25px;
     }
+
     #conferences h3 {
         margin-bottom: 21px;
         font-size: 21px;
     }
+
     /*---------- News -----------*/
     #news h3 {
         margin-bottom: 10px;
     }
+
     #news p {
         font-size: 13px;
         margin-bottom: 20px;
     }
+
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -1967,44 +2322,55 @@ div.footer a:hover {
         margin-left: 6px;
         width: 85%;
     }
+
     div.input-group {
         width: 85%;
     }
+
     #licence {
         margin-top: 3.1rem;
         width: 90%;
     }
+
     .apache {
         margin-bottom: 1em;
         padding-left: 19px;
     }
+
     #licence p {
         margin-left: 0;
     }
+
     #social {
         padding-left: 3.8vw;
     }
+
     .footer-line {
         display: none;
     }
+
     #terms {
         margin-left: 0;
         margin-bottom: 0.3rem;
         padding: 1px;
     }
+
     #terms p {
         margin-left: 3.3vw;
     }
+
     #mainflux-footer {
         text-align: left;
         padding: 9px 0 16px 16px;
     }
 }
+
 @media screen and (min-width:414px) and (max-width:479px) {
     .navbar-default .navbar-nav {
         margin-right: 2px;
     }
-    .navbar-default .navbar-nav>li>a {
+
+    .navbar-default .navbar-nav > li > a {
         color: white;
         font-family: Raleway;
         font-weight: 500;
@@ -2013,16 +2379,19 @@ div.footer a:hover {
         padding: 8px;
         font-size: 14px;
     }
+
     #brand {
         margin-left: 11px;
         padding-left: 7px;
     }
+
     img.img-responsive {
         z-index: 2;
         opacity: 0.6;
         height: 390px;
         margin-top: 40px;
     }
+
     h1 {
         color: white;
         font-family: Montserrat;
@@ -2033,6 +2402,7 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     h3#home-sub {
         font-family: Montserrat;
         color: white;
@@ -2043,24 +2413,29 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     .headline {
         margin-left: 0 0 85px 0;
         padding: 0 0 0 0;
     }
+
     .home-button {
         margin-bottom: 130px;
     }
+
     /* ---- Quick Preview---- */
     #preview .container {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #preview .row {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #preview .left {
         padding: 0;
         width: 390px;
@@ -2068,161 +2443,198 @@ div.footer a:hover {
         margin-bottom: 20px;
         padding-left: 5px;
     }
+
     #preview .right {
         padding-right: 0;
         width: 390px;
         margin-left: 0px;
         padding-left: 5px;
     }
+
     #preview h3 {
         font-size: 26px;
     }
+
     #preview p {
         margin-right: 0;
         margin-left: 14px;
         font-size: 12px;
     }
+
     /* ---- Mainflux Team--- */
     #mainflux-team h3 {
         font-size: 26px;
     }
+
     #mainflux-team p {
         padding: 0 10px 0 10px;
         font-size: 12px;
     }
+
     /* ---- Team Members ---- */
     #team-members .container {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #team-members .row {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #team-members h3 {
         font-size: 26px;
     }
+
     #team-members img {
         height: 188px;
     }
+
     .left-member {
         width: 389px;
         margin-left: 8px;
         padding: 0;
     }
+
     .right-member {
         width: 389px;
         margin-left: 8px;
         padding: 0;
     }
+
     p.name {
         font-size: 16px;
         padding-left: 9px;
     }
+
     p.role {
         font-size: 14px;
         padding-left: 9px;
     }
+
     p.expertise {
         font-size: 10px;
         margin-left: 0;
         padding-left: 9px;
     }
+
     .name-member i {
         padding-left: 9px;
     }
+
     .bio-member p {
         font-size: 12px;
     }
+
     .bio-member {
         text-align: left;
     }
+
     .team-section {
         margin-bottom: 0;
     }
+
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
         font-size: 12px;
         margin-bottom: 45px;
     }
+
     #demo {
         margin-top: 15px;
     }
+
     #action-call h6 {
         font-size: 12px;
     }
+
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
         display: none;
     }
+
     /*-------- Conferences -------*/
     #open {
         height: 73px;
         margin-top: -12px;
         margin-left: -5px;
     }
+
     #relly {
         height: 34px;
         margin-left: 77px;
         margin-top: 18px;
     }
+
     #barcelona {
         height: 27px;
         margin-left: 56px;
         margin-top: 22px;
     }
+
     #fosdem {
         height: 40px;
         margin-left: 29px;
         margin-top: 9px;
     }
+
     #emotion {
         height: 52px;
         margin-left: -5px;
         ;
         margin-top: 1px;
     }
+
     #golab {
         height: 21px;
         margin-left: 24px;
         margin-top: 16px;
     }
+
     #ons {
         height: 41px;
         margin-left: -14px;
         margin-top: 15px;
     }
+
     #itnext {
         height: 55px;
         margin-left: -59px;
         margin-top: 1px;
     }
+
     #logoconf {
         margin-bottom: auto;
     }
+
     #second-conf {
         margin-bottom: 25px;
     }
+
     #conferences h3 {
         margin-bottom: 18px;
         font-size: 21px;
     }
+
     /*---------- News -----------*/
     #news h3 {
         margin-bottom: 10px;
         font-size: 26px;
     }
+
     #news p {
         font-size: 13px;
         margin-bottom: 20px;
     }
+
     #news h5,
     p {
         padding-left: 6px;
     }
+
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -2231,61 +2643,76 @@ div.footer a:hover {
         margin-left: 0;
         width: 67%;
     }
+
     .footer-col p {
         padding-left: 0;
     }
+
     div.input-group {
         width: 85%;
     }
+
     #licence {
         margin-top: 3.1rem;
         width: 87%;
     }
+
     .apache {
         margin-bottom: 0.9rem;
     }
+
     #licence p {
         margin-left: 0;
         font-size: 0.66937rem;
     }
+
     #social {
         padding-left: 3.5vw;
         padding-right: 0;
         margin-right: 0;
         width: 389px;
     }
+
     .footer-line {
         display: none;
     }
+
     .footer i {
         font-size: 19px;
     }
+
     #terms {
         margin-left: 0;
         margin-bottom: 0.3rem;
         padding: 1px;
     }
+
     #terms p {
         margin-left: 2.3vw;
         font-size: 8px;
     }
+
     #terms a {
         font-size: 11px;
         line-height: 18px;
     }
+
     #mainflux-footer {
         text-align: left;
         padding: 9px 0 0 9px;
     }
+
     #mainflux-footer p {
         font-size: 16px;
     }
 }
+
 @media screen and (min-width:412px) and (max-width:413px) {
     .navbar-default .navbar-nav {
         margin-right: 2px;
     }
-    .navbar-default .navbar-nav>li>a {
+
+    .navbar-default .navbar-nav > li > a {
         color: white;
         font-family: Raleway;
         font-weight: 500;
@@ -2294,20 +2721,24 @@ div.footer a:hover {
         padding: 8px;
         font-size: 14px;
     }
+
     #brand {
         margin-left: 1px;
         padding-left: 12px;
     }
+
     #brand {
         margin-left: 11px;
         padding-left: 7px;
     }
+
     img.img-responsive {
         z-index: 2;
         opacity: 0.6;
         height: 390px;
         margin-top: 40px;
     }
+
     h1 {
         color: white;
         font-family: Montserrat;
@@ -2318,6 +2749,7 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     h3#home-sub {
         font-family: Montserrat;
         color: white;
@@ -2328,24 +2760,29 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     .headline {
         margin-left: 0 0 85px 0;
         padding: 0 0 0 0;
     }
+
     .home-button {
         margin-bottom: 130px;
     }
+
     /* ---- Quick Preview---- */
     #preview .container {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #preview .row {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #preview .left {
         padding: 0;
         width: 390px;
@@ -2353,161 +2790,198 @@ div.footer a:hover {
         margin-bottom: 20px;
         padding-left: 5px;
     }
+
     #preview .right {
         padding-right: 0;
         width: 390px;
         margin-left: 0px;
         padding-left: 5px;
     }
+
     #preview h3 {
         font-size: 26px;
     }
+
     #preview p {
         margin-right: 0;
         margin-left: 14px;
         font-size: 12px;
     }
+
     /* ---- Mainflux Team--- */
     #mainflux-team h3 {
         font-size: 26px;
     }
+
     #mainflux-team p {
         padding: 0 10px 0 10px;
         font-size: 12px;
     }
+
     /* ---- Team Members ---- */
     #team-members .container {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #team-members .row {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #team-members h3 {
         font-size: 26px;
     }
+
     #team-members img {
         height: 186px;
     }
+
     .left-member {
         width: 386px;
         margin-left: 8px;
         padding: 0;
     }
+
     .right-member {
         width: 386px;
         margin-left: 8px;
         padding: 0;
     }
+
     p.name {
         font-size: 16px;
         padding-left: 9px;
     }
+
     p.role {
         font-size: 14px;
         padding-left: 9px;
     }
+
     p.expertise {
         font-size: 10px;
         margin-left: 0;
         padding-left: 9px;
     }
+
     .name-member i {
         padding-left: 9px;
     }
+
     .bio-member p {
         font-size: 12px;
     }
+
     .bio-member {
         text-align: left;
     }
+
     .team-section {
         margin-bottom: 0;
     }
+
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
         font-size: 12px;
         margin-bottom: 45px;
     }
+
     #demo {
         margin-top: 15px;
     }
+
     #action-call h6 {
         font-size: 12px;
     }
+
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
         display: none;
     }
+
     /*-------- Conferences -------*/
     #open {
         height: 73px;
         margin-top: -12px;
         margin-left: -3px;
     }
+
     #relly {
         height: 34px;
         margin-left: 77px;
         margin-top: 18px;
     }
+
     #barcelona {
         height: 27px;
         margin-left: 56px;
         margin-top: 22px;
     }
+
     #fosdem {
         height: 40px;
         margin-left: 29px;
         margin-top: 9px;
     }
+
     #emotion {
         height: 52px;
         margin-left: -1px;
         ;
         margin-top: 1px;
     }
+
     #golab {
         height: 21px;
         margin-left: 26px;
         margin-top: 16px;
     }
+
     #ons {
         height: 41px;
         margin-left: -14px;
         margin-top: 15px;
     }
+
     #itnext {
         height: 55px;
         margin-left: -59px;
         margin-top: 1px;
     }
+
     #logoconf {
         margin-bottom: auto;
     }
+
     #second-conf {
         margin-bottom: 25px;
     }
+
     #conferences h3 {
         margin-bottom: 18px;
         font-size: 21px;
     }
+
     /*---------- News -----------*/
     #news h3 {
         margin-bottom: 10px;
         font-size: 26px;
     }
+
     #news p {
         font-size: 13px;
         margin-bottom: 20px;
     }
+
     #news h5,
     p {
         padding-left: 6px;
     }
+
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -2516,61 +2990,76 @@ div.footer a:hover {
         margin-left: 0;
         width: 67%;
     }
+
     .footer-col p {
         padding-left: 0;
     }
+
     div.input-group {
         width: 85%;
     }
+
     #licence {
         margin-top: 3.1rem;
         width: 87%;
     }
+
     .apache {
         margin-bottom: 0.9rem;
     }
+
     #licence p {
         margin-left: 0;
         font-size: 0.66937rem;
     }
+
     #social {
         padding-left: 3.5vw;
         padding-right: 0;
         margin-right: 0;
         width: 389px;
     }
+
     .footer-line {
         display: none;
     }
+
     .footer i {
         font-size: 19px;
     }
+
     #terms {
         margin-left: 0;
         margin-bottom: 0.3rem;
         padding: 1px;
     }
+
     #terms p {
         margin-left: 2.3vw;
         font-size: 8px;
     }
+
     #terms a {
         font-size: 11px;
         line-height: 18px;
     }
+
     #mainflux-footer {
         text-align: left;
         padding: 9px 0 0 9px;
     }
+
     #mainflux-footer p {
         font-size: 16px;
     }
 }
+
 @media screen and (min-width:384px) and (max-width:411px) {
     .navbar-default .navbar-nav {
         margin-right: 2px;
     }
-    .navbar-default .navbar-nav>li>a {
+
+    .navbar-default .navbar-nav > li > a {
         color: white;
         font-family: Raleway;
         font-weight: 500;
@@ -2579,16 +3068,19 @@ div.footer a:hover {
         padding: 8px;
         font-size: 14px;
     }
+
     #brand {
         margin-left: 11px;
         padding-left: 7px;
     }
+
     img.img-responsive {
         z-index: 2;
         opacity: 0.6;
         height: 360px;
         margin-top: 40px;
     }
+
     h1 {
         color: white;
         font-family: Montserrat;
@@ -2599,6 +3091,7 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     h3#home-sub {
         font-family: Montserrat;
         color: white;
@@ -2609,24 +3102,29 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     .headline {
         margin-left: 0 0 85px 0;
         padding: 0 0 0 0;
     }
+
     .home-button {
         margin-bottom: 130px;
     }
+
     /* ---- Quick Preview---- */
     #preview .container {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #preview .row {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #preview .left {
         padding: 0;
         width: 360px;
@@ -2634,172 +3132,211 @@ div.footer a:hover {
         margin-bottom: 20px;
         padding-left: 5px;
     }
+
     #preview .right {
         padding-right: 0;
         width: 360px;
         margin-left: 0px;
         padding-left: 5px;
     }
+
     #preview h3 {
         font-size: 26px;
     }
+
     #preview p {
         margin-right: 0;
         margin-left: 14px;
         font-size: 12px;
     }
+
     /* ---- Mainflux Team--- */
     #mainflux-team h3 {
         font-size: 26px;
     }
+
     #mainflux-team p {
         padding: 0 10px 0 10px;
         font-size: 12px;
     }
+
     /* ---- Team Members ---- */
     #team-members .container {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #team-members .row {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #team-members h3 {
         font-size: 26px;
     }
+
     #team-members img {
         height: 150px;
     }
+
     .left-member {
         width: 359px;
         margin-left: 8px;
         padding: 0;
     }
+
     .right-member {
         width: 359px;
         margin-left: 8px;
         padding: 0;
     }
+
     .name-member {
         padding: 0;
         margin-left: -5px;
     }
+
     p.name {
         font-size: 16px;
         padding-left: 0px;
     }
+
     p.role {
         font-size: 14px;
         padding-left: 0px;
         margin-top: -18px;
     }
+
     p.expertise {
         font-size: 10px;
         margin-left: 0;
         padding-left: 0px;
         margin-top: -8px;
     }
+
     .name-member i {
         padding-left: 0px;
         margin-top: -8px;
         padding-top: -10px;
     }
+
     .bio-member p {
         font-size: 12px;
     }
+
     .bio-member {
         text-align: left;
     }
+
     .team-section {
         margin-bottom: 0;
     }
+
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
         font-size: 12px;
         margin-bottom: 45px;
     }
+
     #demo {
         margin-top: 15px;
     }
+
     #action-call h6 {
         font-size: 12px;
     }
+
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
         display: none;
     }
+
     /*-------- Conferences -------*/
     #open {
         height: 73px;
         margin-top: -12px;
         margin-left: -3px;
     }
+
     #relly {
         height: 34px;
         margin-left: 77px;
         margin-top: 18px;
     }
+
     #barcelona {
         height: 27px;
         margin-left: 56px;
         margin-top: 22px;
     }
+
     #fosdem {
         height: 40px;
         margin-left: 29px;
         margin-top: 9px;
     }
+
     #emotion {
         height: 52px;
         margin-left: -1px;
         ;
         margin-top: 1px;
     }
+
     #golab {
         height: 21px;
         margin-left: 26px;
         margin-top: 16px;
     }
+
     #ons {
         height: 41px;
         margin-left: -14px;
         margin-top: 15px;
     }
+
     #itnext {
         height: 55px;
         margin-left: -59px;
         margin-top: 1px;
     }
+
     #logoconf {
         margin-bottom: auto;
     }
+
     #second-conf {
         margin-bottom: 25px;
     }
+
     #conferences h3 {
         margin-bottom: 18px;
         font-size: 21px;
     }
+
     /*---------- News -----------*/
     #news h3 {
         margin-bottom: 10px;
         font-size: 26px;
     }
+
     #news p {
         font-size: 13px;
         margin-bottom: 20px;
     }
+
     #news h5 {
         font-size: 16px;
     }
+
     #news h5,
     p {
         padding-left: 6px;
     }
+
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -2808,61 +3345,76 @@ div.footer a:hover {
         margin-left: 0;
         width: 67%;
     }
+
     .footer-col p {
         padding-left: 0;
     }
+
     div.input-group {
         width: 85%;
     }
+
     #licence {
         margin-top: 3.1rem;
         width: 87%;
     }
+
     .apache {
         margin-bottom: 0.9rem;
     }
+
     #licence p {
         margin-left: 0;
         font-size: 0.66937rem;
     }
+
     #social {
         padding-left: 3.5vw;
         padding-right: 0;
         margin-right: 0;
         width: 356px;
     }
+
     .footer-line {
         display: none;
     }
+
     .footer i {
         font-size: 17px;
     }
+
     #terms {
         margin-left: 0;
         margin-bottom: 0.3rem;
         padding: 1px;
     }
+
     #terms p {
         margin-left: 2.3vw;
         font-size: 8px;
     }
+
     #terms a {
         font-size: 11px;
         line-height: 18px;
     }
+
     #mainflux-footer {
         text-align: left;
         padding: 9px 0 0 9px;
     }
+
     #mainflux-footer p {
         font-size: 16px;
     }
 }
+
 @media screen and (min-width:375px) and (max-width:383px) {
     .navbar-default .navbar-nav {
         margin-right: 2px;
     }
-    .navbar-default .navbar-nav>li>a {
+
+    .navbar-default .navbar-nav > li > a {
         color: white;
         font-family: Raleway;
         font-weight: 500;
@@ -2871,16 +3423,19 @@ div.footer a:hover {
         padding: 8px;
         font-size: 14px;
     }
+
     #brand {
         margin-left: 11px;
         padding-left: 7px;
     }
+
     img.img-responsive {
         z-index: 2;
         opacity: 0.6;
         height: 330px;
         margin-top: 40px;
     }
+
     h1 {
         color: white;
         font-family: Montserrat;
@@ -2891,6 +3446,7 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     h3#home-sub {
         font-family: Montserrat;
         color: white;
@@ -2901,24 +3457,29 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     .headline {
         margin-left: 0 0 85px 0;
         padding: 0 0 0 0;
     }
+
     .home-button {
         margin-bottom: 85px;
     }
+
     /* ---- Quick Preview---- */
     #preview .container {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #preview .row {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #preview .left {
         padding: 0;
         width: 347px;
@@ -2926,169 +3487,207 @@ div.footer a:hover {
         margin-bottom: 20px;
         padding-left: 3px;
     }
+
     #preview .right {
         padding-right: 0;
         width: 347px;
         margin-left: 0px;
         padding-left: 3px;
     }
+
     #preview h3 {
         font-size: 26px;
     }
+
     #preview p {
         margin-right: 0;
         margin-left: 14px;
         font-size: 12px;
     }
+
     /* ---- Mainflux Team--- */
     #mainflux-team h3 {
         font-size: 26px;
     }
+
     #mainflux-team p {
         padding: 0 5px 0 5px;
         font-size: 12px;
     }
+
     /* ---- Team Members ---- */
     #team-members .container {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #team-members .row {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #team-members h3 {
         font-size: 26px;
     }
+
     #team-members img {
         height: 150px;
     }
+
     .left-member {
         width: 349px;
         margin-left: 8px;
         padding: 0;
     }
+
     .right-member {
         width: 349px;
         margin-left: 8px;
         padding: 0;
     }
+
     .name-member {
         padding: 0;
         margin-left: -5px;
     }
+
     p.name {
         font-size: 16px;
         padding-left: 0px;
     }
+
     p.role {
         font-size: 14px;
         padding-left: 0px;
         margin-top: -18px;
     }
+
     p.expertise {
         font-size: 10px;
         margin-left: 0;
         padding-left: 0px;
         margin-top: -8px;
     }
+
     .name-member i {
         padding-left: 0px;
         margin-top: -8px;
         padding-top: -10px;
     }
+
     .bio-member p {
         font-size: 12px;
     }
+
     .bio-member {
         text-align: left;
     }
+
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
         font-size: 12px;
         margin-bottom: 45px;
     }
+
     #demo {
         margin-top: 15px;
     }
+
     #action-call h6 {
         font-size: 12px;
     }
+
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
         display: none;
     }
+
     /*-------- Conferences -------*/
     #open {
         height: 73px;
         margin-top: -12px;
         margin-left: -3px;
     }
+
     #relly {
         height: 34px;
         margin-left: 77px;
         margin-top: 18px;
     }
+
     #barcelona {
         height: 27px;
         margin-left: 56px;
         margin-top: 22px;
     }
+
     #fosdem {
         height: 40px;
         margin-left: 29px;
         margin-top: 9px;
     }
+
     #emotion {
         height: 52px;
         margin-left: -1px;
         ;
         margin-top: 1px;
     }
+
     #golab {
         height: 21px;
         margin-left: 26px;
         margin-top: 16px;
     }
+
     #ons {
         height: 41px;
         margin-left: -14px;
         margin-top: 15px;
     }
+
     #itnext {
         height: 55px;
         margin-left: -59px;
         margin-top: 1px;
     }
+
     #logoconf {
         margin-bottom: auto;
     }
+
     #second-conf {
         margin-bottom: 25px;
     }
+
     #conferences h3 {
         margin-bottom: 18px;
         font-size: 21px;
     }
+
     /*---------- News -----------*/
     #news h3 {
         margin-bottom: 10px;
         font-size: 26px;
     }
+
     #news p {
         font-size: 13px;
         margin-bottom: 20px;
     }
+
     #news h5 {
         font-size: 16px;
     }
+
     #news h5,
     p {
         padding-left: 6px;
     }
+
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -3097,61 +3696,76 @@ div.footer a:hover {
         margin-left: 0;
         width: 67%;
     }
+
     .footer-col p {
         padding-left: 0;
     }
+
     div.input-group {
         width: 85%;
     }
+
     #licence {
         margin-top: 3.1rem;
         width: 87%;
     }
+
     .apache {
         margin-bottom: 0.9rem;
     }
+
     #licence p {
         margin-left: 0;
         font-size: 0.66937rem;
     }
+
     #social {
         padding-left: 3.5vw;
         padding-right: 0;
         margin-right: 0;
         width: 356px;
     }
+
     .footer-line {
         display: none;
     }
+
     .footer i {
         font-size: 17px;
     }
+
     #terms {
         margin-left: 0;
         margin-bottom: 0.3rem;
         padding: 1px;
     }
+
     #terms p {
         margin-left: 2.3vw;
         font-size: 8px;
     }
+
     #terms a {
         font-size: 11px;
         line-height: 18px;
     }
+
     #mainflux-footer {
         text-align: left;
         padding: 9px 0 0 9px;
     }
+
     #mainflux-footer p {
         font-size: 16px;
     }
 }
+
 @media screen and (min-width:360px) and (max-width:374px) {
     .navbar-default .navbar-nav {
         margin-right: 2px;
     }
-    .navbar-default .navbar-nav>li>a {
+
+    .navbar-default .navbar-nav > li > a {
         color: white;
         font-family: Raleway;
         font-weight: 500;
@@ -3160,16 +3774,19 @@ div.footer a:hover {
         padding: 8px;
         font-size: 14px;
     }
+
     #brand {
         margin-left: 1px;
         padding-left: 12px;
     }
+
     img.img-responsive {
         z-index: 2;
         opacity: 0.6;
         height: 310px;
         margin-top: 40px;
     }
+
     h1 {
         color: white;
         font-family: Montserrat;
@@ -3180,6 +3797,7 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     h3#home-sub {
         font-family: Montserrat;
         color: white;
@@ -3190,24 +3808,29 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     .headline {
         margin-left: 0 0 85px 0;
         padding: 0;
     }
+
     .home-button {
         margin-bottom: 85px;
     }
+
     /* ---- Quick Preview---- */
     #preview .container {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #preview .row {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #preview .left {
         padding: 0;
         width: 337px;
@@ -3215,172 +3838,211 @@ div.footer a:hover {
         margin-bottom: 20px;
         padding-left: 1px;
     }
+
     #preview .right {
         padding-right: 0;
         width: 337px;
         margin-left: 0px;
         padding-left: 1px;
     }
+
     #preview h3 {
         font-size: 26px;
     }
+
     #preview p {
         margin-right: 0;
         margin-left: 10px;
         font-size: 12px;
     }
+
     /* ---- Mainflux Team--- */
     #mainflux-team h3 {
         font-size: 26px;
     }
+
     #mainflux-team p {
         padding: 0 5px 0 5px;
         font-size: 12px;
     }
+
     /* ---- Team Members ---- */
     #team-members .container {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #team-members .row {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #team-members h3 {
         font-size: 26px;
     }
+
     #team-members img {
         height: 142px;
     }
+
     .left-member {
         width: 331px;
         margin-left: 8px;
         padding: 0;
     }
+
     .right-member {
         width: 331px;
         margin-left: 8px;
         padding: 0;
     }
+
     .name-member {
         padding: 0;
         margin-left: -5px;
     }
+
     p.name {
         font-size: 14px;
         padding-left: 0px;
     }
+
     p.role {
         font-size: 12px;
         padding-left: 0px;
         margin-top: -18px;
     }
+
     p.expertise {
         font-size: 9px;
         margin-left: 0;
         padding-left: 0px;
         margin-top: -12px;
     }
+
     .name-member i {
         padding-left: 0px;
         margin-top: -8px;
         padding-top: -10px;
     }
+
     .bio-member p {
         font-size: 12px;
     }
+
     .bio-member {
         text-align: left;
     }
+
     .team-section {
         margin-bottom: 0;
     }
+
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
         font-size: 12px;
         margin-bottom: 45px;
     }
+
     #demo {
         margin-top: 15px;
     }
+
     #action-call h6 {
         font-size: 12px;
     }
+
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
         display: none;
     }
+
     /*-------- Conferences -------*/
     #open {
         height: 71px;
         margin-top: -12px;
         margin-left: -4px;
     }
+
     #relly {
         height: 29px;
         margin-left: 84px;
         margin-top: 20px;
     }
+
     #barcelona {
         height: 21px;
         margin-left: 63px;
         margin-top: 26px;
     }
+
     #fosdem {
         height: 34px;
         margin-left: 29px;
         margin-top: 10px;
     }
+
     #emotion {
         height: 45px;
         margin-left: -3px;
         ;
         margin-top: 3px;
     }
+
     #golab {
         height: 18px;
         margin-left: 22px;
         margin-top: 16px;
     }
+
     #ons {
         height: 38px;
         margin-left: -11px;
         margin-top: 15px;
     }
+
     #itnext {
         height: 50px;
         margin-left: -51px;
         margin-top: 1px;
     }
+
     #logoconf {
         margin-bottom: auto;
     }
+
     #second-conf {
         margin-bottom: 25px;
     }
+
     #conferences h3 {
         margin-bottom: 18px;
         font-size: 21px;
     }
+
     /*---------- News -----------*/
     #news h3 {
         margin-bottom: 10px;
         font-size: 26px;
     }
+
     #news p {
         font-size: 13px;
         margin-bottom: 20px;
     }
+
     #news h5 {
         font-size: 16px;
     }
+
     #news h5,
     p {
         padding-left: 6px;
     }
+
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -3389,61 +4051,76 @@ div.footer a:hover {
         margin-left: 0;
         width: 67%;
     }
+
     .footer-col p {
         padding-left: 0;
     }
+
     div.input-group {
         width: 85%;
     }
+
     #licence {
         margin-top: 3.1rem;
         width: 87%;
     }
+
     .apache {
         margin-bottom: 0.9rem;
     }
+
     #licence p {
         margin-left: 0;
         font-size: 0.66937rem;
     }
+
     #social {
         padding-left: 3.5vw;
         padding-right: 0;
         margin-right: 0;
         width: 336px;
     }
+
     .footer-line {
         display: none;
     }
+
     .footer i {
         font-size: 14px;
     }
+
     #terms {
         margin-left: 0;
         margin-bottom: 0.3rem;
         padding: 1px;
     }
+
     #terms p {
         margin-left: 2.3vw;
         font-size: 8px;
     }
+
     #terms a {
         font-size: 11px;
         line-height: 18px;
     }
+
     #mainflux-footer {
         text-align: left;
         padding: 9px 0 0 9px;
     }
+
     #mainflux-footer p {
         font-size: 16px;
     }
 }
+
 @media screen and (min-width:320px) and (max-width:359px) {
     .navbar-default .navbar-nav {
         margin-right: 2px;
     }
-    .navbar-default .navbar-nav>li>a {
+
+    .navbar-default .navbar-nav > li > a {
         color: white;
         font-family: Raleway;
         font-weight: 500;
@@ -3452,6 +4129,7 @@ div.footer a:hover {
         padding: 8px;
         font-size: 14px;
     }
+
     #brand {
         margin-left: 8px;
         padding-left: 0;
@@ -3459,12 +4137,14 @@ div.footer a:hover {
         font-size: 11px;
         font-weight: 600;
     }
+
     img.img-responsive {
         z-index: 2;
         opacity: 0.6;
         height: 280px;
         margin-top: 40px;
     }
+
     h1 {
         color: white;
         font-family: Montserrat;
@@ -3475,6 +4155,7 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     h3#home-sub {
         font-family: Montserrat;
         color: white;
@@ -3485,24 +4166,29 @@ div.footer a:hover {
         text-align: center;
         opacity: 0.999;
     }
+
     .headline {
         margin-left: 0 0 85px 0;
         padding: 0;
     }
+
     .home-button {
         margin-bottom: 120px;
     }
+
     /* ---- Quick Preview---- */
     #preview .container {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #preview .row {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #preview .left {
         padding: 0;
         width: 300px;
@@ -3510,181 +4196,222 @@ div.footer a:hover {
         margin-bottom: 20px;
         padding-left: 1px;
     }
+
     #preview .right {
         padding-right: 0;
         width: 300px;
         margin-left: 0px;
         padding-left: 1px;
     }
+
     #preview h3 {
         font-size: 26px;
     }
+
     #preview p {
         margin-right: 0;
         margin-left: 5px;
         font-size: 12px;
     }
+
     /* ---- Mainflux Team--- */
     #mainflux-team h3 {
         font-size: 26px;
     }
+
     #mainflux-team p {
         padding: 0 5px 0 5px;
         font-size: 12px;
     }
+
     /* ---- Team Members ---- */
     #team-members .container {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #team-members .row {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
     }
+
     #team-members h3 {
         font-size: 26px;
     }
+
     .img-member {
         padding-left: 9px;
         padding-right: 0;
     }
+
     #team-members img {
         height: 140px;
     }
+
     .left-member {
         width: 301px;
         margin-left: 2px;
         padding: 0;
     }
+
     .right-member {
         width: 301px;
         margin-left: 2px;
         padding: 0;
     }
+
     .name-member {
         padding: 0;
         margin-left: -5px;
     }
+
     p.name {
         font-size: 14px;
         padding-left: 0px;
     }
+
     p.role {
         font-size: 12px;
         padding-left: 0px;
         margin-top: -18px;
     }
+
     p.expertise {
         font-size: 9px;
         margin-left: 0;
         padding-left: 0px;
         margin-top: -12px;
     }
+
     .name-member i {
         padding-left: 0px;
         margin-top: -8px;
         padding-top: -10px;
     }
+
     .bio-member {
         padding: 0 3px 0 4px;
         margin-left: 0;
     }
+
     .bio-member p {
         font-size: 12px;
     }
+
     .bio-member {
         text-align: left;
     }
+
     .team-section {
         margin-bottom: 0;
     }
+
     /* ---- action call ---- */
     #action-call .btn {
         width: 195px;
         font-size: 12px;
         margin-bottom: 45px;
     }
+
     #demo {
         margin-top: 15px;
     }
+
     #action-call h6 {
         font-size: 12px;
         margin-left: -7px;
     }
+
     /*--- Conferences BIG screens -------*/
     section.big-conferences {
         display: none;
     }
+
     /*-------- Conferences -------*/
     #open {
         height: 60px;
         margin-top: -7px;
         margin-left: -4px;
     }
+
     #relly {
         height: 24px;
         margin-left: 70px;
         margin-top: 20px;
     }
+
     #barcelona {
         height: 17px;
         margin-left: 53px;
         margin-top: 26px;
     }
+
     #fosdem {
         height: 30px;
         margin-left: 29px;
         margin-top: 10px;
     }
+
     #emotion {
         height: 40px;
         margin-left: -3px;
         ;
         margin-top: 4px;
     }
+
     #golab {
         height: 15px;
         margin-left: 19px;
         margin-top: 16px;
     }
+
     #ons {
         height: 32px;
         margin-left: -11px;
         margin-top: 15px;
     }
+
     #itnext {
         height: 45px;
         margin-left: -47px;
         margin-top: 1px;
     }
+
     #logoconf {
         margin-bottom: auto;
     }
+
     #second-conf {
         margin-bottom: 25px;
     }
+
     #conferences h3 {
         margin-bottom: 18px;
         font-size: 19px;
     }
+
     /* ---- News ---- */
     #news h3 {
         margin-bottom: 10px;
         font-size: 26px;
     }
+
     #news p {
         font-size: 12px;
         margin-bottom: 20px;
     }
+
     #news h5 {
         font-size: 14px;
     }
+
     #news h5,
     p {
         padding-left: 6px;
     }
+
     /* ---- FOOTER ---- */
     .footer-col {
         margin-bottom: 22px;
@@ -3693,53 +4420,66 @@ div.footer a:hover {
         margin-left: 0;
         width: 77%;
     }
+
     .footer-col p {
         padding-left: 0;
     }
+
     div.input-group {
         width: 85%;
     }
+
     #licence {
         margin-top: 3.1rem;
         width: 87%;
     }
+
     .apache {
         margin-bottom: 0.9rem;
     }
+
     #licence p {
         margin-left: 0;
         font-size: 0.66937rem;
     }
+
     #social {
         padding-left: 1vw;
         padding-right: 0;
         margin-right: 0;
         width: 292px;
     }
+
     .footer-line {
         display: none;
     }
+
     .footer i {
         font-size: 14px;
         padding-right: 13px;
     }
+
     #terms {
         margin-left: 0;
         margin-bottom: 0.3rem;
         padding: 1px;
     }
+
     #terms p {
         margin-left: 2.3vw;
         font-size: 8px;
     }
+
     #terms a {
         font-size: 11px;
         line-height: 18px;
     }
+
     #mainflux-footer {
         text-align: left;
         padding: 9px 0 0 9px;
     }
+
     #mainflux-footer p {
         font-size: 16px;
     }
